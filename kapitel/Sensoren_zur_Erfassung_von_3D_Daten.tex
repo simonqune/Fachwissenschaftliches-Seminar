@@ -1,0 +1,125 @@
+\chapter{Sensoren zur Erfassung von 3D-Daten}
+
+\section{LiDAR-Sensoren}
+LiDAR-Sensoren, auch bekannt als Light Detection and Ranging-Sensoren, sind
+eine weit verbreitete Technologie zur Erfassung von 3D-Daten. Sie arbeiten auf
+Basis von Laserstrahlen, die ausgesendet und von Objekten in der Umgebung
+reflektiert werden. Durch die Messung der Laufzeit des Laserstrahls können
+LiDAR-Sensoren die Entfernungen zu den reflektierenden Objekten hochpräzise
+erfassen. LiDAR-Sensoren können sowohl in der Luft als auch am Boden eingesetzt
+werden und ermöglichen die Erfassung von detaillierten 3D-Punktwolken, die die
+Geometrie und die räumliche Verteilung von Objekten in der Umgebung
+repräsentieren. LiDAR-Sensoren bieten eine hohe Genauigkeit und Auflösung, was
+sie für die semantische Segmentierung von 3D-Daten besonders geeignet macht. In
+diesem Abschnitt werden verschiedene Typen von LiDAR-Sensoren vorgestellt, ihre
+Funktionsweise erläutert und ihre Vor- und Nachteile diskutiert. Zudem werden
+Auswahlkriterien für die Verwendung von LiDAR-Sensoren in semantischen
+Segmentierungssystemen behandelt.
+
+\section{Stereo-Kameras und Tiefenkameras}
+Moderne Sensortechnologien wie Stereo-Kameras und Tiefenkameras sind ebenfalls
+von großer Bedeutung für die Erfassung von 3D-Daten zur semantischen
+Segmentierung der Umgebung. Stereo-Kameras verwenden zwei räumlich getrennte
+Kameras, die gemeinsam Bilder von derselben Szene aufnehmen. Durch die
+Berechnung von disparitätsbasierten Tiefeninformationen aus den Unterschieden
+zwischen den Bildern können Stereo-Kameras die räumliche Tiefe von Objekten in
+der Umgebung schätzen. Tiefenkameras hingegen verwenden spezielle Sensoren wie
+Time-of-Flight (ToF)- oder Structured-Light (SL)-Sensoren, um
+Tiefeninformationen direkt zu erfassen.
+
+Stereo-Kameras und Tiefenkameras bieten einige Vorteile wie ihre
+vergleichsweise geringen Kosten und ihre kompakte Bauweise, die sie für viele
+Anwendungen attraktiv machen. Sie können in Echtzeit arbeiten und liefern
+hochauflösende 3D-Daten, die für die semantische Segmentierung verwendet werden
+können. Allerdings haben sie auch einige Einschränkungen, wie zum Beispiel die
+Empfindlichkeit gegenüber Beleuchtungsbedingungen, die Sichtbarkeit von Textur
+und die Reichweite der Tiefenmessung. Diese Einschränkungen müssen bei der
+Auswahl und Verwendung von Stereo-Kameras und Tiefenkameras in semantischen
+Segmentierungssystemen berücksichtigt werden.
+
+In diesem Abschnitt werden Stereo-Kameras und Tiefenkameras als wichtige
+Sensortechnologien zur Erfassung von 3D-Daten für die semantische Segmentierung
+behandelt. Es werden ihre Funktionsweise, Vor- und Nachteile sowie
+Anwendungsbereiche diskutiert. Zudem werden Verfahren zur Vorverarbeitung der
+von diesen Sensoren erfassten Daten vorgestellt, um sie für die semantische
+Segmentierung vorzubereiten.
+
+\section{Passive und aktive Sensoren}
+Moderne Sensortechnologien wie Lidar, Stereo-Kameras und Tiefenkameras spielen
+eine entscheidende Rolle bei der Erfassung von 3D-Daten für die semantische
+Segmentierung der Umgebung. Dabei können diese Sensoren in passive und aktive
+Sensoren unterteilt werden.
+
+Passive Sensoren, wie zum Beispiel Stereo-Kameras und Tiefenkameras, erfassen
+die Umgebung, indem sie das von natürlichen oder künstlichen Lichtquellen
+reflektierte Licht messen. Sie nutzen dabei die Eigenschaften des einfallenden
+Lichts, um Informationen über die räumliche Tiefe von Objekten in der Szene zu
+berechnen. Diese Sensoren sind häufig kostengünstig, kompakt und können in
+Echtzeit arbeiten. Allerdings sind sie auch empfindlich gegenüber
+Beleuchtungsbedingungen und können Einschränkungen in der Reichweite und
+Sichtbarkeit von Textur aufweisen.
+
+Im Gegensatz dazu verwenden aktive Sensoren, wie zum Beispiel Lidar (Light
+Detection and Ranging), eine eigene Lichtquelle, um die Umgebung zu erfassen.
+Lidar-Sensoren senden Laserstrahlen aus und messen die Zeit, die benötigt wird,
+um die reflektierten Strahlen zurückzuerhalten. Dadurch können sie präzise
+Tiefeninformationen mit hoher Genauigkeit und Reichweite erfassen, unabhängig
+von den Beleuchtungsbedingungen und Textur der Umgebung. Allerdings sind
+Lidar-Sensoren in der Regel teurer und können größer und schwerer sein als
+passive Sensoren.
+
+In diesem Abschnitt werden passive und aktive Sensoren als wichtige
+Sensortechnologien zur Erfassung von 3D-Daten für die semantische Segmentierung
+behandelt. Es werden ihre Funktionsweisen, Vor- und Nachteile sowie
+Anwendungsbereiche diskutiert. Zudem werden Verfahren zur Vorverarbeitung der
+von diesen Sensoren erfassten Daten vorgestellt, um sie für die semantische
+Segmentierung vorzubereiten.
+
+\section{Auswahl von Sensoren für die semantische Segmentierung}
+
+Die Auswahl der geeigneten Sensoren für die semantische Segmentierung hängt von
+verschiedenen Faktoren ab, wie den Anforderungen der spezifischen Anwendung,
+den Umgebungsbedingungen, dem Budget und den gewünschten Ergebnissen. In diesem
+Abschnitt werden Kriterien und Überlegungen zur Auswahl von Sensoren für die
+semantische Segmentierung auf Basis von 3D-Daten diskutiert.
+
+Anforderungen der Anwendung: Die Anforderungen der spezifischen Anwendung, in
+der die semantische Segmentierung durchgeführt werden soll, sind entscheidend
+für die Auswahl der geeigneten Sensoren. Hierbei können Aspekte wie die
+benötigte Genauigkeit, die räumliche Auflösung, die Reichweite, die
+Echtzeitfähigkeit und die Umgebungsbedingungen eine Rolle spielen. Zum Beispiel
+erfordern Anwendungen im Bereich der autonomen Fahrzeuge möglicherweise
+Sensoren mit hoher Reichweite und Genauigkeit, während Anwendungen im
+Innenbereich möglicherweise Sensoren mit höherer räumlicher Auflösung und
+Echtzeitfähigkeit benötigen.
+
+Umgebungsbedingungen: Die Umgebungsbedingungen, in denen die semantische
+Segmentierung durchgeführt werden soll, können die Auswahl der Sensoren
+beeinflussen. Beispielsweise können schlechte Beleuchtungsbedingungen, wie
+Dunkelheit oder Blendung durch Sonnenlicht, die Leistung von passiven Sensoren
+wie Kameras beeinträchtigen, während Lidar-Sensoren unabhängig von den
+Beleuchtungsbedingungen arbeiten können. Ebenso können Umgebungen mit vielen
+Hindernissen oder komplexen Geometrien die Leistung von Sensoren beeinflussen
+und die Wahl von geeigneten Sensoren beeinflussen.
+
+Budget: Das Budget ist ein wichtiger Faktor bei der Auswahl von Sensoren.
+Unterschiedliche Sensoren können unterschiedliche Kosten haben, sowohl in der
+Anschaffung als auch in der Wartung. Lidar-Sensoren sind in der Regel teurer
+als Kameras oder Tiefenkameras, aber auch die Kosten für diese Sensoren haben
+sich in den letzten Jahren reduziert. Bei der Auswahl von Sensoren ist es
+wichtig, das Budget im Auge zu behalten und eine sorgfältige
+Kosten-Nutzen-Analyse durchzuführen.
+
+Gewünschte Ergebnisse: Die gewünschten Ergebnisse der semantischen
+Segmentierung können ebenfalls die Auswahl der Sensoren beeinflussen. Je
+nachdem, welche Arten von Objekten oder Strukturen in der Umgebung segmentiert
+werden sollen, können bestimmte Sensoren besser geeignet sein als andere. Zum
+Beispiel können Lidar-Sensoren aufgrund ihrer präzisen Tiefeninformationen und
+Reichweite gut geeignet sein, um Objekte wie Straßen, Gebäude oder Bäume zu
+segmentieren, während Kameras oder Tiefenkameras besser für die Segmentierung
+von Fußgängern oder Fahrzeugen geeignet sein können.
+
+In diesem Abschnitt werden Kriterien und Überlegungen zur Auswahl von Sensoren
+für die semantische Segmentierung auf Basis von 3D-Daten erläutert. Es werden
+verschiedene Aspekte wie Anforderungen der Anwendung, Umgebungsbedingungen,
+Budget und gewünschte Ergebnisse diskutiert.

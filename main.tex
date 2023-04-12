@@ -1,0 +1,87 @@
+%%%%%%%%Präambel%%%%%%%%%%%%
+
+\documentclass[
+	paper=a4,	%Seitengröße
+	11pt,		%Schriftgröße
+	DIV=11,		%Satzspiegel
+	%twoside, %nur für drucken
+	openright, ]{scrreprt}%immer rechts kapitel beginnen
+
+%Default-einstellungen für das Dokument
+
+\usepackage[T1]{fontenc}	%Schriftcodierung
+\usepackage[utf8]{inputenc}	%Dateicodierung
+\usepackage[ngerman]{babel} %Sprachpaket(Silbentrennung,überschriften, Abbildungen)
+
+%Literatur anpassen
+\usepackage[
+	backend=biber,
+	style=numeric-verb % numeric-verb, numeric-comb
+]{biblatex}
+\addbibresource{ref/ref_liste.bib}
+
+%Schriftanpassungen
+\usepackage{lmodern} %Vektorschrift
+\renewcommand{\familydefault}{\sfdefault} %serifenlose Schrift
+\usepackage{sansmath}
+\sansmath			%Aktivieren von Paket "Sansmath"
+
+\usepackage[
+	automark, %automatische Kolumne
+	headsepline %Trennlinie in Kopfzeile
+]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+
+\ohead[]{\headmark} %dynamische kolumne in kopfzeile
+\ofoot[\pagemark]{\pagemark} %Seitenzahl in Fußzeile außen
+
+%wichtige Pakete
+\usepackage{graphicx}
+\graphicspath{{bilder/}{}}  %Pfad zu den Bildern. mehrere pfade mit {{}{}{}} 
+
+\title{Semantische Segmentierung der Umgebung auf Basis von 3D-Daten}
+
+\author{{\Large Simon Kuhn}}
+\date{Wissenschaftliche Arbeit im Zuge des Fachwissenschaftlichen Seminares}
+\usepackage{blindtext}
+
+\publishers{
+	\begin{tabular}{rl} %jedes C für eine spalte c für centrered
+
+		Erstprüfer: & Prof. Dr. Christian Pfitzner   \\
+		Betreuer:   & Prof. Dr. Christian Pfitzner \\ 
+		Ausgabedatum: & 23.03.2023 \\
+		Abgabedatum: & 31.08.2023  \\
+
+	\end{tabular}
+}
+
+\titlehead{	
+	\includegraphics[width=0.5\textwidth]{thi_FEI_wb_RGB}
+	\hfil
+}
+
+\lowertitleback{
+	Simon Kuhn
+	Robotikstudent
+	geb. am 06.10.2001
+}
+
+%%%%%%%DOKUMENT%%%%%%%%%%%%%
+\begin{document}
+\maketitle
+\tableofcontents
+\input{kapitel/Einleitung}
+\input{kapitel/Sensoren_zur_Erfassung_von_3D_Daten}
+\input{kapitel/datengrundlage_und_Vorverarbeitung} 
+\input{kapitel/Grundlagen der semantischen Segmentierung}
+\input{kapitel/Anwendungszenarien der semantischen Segmentierung}
+\input{kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten}
+\input{kapitel/Bewertung und Vergleich von Methoden zur semantischen Segmentierung}
+\input{kapitel/Herausforderungen und zukünftige Entwicklungen}
+\input{kapitel/Zusammenfassung_und_Ausblick}
+\input{kapitel/Literaturverzeichnis}
+
+\printbibliography
+\end{document}
