@@ -1,6 +1,6 @@
-PWD e:\Studium\Semester_5\Fachwissenscaftliches_Seminar
+PWD c:\Git\Fachwissenschaftliches-Seminar
 INPUT C:\Users\kuhns\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT e:\Studium\Semester_5\Fachwissenscaftliches_Seminar\main.tex
+INPUT c:\Git\Fachwissenschaftliches-Seminar\main.tex
 OUTPUT main.log
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrreprt.cls
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrreprt.cls
