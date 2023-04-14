@@ -1,4 +1,134 @@
 \chapter{Datengrundlage und Vorverarbeitung}
+
 \section{3D-Datenformate und Datentypen}
+Die Auswahl von Sensoren für die semantische Segmentierung erfordert eine
+sorgfältige Betrachtung der verwendeten 3D-Datenformate und Datentypen. Diese
+bilden die Grundlage für die Erfassung, Speicherung und Verarbeitung von
+3D-Daten, die für die semantische Segmentierung verwendet werden. In diesem
+Kapitel werden verschiedene 3D-Datenformate und Datentypen untersucht, die in
+der Forschung und Praxis weit verbreitet sind.
+
+Ein wichtiges 3D-Datenformat ist das Punktewolkenformat, das häufig von
+LiDAR-Sensoren erzeugt wird. Punktewolken sind Sammlungen von 3D-Punkten, die
+die Oberfläche von Objekten in der Umgebung darstellen. Sie können in
+verschiedenen Dateiformaten gespeichert werden, wie beispielsweise dem
+ASCII-Format oder dem binären LAS-Format (LASer File Format), das speziell für
+LiDAR-Daten entwickelt wurde. Diese Formate ermöglichen die Speicherung von
+großen Mengen an Punkten mit 3D-Koordinaten, Intensitätsinformationen und
+weiteren Attributen, die zur semantischen Segmentierung verwendet werden
+können.
+
+Neben Punktewolken werden auch 3D-Gitter oder Voxel-Daten oft für die
+semantische Segmentierung verwendet. Voxel sind volumetrische Elemente, die den
+Raum in einem dreidimensionalen Gitter unterteilen. Jeder Voxel kann eine
+semantische Bedeutung, wie zum Beispiel Straße, Gebäude oder Vegetation,
+zugeordnet werden. Voxel-Daten können in verschiedenen Formaten gespeichert
+werden, wie zum Beispiel das binäre OctoMap-Format oder das ASCII-Format.
+
+Darüber hinaus können auch 3D-Modelle, wie Polygonnetze oder Punktwolken mit
+Texturinformationen, für die semantische Segmentierung verwendet werden.
+Polygonnetze sind Sammlungen von 3D-Polygonen, die die Oberfläche von Objekten
+repräsentieren. Punktwolken mit Texturinformationen enthalten zusätzlich zu den
+3D-Koordinaten auch Farbinformationen, die aus Bildern oder Kameras gewonnen
+werden. Diese 3D-Datenformate ermöglichen eine detailliertere Darstellung von
+Objekten und können für die semantische Segmentierung von komplexeren Szenen
+verwendet werden.
+
+Die Wahl des richtigen 3D-Datenformats und Datentyps hängt von den spezifischen
+Anforderungen der semantischen Segmentierung ab, wie zum Beispiel der
+benötigten Genauigkeit, der Verarbeitungsgeschwindigkeit, dem Speicherbedarf
+und der Verfügbarkeit von Sensordaten. Es ist wichtig, die Vor- und Nachteile
+der verschiedenen Formate und Typen zu berücksichtigen und das geeignete Format
+für die spezifische Anwendung auszuwählen, um eine effektive und effiziente
+semantische Segmentierung der Umgebung zu ermöglichen.
+
 \section{Vorverarbeitungsschritte wie Filterung, Normalenberechnung und Downsampling}
+
+Die Vorverarbeitung von 3D-Daten ist ein wichtiger Schritt in der semantischen
+Segmentierung, um die Qualität und Genauigkeit der Segmentierungsergebnisse zu
+verbessern. In diesem Kapitel werden verschiedene Vorverarbeitungsschritte wie
+Filterung, Normalenberechnung und Downsampling betrachtet, die oft in der
+Praxis angewendet werden.
+
+Filterung von 3D-Daten: Die Filterung von 3D-Daten beinhaltet das Entfernen von
+unerwünschtem Rauschen oder Ausreißern, um die Qualität der Daten zu
+verbessern. Dies kann durch verschiedene Filtertechniken erfolgen, wie zum
+Beispiel Medianfilter, Gaußscher Filter oder Bilateralfilter. Diese Filter
+können angewendet werden, um Rauschen oder Ausreißer in den 3D-Punktwolken oder
+Voxel-Daten zu reduzieren und somit die Qualität der Daten für die semantische
+Segmentierung zu verbessern.
+
+Normalenberechnung: Die Berechnung von Normalen ist ein wichtiger Schritt, um
+die geometrische Information der 3D-Daten zu erfassen. Normalen sind Vektoren,
+die senkrecht zur Oberfläche von Objekten in der Umgebung stehen und die
+Orientierung der Oberfläche angeben. Die Normalenberechnung kann auf Basis von
+Punktwolken oder Polygonnetzen durchgeführt werden und ermöglicht es, die
+Richtung und Orientierung der Objektoberflächen zu erfassen, was für die
+semantische Segmentierung von Objekten von Bedeutung ist.
+
+Downsampling: Das Downsampling von 3D-Daten beinhaltet die Reduzierung der
+Datenmenge, um die Verarbeitungsgeschwindigkeit und den Speicherbedarf zu
+reduzieren. Dies kann durch verschiedene Techniken wie das Subsampling von
+Punktwolken oder das Voxel-Downsampling bei Voxel-Daten erfolgen. Downsampling
+ermöglicht es, die Datenmenge zu reduzieren, während wichtige strukturelle und
+semantische Informationen erhalten bleiben.
+
+Die Anwendung von Vorverarbeitungsschritten wie Filterung, Normalenberechnung
+und Downsampling ist von großer Bedeutung, um die Qualität und Genauigkeit der
+3D-Daten für die semantische Segmentierung zu verbessern. Durch die Reduzierung
+von Rauschen, die Erfassung von Normalen und die Reduzierung der Datenmenge
+können genauere und effizientere Segmentierungsergebnisse erzielt werden, die
+die Grundlage für die nachfolgenden Schritte der semantischen Segmentierung
+bilden. Es ist wichtig, geeignete Vorverarbeitungsschritte entsprechend den
+spezifischen Anforderungen der Anwendung und der verwendeten 3D-Daten
+auszuwählen und anzuwenden, um eine effektive und präzise semantische
+Segmentierung zu gewährleisten.
+
 \section{Datenannotation und Ground Truth-Erstellung}
+
+Die Datenannotation und die Erstellung einer Ground Truth sind entscheidende
+Schritte in der semantischen Segmentierung, um die Trainingsdaten für
+maschinelles Lernen bereitzustellen und Modelle für die Segmentierung von
+3D-Daten zu trainieren und zu evaluieren. In diesem Kapitel werden verschiedene
+Aspekte der Datenannotation und der Ground Truth-Erstellung betrachtet.
+
+Datenannotation: Die Datenannotation beinhaltet das manuelle oder automatische
+Hinzufügen von semantischen Labels oder Klasseninformationen zu den 3D-Daten.
+Dies kann durch das Markieren von Regionen oder Objekten in den Punktwolken
+oder Voxel-Daten erfolgen, um sie bestimmten Klassen oder Kategorien
+zuzuordnen. Die Datenannotation kann von menschlichen Annotatoren durchgeführt
+werden oder mit Hilfe von automatisierten Algorithmen, die auf maschinellem
+Lernen oder Regelbasierten Methoden basieren. Die Qualität und Genauigkeit der
+Datenannotation sind von entscheidender Bedeutung für die Qualität und
+Leistungsfähigkeit der semantischen Segmentierungsalgorithmen.
+
+Ground Truth-Erstellung: Die Ground Truth-Erstellung beinhaltet die Erstellung
+von referenzbasierten Segmentierungsergebnissen, die als Grundlage für das
+Training und die Evaluierung von semantischen Segmentierungsalgorithmen dienen.
+Die Ground Truth kann manuell oder automatisch erstellt werden, indem die
+annotierten Daten als Referenz verwendet werden, um die Leistung von
+Segmentierungsalgorithmen zu bewerten. Die Ground Truth-Erstellung ist ein
+kritischer Schritt, um die Zuverlässigkeit und Vergleichbarkeit von
+Segmentierungsergebnissen zu gewährleisten und die Qualität von trainierten
+Modellen zu überprüfen.
+
+Herausforderungen bei der Datenannotation und Ground Truth-Erstellung: Die
+Datenannotation und Ground Truth-Erstellung können mit verschiedenen
+Herausforderungen verbunden sein, wie zum Beispiel Unsicherheiten in der
+Klassen- oder Objektabgrenzung, Unvollständigkeit oder Inkonsistenz in den
+Annotationsdaten, Schwierigkeiten bei der Handhabung großer Datenmengen und das
+Management von Zeitaufwand und Ressourcen. Es ist wichtig, diese
+Herausforderungen zu berücksichtigen und geeignete Methoden und Werkzeuge
+einzusetzen, um die Qualität und Genauigkeit der Datenannotation und Ground
+Truth-Erstellung zu gewährleisten.
+
+Die Datenannotation und Ground Truth-Erstellung sind kritische Schritte in der
+semantischen Segmentierung von 3D-Daten, um Trainingsdaten bereitzustellen,
+Modelle zu trainieren und zu evaluieren. Die Qualität, Genauigkeit und
+Vergleichbarkeit der Datenannotation und Ground Truth-Erstellung sind von
+großer Bedeutung, um zuverlässige und präzise semantische
+Segmentierungsergebnisse zu erzielen und die Leistungsfähigkeit von
+Segmentierungsalgorithmen zu bewerten. Es ist wichtig, geeignete Methoden und
+Werkzeuge einzusetzen, um den Herausforderungen bei der Datenannotation und
+Ground Truth-Erstellung erfolgreich zu begegnen und die Qualität der
+verwendeten Trainingsdaten zu gewährleisten.

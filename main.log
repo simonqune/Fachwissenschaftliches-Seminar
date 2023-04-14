@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  12 APR 2023 17:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  14 APR 2023 18:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**e:/Studium/Semester_5/Fachwissenscaftliches_Seminar/main.tex
-(e:/Studium/Semester_5/Fachwissenscaftliches_Seminar/main.tex
+**c:/Git/Fachwissenschaftliches-Seminar/main.tex
+(c:/Git/Fachwissenschaftliches-Seminar/main.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28> (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrreprt.cls
 Document Class: scrreprt 2022/10/12 v3.38 KOMA-Script document class (report)
@@ -633,37 +633,37 @@ chapter 2.
 
 ] [7]) (kapitel/datengrundlage_und_Vorverarbeitung.tex [8]
 chapter 3.
-) (kapitel/Grundlagen der semantischen Segmentierung.tex [9
+[9
 
 
-]
+] [10]) (kapitel/Grundlagen der semantischen Segmentierung.tex [11]
 chapter 4.
-) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [10
+) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [12
 
 
 ]
 chapter 5.
-) (kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex [11
+) (kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex [13
 
 
 ]
 chapter 6.
-) (kapitel/Bewertung und Vergleich von Methoden zur semantischen Segmentierung.tex [12
+) (kapitel/Bewertung und Vergleich von Methoden zur semantischen Segmentierung.tex [14
 
 
 ]
 chapter 7.
-) (kapitel/Herausforderungen und zukünftige Entwicklungen.tex [13
+) (kapitel/Herausforderungen und zukünftige Entwicklungen.tex [15
 
 
 ]
 chapter 8.
-) (kapitel/Zusammenfassung_und_Ausblick.tex [14
+) (kapitel/Zusammenfassung_und_Ausblick.tex [16
 
 
 ]
 chapter 9.
-) (kapitel/Literaturverzeichnis.tex [15
+) (kapitel/Literaturverzeichnis.tex [17
 
 
 ]
@@ -672,7 +672,7 @@ chapter 10.
 
 LaTeX Warning: Empty bibliography on input line 86.
 
-[16
+[18
 
 
 ] (main.aux)
@@ -682,16 +682,16 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  15383 strings out of 475385
- 336011 string characters out of 2776908
+ 335731 string characters out of 2776908
  1277695 words of memory out of 3000000
  36577 multiletter control sequences out of 15000+600000
  538863 words of font info for 62 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,19n,106p,10651b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,19n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb>
-Output written on main.pdf (16 pages, 729308 bytes).
+Output written on main.pdf (18 pages, 737124 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
