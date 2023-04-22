@@ -2,16 +2,15 @@
 \contentsline {chapter}{\numberline {1}Einleitung}{4}{}%
 \contentsline {section}{\numberline {1.1}Hintergrund und Motivation}{4}{}%
 \contentsline {section}{\numberline {1.2}Problemstellung}{4}{}%
-\contentsline {section}{\numberline {1.3}Zielsetzung}{4}{}%
-\contentsline {chapter}{\numberline {2}Sensoren zur Erfassung von 3D-Daten}{6}{}%
-\contentsline {section}{\numberline {2.1}LiDAR-Sensoren}{6}{}%
-\contentsline {section}{\numberline {2.2}Stereo-Kameras und Tiefenkameras}{6}{}%
-\contentsline {section}{\numberline {2.3}Passive und aktive Sensoren}{7}{}%
-\contentsline {section}{\numberline {2.4}Auswahl von Sensoren für die semantische Segmentierung}{7}{}%
-\contentsline {chapter}{\numberline {3}Datengrundlage und Vorverarbeitung}{9}{}%
-\contentsline {section}{\numberline {3.1}3D-Datenformate und Datentypen}{9}{}%
-\contentsline {section}{\numberline {3.2}Vorverarbeitungsschritte wie Filterung, Normalenberechnung und Downsampling}{9}{}%
-\contentsline {section}{\numberline {3.3}Datenannotation und Ground Truth-Erstellung}{9}{}%
+\contentsline {chapter}{\numberline {2}Sensoren zur Erfassung von 3D-Daten}{5}{}%
+\contentsline {section}{\numberline {2.1}LiDAR-Sensoren}{5}{}%
+\contentsline {section}{\numberline {2.2}Stereo-Kameras und Tiefenkameras}{5}{}%
+\contentsline {section}{\numberline {2.3}Passive und aktive Sensoren}{6}{}%
+\contentsline {section}{\numberline {2.4}Auswahl von Sensoren für die semantische Segmentierung}{6}{}%
+\contentsline {chapter}{\numberline {3}Datengrundlage und Vorverarbeitung}{8}{}%
+\contentsline {section}{\numberline {3.1}3D-Datenformate und Datentypen}{8}{}%
+\contentsline {section}{\numberline {3.2}Vorverarbeitungsschritte wie Filterung, Normalenberechnung und Downsampling}{8}{}%
+\contentsline {section}{\numberline {3.3}Datenannotation und Ground Truth-Erstellung}{8}{}%
 \contentsline {chapter}{\numberline {4}Grundlagen der semantischen Segmentierung}{10}{}%
 \contentsline {section}{\numberline {4.1}Definition und Bedeutung}{10}{}%
 \contentsline {section}{\numberline {4.2}Methoden und Techniken}{10}{}%
