@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  14 APR 2023 19:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  24 APR 2023 22:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -154,7 +154,20 @@ Package babel Info: Making " an active character on input line 122.
 ))) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel-ngerman.tex
 Package babel Info: Importing font and identification data for ngerman
 (babel)             from babel-de.ini. Reported on input line 11.
-) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+)
+
+c:/Git/Fachwissenschaftliches-Seminar/main.tex:17: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 <
+      <<<<<< HEAD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
@@ -249,7 +262,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'numeric-verb.dbx' not found.
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count311
@@ -357,10 +370,12 @@ File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 \biburllcskip=\muskip20
 \c@smartand=\count387
 )
-Package biblatex Info: Trying to load bibliography style 'numeric-verb'...
-Package biblatex Info: ... file 'numeric-verb.bbx' found.
- (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-verb.bbx
-File: numeric-verb.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+ (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-natbib.def
+File: blx-natbib.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
+)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
@@ -371,21 +386,22 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count388
 \c@bbx:relatedtotal=\count389
-)))
-Package biblatex Info: Trying to load citation style 'numeric-verb'...
-Package biblatex Info: ... file 'numeric-verb.cbx' found.
- (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-verb.cbx
-File: numeric-verb.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
-Package biblatex Info: Redefining '\textcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -409,7 +425,20 @@ Package biblatex Info: ... and expl3
 Package: xparse 2022-06-22 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
-)) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+))
+
+c:/Git/Fachwissenschaftliches-Seminar/main.tex:19: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 =
+      ======
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -471,10 +500,6 @@ Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
 1: chapter
 1: chapter
 1: section
-
-Package scrlayer-scrpage Warning: replacing deprecated \clearscrheadfoot by
-(scrlayer-scrpage)                \clearpairofpagestyles on input line 34.
-
 (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
@@ -522,26 +547,26 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count410
 \@quotereset=\count411
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 72.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 71.
 (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lbx
@@ -562,11 +587,12 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl)
-Package biblatex Info: Reference section=0 on input line 72.
-Package biblatex Info: Reference segment=0 on input line 72.
- (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 71.
+Package biblatex Info: Reference segment=0 on input line 71.
+(C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count412
 \scratchdimen=\dimen144
@@ -585,63 +611,93 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<bilder//thi_FEI_wb_RGB.pdf, id=1, 554.3169pt x 285.69437pt>
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 73.
+ (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 73.
+ (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 73.
+ (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 73.
+ (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 73.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 73.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 73.
+ [1
+
+{C:/Users/kuhns/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<bilder//thi_FEI_wb_RGB.pdf, id=7, 554.3169pt x 285.69437pt>
 File: bilder//thi_FEI_wb_RGB.pdf Graphic file (type pdf)
 <use bilder//thi_FEI_wb_RGB.pdf>
-Package pdftex.def Info: bilder//thi_FEI_wb_RGB.pdf  used on input line 74.
+Package pdftex.def Info: bilder//thi_FEI_wb_RGB.pdf  used on input line 73.
 (pdftex.def)             Requested size: 217.27562pt x 111.9827pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 74.
- (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmss.fd
-File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 74.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 74.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 73.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 73.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 73.
 
 
 Class scrreprt Warning: non empty \lowertitleback ignored by \maketitle
-(scrreprt)              in `twoside=false' mode on input line 74.
+(scrreprt)              in `twoside=false' mode on input line 73.
 
 [1
 
 
-
-{C:/Users/kuhns/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./bilder//thi_FEI_wb_RGB.pdf>] (main.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
- [2
-
-
-])
+ <./bilder//thi_FEI_wb_RGB.pdf>]
+No file main.toc.
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- (kapitel/Einleitung.tex [3]
-chapter 1.
-) (kapitel/Sensoren_zur_Erfassung_von_3D_Daten.tex [4
-
-
-] [5]
-chapter 2.
-[6
-
-
-] [7]) (kapitel/datengrundlage_und_Vorverarbeitung.tex [8]
-chapter 3.
-[9
-
-
-] [10]) (kapitel/Grundlagen der semantischen Segmentierung.tex [11]
-chapter 4.
-) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [12
+(kapitel/Einleitung.tex [2
 
 
 ]
+chapter 1.
+
+LaTeX Warning: Citation 'Hoss.2022' on page 3 undefined on input line 10.
+
+
+Overfull \hbox (90.18213pt too wide) in paragraph at lines 12--26
+\T1/lmss/m/n/10.95 se-man-ti-sche Seg-men-tie-rung ist ein Ver-fah-ren zur au-to-ma-ti-schen >>>>>>> 14b08190082318582e61fc741a5f40e5fe1e7675
+ []
+
+
+LaTeX Warning: Citation 'shin2007reincarnation' on page 3 undefined on input line 34.
+
+
+LaTeX Warning: Citation '.4242023' on page 3 undefined on input line 39.
+
+) (kapitel/Sensoren_zur_Erfassung_von_3D_Daten.tex [3
+
+
+]
+chapter 2.
+[4
+
+
+] [5]) (kapitel/datengrundlage_und_Vorverarbeitung.tex [6]
+chapter 3.
+[7
+
+
+] [8] [9]) (kapitel/Grundlagen der semantischen Segmentierung.tex [10]
+chapter 4.
+) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [11
+
+
+] [12]
 chapter 5.
 ) (kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex [13
 
@@ -670,28 +726,36 @@ chapter 9.
 chapter 10.
 )
 
-LaTeX Warning: Empty bibliography on input line 86.
+LaTeX Warning: Empty bibliography on input line 85.
 
 [18
 
 
 ] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15383 strings out of 475385
- 335731 string characters out of 2776908
- 1277695 words of memory out of 3000000
- 36577 multiletter control sequences out of 15000+600000
- 538863 words of font info for 62 fonts, out of 8000000 for 9000
+ 15642 strings out of 475385
+ 340966 string characters out of 2776908
+ 1277734 words of memory out of 3000000
+ 36826 multiletter control sequences out of 15000+600000
+ 508826 words of font info for 55 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb>
-Output written on main.pdf (18 pages, 737137 bytes).
+{C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <C:\Users\kuhns\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb>
+Output written on main.pdf (19 pages, 749517 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
