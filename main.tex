@@ -14,24 +14,19 @@
 \usepackage[ngerman]{babel} %Sprachpaket(Silbentrennung,überschriften, Abbildungen)
 
 %Literatur anpassen
-\usepackage[
-	backend=biber,
-	style=numeric-verb % numeric-verb, numeric-comb
-]{biblatex}
+\usepackage[ natbib=true, style=numeric,sorting=none]{biblatex}
 \addbibresource{ref/ref_liste.bib}
 
 %Schriftanpassungen
 \usepackage{lmodern} %Vektorschrift
 \renewcommand{\familydefault}{\sfdefault} %serifenlose Schrift
 \usepackage{sansmath}
-\sansmath			%Aktivieren von Paket "Sansmath"
 
 \usepackage[
 	automark, %automatische Kolumne
 	headsepline %Trennlinie in Kopfzeile
 ]{scrlayer-scrpage}
 \pagestyle{scrheadings}
-\clearscrheadfoot
 
 \ohead[]{\headmark} %dynamische kolumne in kopfzeile
 \ofoot[\pagemark]{\pagemark} %Seitenzahl in Fußzeile außen
