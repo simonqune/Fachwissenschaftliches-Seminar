@@ -371,6 +371,7 @@ INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\x
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\lmodern.sty
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\lmodern.sty
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\lmodern.sty
@@ -567,6 +568,9 @@ INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi7.tfm
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy7.tfm
+INPUT .\main.toc
+INPUT main.toc
+INPUT main.toc
 OUTPUT main.toc
 INPUT .\kapitel\Einleitung.tex
 INPUT .\kapitel\Einleitung.tex

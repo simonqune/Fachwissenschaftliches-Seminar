@@ -1,0 +1,80 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{shin2007reincarnation}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7e05299542165614c442e5c40ed06cb3}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Seung-Jun},
+           giveni={S\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=6de19fcfc02359a2e65e5fa46eae324f}{%
+           family={Suh},
+           familyi={S\bibinitperiod},
+           given={Suk-Hwan},
+           giveni={S\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=f6fe264e7449bc630454017a90669eaf}{%
+           family={Stroud},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5ace88b9bbcaa8d28585b6176b7a95f6}
+      \strng{fullhash}{5ace88b9bbcaa8d28585b6176b7a95f6}
+      \strng{bibnamehash}{5ace88b9bbcaa8d28585b6176b7a95f6}
+      \strng{authorbibnamehash}{5ace88b9bbcaa8d28585b6176b7a95f6}
+      \strng{authornamehash}{5ace88b9bbcaa8d28585b6176b7a95f6}
+      \strng{authorfullhash}{5ace88b9bbcaa8d28585b6176b7a95f6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer-Aided Design}
+      \field{number}{1}
+      \field{title}{Reincarnation of G-code based part programs into STEP-NC for turning applications}
+      \field{volume}{39}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+    \endentry
+    \entry{.4242023}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Have I Been Pwned allows you to search across multiple data breaches to see if your email address or phone number has been compromised.}
+      \field{number}{2}
+      \field{title}{Have I Been Pwned: Check if your email has been compromised in a data breach}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://haveibeenpwned.com/
+      \endverb
+      \verb{url}
+      \verb https://haveibeenpwned.com/
+      \endverb
+      \warn{\item misc entry '.4242023' (ref/ref_liste.bib): Invalid format '4/24/2023' of date field 'urldate' - ignoring}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
