@@ -9,32 +9,29 @@
 \contentsline {section}{\numberline {2.4}Auswahl von Sensoren für die semantische Segmentierung}{6}{}%
 \contentsline {chapter}{\numberline {3}Datengrundlage und Vorverarbeitung}{8}{}%
 \contentsline {section}{\numberline {3.1}3D-Datenformate und Datentypen}{8}{}%
-\contentsline {section}{\numberline {3.2}Vorverarbeitungsschritte wie Filterung, Normalenberechnung und Downsampling}{9}{}%
+\contentsline {section}{\numberline {3.2}Vorverarbeitungsschritte wie Filterung, Normalenberechnung und Downsampling}{8}{}%
 \contentsline {section}{\numberline {3.3}Datenannotation und Ground Truth-Erstellung}{9}{}%
-\contentsline {section}{\numberline {3.4}3D-Datenformate und Datentypen}{10}{}%
-\contentsline {section}{\numberline {3.5}Vorverarbeitungsschritte wie Filterung, Normalenberechnung und Downsampling}{10}{}%
-\contentsline {section}{\numberline {3.6}Datenannotation und Ground Truth-Erstellung}{11}{}%
-\contentsline {chapter}{\numberline {4}Grundlagen der semantischen Segmentierung}{12}{}%
-\contentsline {section}{\numberline {4.1}Verfahren zur semantischen Segmentierung}{12}{}%
-\contentsline {section}{\numberline {4.2}Evaluierung von Verfahren zur semantischen Segmentierung}{12}{}%
-\contentsline {section}{\numberline {4.3}Herausforderungen und Limitationen}{12}{}%
-\contentsline {chapter}{\numberline {5}Anwendungszenarien der semantischen Segmentierung}{14}{}%
-\contentsline {section}{\numberline {5.1}Autonomes Fahren}{14}{}%
-\contentsline {section}{\numberline {5.2}Robotik in der Industrie}{14}{}%
-\contentsline {section}{\numberline {5.3}Augmented Reality}{14}{}%
-\contentsline {section}{\numberline {5.4}Stadtplanung}{14}{}%
-\contentsline {section}{\numberline {5.5}Umweltüberwachung}{14}{}%
-\contentsline {chapter}{\numberline {6}State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten}{15}{}%
-\contentsline {section}{\numberline {6.1}Überblick über aktuelle Forschung und Entwicklungen}{15}{}%
-\contentsline {section}{\numberline {6.2}Vorstellung ausgewählter Methoden und deren Funktionsweise}{15}{}%
-\contentsline {chapter}{\numberline {7}Bewertung und Vergleich von Methoden zur semantischen Segmentierung}{16}{}%
-\contentsline {section}{\numberline {7.1}Evaluationsmetriken und -verfahren}{16}{}%
-\contentsline {section}{\numberline {7.2}Vergleich von Methoden anhand von Leistungskriterien}{16}{}%
-\contentsline {chapter}{\numberline {8}Herausforderungen und zukünftige Entwicklungen}{17}{}%
-\contentsline {section}{\numberline {8.1}Herausforderungen bei der semantischen Segmentierung von 3D-Daten}{17}{}%
-\contentsline {section}{\numberline {8.2}Potenziale und Trends für zukünftige Entwicklungen}{17}{}%
-\contentsline {chapter}{\numberline {9}Zusammenfassung und Anwendung}{18}{}%
-\contentsline {section}{\numberline {9.1}Zusammenfassung der Arbeit}{18}{}%
-\contentsline {section}{\numberline {9.2}Ausblick auf zukünftige Forschungsrichtungen}{18}{}%
-\contentsline {chapter}{\numberline {10}Literaturverzeichnis}{19}{}%
+\contentsline {chapter}{\numberline {4}Grundlagen der semantischen Segmentierung}{11}{}%
+\contentsline {section}{\numberline {4.1}Verfahren zur semantischen Segmentierung}{11}{}%
+\contentsline {section}{\numberline {4.2}Evaluierung von Verfahren zur semantischen Segmentierung}{11}{}%
+\contentsline {section}{\numberline {4.3}Herausforderungen und Limitationen}{11}{}%
+\contentsline {chapter}{\numberline {5}Anwendungszenarien der semantischen Segmentierung}{13}{}%
+\contentsline {section}{\numberline {5.1}Autonomes Fahren}{13}{}%
+\contentsline {section}{\numberline {5.2}Robotik in der Industrie}{13}{}%
+\contentsline {section}{\numberline {5.3}Augmented Reality}{13}{}%
+\contentsline {section}{\numberline {5.4}Stadtplanung}{13}{}%
+\contentsline {section}{\numberline {5.5}Umweltüberwachung}{13}{}%
+\contentsline {chapter}{\numberline {6}State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten}{14}{}%
+\contentsline {section}{\numberline {6.1}Überblick über aktuelle Forschung und Entwicklungen}{14}{}%
+\contentsline {section}{\numberline {6.2}Vorstellung ausgewählter Methoden und deren Funktionsweise}{14}{}%
+\contentsline {chapter}{\numberline {7}Bewertung und Vergleich von Methoden zur semantischen Segmentierung}{15}{}%
+\contentsline {section}{\numberline {7.1}Evaluationsmetriken und -verfahren}{15}{}%
+\contentsline {section}{\numberline {7.2}Vergleich von Methoden anhand von Leistungskriterien}{15}{}%
+\contentsline {chapter}{\numberline {8}Herausforderungen und zukünftige Entwicklungen}{16}{}%
+\contentsline {section}{\numberline {8.1}Herausforderungen bei der semantischen Segmentierung von 3D-Daten}{16}{}%
+\contentsline {section}{\numberline {8.2}Potenziale und Trends für zukünftige Entwicklungen}{16}{}%
+\contentsline {chapter}{\numberline {9}Zusammenfassung und Anwendung}{17}{}%
+\contentsline {section}{\numberline {9.1}Zusammenfassung der Arbeit}{17}{}%
+\contentsline {section}{\numberline {9.2}Ausblick auf zukünftige Forschungsrichtungen}{17}{}%
+\contentsline {chapter}{\numberline {10}Literaturverzeichnis}{18}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

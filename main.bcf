@@ -2350,8 +2350,6 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">Hoss.2022</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">shin2007reincarnation</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">.4242023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

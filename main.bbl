@@ -19,60 +19,56 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{shin2007reincarnation}{article}{}
+    \entry{Hoss.2022}{article}{}
       \name{author}{3}{}{%
-        {{hash=7e05299542165614c442e5c40ed06cb3}{%
-           family={Shin},
+        {{hash=01e61539ce2a27b8710f8093a3fc2963}{%
+           family={Hoss},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a8dd3f8b1bf93f7ac6b46b2961522d5f}{%
+           family={Scholtes},
            familyi={S\bibinitperiod},
-           given={Seung-Jun},
-           giveni={S\bibinithyphendelim J\bibinitperiod}}}%
-        {{hash=6de19fcfc02359a2e65e5fa46eae324f}{%
-           family={Suh},
-           familyi={S\bibinitperiod},
-           given={Suk-Hwan},
-           giveni={S\bibinithyphendelim H\bibinitperiod}}}%
-        {{hash=f6fe264e7449bc630454017a90669eaf}{%
-           family={Stroud},
-           familyi={S\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod}}}%
+           given={Maike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=175f35cd7ccffb357f0e8c7a458e5508}{%
+           family={Eckstein},
+           familyi={E\bibinitperiod},
+           given={Lutz},
+           giveni={L\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{5ace88b9bbcaa8d28585b6176b7a95f6}
-      \strng{fullhash}{5ace88b9bbcaa8d28585b6176b7a95f6}
-      \strng{bibnamehash}{5ace88b9bbcaa8d28585b6176b7a95f6}
-      \strng{authorbibnamehash}{5ace88b9bbcaa8d28585b6176b7a95f6}
-      \strng{authornamehash}{5ace88b9bbcaa8d28585b6176b7a95f6}
-      \strng{authorfullhash}{5ace88b9bbcaa8d28585b6176b7a95f6}
+      \strng{namehash}{0f5442dcb8238e9d3b95eca98b5a812f}
+      \strng{fullhash}{0f5442dcb8238e9d3b95eca98b5a812f}
+      \strng{bibnamehash}{0f5442dcb8238e9d3b95eca98b5a812f}
+      \strng{authorbibnamehash}{0f5442dcb8238e9d3b95eca98b5a812f}
+      \strng{authornamehash}{0f5442dcb8238e9d3b95eca98b5a812f}
+      \strng{authorfullhash}{0f5442dcb8238e9d3b95eca98b5a812f}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Computer-Aided Design}
-      \field{number}{1}
-      \field{title}{Reincarnation of G-code based part programs into STEP-NC for turning applications}
-      \field{volume}{39}
-      \field{year}{2007}
-      \field{pages}{1\bibrangedash 16}
-      \range{pages}{16}
-    \endentry
-    \entry{.4242023}{misc}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Have I Been Pwned allows you to search across multiple data breaches to see if your email address or phone number has been compromised.}
-      \field{number}{2}
-      \field{title}{Have I Been Pwned: Check if your email has been compromised in a data breach}
-      \field{year}{2023}
+      \field{abstract}{Safety assurance of automated driving systems must consider uncertain environment perception. This paper reviews literature addressing how perception testing is realized as part of safety assurance. We focus on testing for verification and validation purposes at the interface between perception and planning, and structure our analysis along the three axes 1) test criteria and metrics, 2) test scenarios, and 3) reference data. Furthermore, the analyzed literature includes related safety standards, safety-independent perception algorithm benchmarking, and sensor modeling. We find that the realization of safety-aware perception testing remains an open issue since challenges concerning the three testing axes and their interdependencies currently do not appear to be sufficiently solved.}
+      \field{issn}{2096-4250}
+      \field{journaltitle}{Automotive Innovation}
+      \field{number}{3}
+      \field{title}{A Review of Testing Object-Based Environment Perception for Safe Automated Driving}
+      \field{volume}{5}
+      \field{year}{2022}
+      \field{pages}{223\bibrangedash 250}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1007/s42154-021-00172-y
+      \endverb
+      \verb{file}
+      \verb 2102.08460:C\:\\Users\\kuhns\\OneDrive\\Musik\\Documents\\Citavi 6\\Projects\\3D-Segmentation\\Citavi Attachments\\2102.08460.pdf:pdf
+      \endverb
       \verb{urlraw}
-      \verb https://haveibeenpwned.com/
+      \verb https://arxiv.org/pdf/2102.08460.pdf
       \endverb
       \verb{url}
-      \verb https://haveibeenpwned.com/
+      \verb https://arxiv.org/pdf/2102.08460.pdf
       \endverb
-      \warn{\item misc entry '.4242023' (ref/ref_liste.bib): Invalid format '4/24/2023' of date field 'urldate' - ignoring}
+      \warn{\item Entry 'Hoss.2022' (ref/ref_liste.bib): Invalid format '4/24/2023' of date field 'urldate' - ignoring}
     \endentry
   \enddatalist
 \endrefsection
