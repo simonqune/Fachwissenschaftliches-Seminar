@@ -1,17 +1,17 @@
-[0] Config.pm:306> INFO - This is Biber 2.18
-[0] Config.pm:309> INFO - Logfile is 'main.blg'
-[81] biber-MSWIN64:340> INFO - === 
-[114] Biber.pm:418> INFO - Reading 'main.bcf'
-[192] Biber.pm:978> INFO - Found 1 citekeys in bib section 0
-[202] Biber.pm:4401> INFO - Processing section 0
-[211] Biber.pm:4592> INFO - Looking for bibtex file 'ref/ref_liste.bib' for section 0
-[263] bibtex.pm:1713> INFO - LaTeX decoding ...
-[268] bibtex.pm:1518> INFO - Found BibTeX data source 'ref/ref_liste.bib'
-[305] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[305] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[305] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[305] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
-[309] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[310] bbl.pm:757> INFO - Output to main.bbl
-[310] Biber.pm:130> WARN - Entry 'Hoss.2022' (ref/ref_liste.bib): Invalid format '4/24/2023' of date field 'urldate' - ignoring
-[310] Biber.pm:132> INFO - WARNINGS: 1
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[142] biber-MSWIN64:340> INFO - === 
+[184] Biber.pm:419> INFO - Reading 'main.bcf'
+[309] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
+[330] Biber.pm:4419> INFO - Processing section 0
+[347] Biber.pm:4610> INFO - Looking for bibtex file 'ref/ref_liste.bib' for section 0
+[402] bibtex.pm:1713> INFO - LaTeX decoding ...
+[412] bibtex.pm:1519> INFO - Found BibTeX data source 'ref/ref_liste.bib'
+[454] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[454] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[454] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[454] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[462] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[463] bbl.pm:763> INFO - Output to main.bbl
+[463] Biber.pm:131> WARN - misc entry '.4242023b' (ref/ref_liste.bib): Invalid format '4/24/2023' of date field 'urldate' - ignoring
+[463] Biber.pm:133> INFO - WARNINGS: 1
