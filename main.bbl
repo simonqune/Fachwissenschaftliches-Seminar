@@ -19,19 +19,153 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{.4242023b}{misc}{}
+    \entry{9102769}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=b67f1bb3109bd97ad71bf799288dbf42}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Kaihong},
+           giveni={K\bibinitperiod}}}%
+        {{hash=09f5ec270df51b814010fcc87dbfa219}{%
+           family={Bi},
+           familyi={B\bibinitperiod},
+           given={Sheng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3845be3d8d5fd972af6d79d73b03638d}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec2c0b72e0b13b8c7fb70352d446145e}
+      \strng{fullhash}{ec2c0b72e0b13b8c7fb70352d446145e}
+      \strng{bibnamehash}{ec2c0b72e0b13b8c7fb70352d446145e}
+      \strng{authorbibnamehash}{ec2c0b72e0b13b8c7fb70352d446145e}
+      \strng{authornamehash}{ec2c0b72e0b13b8c7fb70352d446145e}
+      \strng{authorfullhash}{ec2c0b72e0b13b8c7fb70352d446145e}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Citation in wrong numerical order :/ : r/LaTeX}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.reddit.com/r/LaTeX/comments/k8tz0q/citation_in_wrong_numerical_order/
+      \field{booktitle}{2020 IEEE International Conference on Multimedia and Expo (ICME)}
+      \field{title}{Lightningnet: Fast and Accurate Semantic Segmentation for Autonomous Driving Based on 3D LIDAR Point Cloud}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICME46284.2020.9102769
       \endverb
-      \verb{url}
-      \verb https://www.reddit.com/r/LaTeX/comments/k8tz0q/citation_in_wrong_numerical_order/
+    \endentry
+    \entry{9420573}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=40e27e8d26252230bc82509d630048f7}{%
+           family={Hosein\bibnamedelima Hamian},
+           familyi={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6d01c8bd8457956c2c73b4e11079cc4e}{%
+           family={Beikmohammadi},
+           familyi={B\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d55a9a6841b88562e507791b6c88029a}{%
+           family={Ahmadi},
+           familyi={A\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7bd6024b0a281455c299583b8323f085}{%
+           family={Nasersharif},
+           familyi={N\bibinitperiod},
+           given={Babak},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{f45f7f93bc07b01adaec97c77b6f0274}
+      \strng{fullhash}{475d994b558c7718d7b541ad97a5ed70}
+      \strng{bibnamehash}{f45f7f93bc07b01adaec97c77b6f0274}
+      \strng{authorbibnamehash}{f45f7f93bc07b01adaec97c77b6f0274}
+      \strng{authornamehash}{f45f7f93bc07b01adaec97c77b6f0274}
+      \strng{authorfullhash}{475d994b558c7718d7b541ad97a5ed70}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 26th International Computer Conference, Computer Society of Iran (CSICC)}
+      \field{title}{Semantic Segmentation of Autonomous Driving Images by the Combination of Deep Learning and Classical Segmentation}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/CSICC52343.2021.9420573
       \endverb
-      \warn{\item misc entry '.4242023b' (ref/ref_liste.bib): Invalid format '4/24/2023' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{9423307}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=ee568c9a338713e60934e67c3e29dc0a}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Tuan},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee568c9a338713e60934e67c3e29dc0a}
+      \strng{fullhash}{ee568c9a338713e60934e67c3e29dc0a}
+      \strng{bibnamehash}{ee568c9a338713e60934e67c3e29dc0a}
+      \strng{authorbibnamehash}{ee568c9a338713e60934e67c3e29dc0a}
+      \strng{authornamehash}{ee568c9a338713e60934e67c3e29dc0a}
+      \strng{authorfullhash}{ee568c9a338713e60934e67c3e29dc0a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 Applying New Technology in Green Buildings (ATiGB)}
+      \field{title}{Semantic Road Segmentation using Deep Learning}
+      \field{year}{2021}
+      \field{pages}{45\bibrangedash 48}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ATiGB50996.2021.9423307
+      \endverb
+    \endentry
+    \entry{8100085}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=bc2113bb4f14f1cf6d27862ec4ddd10c}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Liuhao},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c943a1c31e21d996501f6e7f4028b34b}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=61d69a2ddeb1bb221c75d9b920f83e57}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Junsong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=24f20de24938c18a3655f419579d0900}{%
+           family={Thalmann},
+           familyi={T\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f45dc99ffdb305acc9da59588ae75da4}
+      \strng{fullhash}{dd0df5194604087860d65f31c3b70b3d}
+      \strng{bibnamehash}{f45dc99ffdb305acc9da59588ae75da4}
+      \strng{authorbibnamehash}{f45dc99ffdb305acc9da59588ae75da4}
+      \strng{authornamehash}{f45dc99ffdb305acc9da59588ae75da4}
+      \strng{authorfullhash}{dd0df5194604087860d65f31c3b70b3d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}
+      \field{title}{3D Convolutional Neural Networks for Efficient and Robust Hand Pose Estimation from Single Depth Images}
+      \field{year}{2017}
+      \field{pages}{5679\bibrangedash 5688}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/CVPR.2017.602
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
