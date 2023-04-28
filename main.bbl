@@ -167,6 +167,48 @@
       \verb 10.1109/CVPR.2017.602
       \endverb
     \endentry
+    \entry{8529992}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=ac299f8012dbbbb67f0ad6e60f26375e}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jingyun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6b4661a35d44ce15b274b5e0ad88356b}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Qiao},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=1a9960c45892ae8586b09e51443bbc9e}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Zhe},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=eac4766046cc1e346421cdce16fc8734}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Yudong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{98ef2291f425930fa65fedf6d0aed101}
+      \strng{fullhash}{4eb5ed83740bab7ba7dafe17ed434120}
+      \strng{bibnamehash}{98ef2291f425930fa65fedf6d0aed101}
+      \strng{authorbibnamehash}{98ef2291f425930fa65fedf6d0aed101}
+      \strng{authornamehash}{98ef2291f425930fa65fedf6d0aed101}
+      \strng{authorfullhash}{4eb5ed83740bab7ba7dafe17ed434120}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE 3rd Optoelectronics Global Conference (OGC)}
+      \field{title}{TOF Lidar Development in Autonomous Vehicle}
+      \field{year}{2018}
+      \field{pages}{185\bibrangedash 190}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/OGC.2018.8529992
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

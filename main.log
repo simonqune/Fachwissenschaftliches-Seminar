@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  26 APR 2023 13:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  28 APR 2023 16:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -691,29 +691,24 @@ chapter 8.
 
 ]
 chapter 9.
-) (kapitel/Literaturverzeichnis.tex [17
-
-
-]
-chapter 10.
-) [18
+) [17
 
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 77.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 77.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 76.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 77.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 76.
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 77.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 76.
 (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [19
+) [18
 
 
 ] (main.aux)
@@ -722,17 +717,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16335 strings out of 475385
- 353668 string characters out of 2776908
- 1298949 words of memory out of 3000000
+ 16332 strings out of 475385
+ 353549 string characters out of 2776908
+ 1298994 words of memory out of 3000000
  37499 multiletter control sequences out of 15000+600000
  511940 words of font info for 57 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (19 pages, 785129 bytes).
+Output written on main.pdf (18 pages, 785098 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

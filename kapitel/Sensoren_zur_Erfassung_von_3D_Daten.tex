@@ -1,20 +1,21 @@
 \chapter{Sensoren zur Erfassung von 3D-Daten}
 
 \section{LiDAR-Sensoren}
-LiDAR-Sensoren, auch bekannt als Light Detection and Ranging-Sensoren, sind
-eine weit verbreitete Technologie zur Erfassung von 3D-Daten. Sie arbeiten auf
-Basis von Laserstrahlen, die ausgesendet und von Objekten in der Umgebung
-reflektiert werden. Durch die Messung der Laufzeit des Laserstrahls können
-LiDAR-Sensoren die Entfernungen zu den reflektierenden Objekten hochpräzise
-erfassen. LiDAR-Sensoren können sowohl in der Luft als auch am Boden eingesetzt
-werden und ermöglichen die Erfassung von detaillierten 3D-Punktwolken, die die
-Geometrie und die räumliche Verteilung von Objekten in der Umgebung
-repräsentieren. LiDAR-Sensoren bieten eine hohe Genauigkeit und Auflösung, was
-sie für die semantische Segmentierung von 3D-Daten besonders geeignet macht. In
-diesem Abschnitt werden verschiedene Typen von LiDAR-Sensoren vorgestellt, ihre
-Funktionsweise erläutert und ihre Vor- und Nachteile diskutiert. Zudem werden
-Auswahlkriterien für die Verwendung von LiDAR-Sensoren in semantischen
-Segmentierungssystemen behandelt.
+LiDAR-Sensoren, die auch unter dem Namen Light Detection and Ranging-Sensoren
+bekannt sind, stellen eine weit verbreitete Technologie zur Erfassung von
+3D-Daten dar. Sie basieren auf dem Einsatz von Laserstrahlen, welche
+ausgesendet werden und von Objekten in der Umgebung reflektiert werden. Dabei
+kann zwischen Time of Flight (TOF) LiDAR und phasenbasiertem LiDAR
+unterschieden werden. Während TOF-LiDAR die Distanz über eine Messung der
+Laufzeit der lichtwelle bestimmt, erfolgt die Entfernungsmessung beim
+phasenbasierten LiDAR über die Auswertung der Phasenverschiebung der vom Objekt
+reflektierten Lichtwelle. Hierdurch können LiDAR-Sensoren hochgenaue
+Entfernungen zu den reflektierenden Objekten erfassen aus denen sich
+detaillierte 3D-Punktwolken erzeugen lassen, welche die Geometrie und räumliche
+Verteilung von Objekten in der Umgebung darstellen. Zusätzlich lassen sich
+LiDAR-Sensoren in Scanning-LiDAR und Non-Scanning-LiDAR untergliedern.
+Non-Scanning-LiDAR nutzt dabei einen statischen Laserstrahl, während
+Scanning-LiDAR einen sich bewegenden Laser nutzt. \cite{8529992}
 
 \section{Stereo-Kameras und Tiefenkameras}
 Moderne Sensortechnologien wie Stereo-Kameras und Tiefenkameras sind ebenfalls
@@ -28,7 +29,7 @@ Time-of-Flight (ToF)- oder Structured-Light (SL)-Sensoren, um
 Tiefeninformationen direkt zu erfassen.
 
 Stereo-Kameras und Tiefenkameras bieten einige Vorteile wie ihre
-vergleichsweise geringen Kosten und ihre kompakte Bauweise, die sie für viele
+vergleichsweise geringen Kosten und ihre ompakte Bauweise, die sie für viele
 Anwendungen attraktiv machen. Sie können in Echtzeit arbeiten und liefern
 hochauflösende 3D-Daten, die für die semantische Segmentierung verwendet werden
 können. Allerdings haben sie auch einige Einschränkungen, wie zum Beispiel die

@@ -33,5 +33,4 @@
 \contentsline {chapter}{\numberline {9}Zusammenfassung und Anwendung}{17}{}%
 \contentsline {section}{\numberline {9.1}Zusammenfassung der Arbeit}{17}{}%
 \contentsline {section}{\numberline {9.2}Ausblick auf zukünftige Forschungsrichtungen}{17}{}%
-\contentsline {chapter}{\numberline {10}Literaturverzeichnis}{18}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

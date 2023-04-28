@@ -1,13 +1,12 @@
 # Fdb version 4
-["biber main"] 1682507274 "main.bcf" "main.bbl" "main" 1682507276 0
-  "./ref/ref_liste.bib" 1682507274 1533 f3bdfd663c1397bd0f74acc056b3b1cf ""
-  "main.bcf" 1682507235 106636 849c667c918a15cfaebe61f8faf1a804 "pdflatex"
-  "ref/ref_liste.bib" 1682507274 1533 f3bdfd663c1397bd0f74acc056b3b1cf ""
+["biber main"] 1682693283 "main.bcf" "main.bbl" "main" 1682693290 0
+  "./ref/ref_liste.bib" 1682693158 1858 987e08643b144b7acf6c1e722a0eae07 ""
+  "main.bcf" 1682693289 106698 566b30f442cc9fe29b707db50916689a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1682507234 "c:/Git/Fachwissenschaftliches-Seminar/main.tex" "main.pdf" "main" 1682507276 0
+["pdflatex"] 1682693288 "c:/Git/Fachwissenschaftliches-Seminar/main.tex" "main.pdf" "main" 1682693290 0
   "C:/Users/kuhns/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1682497856 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/kuhns/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1680337344 10788009 6bdcefacb10213bc9a84c5cbc258c069 ""
   "C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256933040 2375 baa924870cfb487815765f9094cf3728 ""
@@ -111,22 +110,21 @@
   "C:/Users/kuhns/AppData/Local/Programs/MiKTeX/tex/latex/tools/xspace.sty" 1654690828 4545 4c279ac9292a1be8afa9ab2f1d3299c2 ""
   "C:/Users/kuhns/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "bilder//thi_FEI_wb_RGB.pdf" 1679056922 628758 9820c14587a9a31bd762c34712cbef57 ""
-  "c:/Git/Fachwissenschaftliches-Seminar/main.tex" 1682500432 2278 a92fc28678c0dea700497e680ab423d6 ""
+  "c:/Git/Fachwissenschaftliches-Seminar/main.tex" 1682513090 2240 7552cddc6c417724114547c14c0d1ae7 ""
   "kapitel/Anwendungszenarien der semantischen Segmentierung.tex" 1681312454 212 378798ee70aec6146f209e9cb7fb9b61 ""
   "kapitel/Bewertung und Vergleich von Methoden zur semantischen Segmentierung.tex" 1681312608 189 6e632a8e5698289c5fae2536a0656f5f ""
   "kapitel/Einleitung.tex" 1682507230 2765 4417ffeaa19d40062131bd77c1eedb2c ""
   "kapitel/Grundlagen der semantischen Segmentierung.tex" 1681915884 2589 439576529baaaa920cd4e4d6bb2419a7 ""
   "kapitel/Herausforderungen und zukünftige Entwicklungen.tex" 1681312636 200 795da3639e3b0ffa51a8b116c46f1306 ""
-  "kapitel/Literaturverzeichnis.tex" 1680515476 32 47d89c47b165820019a07f610f985ad2 ""
-  "kapitel/Sensoren_zur_Erfassung_von_3D_Daten.tex" 1681313180 7858 0a02bea23acd86f6300cdb2697bebc26 ""
+  "kapitel/Sensoren_zur_Erfassung_von_3D_Daten.tex" 1682693287 7914 97df563fc1e8e3f4a2944f0762a4014e ""
   "kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex" 1681312496 227 55cb683a70bac963e601b7f801c6bcd4 ""
   "kapitel/Zusammenfassung_und_Ausblick.tex" 1681313180 134 a9e5579ec1d09de4050554dd7e1c4ec1 ""
   "kapitel/datengrundlage_und_Vorverarbeitung.tex" 1682367454 8470 b0b068362023c65d9c2bda7e0e6727f7 ""
-  "main.aux" 1682507235 6235 59b500f9aab6cb50b8ffe4048e7ca529 "pdflatex"
-  "main.bbl" 1682507276 6895 716b237e4c22e74d1d0376808f5c62ca "biber main"
-  "main.run.xml" 1682507235 2372 0c4eca85681031136763ce65159c57dc "pdflatex"
-  "main.tex" 1682500432 2278 a92fc28678c0dea700497e680ab423d6 ""
-  "main.toc" 1682507235 3165 06aa37581552130deaf6847c64c813c5 "pdflatex"
+  "main.aux" 1682693289 6172 8ace3238733a454cb00fc98e6425833b "pdflatex"
+  "main.bbl" 1682693284 8571 fbcc7e9e9a34f04b3d0e158785cdc3a3 "biber main"
+  "main.run.xml" 1682693289 2372 0c4eca85681031136763ce65159c57dc "pdflatex"
+  "main.tex" 1682513090 2240 7552cddc6c417724114547c14c0d1ae7 ""
+  "main.toc" 1682693289 3096 abe457985db469544e181edcc8cf79f1 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
