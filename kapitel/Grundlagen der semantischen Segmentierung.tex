@@ -1,28 +1,44 @@
 \chapter{Grundlagen der semantischen Segmentierung}
-Die semantische Segmentierung ist ein wichtiges Thema in der Bildverarbeitung
-und im Bereich der autonomen Fahrzeuge und der Robotik. Sie ermöglicht die
-automatische Klassifizierung von Objekten und Strukturen in der Umgebung auf
-Basis von 3D-Daten. Eine präzise semantische Segmentierung ist eine wesentliche
-Voraussetzung für eine zuverlässige Navigation von autonomen Fahrzeugen und
-Robotern.
-\section{Verfahren zur semantischen Segmentierung}
-Es gibt verschiedene Verfahren zur semantischen Segmentierung, die sich in der
-Art der Datenverarbeitung und der verwendeten Modelle unterscheiden. Ein häufig
-verwendetes Verfahren ist die Convolutional Neural Network (CNN)-basierte
-Segmentierung, die auf Deep Learning basiert. Hierbei werden die Merkmale der
-Eingabedaten auf verschiedene Ebenen extrahiert, um eine effektive
-Klassifizierung der Objekte und Strukturen zu ermöglichen.
 
-Eine weitere Möglichkeit ist die Markov Random Field (MRF)-basierte
-Segmentierung, die auf Wahrscheinlichkeitsmodellen basiert. Hierbei werden die
-Nachbarschaftsbeziehungen der Pixel in Betracht gezogen, um eine präzise
-Klassifizierung der Objekte und Strukturen zu ermöglichen.
+\section{Verfahren zur semantischen Segmentierung}
+Es gibt verschiedene Verfahren zur semantischen Segmentierung, die sich
+hauptsächlich in der Art und Weise unterscheiden, wie sie die räumliche
+Abhängigkeit der Daten nutzen, um semantische Informationen zu extrahieren.
+Eine Gruppe von Methoden basiert auf der Verwendung von
+Konvolutional-Neural-Networks (CNNs), die durch ihre Fähigkeit zur
+Lernfähigkeit und Komplexitätssteigerung bekannt sind. Einige dieser Methoden
+sind Fully Convolutional Networks (FCN), U-Net, SegNet und DeepLab.
+
+Eine andere Gruppe von Methoden nutzt Conditional Random Fields (CRFs), um die
+räumlichen Zusammenhänge der Daten zu berücksichtigen. Diese Methoden können
+mit CNNs kombiniert werden, um die Vorteile beider Ansätze zu nutzen. Zu den
+Methoden in dieser Kategorie gehören zum Beispiel das DeepLab-CRF und das
+W-Net.
+
+Eine weitere Gruppe von Methoden nutzt Graphen-basierte Modelle, um semantische
+Informationen zu extrahieren. Diese Modelle können auf verschiedene Arten
+definiert werden, wie zum Beispiel durch das Erstellen von Graphen basierend
+auf der Nachbarschaftsbeziehung der Datenpunkte oder durch die Verwendung von
+Punkt-Clouds. Beispiele für diese Methoden sind PointNet und PointNet++.
+
+Insgesamt gibt es eine Vielzahl von Verfahren zur semantischen Segmentierung,
+die sich durch ihre spezifischen Ansätze und Techniken unterscheiden. Die Wahl
+der geeigneten Methode hängt von den spezifischen Anforderungen der Anwendung
+ab, wie beispielsweise der Art und Menge der verfügbaren Daten und der
+Genauigkeit, die erforderlich ist, um die gewünschten Ergebnisse zu erzielen.
 \section{Evaluierung von Verfahren zur semantischen Segmentierung}
-Die Evaluierung von Verfahren zur semantischen Segmentierung erfolgt durch die
-Bewertung von verschiedenen Qualitätskriterien, wie der Genauigkeit, der
-Robustheit und der Geschwindigkeit. Eine gängige Methode zur Evaluierung von
-semantischen Segmentierungsverfahren ist die Verwendung von Benchmarks, die
-eine standardisierte Evaluierung ermöglichen.
+Die Evaluierung von Verfahren zur semantischen Segmentierung erfolgt in der
+Regel anhand von Metriken wie der "Intersection over Union" (IoU), auch
+"Jaccard Index" genannt. Dieser Wert gibt an, wie viel Prozent der
+vorhergesagten Pixel tatsächlich richtig klassifiziert wurden im Verhältnis zu
+den tatsächlich vorhandenen Pixeln. Weitere Metriken sind die
+"Pixelgenauigkeit" (Pixel Accuracy), die "Klassen-Genauigkeit" (Class Accuracy)
+und die "Mittlere-Klassen-Genauigkeit" (Mean Class Accuracy). Für die
+Evaluierung wird in der Regel ein Testdatensatz verwendet, der sowohl Bilder
+als auch Ground-Truth-Masken enthält. Anhand dieser Daten wird das Verfahren
+trainiert und anschließend auf dem Testdatensatz ausgewertet. Die Bewertung der
+Ergebnisse ermöglicht die Beurteilung der Leistung des Verfahrens und die
+Vergleichbarkeit mit anderen Ansätzen.
 \section{Herausforderungen und Limitationen}
 Die semantische Segmentierung stellt verschiedene Herausforderungen dar,
 insbesondere im Hinblick auf die Komplexität der Umgebung und die Vielfalt der

@@ -15,7 +15,7 @@ detaillierte 3D-Punktwolken erzeugen lassen, welche die Geometrie und räumliche
 Verteilung von Objekten in der Umgebung darstellen. Zusätzlich lassen sich
 LiDAR-Sensoren in Scanning-LiDAR und Non-Scanning-LiDAR untergliedern.
 Non-Scanning-LiDAR nutzt dabei einen statischen Laserstrahl, während
-Scanning-LiDAR einen sich bewegenden Laser nutzt. \cite{8529992}
+Scanning-LiDAR einen sich bewegenden Laserstrahl nutzt. \cite{8529992}
 
 \section{Stereo-Kameras und Tiefenkameras}
 Moderne Sensortechnologien wie Stereo-Kameras und Tiefenkameras sind ebenfalls
@@ -29,7 +29,7 @@ Time-of-Flight (ToF)- oder Structured-Light (SL)-Sensoren, um
 Tiefeninformationen direkt zu erfassen.
 
 Stereo-Kameras und Tiefenkameras bieten einige Vorteile wie ihre
-vergleichsweise geringen Kosten und ihre ompakte Bauweise, die sie für viele
+vergleichsweise geringen Kosten und ihre kompakte Bauweise, die sie für viele
 Anwendungen attraktiv machen. Sie können in Echtzeit arbeiten und liefern
 hochauflösende 3D-Daten, die für die semantische Segmentierung verwendet werden
 können. Allerdings haben sie auch einige Einschränkungen, wie zum Beispiel die
@@ -38,43 +38,9 @@ und die Reichweite der Tiefenmessung. Diese Einschränkungen müssen bei der
 Auswahl und Verwendung von Stereo-Kameras und Tiefenkameras in semantischen
 Segmentierungssystemen berücksichtigt werden.
 
-In diesem Abschnitt werden Stereo-Kameras und Tiefenkameras als wichtige
-Sensortechnologien zur Erfassung von 3D-Daten für die semantische Segmentierung
-behandelt. Es werden ihre Funktionsweise, Vor- und Nachteile sowie
-Anwendungsbereiche diskutiert. Zudem werden Verfahren zur Vorverarbeitung der
-von diesen Sensoren erfassten Daten vorgestellt, um sie für die semantische
-Segmentierung vorzubereiten.
 
 \section{Passive und aktive Sensoren}
-Moderne Sensortechnologien wie Lidar, Stereo-Kameras und Tiefenkameras spielen
-eine entscheidende Rolle bei der Erfassung von 3D-Daten für die semantische
-Segmentierung der Umgebung. Dabei können diese Sensoren in passive und aktive
-Sensoren unterteilt werden.
 
-Passive Sensoren, wie zum Beispiel Stereo-Kameras und Tiefenkameras, erfassen
-die Umgebung, indem sie das von natürlichen oder künstlichen Lichtquellen
-reflektierte Licht messen. Sie nutzen dabei die Eigenschaften des einfallenden
-Lichts, um Informationen über die räumliche Tiefe von Objekten in der Szene zu
-berechnen. Diese Sensoren sind häufig kostengünstig, kompakt und können in
-Echtzeit arbeiten. Allerdings sind sie auch empfindlich gegenüber
-Beleuchtungsbedingungen und können Einschränkungen in der Reichweite und
-Sichtbarkeit von Textur aufweisen.
-
-Im Gegensatz dazu verwenden aktive Sensoren, wie zum Beispiel Lidar (Light
-Detection and Ranging), eine eigene Lichtquelle, um die Umgebung zu erfassen.
-Lidar-Sensoren senden Laserstrahlen aus und messen die Zeit, die benötigt wird,
-um die reflektierten Strahlen zurückzuerhalten. Dadurch können sie präzise
-Tiefeninformationen mit hoher Genauigkeit und Reichweite erfassen, unabhängig
-von den Beleuchtungsbedingungen und Textur der Umgebung. Allerdings sind
-Lidar-Sensoren in der Regel teurer und können größer und schwerer sein als
-passive Sensoren.
-
-In diesem Abschnitt werden passive und aktive Sensoren als wichtige
-Sensortechnologien zur Erfassung von 3D-Daten für die semantische Segmentierung
-behandelt. Es werden ihre Funktionsweisen, Vor- und Nachteile sowie
-Anwendungsbereiche diskutiert. Zudem werden Verfahren zur Vorverarbeitung der
-von diesen Sensoren erfassten Daten vorgestellt, um sie für die semantische
-Segmentierung vorzubereiten.
 
 \section{Auswahl von Sensoren für die semantische Segmentierung}
 
@@ -119,8 +85,3 @@ Beispiel können Lidar-Sensoren aufgrund ihrer präzisen Tiefeninformationen und
 Reichweite gut geeignet sein, um Objekte wie Straßen, Gebäude oder Bäume zu
 segmentieren, während Kameras oder Tiefenkameras besser für die Segmentierung
 von Fußgängern oder Fahrzeugen geeignet sein können.
-
-In diesem Abschnitt werden Kriterien und Überlegungen zur Auswahl von Sensoren
-für die semantische Segmentierung auf Basis von 3D-Daten erläutert. Es werden
-verschiedene Aspekte wie Anforderungen der Anwendung, Umgebungsbedingungen,
-Budget und gewünschte Ergebnisse diskutiert.
