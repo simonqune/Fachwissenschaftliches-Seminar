@@ -17,30 +17,40 @@ LiDAR-Sensoren in Scanning-LiDAR und Non-Scanning-LiDAR untergliedern.
 Non-Scanning-LiDAR nutzt dabei einen statischen Laserstrahl, während
 Scanning-LiDAR einen sich bewegenden Laserstrahl nutzt. \cite{8529992}
 
-\section{Stereo-Kameras und Tiefenkameras}
-Moderne Sensortechnologien wie Stereo-Kameras und Tiefenkameras sind ebenfalls
-von großer Bedeutung für die Erfassung von 3D-Daten zur semantischen
-Segmentierung der Umgebung. Stereo-Kameras verwenden zwei räumlich getrennte
-Kameras, die gemeinsam Bilder von derselben Szene aufnehmen. Durch die
-Berechnung von disparitätsbasierten Tiefeninformationen aus den Unterschieden
-zwischen den Bildern können Stereo-Kameras die räumliche Tiefe von Objekten in
-der Umgebung schätzen. Tiefenkameras hingegen verwenden spezielle Sensoren wie
-Time-of-Flight (ToF)- oder Structured-Light (SL)-Sensoren, um
-Tiefeninformationen direkt zu erfassen.
-
-Stereo-Kameras und Tiefenkameras bieten einige Vorteile wie ihre
-vergleichsweise geringen Kosten und ihre kompakte Bauweise, die sie für viele
-Anwendungen attraktiv machen. Sie können in Echtzeit arbeiten und liefern
-hochauflösende 3D-Daten, die für die semantische Segmentierung verwendet werden
-können. Allerdings haben sie auch einige Einschränkungen, wie zum Beispiel die
-Empfindlichkeit gegenüber Beleuchtungsbedingungen, die Sichtbarkeit von Textur
-und die Reichweite der Tiefenmessung. Diese Einschränkungen müssen bei der
-Auswahl und Verwendung von Stereo-Kameras und Tiefenkameras in semantischen
-Segmentierungssystemen berücksichtigt werden.
-
+\section{Tiefenkameras}
+Tiefenkameras basieren auf verschiedene Funktionsweisen, um Entfernungen zu
+messen. Im Bereich der semantische Segmentierung kommen besonders Sensoren auf
+Basis von Stereo-Vision, Time-of-Flight, oder Structured Light zum Einsatz.
+Kamerasysteme, die auf dem Prinzip der Stereo-Vision basieren, werden als
+Stereo Kameras bezeichnet. Bei diesen werden zwei räumlich getrennte Kameras
+verwenden, die gemeinsam Bilder von derselben Szene aus zwei leicht
+unterschiedlichen Perspektiven aufnehmen. Der dabei entstehende horizontale
+Versatz der beiden Bilder wird als Disparität bezeichnet. Aus diesem lassen
+sich Tiefeninformationen des betrachteten Objektes berechnen. Bei Time of
+Flight Kameras wird ein Lichtpuls im Infrarotbereich ausgesendet und von
+Objekten in der Umgebung reflektiert. Über die Laufzeit der Infrarotwelle lässt
+sich die Entfernung berechnen. 3D-Kameras auf Basis von Structured Light
+projizieren ein Muster auf das zu betrachtende Objekt. Aus der Verzerrung des
+dessen, lassen sich Tiefeninformationen berechnen. Die meisten Tiefenkameras
+stellen dabei die Tiefeninformationen in einem Bild aus Graustufen dar.
+Zusätzlich gibt es auch RGB-D Kameras, welche neben einer Strucutred Light oder
+TOF-Kamera auch über eine RGB-Kamera verfügen. Diese haben häufig eine höhere
+räumliche Auflösung und sind in der Lage zusätzlich Farbinformationen
+aufzunehmen, besitzen jedoch eine deutlich kleineren Arbeitsbereich.
 
 \section{Passive und aktive Sensoren}
-
+Aktive und passive Sensoren sind zwei grundlegende Arten von Sensoren, die in
+der 3D-Bildgebung eingesetzt werden. Aktive Sensoren, wie beispielsweise
+LIDAR-Sensoren, senden eine Energiequelle aus, wie zum Beispiel Laser oder
+Infrarot, um Informationen über das Objekt zu sammeln. Die reflektierten
+Signale werden von der Sensor-Einheit aufgenommen und zur Berechnung von
+Tiefeninformationen verwendet. Im Gegensatz dazu erfordern passive Sensoren,
+wie Tiefenkameras, keine aktive Energiequelle, sondern nutzen das natürliche
+Licht, das von der Umgebung reflektiert wird. Passive Sensoren messen das
+reflektierte Licht, um die Tiefeninformationen zu berechnen. Obwohl beide
+Sensortypen Tiefeninformationen sammeln können, haben sie unterschiedliche
+Stärken und Schwächen. LIDAR-Sensoren sind beispielsweise oft präziser, aber
+teurer als Tiefenkameras, die einfacher zu verwenden und kosteneffektiver sind.
 
 \section{Auswahl von Sensoren für die semantische Segmentierung}
 
