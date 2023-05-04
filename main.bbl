@@ -209,6 +209,38 @@
       \verb 10.1109/OGC.2018.8529992
       \endverb
     \endentry
+    \entry{8932817}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=0295a745d954db2f0cf4ee932bdee278}{%
+           family={DANDIL},
+           familyi={D\bibinitperiod},
+           given={Emre},
+           giveni={E\bibinitperiod}}}%
+        {{hash=87c6e719ef8a3efb517fcd6a233b09cb}{%
+           family={ÇEVİK},
+           familyi={Ç\bibinitperiod},
+           given={Kerim\bibnamedelima Kürşat},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{bae249bc30bf9701abcd9293a927f5c3}
+      \strng{fullhash}{bae249bc30bf9701abcd9293a927f5c3}
+      \strng{bibnamehash}{bae249bc30bf9701abcd9293a927f5c3}
+      \strng{authorbibnamehash}{bae249bc30bf9701abcd9293a927f5c3}
+      \strng{authornamehash}{bae249bc30bf9701abcd9293a927f5c3}
+      \strng{authorfullhash}{bae249bc30bf9701abcd9293a927f5c3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 3rd International Symposium on Multidisciplinary Studies and Innovative Technologies (ISMSIT)}
+      \field{title}{Computer Vision Based Distance Measurement System using Stereo Camera View}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ISMSIT.2019.8932817
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
