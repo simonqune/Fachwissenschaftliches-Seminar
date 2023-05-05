@@ -241,6 +241,126 @@
       \verb 10.1109/ISMSIT.2019.8932817
       \endverb
     \endentry
+    \entry{7025195}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=b53827b0e56075161ba0536954fc6d17}{%
+           family={Dalbah},
+           familyi={D\bibinitperiod},
+           given={Yosef},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=dfa1cadbfb83fbdf599bbbb998d1229f}{%
+           family={Rohr},
+           familyi={R\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0d9fba7b1baa69bb007b29c51ad2533f}{%
+           family={Wahl},
+           familyi={W\bibinitperiod},
+           given={Friedrich\bibnamedelima M.},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ee4ed83278d3f5352e85a6e70db4e98}
+      \strng{fullhash}{9ee4ed83278d3f5352e85a6e70db4e98}
+      \strng{bibnamehash}{9ee4ed83278d3f5352e85a6e70db4e98}
+      \strng{authorbibnamehash}{9ee4ed83278d3f5352e85a6e70db4e98}
+      \strng{authornamehash}{9ee4ed83278d3f5352e85a6e70db4e98}
+      \strng{authorfullhash}{9ee4ed83278d3f5352e85a6e70db4e98}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 IEEE International Conference on Image Processing (ICIP)}
+      \field{title}{Detection of dynamic objects for environment mapping by time-of-flight cameras}
+      \field{year}{2014}
+      \field{pages}{971\bibrangedash 975}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICIP.2014.7025195
+      \endverb
+    \endentry
+    \entry{7992709}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=23ad73cc2bbbe53844aa0fdca8f2a08f}{%
+           family={Anwar},
+           familyi={A\bibinitperiod},
+           given={Inzamam},
+           giveni={I\bibinitperiod}}}%
+        {{hash=f4a7044e651356d45438dc28920c977e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Sukhan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{fullhash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{bibnamehash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{authorbibnamehash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{authornamehash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{authorfullhash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 14th International Conference on Ubiquitous Robots and Ambient Intelligence (URAI)}
+      \field{title}{High performance stand-alone structured light 3D camera for smart manipulators}
+      \field{year}{2017}
+      \field{pages}{192\bibrangedash 195}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/URAI.2017.7992709
+      \endverb
+    \endentry
+    \entry{9262651}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=a2265b0f0d92fb075904e3de0d5d3d41}{%
+           family={Silva\bibnamedelima Neto},
+           familyi={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={José\bibnamedelima Gomes},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=ebfdb4c098ee822d33a1011fbb3817d7}{%
+           family={Lima\bibnamedelima Silva},
+           familyi={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Pedro\bibnamedelima Jorge},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=cf71d75aac7a33313eeeba439a0f2791}{%
+           family={Figueredo},
+           familyi={F\bibinitperiod},
+           given={Filipe},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2fa6e4a00d7a9c5bf0b7ae57d2e6affe}{%
+           family={Teixeira},
+           familyi={T\bibinitperiod},
+           given={João\bibnamedelimb Marcelo\bibnamedelimb Xavier\bibnamedelima Natário},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim X\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=c8a2dbd5d5b85be9725b2564e66509ae}{%
+           family={Teichrieb},
+           familyi={T\bibinitperiod},
+           given={Veronica},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c30c3750d0eebda8f9bf07de9fb9e59}
+      \strng{fullhash}{1955031844f546d1a2558a7906a74807}
+      \strng{bibnamehash}{3c30c3750d0eebda8f9bf07de9fb9e59}
+      \strng{authorbibnamehash}{3c30c3750d0eebda8f9bf07de9fb9e59}
+      \strng{authornamehash}{3c30c3750d0eebda8f9bf07de9fb9e59}
+      \strng{authorfullhash}{1955031844f546d1a2558a7906a74807}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 22nd Symposium on Virtual and Augmented Reality (SVR)}
+      \field{title}{Comparison of RGB-D sensors for 3D reconstruction}
+      \field{year}{2020}
+      \field{pages}{252\bibrangedash 261}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/SVR51698.2020.00046
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

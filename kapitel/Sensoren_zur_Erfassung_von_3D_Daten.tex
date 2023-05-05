@@ -18,80 +18,61 @@ Non-Scanning-LiDAR nutzt dabei einen statischen Laserstrahl, während
 Scanning-LiDAR einen sich bewegenden Laserstrahl nutzt. \cite{8529992}
 
 \section{Tiefenkameras}
-Tiefenkameras basieren auf verschiedene Funktionsweisen, um Entfernungen zu
-messen. Im Bereich der semantische Segmentierung kommen besonders Sensoren auf
-Basis von Stereo-Vision, Time-of-Flight, oder Structured Light zum Einsatz.
+Tiefenkameras basieren auf verschiedene Verfahren, um Entfernungen zu messen.
+Im Bereich der semantische Segmentierung kommen besonders Kamerasysteme, die
+auf Stereo-Vision, Time-of-Flight oder Structured Light basieren zum Einsatz.
 Kamerasysteme, die auf dem Prinzip der Stereo-Vision basieren, werden als
 Stereo Kameras bezeichnet. Bei diesen werden zwei räumlich getrennte Kameras
-verwenden, die gemeinsam Bilder von derselben Szene aus zwei leicht
+verwendet, die gemeinsam Bilder von derselben Szene aus zwei leicht
 unterschiedlichen Perspektiven aufnehmen. Der dabei entstehende horizontale
 Versatz der beiden Bilder wird als Disparität bezeichnet. Aus diesem lassen
-sich Tiefeninformationen des betrachteten Objektes berechnen \cite{8932817}. Bei Time of
-Flight Kameras wird ein Lichtpuls im Infrarotbereich ausgesendet und von
-Objekten in der Umgebung reflektiert. Über die Laufzeit der Infrarotwelle lässt
-sich die Entfernung berechnen. 3D-Kameras auf Basis von Structured Light
-projizieren ein Muster auf das zu betrachtende Objekt. Aus der Verzerrung des
-dessen, lassen sich Tiefeninformationen berechnen. Die meisten Tiefenkameras
-stellen dabei die Tiefeninformationen in einem Bild aus Graustufen dar.
-Zusätzlich gibt es auch RGB-D Kameras, welche neben einer Strucutred Light oder
-TOF-Kamera auch über eine RGB-Kamera verfügen. Diese haben häufig eine höhere
-räumliche Auflösung und sind in der Lage zusätzlich Farbinformationen
-aufzunehmen, besitzen jedoch eine deutlich kleineren Arbeitsbereich.
+sich Tiefeninformationen des betrachteten Objektes berechnen \cite{8932817}.
+Bei Time of Flight Kameras wird ein moduliertes Lichtsignal im Infrarotbereich
+ausgesendet und von Objekten in der Umgebung reflektiert. Über die
+Phasenverschiebung der Infrarotwelle lässt sich die Entfernung des Objektes zur
+Kamera berechnen \cite{7025195}. 3D-Kameras auf Basis von Structured Light
+projizieren ein spezielles 2D-Muster auf das zu betrachtende Objekt. Aus der
+Verzerrung dessen, lassen sich Tiefeninformationen berechnen \cite{7992709}.
+Die meisten Tiefenkameras stellen dabei die Tiefeninformationen in einem Bild
+aus Graustufen dar. Zusätzlich gibt es auch RGB-D Kameras, welche zusätzlich zu
+einer Structured Light oder TOF-Kamera über eine RGB-Kamera verfügen. Diese
+haben häufig eine höhere räumliche Auflösung und sind in der Lage zusätzlich
+Farbinformationen aufzunehmen, besitzen jedoch einen deutlich kleineren
+Arbeitsbereich \cite{9262651}.
 
 \section{Passive und aktive Sensoren}
-Aktive und passive Sensoren sind zwei grundlegende Arten von Sensoren, die in
-der 3D-Bildgebung eingesetzt werden. Aktive Sensoren, wie beispielsweise
-LIDAR-Sensoren, senden eine Energiequelle aus, wie zum Beispiel Laser oder
-Infrarot, um Informationen über das Objekt zu sammeln. Die reflektierten
-Signale werden von der Sensor-Einheit aufgenommen und zur Berechnung von
-Tiefeninformationen verwendet. Im Gegensatz dazu erfordern passive Sensoren,
-wie Tiefenkameras, keine aktive Energiequelle, sondern nutzen das natürliche
-Licht, das von der Umgebung reflektiert wird. Passive Sensoren messen das
-reflektierte Licht, um die Tiefeninformationen zu berechnen. Obwohl beide
-Sensortypen Tiefeninformationen sammeln können, haben sie unterschiedliche
-Stärken und Schwächen. LIDAR-Sensoren sind beispielsweise oft präziser, aber
-teurer als Tiefenkameras, die einfacher zu verwenden und kosteneffektiver sind.
+Grundsätzlich lassen sich Sensoren zur Gewinnnung von 3D-Daten in zwei Klassen
+unterscheiden. Aktive Sensoren wie LIDAR-Sensoren senden selbst Energie in Form
+von Laser- oder Lichtwellen aus, um Informationen über das Objekt zu sammeln.
+Die reflektierten Signale werden von der Sensor-Einheit aufgenommen und zur
+Berechnung von Tiefeninformationen verwendet. Im Gegensatz dazu erfordern
+passive Sensoren wie Stereokameras keine aktive Energiequelle, sondern nutzen
+das natürliche Licht, das von der Umgebung reflektiert wird. Der Vorteil von
+aktiven Sensoren besteht darin, dass sie unabhängig von der Umgebungshelligkeit
+arbeiten und auch bei Dunkelheit eingesetzt werden können. Passive Sensoren
+hingegen können bei schlechten Lichtverhältnissen Schwierigkeiten haben, genaue
+Tiefeninformationen zu liefern. Es ist jedoch anzumerken, dass passive Sensoren
+in der Regel kostengünstiger sind und eine höhere räumliche Auflösung bieten
+können.
 
 \section{Auswahl von Sensoren für die semantische Segmentierung}
-
-Die Auswahl der geeigneten Sensoren für die semantische Segmentierung hängt von
-verschiedenen Faktoren ab, wie den Anforderungen der spezifischen Anwendung,
-den Umgebungsbedingungen, dem Budget und den gewünschten Ergebnissen. In diesem
-Abschnitt werden Kriterien und Überlegungen zur Auswahl von Sensoren für die
-semantische Segmentierung auf Basis von 3D-Daten diskutiert.
-
-Anforderungen der Anwendung: Die Anforderungen der spezifischen Anwendung, in
-der die semantische Segmentierung durchgeführt werden soll, sind entscheidend
-für die Auswahl der geeigneten Sensoren. Hierbei können Aspekte wie die
-benötigte Genauigkeit, die räumliche Auflösung, die Reichweite, die
-Echtzeitfähigkeit und die Umgebungsbedingungen eine Rolle spielen. Zum Beispiel
-erfordern Anwendungen im Bereich der autonomen Fahrzeuge möglicherweise
-Sensoren mit hoher Reichweite und Genauigkeit, während Anwendungen im
-Innenbereich möglicherweise Sensoren mit höherer räumlicher Auflösung und
-Echtzeitfähigkeit benötigen.
-
-Umgebungsbedingungen: Die Umgebungsbedingungen, in denen die semantische
-Segmentierung durchgeführt werden soll, können die Auswahl der Sensoren
-beeinflussen. Beispielsweise können schlechte Beleuchtungsbedingungen, wie
-Dunkelheit oder Blendung durch Sonnenlicht, die Leistung von passiven Sensoren
-wie Kameras beeinträchtigen, während Lidar-Sensoren unabhängig von den
-Beleuchtungsbedingungen arbeiten können. Ebenso können Umgebungen mit vielen
-Hindernissen oder komplexen Geometrien die Leistung von Sensoren beeinflussen
-und die Wahl von geeigneten Sensoren beeinflussen.
-
-Budget: Das Budget ist ein wichtiger Faktor bei der Auswahl von Sensoren.
-Unterschiedliche Sensoren können unterschiedliche Kosten haben, sowohl in der
-Anschaffung als auch in der Wartung. Lidar-Sensoren sind in der Regel teurer
-als Kameras oder Tiefenkameras, aber auch die Kosten für diese Sensoren haben
-sich in den letzten Jahren reduziert. Bei der Auswahl von Sensoren ist es
-wichtig, das Budget im Auge zu behalten und eine sorgfältige
-Kosten-Nutzen-Analyse durchzuführen.
-
-Gewünschte Ergebnisse: Die gewünschten Ergebnisse der semantischen
-Segmentierung können ebenfalls die Auswahl der Sensoren beeinflussen. Je
-nachdem, welche Arten von Objekten oder Strukturen in der Umgebung segmentiert
-werden sollen, können bestimmte Sensoren besser geeignet sein als andere. Zum
-Beispiel können Lidar-Sensoren aufgrund ihrer präzisen Tiefeninformationen und
-Reichweite gut geeignet sein, um Objekte wie Straßen, Gebäude oder Bäume zu
-segmentieren, während Kameras oder Tiefenkameras besser für die Segmentierung
-von Fußgängern oder Fahrzeugen geeignet sein können.
+ie Wahl der geeigneten Sensoren für die semantische Segmentierung hängt von
+verschiedenen Faktoren ab, wie den Anforderungen der Anwendung, den
+Umgebungsbedingungen, dem Budget und den gewünschten Ergebnissen. Aspekte wie
+die benötigte Genauigkeit, räumliche Auflösung, Reichweite, Echtzeitfähigkeit
+und Umgebungsbedingungen sollten bei der Auswahl von Sensoren berücksichtigt
+werden. Zum Beispiel benötigen Anwendungen im Bereich der autonomen Fahrzeuge
+möglicherweise Sensoren mit hoher Reichweite und Genauigkeit, während
+Anwendungen im Innenbereich möglicherweise Sensoren mit höherer räumlicher
+Auflösung und Echtzeitfähigkeit benötigen. Die Umgebungsbedingungen, wie
+schlechte Beleuchtungsbedingungen oder komplexe Geometrien, können ebenfalls
+die Leistung von Sensoren beeinflussen und die Wahl von geeigneten Sensoren
+beeinflussen. Das Budget ist ebenfalls ein wichtiger Faktor bei der Auswahl von
+Sensoren, da verschiedene Sensoren unterschiedliche Kosten haben können.
+Schließlich sollten auch die gewünschten Ergebnisse der semantischen
+Segmentierung berücksichtigt werden, da verschiedene Sensoren besser geeignet
+sein können, um bestimmte Objekte oder Strukturen in der Umgebung zu
+segmentieren. Zum Beispiel können Lidar-Sensoren aufgrund ihrer präzisen
+Tiefeninformationen und Reichweite gut geeignet sein, um Objekte wie Straßen,
+Gebäude oder Bäume zu segmentieren, während Kameras oder Tiefenkameras besser
+für die Segmentierung von Fußgängern oder Fahrzeugen geeignet sein können.
