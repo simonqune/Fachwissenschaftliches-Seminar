@@ -361,6 +361,38 @@
       \verb 10.1109/SVR51698.2020.00046
       \endverb
     \endentry
+    \entry{8578570}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=1d9ad9402232f1c53f0efd7b0d800b2e}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=10d293771217ccb6a5e06d825710814f}{%
+           family={Tuzel},
+           familyi={T\bibinitperiod},
+           given={Oncel},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
+      \strng{fullhash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
+      \strng{bibnamehash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
+      \strng{authorbibnamehash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
+      \strng{authornamehash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
+      \strng{authorfullhash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition}
+      \field{title}{VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection}
+      \field{year}{2018}
+      \field{pages}{4490\bibrangedash 4499}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/CVPR.2018.00472
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

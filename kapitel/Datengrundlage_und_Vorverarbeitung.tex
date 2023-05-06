@@ -1,12 +1,12 @@
 \chapter{Datengrundlage und Vorverarbeitung}
 
 \section{3D-Datenformate und Datentypen}
-Die Auswahl von Sensoren für die semantische Segmentierung erfordert eine
-sorgfältige Betrachtung der verwendeten 3D-Datenformate und Datentypen. Diese
-bilden die Grundlage für die Erfassung, Speicherung und Verarbeitung von
-3D-Daten, die für die semantische Segmentierung verwendet werden. In diesem
-Kapitel werden verschiedene 3D-Datenformate und Datentypen untersucht, die in
-der Forschung und Praxis weit verbreitet sind.
+Bei der semantischen Segmentierung von 3D-Daten spielen die zugrunde liegenden
+3D-Datenformate und Datentypen eine elementare Rolle. Diese bilden die
+Grundlage für die Erfassung, Speicherung und Verarbeitung von 3D-Daten, die für
+die semantische Segmentierung verwendet werden. In diesem Kapitel werden
+verschiedene 3D-Datenformate und Datentypen untersucht, die in der Forschung
+und Praxis weit verbreitet sind.
 
 Ein wichtiges 3D-Datenformat ist das Punktewolkenformat, das häufig von
 LiDAR-Sensoren erzeugt wird. Punktewolken sind Sammlungen von 3D-Punkten, die
@@ -16,14 +16,22 @@ ASCII-Format oder dem binären LAS-Format (LASer File Format), das speziell für
 LiDAR-Daten entwickelt wurde. Diese Formate ermöglichen die Speicherung von
 großen Mengen an Punkten mit 3D-Koordinaten, Intensitätsinformationen und
 weiteren Attributen, die zur semantischen Segmentierung verwendet werden
-können.
+können. Im Vergleich zu Bildern weißen Punktwolken eine stark variable
+Punktdichte auf. Dies lässt sich durch Faktoren, wie eine ungleichmäßige
+Abtastung des Raumes, der Verdeckung von Objekten und der relativen Ausrichtung
+des Objektes zum Sensor begründen \cite{8578570}. Das Punktwolkenformat erzeugt dabei große
+Datenmengen, was zu einer rechenintensiven Verarbeitung der Daten führen kann.
 
 Neben Punktewolken werden auch 3D-Gitter oder Voxel-Daten oft für die
 semantische Segmentierung verwendet. Voxel sind volumetrische Elemente, die den
-Raum in einem dreidimensionalen Gitter unterteilen. Jeder Voxel kann eine
-semantische Bedeutung, wie zum Beispiel Straße, Gebäude oder Vegetation,
-zugeordnet werden. Voxel-Daten können in verschiedenen Formaten gespeichert
-werden, wie zum Beispiel das binäre OctoMap-Format oder das ASCII-Format.
+Raum in einem dreidimensionalen Gitter unterteilen. Jeder Voxel enthält dabei
+Informationen über Materialeigenschaften, Farbe oder Textur des Objektes an
+diesem Punkt. Voxel-Daten können in verschiedenen Formaten gespeichert werden,
+wie zum Beispiel das binäre OctoMap-Format oder dem ASCII-Format. Sie bieten
+dabei eine effektive Möglichkeit, komplexe dreidimensionale Strukturen
+darzustellen und weiter zu analysieren. Die Voxeldichte im Raum kann dabei frei
+gewählt werden und bestimmt so die Auflösung und den Speicherbedarf des
+Datensatzes.
 
 Darüber hinaus können auch 3D-Modelle, wie Polygonnetze oder Punktwolken mit
 Texturinformationen, für die semantische Segmentierung verwendet werden.
