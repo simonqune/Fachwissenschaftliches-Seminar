@@ -9,7 +9,7 @@
 \contentsline {section}{\numberline {2.4}Auswahl von Sensoren für die semantische Segmentierung}{6}{}%
 \contentsline {chapter}{\numberline {3}Datengrundlage und Vorverarbeitung}{7}{}%
 \contentsline {section}{\numberline {3.1}3D-Datenformate und Datentypen}{7}{}%
-\contentsline {section}{\numberline {3.2}Vorverarbeitungsschritte wie Filterung, Normalenberechnung und Downsampling}{8}{}%
+\contentsline {section}{\numberline {3.2}Vorverarbeitungsschritte wie Filterung, Normalenberechnung und Downsampling}{7}{}%
 \contentsline {section}{\numberline {3.3}Datenannotation und Ground Truth-Erstellung}{8}{}%
 \contentsline {chapter}{\numberline {4}Grundlagen der semantischen Segmentierung}{10}{}%
 \contentsline {section}{\numberline {4.1}Verfahren zur semantischen Segmentierung}{10}{}%

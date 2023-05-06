@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  6 MAY 2023 13:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  6 MAY 2023 18:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -667,7 +667,7 @@ Overfull \hbox (14.90053pt too wide) in paragraph at lines 4--10
 [7
 
 
-] [8]) (kapitel/Grundlagen der semantischen Segmentierung.tex [9]
+]) (kapitel/Grundlagen der semantischen Segmentierung.tex [8] [9]
 chapter 4.
 [10
 
@@ -714,23 +714,23 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [17
 
 
-] (main.aux)
+] [18] (main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16372 strings out of 476334
- 354599 string characters out of 5787971
+ 16378 strings out of 476334
+ 354837 string characters out of 5787971
  1866382 words of memory out of 5000000
- 36588 multiletter control sequences out of 15000+600000
+ 36594 multiletter control sequences out of 15000+600000
  554968 words of font info for 61 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (17 pages, 786505 bytes).
+Output written on main.pdf (18 pages, 786944 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

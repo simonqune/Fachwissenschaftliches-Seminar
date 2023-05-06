@@ -2,11 +2,11 @@
 
 \section{3D-Datenformate und Datentypen}
 Bei der semantischen Segmentierung von 3D-Daten spielen die zugrunde liegenden
-3D-Datenformate und Datentypen eine elementare Rolle. Diese bilden die
-Grundlage für die Erfassung, Speicherung und Verarbeitung von 3D-Daten, die für
-die semantische Segmentierung verwendet werden. In diesem Kapitel werden
-verschiedene 3D-Datenformate und Datentypen untersucht, die in der Forschung
-und Praxis weit verbreitet sind.
+3D-Datenformate eine elementare Rolle. Diese bilden die Grundlage für die
+Erfassung, Speicherung und Verarbeitung von 3D-Daten, die für die semantische
+Segmentierung verwendet werden. In diesem Kapitel werden die beiden
+verbreitetsten 3D-Datenformate und Datentypen untersucht, die in der Forschung
+und Praxis eingesetz werden.
 
 Ein wichtiges 3D-Datenformat ist das Punktewolkenformat, das häufig von
 LiDAR-Sensoren erzeugt wird. Punktewolken sind Sammlungen von 3D-Punkten, die
@@ -19,8 +19,9 @@ weiteren Attributen, die zur semantischen Segmentierung verwendet werden
 können. Im Vergleich zu Bildern weißen Punktwolken eine stark variable
 Punktdichte auf. Dies lässt sich durch Faktoren, wie eine ungleichmäßige
 Abtastung des Raumes, der Verdeckung von Objekten und der relativen Ausrichtung
-des Objektes zum Sensor begründen \cite{8578570}. Das Punktwolkenformat erzeugt dabei große
-Datenmengen, was zu einer rechenintensiven Verarbeitung der Daten führen kann.
+des Objektes zum Sensor begründen \cite{8578570}. Das Punktwolkenformat erzeugt
+dabei große Datenmengen, was zu einer rechenintensiven Verarbeitung der Daten
+führen kann.
 
 Neben Punktewolken werden auch 3D-Gitter oder Voxel-Daten oft für die
 semantische Segmentierung verwendet. Voxel sind volumetrische Elemente, die den
@@ -33,23 +34,6 @@ darzustellen und weiter zu analysieren. Die Voxeldichte im Raum kann dabei frei
 gewählt werden und bestimmt so die Auflösung und den Speicherbedarf des
 Datensatzes.
 
-Darüber hinaus können auch 3D-Modelle, wie Polygonnetze oder Punktwolken mit
-Texturinformationen, für die semantische Segmentierung verwendet werden.
-Polygonnetze sind Sammlungen von 3D-Polygonen, die die Oberfläche von Objekten
-repräsentieren. Punktwolken mit Texturinformationen enthalten zusätzlich zu den
-3D-Koordinaten auch Farbinformationen, die aus Bildern oder Kameras gewonnen
-werden. Diese 3D-Datenformate ermöglichen eine detailliertere Darstellung von
-Objekten und können für die semantische Segmentierung von komplexeren Szenen
-verwendet werden.
-
-Die Wahl des richtigen 3D-Datenformats und Datentyps hängt von den spezifischen
-Anforderungen der semantischen Segmentierung ab, wie zum Beispiel der
-benötigten Genauigkeit, der Verarbeitungsgeschwindigkeit, dem Speicherbedarf
-und der Verfügbarkeit von Sensordaten. Es ist wichtig, die Vor- und Nachteile
-der verschiedenen Formate und Typen zu berücksichtigen und das geeignete Format
-für die spezifische Anwendung auszuwählen, um eine effektive und effiziente
-semantische Segmentierung der Umgebung zu ermöglichen.
-
 \section{Vorverarbeitungsschritte wie Filterung, Normalenberechnung und Downsampling}
 
 Die Vorverarbeitung von 3D-Daten ist ein wichtiger Schritt in der semantischen
@@ -61,10 +45,11 @@ Praxis angewendet werden.
 Filterung von 3D-Daten: Die Filterung von 3D-Daten beinhaltet das Entfernen von
 unerwünschtem Rauschen oder Ausreißern, um die Qualität der Daten zu
 verbessern. Dies kann durch verschiedene Filtertechniken erfolgen, wie zum
-Beispiel Medianfilter, Gaußscher Filter oder Bilateralfilter. Diese Filter
-können angewendet werden, um Rauschen oder Ausreißer in den 3D-Punktwolken oder
-Voxel-Daten zu reduzieren und somit die Qualität der Daten für die semantische
-Segmentierung zu verbessern.
+Beispiel Medianfilter, Gaußscher Filter \cite{9191237} oder region growing und
+Bilateralfilter \cite{6460813}. Diese Filter können angewendet werden, um
+Rauschen oder Ausreißer in den 3D-Punktwolken oder Voxel-Daten zu reduzieren
+und somit die Qualität der Daten für die semantische Segmentierung zu
+verbessern.
 
 Normalenberechnung: Die Berechnung von Normalen ist ein wichtiger Schritt, um
 die geometrische Information der 3D-Daten zu erfassen. Normalen sind Vektoren,
