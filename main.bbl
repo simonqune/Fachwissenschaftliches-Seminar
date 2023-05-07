@@ -393,6 +393,82 @@
       \verb 10.1109/CVPR.2018.00472
       \endverb
     \endentry
+    \entry{9191237}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=e34613821f9106fb1123414c4732816e}{%
+           family={Thurnhofer-Hemsi},
+           familyi={T\bibinithyphendelim H\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1cbc02693af1b8b744b34a1a67fab73f}{%
+           family={López-Rubio},
+           familyi={L\bibinithyphendelim R\bibinitperiod},
+           given={Ezequiel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e312cbea88e878ac12eddcdf81b8b7d0}{%
+           family={Roé-Vellvé},
+           familyi={R\bibinithyphendelim V\bibinitperiod},
+           given={Núria},
+           giveni={N\bibinitperiod}}}%
+        {{hash=56e0d020c5c6897d04252d8e8ddb5768}{%
+           family={Deka},
+           familyi={D\bibinitperiod},
+           given={Lipika},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{775144f730f3c7d58267152269ef968c}
+      \strng{fullhash}{d93efedb6d3bdd5bacfd4d52ccde3b2a}
+      \strng{bibnamehash}{775144f730f3c7d58267152269ef968c}
+      \strng{authorbibnamehash}{775144f730f3c7d58267152269ef968c}
+      \strng{authornamehash}{775144f730f3c7d58267152269ef968c}
+      \strng{authorfullhash}{d93efedb6d3bdd5bacfd4d52ccde3b2a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 IEEE International Conference on Image Processing (ICIP)}
+      \field{title}{Super-Resolution of 3D MRI Corrupted by Heavy Noise With the Median Filter Transform}
+      \field{year}{2020}
+      \field{pages}{3015\bibrangedash 3019}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICIP40778.2020.9191237
+      \endverb
+    \endentry
+    \entry{6460813}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=685d97480ebafb5a158e7c3dfdcb69a8}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7c8b2289031d27d57fc9c7e7239ec517}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8e231c4d21b1c75d6e2434e929b7dd09}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shutao},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5120224ea6873636c08dfdd111fd1b8d}
+      \strng{fullhash}{5120224ea6873636c08dfdd111fd1b8d}
+      \strng{bibnamehash}{5120224ea6873636c08dfdd111fd1b8d}
+      \strng{authorbibnamehash}{5120224ea6873636c08dfdd111fd1b8d}
+      \strng{authornamehash}{5120224ea6873636c08dfdd111fd1b8d}
+      \strng{authorfullhash}{5120224ea6873636c08dfdd111fd1b8d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 21st International Conference on Pattern Recognition (ICPR2012)}
+      \field{title}{Depth image enhancement for Kinect using region growing and bilateral filter}
+      \field{year}{2012}
+      \field{pages}{3070\bibrangedash 3073}
+      \range{pages}{4}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
