@@ -5,15 +5,22 @@ Es gibt verschiedene Verfahren zur semantischen Segmentierung, die sich
 hauptsächlich in der Art und Weise unterscheiden, wie sie die räumliche
 Abhängigkeit der Daten nutzen, um semantische Informationen zu extrahieren.
 Eine Gruppe von Methoden basiert auf der Verwendung von
-Konvolutional-Neural-Networks (CNNs), die durch ihre Fähigkeit zur
+Convolutional-Neural-Networks (CNNs), die durch ihre Fähigkeit zur
 Lernfähigkeit und Komplexitätssteigerung bekannt sind. Einige dieser Methoden
-sind Fully Convolutional Networks (FCN), U-Net, SegNet und DeepLab.
+sind Fully Convolutional Networks (FCN), U-Net, SegNet und DeepLab.  VOXELNET
 
 Eine andere Gruppe von Methoden nutzt Conditional Random Fields (CRFs), um die
 räumlichen Zusammenhänge der Daten zu berücksichtigen. Diese Methoden können
 mit CNNs kombiniert werden, um die Vorteile beider Ansätze zu nutzen. Zu den
 Methoden in dieser Kategorie gehören zum Beispiel das DeepLab-CRF und das
 W-Net.
+
+Ein bekanntes Verfahren, das CRFs verwendet, ist zum Beispiel die
+"Fully-Connected Conditional Random Fields" (FC-CRFs) in Kombination mit
+Convolutional Neural Networks (CNNs) für die semantische Segmentierung von
+Bildern. Diese Methode hat sich als effektiv erwiesen, um die Vorhersagen von
+CNNs zu glätten und die Genauigkeit der semantischen Segmentierung von Bildern
+zu verbessern.
 
 Eine weitere Gruppe von Methoden nutzt Graphen-basierte Modelle, um semantische
 Informationen zu extrahieren. Diese Modelle können auf verschiedene Arten
@@ -26,6 +33,35 @@ die sich durch ihre spezifischen Ansätze und Techniken unterscheiden. Die Wahl
 der geeigneten Methode hängt von den spezifischen Anforderungen der Anwendung
 ab, wie beispielsweise der Art und Menge der verfügbaren Daten und der
 Genauigkeit, die erforderlich ist, um die gewünschten Ergebnisse zu erzielen.
+
+\section{Datenannotation und Ground Truth-Erstellung}
+
+Die Datenannotation und die Erstellung einer Ground Truth sind entscheidende
+Schritte in der semantischen Segmentierung, um die Trainingsdaten für
+maschinelles Lernen bereitzustellen und Modelle für die Segmentierung von
+3D-Daten zu trainieren und zu evaluieren. In diesem Kapitel werden verschiedene
+Aspekte der Datenannotation und der Ground Truth-Erstellung betrachtet.
+
+Datenannotation: Die Datenannotation beinhaltet das manuelle oder automatische
+Hinzufügen von semantischen Labels oder Klasseninformationen zu den 3D-Daten.
+Dies kann durch das Markieren von Regionen oder Objekten in den Punktwolken
+oder Voxel-Daten erfolgen, um sie bestimmten Klassen oder Kategorien
+zuzuordnen. Die Datenannotation kann von menschlichen Annotatoren durchgeführt
+werden oder mit Hilfe von automatisierten Algorithmen, die auf maschinellem
+Lernen oder Regelbasierten Methoden basieren. Die Qualität und Genauigkeit der
+Datenannotation sind von entscheidender Bedeutung für die Qualität und
+Leistungsfähigkeit der semantischen Segmentierungsalgorithmen.
+
+Ground Truth-Erstellung: Die Ground Truth-Erstellung beinhaltet die Erstellung
+von referenzbasierten Segmentierungsergebnissen, die als Grundlage für das
+Training und die Evaluierung von semantischen Segmentierungsalgorithmen dienen.
+Die Ground Truth kann manuell oder automatisch erstellt werden, indem die
+annotierten Daten als Referenz verwendet werden, um die Leistung von
+Segmentierungsalgorithmen zu bewerten. Die Ground Truth-Erstellung ist ein
+kritischer Schritt, um die Zuverlässigkeit und Vergleichbarkeit von
+Segmentierungsergebnissen zu gewährleisten und die Qualität von trainierten
+Modellen zu überprüfen.
+
 \section{Evaluierung von Verfahren zur semantischen Segmentierung}
 Die Evaluierung von Verfahren zur semantischen Segmentierung erfolgt in der
 Regel anhand von Metriken wie der "Intersection over Union" (IoU), auch
@@ -50,7 +86,3 @@ Eine weitere Herausforderung besteht darin, dass die semantische Segmentierung
 oft in Echtzeit erfolgen muss, um eine zuverlässige Navigation von autonomen
 Fahrzeugen und Robotern zu ermöglichen. Dies erfordert eine hohe Rechenleistung
 und eine effiziente Implementierung der Verfahren.
-
-Insgesamt stellt die semantische Segmentierung eine wichtige Grundlage für die
-Entwicklung von autonomen Fahrzeugen und Robotern dar und wird voraussichtlich
-in Zukunft eine immer größere Bedeutung erlangen.

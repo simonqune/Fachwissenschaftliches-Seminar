@@ -25,7 +25,7 @@ führen kann.
 
 Neben Punktewolken werden auch 3D-Gitter oder Voxel-Daten oft für die
 semantische Segmentierung verwendet. Voxel sind volumetrische Elemente, die den
-Raum in einem dreidimensionalen Gitter unterteilen. Jeder Voxel enthält dabei
+Raum in einem dreidimensionalen Gitter unterteilen. Jedes Voxel enthält dabei
 Informationen über Materialeigenschaften, Farbe oder Textur des Objektes an
 diesem Punkt. Voxel-Daten können in verschiedenen Formaten gespeichert werden,
 wie zum Beispiel das binäre OctoMap-Format oder dem ASCII-Format. Sie bieten
@@ -55,62 +55,18 @@ Normalenberechnung: Die Berechnung von Normalen ist ein wichtiger Schritt, um
 die geometrische Information der 3D-Daten zu erfassen. Normalen sind Vektoren,
 die senkrecht zur Oberfläche von Objekten in der Umgebung stehen und die
 Orientierung der Oberfläche angeben. Die Normalenberechnung kann auf Basis von
-Punktwolken durchgeführt werden und ermöglicht es, die
-Richtung und Orientierung der Objektoberflächen zu erfassen, was für die
-semantische Segmentierung von Objekten von Bedeutung ist.
+Punktwolken durchgeführt werden und ermöglicht es, die Richtung und
+Orientierung der Objektoberflächen zu erfassen, was für die semantische
+Segmentierung von Objekten von Bedeutung ist.
 
 Downsampling: Das Downsampling von 3D-Daten beinhaltet die Reduzierung der
 Datenmenge, um die Verarbeitungsgeschwindigkeit und den Speicherbedarf zu
-reduzieren. Dies kann durch verschiedene Techniken wie das Subsampling von
-Punktwolken oder das Voxel-Downsampling bei Voxel-Daten erfolgen. Downsampling
-ermöglicht es, die Datenmenge zu reduzieren, während wichtige strukturelle und
-semantische Informationen erhalten bleiben.
+reduzieren. Dies kann durch verschiedene Techniken erfolgen. Häufig erfolgt
+dies in Form von Voxel-Grid-Downsampling. Dabei wird der Raum, in der sich die
+Punktwolke befindet, in gleichmäßige Voxel unterteilt, wobei für jedes Voxel
+der Schwerpunkt der darin enthaltenen Punkte berechnet wird. Danach wird eine
+bestimmte Anzahl an Punkten, häufig durch ihre nähe zum Schwerpunkt, ausgewählt
+und in das Voxel-Grid übernommen. Ziel des Downsamplings ist es, die Datenmenge
+zu reduzieren, während wichtige strukturelle und semantische Informationen
+erhalten bleiben.
 
-Die Anwendung von Vorverarbeitungsschritten wie Filterung, Normalenberechnung
-und Downsampling ist von großer Bedeutung, um die Qualität und Genauigkeit der
-3D-Daten für die semantische Segmentierung zu verbessern. Durch die Reduzierung
-von Rauschen, die Erfassung von Normalen und die Reduzierung der Datenmenge
-können genauere und effizientere Segmentierungsergebnisse erzielt werden, die
-die Grundlage für die nachfolgenden Schritte der semantischen Segmentierung
-bilden. Es ist wichtig, geeignete Vorverarbeitungsschritte entsprechend den
-spezifischen Anforderungen der Anwendung und der verwendeten 3D-Daten
-auszuwählen und anzuwenden, um eine effektive und präzise semantische
-Segmentierung zu gewährleisten.
-
-\section{Datenannotation und Ground Truth-Erstellung}
-
-Die Datenannotation und die Erstellung einer Ground Truth sind entscheidende
-Schritte in der semantischen Segmentierung, um die Trainingsdaten für
-maschinelles Lernen bereitzustellen und Modelle für die Segmentierung von
-3D-Daten zu trainieren und zu evaluieren. In diesem Kapitel werden verschiedene
-Aspekte der Datenannotation und der Ground Truth-Erstellung betrachtet.
-
-Datenannotation: Die Datenannotation beinhaltet das manuelle oder automatische
-Hinzufügen von semantischen Labels oder Klasseninformationen zu den 3D-Daten.
-Dies kann durch das Markieren von Regionen oder Objekten in den Punktwolken
-oder Voxel-Daten erfolgen, um sie bestimmten Klassen oder Kategorien
-zuzuordnen. Die Datenannotation kann von menschlichen Annotatoren durchgeführt
-werden oder mit Hilfe von automatisierten Algorithmen, die auf maschinellem
-Lernen oder Regelbasierten Methoden basieren. Die Qualität und Genauigkeit der
-Datenannotation sind von entscheidender Bedeutung für die Qualität und
-Leistungsfähigkeit der semantischen Segmentierungsalgorithmen.
-
-Ground Truth-Erstellung: Die Ground Truth-Erstellung beinhaltet die Erstellung
-von referenzbasierten Segmentierungsergebnissen, die als Grundlage für das
-Training und die Evaluierung von semantischen Segmentierungsalgorithmen dienen.
-Die Ground Truth kann manuell oder automatisch erstellt werden, indem die
-annotierten Daten als Referenz verwendet werden, um die Leistung von
-Segmentierungsalgorithmen zu bewerten. Die Ground Truth-Erstellung ist ein
-kritischer Schritt, um die Zuverlässigkeit und Vergleichbarkeit von
-Segmentierungsergebnissen zu gewährleisten und die Qualität von trainierten
-Modellen zu überprüfen.
-
-Herausforderungen bei der Datenannotation und Ground Truth-Erstellung: Die
-Datenannotation und Ground Truth-Erstellung können mit verschiedenen
-Herausforderungen verbunden sein, wie zum Beispiel Unsicherheiten in der
-Klassen- oder Objektabgrenzung, Unvollständigkeit oder Inkonsistenz in den
-Annotationsdaten, Schwierigkeiten bei der Handhabung großer Datenmengen und das
-Management von Zeitaufwand und Ressourcen. Es ist wichtig, diese
-Herausforderungen zu berücksichtigen und geeignete Methoden und Werkzeuge
-einzusetzen, um die Qualität und Genauigkeit der Datenannotation und Ground
-Truth-Erstellung zu gewährleisten.
