@@ -11,15 +11,23 @@ die auf neuronalen Netzen basieren.
 Convolutional Neural Networks (CNNs) sind eine Art von künstlichen neuronalen
 Netzen, die speziell für die Verarbeitung von Bildern entwickelt wurden. Sie
 bestehen aus mehreren Schichten, darunter Convolutional Layers, Pooling Layers
-und Fully Connected Layers, die miteinander verbunden sind. Die Convolutional
-Layers extrahieren Merkmale aus den Eingabebildern, indem sie überlappende
-Bereiche des Bildes mit Filtern (Kernels) verarbeiten, während die Pooling
-Layers die Dimensionen der Merkmalskarten reduzieren. Die Fully Connected
-Layers am Ende des Netzes verarbeiten schließlich die extrahierten Merkmale und
-geben die Ergebnisse aus. Durch die Verwendung von CNNs können komplexe Muster
-und Zusammenhänge in Bildern erkannt und semantische Informationen extrahiert
-werden, was sie zu einer wichtigen Technologie für Aufgaben wie
-Objekterkennung, -segmentierung und -klassifizierung macht.
+und Fully Connected Layers, die miteinander verbunden sind. Die Architektur der
+CNNs ist dabei nicht vorgegeben, folgt aber in der Praxis immer einer ähnlichen
+Vorlage. Ein Input-Layer beinhaltet die Pixelwerte des Bildes. Darauf folgen in
+der Regel ein oder zwei Convolutional-Layers, woraufhin ein Pooling-Layer
+folgt. Die Kombination aus Convolutional- und Pooling-Layer kann dabei beliebig
+oft aneinander gereiht sein. Am Ende folgt ein Fully-Connected-Layer an den der
+Output anknüpft.[GRAFIK?] Die Convolutional Layers können vereinfacht als
+Filter-Layer betrachtet werden und extrahieren Merkmale aus den Eingabebildern,
+indem Bereiche des Bildes mit Kernels (Filtern) gefaltet werden. Pooling Layers
+dienen dazu, die Dimensionen der Ausgabe des Convolutional-Layers zu
+reduzieren. Die Fully Connected Layers am Ende des Netzes verarbeiten
+schließlich die extrahierten Merkmale und geben die Ergebnisse aus. Durch die
+Verwendung von CNNs können komplexe Muster und Zusammenhänge in Bildern erkannt
+und semantische Informationen extrahiert werden, was sie zu einer wichtigen
+Technologie für Aufgaben wie Objekterkennung, -segmentierung und
+-klassifizierung macht.
+
 \subsection{Fully Convolutional Networks (FCNs)}
 Fully Convolutional Networks (FCNs) sind eine Weiterentwicklung von
 Convolutional Neural Networks (CNNs), die speziell für die Aufgabe der
