@@ -1,39 +1,64 @@
 \chapter{Grundlagen der semantischen Segmentierung}
 
 \section{Verfahren zur semantischen Segmentierung}
-Es gibt verschiedene Verfahren zur semantischen Segmentierung, die sich
-hauptsächlich in der Art und Weise unterscheiden, wie sie die räumliche
-Abhängigkeit der Daten nutzen, um semantische Informationen zu extrahieren.
-Eine Gruppe von Methoden basiert auf der Verwendung von
-Convolutional-Neural-Networks (CNNs), die durch ihre Fähigkeit zur
-Lernfähigkeit und Komplexitätssteigerung bekannt sind. Einige dieser Methoden
-sind Fully Convolutional Networks (FCN), U-Net, SegNet und DeepLab.  VOXELNET
 
-Eine andere Gruppe von Methoden nutzt Conditional Random Fields (CRFs), um die
-räumlichen Zusammenhänge der Daten zu berücksichtigen. Diese Methoden können
-mit CNNs kombiniert werden, um die Vorteile beider Ansätze zu nutzen. Zu den
-Methoden in dieser Kategorie gehören zum Beispiel das DeepLab-CRF und das
-W-Net.
+Ziel der Semantischen Segmentierung von 3D-Daten ist es, jedem Punkt im Raum
+einer bestimmten Kategorie zuzuordnen und dadurch Bereiche des Bildes in
+klassifizierte Objekte zu unterteilen. Hierfür gibt es verschiedene Ansätze,
+die auf neuronalen Netzen basieren.
 
-Ein bekanntes Verfahren, das CRFs verwendet, ist zum Beispiel die
-"Fully-Connected Conditional Random Fields" (FC-CRFs) in Kombination mit
-Convolutional Neural Networks (CNNs) für die semantische Segmentierung von
-Bildern. Diese Methode hat sich als effektiv erwiesen, um die Vorhersagen von
-CNNs zu glätten und die Genauigkeit der semantischen Segmentierung von Bildern
-zu verbessern.
+\subsection{Convolutional Neural Networks (CNNs)}
+Convolutional Neural Networks (CNNs) sind eine Art von künstlichen neuronalen
+Netzen, die speziell für die Verarbeitung von Bildern entwickelt wurden. Sie
+bestehen aus mehreren Schichten, darunter Convolutional Layers, Pooling Layers
+und Fully Connected Layers, die miteinander verbunden sind. Die Convolutional
+Layers extrahieren Merkmale aus den Eingabebildern, indem sie überlappende
+Bereiche des Bildes mit Filtern (Kernels) verarbeiten, während die Pooling
+Layers die Dimensionen der Merkmalskarten reduzieren. Die Fully Connected
+Layers am Ende des Netzes verarbeiten schließlich die extrahierten Merkmale und
+geben die Ergebnisse aus. Durch die Verwendung von CNNs können komplexe Muster
+und Zusammenhänge in Bildern erkannt und semantische Informationen extrahiert
+werden, was sie zu einer wichtigen Technologie für Aufgaben wie
+Objekterkennung, -segmentierung und -klassifizierung macht.
+\subsection{Fully Convolutional Networks (FCNs)}
+Fully Convolutional Networks (FCNs) sind eine Weiterentwicklung von
+Convolutional Neural Networks (CNNs), die speziell für die Aufgabe der
+semantischen Segmentierung von Bildern entwickelt wurden. Im Gegensatz zu
+herkömmlichen CNNs, die für die Klassifizierung von Bildern ausgelegt sind,
+können FCNs die Pixel jedes Eingabebildes direkt klassifizieren und damit die
+räumliche Information beibehalten. FCNs verwenden dabei ausschließlich
+Faltungsschichten (Convolutional Layers) und Pooling-Schichten, um eine
+Merkmalskarte des Eingabebildes zu erzeugen, auf der jedes Pixel einer
+bestimmten Klasse zugeordnet werden kann. Durch die Verwendung von FCNs können
+somit komplizierte Zusammenhänge innerhalb von Bildern auf der Ebene der Pixel
+identifiziert werden, was für Anwendungen wie die autonome Navigation oder
+Objekterkennung von großer Bedeutung ist.
+\subsection{Region-based Convolutional Neural Networks (R-CNNs)}
+Region-based Convolutional Neural Networks (R-CNNs) sind eine Weiterentwicklung
+von Convolutional Neural Networks, die speziell für die Aufgabe der
+Objekterkennung in Bildern entwickelt wurden. Im Gegensatz zu herkömmlichen
+CNNs, die eine feste Größe der Eingabebilder erfordern, verwenden R-CNNs eine
+Regions-basierte Strategie, bei der Regionen von Interesse innerhalb des Bildes
+identifiziert werden und anschließend einzeln analysiert werden. Dabei werden
+die Regionen durch eine Region Proposal Methode vorgeschlagen und in kleinere,
+rechteckige Regionen unterteilt, die mit einem CNN analysiert werden. R-CNNs
+erzielen dadurch eine höhere Genauigkeit als herkömmliche CNNs bei der
+Erkennung von Objekten in Bildern und werden daher häufig in der Robotik und im
+autonomen Fahren eingesetzt.
+\subsection{Encoder-Decoder-Architekturen:}
 
-Eine weitere Gruppe von Methoden nutzt Graphen-basierte Modelle, um semantische
-Informationen zu extrahieren. Diese Modelle können auf verschiedene Arten
-definiert werden, wie zum Beispiel durch das Erstellen von Graphen basierend
-auf der Nachbarschaftsbeziehung der Datenpunkte oder durch die Verwendung von
-Punkt-Clouds. Beispiele für diese Methoden sind PointNet und PointNet++.
-
-Insgesamt gibt es eine Vielzahl von Verfahren zur semantischen Segmentierung,
-die sich durch ihre spezifischen Ansätze und Techniken unterscheiden. Die Wahl
-der geeigneten Methode hängt von den spezifischen Anforderungen der Anwendung
-ab, wie beispielsweise der Art und Menge der verfügbaren Daten und der
-Genauigkeit, die erforderlich ist, um die gewünschten Ergebnisse zu erzielen.
-
+Encoder-Decoder-Architekturen sind eine spezielle Art von neuronalen Netzen,
+die zur semantischen Segmentierung von Bildern eingesetzt werden. Der Name
+leitet sich von der Architektur ab, die aus zwei Hauptkomponenten besteht: dem
+Encoder und dem Decoder. Der Encoder besteht aus mehreren Faltungsschichten,
+die das Eingabebild schrittweise in eine kompakte, abstrakte Repräsentation
+komprimieren, die die Merkmale des Bildes enthält. Der Decoder besteht aus
+mehreren Deconvolution-Schichten, die diese kompakte Repräsentation
+schrittweise wieder in eine vollständige Bildgröße erweitern und dabei die
+semantische Information des Bildes beibehalten. Encoder-Decoder-Architekturen
+sind sehr effektiv bei der Segmentierung von Bildern und haben in den letzten
+Jahren aufgrund ihrer hohen Genauigkeit und Effizienz in der Bildanalyse und
+-verarbeitung an Bedeutung gewonnen.
 \section{Datenannotation und Ground Truth-Erstellung}
 
 Die Datenannotation und die Erstellung einer Ground Truth sind entscheidende

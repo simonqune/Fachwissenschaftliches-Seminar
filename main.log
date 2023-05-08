@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  7 MAY 2023 19:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  8 MAY 2023 10:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -674,29 +674,29 @@ chapter 4.
 [9
 
 
-]) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [10]
+] [10]) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [11]
 chapter 5.
-) (kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex [11
+) (kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex [12
 
 
 ]
 chapter 6.
-) (kapitel/Bewertung und Vergleich von Methoden zur semantischen Segmentierung.tex [12
+) (kapitel/Bewertung und Vergleich von Methoden zur semantischen Segmentierung.tex [13
 
 
 ]
 chapter 7.
-) (kapitel/Herausforderungen und zukünftige Entwicklungen.tex [13
+) (kapitel/Herausforderungen und zukünftige Entwicklungen.tex [14
 
 
 ]
 chapter 8.
-) (kapitel/Zusammenfassung_und_Ausblick.tex [14
+) (kapitel/Zusammenfassung_und_Ausblick.tex [15
 
 
 ]
 chapter 9.
-) [15
+) [16
 
 
 ]
@@ -713,26 +713,26 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 76.
 (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [16
+) [17
 
 
-] [17] (main.aux)
+] [18] (main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16365 strings out of 475385
- 354550 string characters out of 2776908
- 1299302 words of memory out of 3000000
- 37532 multiletter control sequences out of 15000+600000
- 511940 words of font info for 57 fonts, out of 8000000 for 9000
+ 16378 strings out of 475385
+ 355026 string characters out of 2776908
+ 1300314 words of memory out of 3000000
+ 37545 multiletter control sequences out of 15000+600000
+ 514708 words of font info for 58 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (17 pages, 785799 bytes).
+Output written on main.pdf (18 pages, 789604 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
