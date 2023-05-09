@@ -14,19 +14,19 @@ bestehen aus mehreren Schichten, darunter Convolutional Layers, Pooling Layers
 und Fully Connected Layers, die miteinander verbunden sind. Die Architektur der
 CNNs ist dabei nicht vorgegeben, folgt aber in der Praxis immer einer ähnlichen
 Vorlage. Ein Input-Layer beinhaltet die Pixelwerte des Bildes. Darauf folgen in
-der Regel ein oder zwei Convolutional-Layers, woraufhin ein Pooling-Layer
-folgt. Die Kombination aus Convolutional- und Pooling-Layer kann dabei beliebig
-oft aneinander gereiht sein. Am Ende folgt ein Fully-Connected-Layer an den der
-Output anknüpft.[GRAFIK?] Die Convolutional Layers können vereinfacht als
-Filter-Layer betrachtet werden und extrahieren Merkmale aus den Eingabebildern,
-indem Bereiche des Bildes mit Kernels (Filtern) gefaltet werden. Pooling Layers
-dienen dazu, die Dimensionen der Ausgabe des Convolutional-Layers zu
-reduzieren. Die Fully Connected Layers am Ende des Netzes verarbeiten
-schließlich die extrahierten Merkmale und geben die Ergebnisse aus. Durch die
-Verwendung von CNNs können komplexe Muster und Zusammenhänge in Bildern erkannt
-und semantische Informationen extrahiert werden, was sie zu einer wichtigen
-Technologie für Aufgaben wie Objekterkennung, -segmentierung und
--klassifizierung macht.
+der Regel ein oder zwei Convolutional-Layers, woraufhin sich ein Pooling-Layer
+anreiht. Die Kombination aus Convolutional- und Pooling-Layer kann dabei je
+nach Komplexität beliebig oft im Netz vorkommen. Am Ende folgt ein
+Fully-Connected-Layer an den der Output anknüpft.[GRAFIK?] Die Convolutional
+Layers können vereinfacht als Filter-Layer betrachtet werden und extrahieren
+Merkmale aus den Eingabebildern. Dabei wird jeder Bereich des Bildes mit
+Kernels (Filtern) gefalten und erzeugen eine 2D-Aktivierungskarte. Die kernels
+besitzen dabei häufig kleine räumliche Dimensionalitäten, erstrecken sich aber
+über die Gesamte Tiefe des Eingangsbildes. Pooling Layers dienen dazu, die
+Dimensionen der Ausgabe des Convolutional-Layers zu reduzieren und somit die
+Rechnenkomplexität des Modells zu verringern. Die Fully Connected Layers am
+Ende des Netzes verarbeiten schließlich die extrahierten Aktivierungen und
+versuchen daraus Klassifizierungsergebnisse zu gewinnen \cite{OShea.11262015}.
 
 \subsection{Fully Convolutional Networks (FCNs)}
 Fully Convolutional Networks (FCNs) sind eine Weiterentwicklung von

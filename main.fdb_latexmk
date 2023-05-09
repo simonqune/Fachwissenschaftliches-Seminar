@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1683551534 "main.bcf" "main.bbl" "main" 1683552150 0
-  "./ref/ref_liste.bib" 1683477181 4513 0b0b6222f3a608cb306c6d4980225afa ""
-  "main.bcf" 1683552149 107646 3cfe44a2fcfacedc8399ab16629e0eee "pdflatex"
+["biber main"] 1683621633 "main.bcf" "main.bbl" "main" 1683621701 0
+  "./ref/ref_liste.bib" 1683621611 6659 cd393fe8b6ce7ac85ee960b314f48a7b ""
+  "main.bcf" 1683621701 107716 512cbbd5b2f3979a6527bd9991b16880 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1683552145 "c:/Git/Fachwissenschaftliches-Seminar/main.tex" "main.pdf" "main" 1683552150 0
+["pdflatex"] 1683621697 "c:/Git/Fachwissenschaftliches-Seminar/main.tex" "main.pdf" "main" 1683621701 0
   "C:/Users/kuhns/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1683388689 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/kuhns/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1679989134 23176374 c6f8aef1bb86134680736b8508a832fc ""
   "C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256933040 2375 baa924870cfb487815765f9094cf3728 ""
@@ -114,17 +114,18 @@
   "kapitel/Anwendungszenarien der semantischen Segmentierung.tex" 1681380745 212 378798ee70aec6146f209e9cb7fb9b61 ""
   "kapitel/Bewertung und Vergleich von Methoden zur semantischen Segmentierung.tex" 1681380745 189 6e632a8e5698289c5fae2536a0656f5f ""
   "kapitel/Einleitung.tex" 1682591592 2765 4417ffeaa19d40062131bd77c1eedb2c ""
-  "kapitel/Grundlagen der semantischen Segmentierung.tex" 1683552144 8017 42203ae55a00cab11b8a59fb6a518e76 ""
+  "kapitel/Grundlagen der semantischen Segmentierung.tex" 1683621696 8079 15d3dc1ffb6e956951718f575a35889d ""
   "kapitel/Herausforderungen und zukünftige Entwicklungen.tex" 1681380745 200 795da3639e3b0ffa51a8b116c46f1306 ""
   "kapitel/Sensoren_zur_Erfassung_von_3D_Daten.tex" 1683369684 5430 cae975735637a80d274d232b9e70d59b ""
   "kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex" 1683538480 916 3635faa016d608a94b5c27ce63008700 ""
   "kapitel/Zusammenfassung_und_Ausblick.tex" 1681380745 134 a9e5579ec1d09de4050554dd7e1c4ec1 ""
   "kapitel/datengrundlage_und_Vorverarbeitung.tex" 1683538480 4474 b3eb7a2af544834f40aef5710f69fa6f ""
-  "main.aux" 1683552149 7858 f072f7a82ed8d55d7a81f3a1bfc19f49 "pdflatex"
-  "main.bbl" 1683551538 20029 033e747bc341dde171b680eac9f5a094 "biber main"
-  "main.run.xml" 1683552149 2372 0c4eca85681031136763ce65159c57dc "pdflatex"
+  "main.aux" 1683621701 8001 4c4527361226b29720cbd479717deea8 "pdflatex"
+  "main.bbl" 1683621636 22937 3563ee71474bbc957127c66ad5f770c9 "biber main"
+  "main.run.xml" 1683621701 2372 0c4eca85681031136763ce65159c57dc "pdflatex"
   "main.tex" 1683008324 2240 7552cddc6c417724114547c14c0d1ae7 ""
-  "main.toc" 1683552149 3617 2b8ccf617e7baa2d5674c2b42a80a562 "pdflatex"
+  "main.toc" 1683621701 3617 2b8ccf617e7baa2d5674c2b42a80a562 "pdflatex"
+  "ref/ref_liste.bib" 1683621611 6659 cd393fe8b6ce7ac85ee960b314f48a7b ""
   (generated)
   "main.aux"
   "main.bcf"

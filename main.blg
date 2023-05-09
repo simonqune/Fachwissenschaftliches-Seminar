@@ -1,15 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[167] biber-MSWIN64:340> INFO - === 
-[212] Biber.pm:419> INFO - Reading 'main.bcf'
-[347] Biber.pm:979> INFO - Found 12 citekeys in bib section 0
-[366] Biber.pm:4419> INFO - Processing section 0
-[400] Biber.pm:4610> INFO - Looking for bibtex file 'ref/ref_liste.bib' for section 0
-[462] bibtex.pm:1713> INFO - LaTeX decoding ...
-[507] bibtex.pm:1519> INFO - Found BibTeX data source 'ref/ref_liste.bib'
-[749] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[749] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[749] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[749] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
-[759] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[769] bbl.pm:763> INFO - Output to main.bbl
+[168] biber-MSWIN64:340> INFO - === 
+[232] Biber.pm:419> INFO - Reading 'main.bcf'
+[395] Biber.pm:979> INFO - Found 13 citekeys in bib section 0
+[415] Biber.pm:4419> INFO - Processing section 0
+[429] Biber.pm:4610> INFO - Looking for bibtex file 'ref/ref_liste.bib' for section 0
+[486] bibtex.pm:1713> INFO - LaTeX decoding ...
+[514] bibtex.pm:1519> INFO - Found BibTeX data source 'ref/ref_liste.bib'
+[635] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[635] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[635] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[635] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[683] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[695] bbl.pm:763> INFO - Output to main.bbl
+[695] Biber.pm:131> WARN - misc entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring
+[695] Biber.pm:131> WARN - misc entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring
+[696] Biber.pm:133> INFO - WARNINGS: 2
