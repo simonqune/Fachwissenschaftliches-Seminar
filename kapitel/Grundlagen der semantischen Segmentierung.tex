@@ -5,7 +5,7 @@
 Ziel der Semantischen Segmentierung von 3D-Daten ist es, jedem Punkt im Raum
 einer bestimmten Kategorie zuzuordnen und dadurch Bereiche des Bildes in
 klassifizierte Objekte zu unterteilen. Hierfür gibt es verschiedene Ansätze,
-die auf neuronalen Netzen basieren.
+die auf erweiterten neuronalen Netzen basieren.
 
 \subsection{Convolutional Neural Networks (CNNs)}
 Convolutional Neural Networks (CNNs) sind eine Art von künstlichen neuronalen
@@ -37,26 +37,26 @@ semantischen Segmentierung von Bildern entwickelt wurden. Im Gegensatz zu
 herkömmlichen CNNs, die für die Klassifizierung von Bildern ausgelegt sind,
 können FCNs die Pixel jedes Eingabebildes direkt klassifizieren und damit die
 räumliche Information beibehalten. FCNs verwenden dabei ausschließlich
-Faltungsschichten (Convolutional Layers) und Pooling-Schichten, um eine
-Merkmalskarte des Eingabebildes zu erzeugen, auf der jedes Pixel einer
-bestimmten Klasse zugeordnet werden kann. Durch die Verwendung von FCNs können
-somit komplizierte Zusammenhänge innerhalb von Bildern auf der Ebene der Pixel
-identifiziert werden, was für Anwendungen wie die autonome Navigation oder
-Objekterkennung von großer Bedeutung ist.
+Convolutional-Layers und Pooling-Layers, nicht aber Fully-Connected-Layers.
+Dies ermöglicht es eine Merkmalskarte des Eingabebildes zu erzeugen, auf der
+jedes Pixel einer bestimmten Klasse zugeordnet wird. Durch die Verwendung von
+FCNs können somit komplizierte Zusammenhänge innerhalb von Bildern auf der
+Ebene der Pixel identifiziert werden, was für Anwendungen wie die autonome
+Navigation oder Objekterkennung von großer Bedeutung ist. \cite{7298965}
+
 \subsection{Region-based Convolutional Neural Networks (R-CNNs)}
 Region-based Convolutional Neural Networks (R-CNNs) sind eine Weiterentwicklung
 von Convolutional Neural Networks, die speziell für die Aufgabe der
 Objekterkennung in Bildern entwickelt wurden. Im Gegensatz zu herkömmlichen
 CNNs, die eine feste Größe der Eingabebilder erfordern, verwenden R-CNNs eine
-Regions-basierte Strategie, bei der Regionen von Interesse innerhalb des Bildes
-identifiziert werden und anschließend einzeln analysiert werden. Dabei werden
-die Regionen durch eine Region Proposal Methode vorgeschlagen und in kleinere,
-rechteckige Regionen unterteilt, die mit einem CNN analysiert werden. R-CNNs
-erzielen dadurch eine höhere Genauigkeit als herkömmliche CNNs bei der
-Erkennung von Objekten in Bildern und werden daher häufig in der Robotik und im
-autonomen Fahren eingesetzt.
-\subsection{Encoder-Decoder-Architekturen:}
+Region Proposal Technik, um Regions of Interest (ROI) innerhalb des Bildes zu
+detektieren. Anschließend wird auf die ausgewählten Bereiche ein FCN
+angewendet, um diesen auf Pixelebene zu klassifizieren. R-CNNs erzielen dadurch
+eine höhere Genauigkeit als herkömmliche CNNs bei der Erkennung von Objekten in
+Bildern und werden daher häufig in der Robotik und im autonomen Fahren
+eingesetzt. \cite{8237584}
 
+\subsection{Encoder-Decoder-Architekturen:}
 Encoder-Decoder-Architekturen sind eine spezielle Art von neuronalen Netzen,
 die zur semantischen Segmentierung von Bildern eingesetzt werden. Der Name
 leitet sich von der Architektur ab, die aus zwei Hauptkomponenten besteht: dem
@@ -71,31 +71,20 @@ Jahren aufgrund ihrer hohen Genauigkeit und Effizienz in der Bildanalyse und
 -verarbeitung an Bedeutung gewonnen.
 \section{Datenannotation und Ground Truth-Erstellung}
 
-Die Datenannotation und die Erstellung einer Ground Truth sind entscheidende
-Schritte in der semantischen Segmentierung, um die Trainingsdaten für
-maschinelles Lernen bereitzustellen und Modelle für die Segmentierung von
-3D-Daten zu trainieren und zu evaluieren. In diesem Kapitel werden verschiedene
-Aspekte der Datenannotation und der Ground Truth-Erstellung betrachtet.
-
-Datenannotation: Die Datenannotation beinhaltet das manuelle oder automatische
-Hinzufügen von semantischen Labels oder Klasseninformationen zu den 3D-Daten.
-Dies kann durch das Markieren von Regionen oder Objekten in den Punktwolken
-oder Voxel-Daten erfolgen, um sie bestimmten Klassen oder Kategorien
-zuzuordnen. Die Datenannotation kann von menschlichen Annotatoren durchgeführt
-werden oder mit Hilfe von automatisierten Algorithmen, die auf maschinellem
-Lernen oder Regelbasierten Methoden basieren. Die Qualität und Genauigkeit der
-Datenannotation sind von entscheidender Bedeutung für die Qualität und
-Leistungsfähigkeit der semantischen Segmentierungsalgorithmen.
-
-Ground Truth-Erstellung: Die Ground Truth-Erstellung beinhaltet die Erstellung
-von referenzbasierten Segmentierungsergebnissen, die als Grundlage für das
-Training und die Evaluierung von semantischen Segmentierungsalgorithmen dienen.
-Die Ground Truth kann manuell oder automatisch erstellt werden, indem die
-annotierten Daten als Referenz verwendet werden, um die Leistung von
-Segmentierungsalgorithmen zu bewerten. Die Ground Truth-Erstellung ist ein
-kritischer Schritt, um die Zuverlässigkeit und Vergleichbarkeit von
-Segmentierungsergebnissen zu gewährleisten und die Qualität von trainierten
-Modellen zu überprüfen.
+Datenannotation und Ground Truth-Erstellung sind wichtige Schritte bei der
+semantischen Segmentierung von 3D-Daten, da sie die Trainingsdaten für
+maschinelles Lernen bereitstellen und Modelle für die Segmentierung von
+3D-Daten trainieren und evaluieren. Bei der Datenannotation werden semantische
+Labels oder Klasseninformationen manuell oder automatisch zu den 3D-Daten
+hinzugefügt, um sie bestimmten Klassen oder Kategorien zuzuordnen. Die Qualität
+und Genauigkeit der Datenannotation sind entscheidend für die
+Leistungsfähigkeit von semantischen Segmentierungsalgorithmen. Die Ground
+Truth-Erstellung beinhaltet die Erstellung von referenzbasierten
+Segmentierungsergebnissen, die als Grundlage für das Training und die
+Evaluierung von semantischen Segmentierungsalgorithmen dienen. Die Ground Truth
+kann manuell oder automatisch erstellt werden, um die Zuverlässigkeit und
+Vergleichbarkeit von Segmentierungsergebnissen zu gewährleisten und die
+Qualität von trainierten Modellen zu überprüfen.
 
 \section{Evaluierung von Verfahren zur semantischen Segmentierung}
 Die Evaluierung von Verfahren zur semantischen Segmentierung erfolgt in der
@@ -110,14 +99,3 @@ als auch Ground-Truth-Masken enthält. Anhand dieser Daten wird das Verfahren
 trainiert und anschließend auf dem Testdatensatz ausgewertet. Die Bewertung der
 Ergebnisse ermöglicht die Beurteilung der Leistung des Verfahrens und die
 Vergleichbarkeit mit anderen Ansätzen.
-\section{Herausforderungen und Limitationen}
-Die semantische Segmentierung stellt verschiedene Herausforderungen dar,
-insbesondere im Hinblick auf die Komplexität der Umgebung und die Vielfalt der
-Objekte und Strukturen. Eine Herausforderung besteht darin, dass Objekte und
-Strukturen oft unterschiedliche Skalierungen, Formen und Orientierungen
-aufweisen, was eine präzise Klassifizierung erschwert.
-
-Eine weitere Herausforderung besteht darin, dass die semantische Segmentierung
-oft in Echtzeit erfolgen muss, um eine zuverlässige Navigation von autonomen
-Fahrzeugen und Robotern zu ermöglichen. Dies erfordert eine hohe Rechenleistung
-und eine effiziente Implementierung der Verfahren.

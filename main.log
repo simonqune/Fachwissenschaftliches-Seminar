@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  9 MAY 2023 10:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  11 MAY 2023 00:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **c:/Git/Fachwissenschaftliches-Seminar/main.tex
 (c:/Git/Fachwissenschaftliches-Seminar/main.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22> (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrreprt.cls
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28> (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrreprt.cls
 Document Class: scrreprt 2022/10/12 v3.38 KOMA-Script document class (report)
 (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
 Package: scrkbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
@@ -26,7 +26,7 @@ Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
 )) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
 Package: tocbasic 2022/10/12 v3.38 KOMA-Script package (handling toc-files)
-\scr@dte@tocline@numberwidth=\skip48
+\scr@dte@tocline@numberwidth=\skip47
 \scr@dte@tocline@numbox=\box51
 )
 Package tocbasic Info: omitting babel extension for `toc'
@@ -49,12 +49,12 @@ Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input li
 File: scrsize11pt.clo 2022/10/12 v3.38 KOMA-Script font size class option (11pt)
 ) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.sty
 Package: typearea 2022/10/12 v3.38 KOMA-Script package (type area)
-\ta@bcor=\skip49
+\ta@bcor=\skip48
 \ta@div=\count185
-\ta@hblk=\skip50
-\ta@vblk=\skip51
-\ta@temp=\skip52
-\footheight=\skip53
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 11
 (typearea)             BCOR = 0.0pt
@@ -80,52 +80,52 @@ Package typearea Info: These are the values describing the layout:
 \c@subsubsection=\count190
 \c@paragraph=\count191
 \c@subparagraph=\count192
-\scr@dte@chapter@maxnumwidth=\skip54
+\scr@dte@chapter@maxnumwidth=\skip53
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\chapter on input line 5902.
-\scr@dte@section@maxnumwidth=\skip55
+\scr@dte@section@maxnumwidth=\skip54
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\section on input line 5913.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\section on input line 5913.
-\scr@dte@part@maxnumwidth=\skip56
+\scr@dte@part@maxnumwidth=\skip55
 Class scrreprt Info: using compatibility default `afterindent=true'
 (scrreprt)           for `\part on input line 5922.
-\scr@dte@subsection@maxnumwidth=\skip57
+\scr@dte@subsection@maxnumwidth=\skip56
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\subsection on input line 5932.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\subsection on input line 5932.
-\scr@dte@subsubsection@maxnumwidth=\skip58
+\scr@dte@subsubsection@maxnumwidth=\skip57
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\subsubsection on input line 5942.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\subsubsection on input line 5942.
-\scr@dte@paragraph@maxnumwidth=\skip59
+\scr@dte@paragraph@maxnumwidth=\skip58
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\paragraph on input line 5953.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\paragraph on input line 5953.
-\scr@dte@subparagraph@maxnumwidth=\skip60
+\scr@dte@subparagraph@maxnumwidth=\skip59
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\subparagraph on input line 5963.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\subparagraph on input line 5963.
-\abovecaptionskip=\skip61
-\belowcaptionskip=\skip62
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
 \c@pti@nb@sid@b@x=\box52
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lof' on input line 7140.
-\scr@dte@figure@maxnumwidth=\skip63
+\scr@dte@figure@maxnumwidth=\skip62
 \c@figure=\count193
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 7157.
-\scr@dte@table@maxnumwidth=\skip64
+\scr@dte@table@maxnumwidth=\skip63
 \c@table=\count194
 Class scrreprt Info: Redefining `\numberline' on input line 7328.
-\bibindent=\dimen140
+\bibindent=\dimen138
 ) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
@@ -133,9 +133,9 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 ) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2023/02/13 3.86 The Babel package
+Package: babel 2022/10/04 3.81 The Babel package
 \babel@savecnt=\count195
-\U@D=\dimen141
+\U@D=\dimen139
 \l@unhyphenated=\language79
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
@@ -175,7 +175,7 @@ Package csquotes Info: ... configuration file loaded successfully.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
 )) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
@@ -246,14 +246,14 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@sectionciteorderinternal@0=\count311
 \blx@entrysetcounter=\count312
 \blx@biblioinstance=\count313
-\labelnumberwidth=\skip65
-\labelalphawidth=\skip66
-\biblabelsep=\skip67
-\bibitemsep=\skip68
-\bibnamesep=\skip69
-\bibinitsep=\skip70
-\bibparsep=\skip71
-\bibhang=\skip72
+\labelnumberwidth=\skip64
+\labelalphawidth=\skip65
+\biblabelsep=\skip66
+\bibitemsep=\skip67
+\bibnamesep=\skip68
+\bibinitsep=\skip69
+\bibparsep=\skip70
+\bibhang=\skip71
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
@@ -263,7 +263,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
@@ -337,29 +337,29 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count382
 \c@pageref=\count383
 \c@savedpageref=\count384
-\shorthandwidth=\skip73
-\shortjournalwidth=\skip74
-\shortserieswidth=\skip75
-\shorttitlewidth=\skip76
-\shortauthorwidth=\skip77
-\shorteditorwidth=\skip78
-\locallabelnumberwidth=\skip79
-\locallabelalphawidth=\skip80
-\localshorthandwidth=\skip81
-\localshortjournalwidth=\skip82
-\localshortserieswidth=\skip83
-\localshorttitlewidth=\skip84
-\localshortauthorwidth=\skip85
-\localshorteditorwidth=\skip86
+\shorthandwidth=\skip72
+\shortjournalwidth=\skip73
+\shortserieswidth=\skip74
+\shorttitlewidth=\skip75
+\shortauthorwidth=\skip76
+\shorteditorwidth=\skip77
+\locallabelnumberwidth=\skip78
+\locallabelalphawidth=\skip79
+\localshorthandwidth=\skip80
+\localshortjournalwidth=\skip81
+\localshortserieswidth=\skip82
+\localshorttitlewidth=\skip83
+\localshortauthorwidth=\skip84
+\localshorteditorwidth=\skip85
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 \c@textcitecount=\count385
 \c@textcitetotal=\count386
 \c@textcitemaxnames=\count387
@@ -377,24 +377,24 @@ File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-natbib.def
-File: blx-natbib.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+File: blx-natbib.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
-File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+File: numeric.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
-File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count394
 \c@bbx:relatedtotal=\count395
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
-File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+File: numeric.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -415,20 +415,20 @@ File: biblatex.cfg
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2023-02-22 L3 programming layer (loader) 
+Package: expl3 2022-09-28 L3 programming layer (loader) 
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count396
 \l__pdf_internal_box=\box53
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2023-02-22 L3 programming layer (loader) 
+(biblatex)             2022-09-28 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2023-01-16 L3 Experimental document command parser
+Package: xparse 2022-06-22 L3 Experimental document command parser
 )
-Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 )) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -503,6 +503,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 107.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen140
+\stockheight=\dimen141
 ))
 \Gin@req@height=\dimen142
 \Gin@req@width=\dimen143
@@ -557,16 +559,16 @@ LaTeX Font Info:    ... okay on input line 63.
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lbx
-File: ngerman.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+File: ngerman.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
-File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
-File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 ))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -579,12 +581,12 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'OShea.11262015':
-(biblatex)                - misc entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring.
+(biblatex)                - Entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'OShea.11262015':
-(biblatex)                - misc entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring.
+(biblatex)                - Entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring.
 
 )
 Package biblatex Info: Reference section=0 on input line 63.
@@ -683,65 +685,60 @@ chapter 4.
 [9
 
 
-] [10]) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [11]
+]) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [10] [11]
 chapter 5.
 ) (kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex [12
 
 
-]
+] [13]
 chapter 6.
-) (kapitel/Bewertung und Vergleich von Methoden zur semantischen Segmentierung.tex [13
+[14
 
 
-]
+]) (kapitel/Herausforderungen und zukünftige Entwicklungen.tex [15]
 chapter 7.
-) (kapitel/Herausforderungen und zukünftige Entwicklungen.tex [14
+[16
 
 
-]
+]) (kapitel/Zusammenfassung_und_Ausblick.tex [17]
 chapter 8.
-) (kapitel/Zusammenfassung_und_Ausblick.tex [15
-
-
-]
-chapter 9.
-) [16
+) [18
 
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 76.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 75.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 75.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 76.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 75.
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 76.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 75.
 (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [17
+) [19
 
 
-] [18] (main.aux)
+] [20] (main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16397 strings out of 476334
- 355499 string characters out of 5787971
- 1867382 words of memory out of 5000000
- 36613 multiletter control sequences out of 15000+600000
- 557736 words of font info for 62 fonts, out of 8000000 for 9000
+ 16383 strings out of 475385
+ 354913 string characters out of 2776908
+ 1300460 words of memory out of 3000000
+ 37553 multiletter control sequences out of 15000+600000
+ 514708 words of font info for 58 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,19n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (18 pages, 796363 bytes).
+Output written on main.pdf (20 pages, 804753 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
+ 117 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

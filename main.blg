@@ -1,18 +1,18 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'main.blg'
-[168] biber-MSWIN64:340> INFO - === 
-[232] Biber.pm:419> INFO - Reading 'main.bcf'
-[395] Biber.pm:979> INFO - Found 13 citekeys in bib section 0
-[415] Biber.pm:4419> INFO - Processing section 0
-[429] Biber.pm:4610> INFO - Looking for bibtex file 'ref/ref_liste.bib' for section 0
-[486] bibtex.pm:1713> INFO - LaTeX decoding ...
-[514] bibtex.pm:1519> INFO - Found BibTeX data source 'ref/ref_liste.bib'
-[635] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[635] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[635] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[635] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
-[683] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[695] bbl.pm:763> INFO - Output to main.bbl
-[695] Biber.pm:131> WARN - misc entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring
-[695] Biber.pm:131> WARN - misc entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring
-[696] Biber.pm:133> INFO - WARNINGS: 2
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'main.blg'
+[85] biber-MSWIN64:340> INFO - === 
+[118] Biber.pm:418> INFO - Reading 'main.bcf'
+[199] Biber.pm:978> INFO - Found 15 citekeys in bib section 0
+[209] Biber.pm:4401> INFO - Processing section 0
+[218] Biber.pm:4592> INFO - Looking for bibtex file 'ref/ref_liste.bib' for section 0
+[267] bibtex.pm:1713> INFO - LaTeX decoding ...
+[282] bibtex.pm:1518> INFO - Found BibTeX data source 'ref/ref_liste.bib'
+[354] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[354] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[354] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[354] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
+[364] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[370] bbl.pm:757> INFO - Output to main.bbl
+[371] Biber.pm:130> WARN - Entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring
+[371] Biber.pm:130> WARN - Entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring
+[371] Biber.pm:132> INFO - WARNINGS: 2

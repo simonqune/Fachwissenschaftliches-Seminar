@@ -1,8 +1,38 @@
 \chapter{State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten}
 \section{Überblick über aktuelle Forschung und Entwicklungen}
-\section{Vorstellung ausgewählter Methoden und deren Funktionsweise}
+\section{Bekannte Segmentierungslösungen und deren Funktionsweisen}
+\subsection{PointNet}
+PointNet ist eine auf Punktwolken basierende Architektur für die semantische
+Segmentierung von 3D-Daten. Im Gegensatz zu anderen Segmentierungsmethoden, die
+auf Voxel-basierten Darstellungen oder Faltung von 3D-Daten basieren, behandelt
+PointNet jede Punktwolke als eine Menge von Punkten und verwendet eine
+Permutationsinvarianz, um diese Punkte zu analysieren. PointNet besteht aus
+einer einfachen Architektur, die eine eingebettete Vorverarbeitung und eine
+aufmerksame Pooling-Schicht umfasst. Es hat eine hohe Effizienz und ist sehr
+genau bei der Segmentierung von Punktwolken.
+\subsection{Voxelnet}
+VoxelNet ist eine Methode für die 3D-Objekterkennung und -Segmentierung, die
+eine Voxel-basierte Darstellung verwendet. Es wandelt 3D-Punktwolken in einen
+dreidimensionalen Voxel-Raum um und verwendet dann eine 3D-Faltungsarchitektur,
+um Features zu extrahieren. Das extrahierte Feature-Set wird dann für die
+Vorhersage von 3D-Objektboxen verwendet. VoxelNet hat eine höhere Genauigkeit
+als andere auf Punktwolken basierende Architekturen wie PointNet, benötigt
+jedoch auch mehr Rechenressourcen.
 \subsection{SSD (Single Shot MultiBox Detector)}
-\subsection{YOLO (You Only Look Once):}
+SSD (Single Shot MultiBox Detector) ist eine Methode für die 2D-Objekterkennung
+und -Segmentierung, die eine Ein-Schritt-Detektionsarchitektur verwendet. Im
+Gegensatz zu anderen Architekturen, die eine räumliche Pyramiden-Struktur
+verwenden, verwendet SSD ein Feature-Extraktionsnetzwerk, das von mehreren
+Detektionsnetzwerken gefolgt wird, um die Objekte in verschiedenen Skalen zu
+erkennen. SSD ist sehr schnell und hat eine hohe Genauigkeit, jedoch ist es
+nicht so robust wie andere Methoden wie YOLO.
+\subsection{YOLO (You Only Look Once)}
+YOLO (You Only Look Once) ist eine Methode für die 2D-Objekterkennung und
+-Segmentierung, die ebenfalls eine Ein-Schritt-Detektionsarchitektur verwendet.
+YOLO verwendet ein vollständig konvolutionelles Netzwerk, um die Objekte in
+einer einzigen Vorwärtsbewegung zu erkennen und zu segmentieren. Es ist sehr
+schnell und hat eine hohe Genauigkeit bei der Objekterkennung, jedoch hat es
+Schwierigkeiten, kleine Objekte zu erkennen und zu segmentieren.
 
 Ein bekanntes graphenbasiertes Verfahren für die semantische Segmentierung ist
 das Graph-CNN-Modell, das ich bereits in meiner vorherigen Antwort erwähnt
@@ -12,3 +42,15 @@ diesem Graphen aus, um die semantische Information zu extrahieren. Ein weiteres
 Beispiel für ein graphenbasiertes Verfahren ist das DeepLab-Modell, das eine
 spezielle Form der Dilated-Konvolutionen auf Graphen anwendet, um die räumliche
 Auflösung der Feature-Maps zu erhalten.
+
+\section{Herausforderungen und Limitationen}
+Die semantische Segmentierung stellt verschiedene Herausforderungen dar,
+insbesondere im Hinblick auf die Komplexität der Umgebung und die Vielfalt der
+Objekte und Strukturen. Eine Herausforderung besteht darin, dass Objekte und
+Strukturen oft unterschiedliche Skalierungen, Formen und Orientierungen
+aufweisen, was eine präzise Klassifizierung erschwert.
+
+Eine weitere Herausforderung besteht darin, dass die semantische Segmentierung
+oft in Echtzeit erfolgen muss, um eine zuverlässige Navigation von autonomen
+Fahrzeugen und Robotern zu ermöglichen. Dies erfordert eine hohe Rechenleistung
+und eine effiziente Implementierung der Verfahren.
