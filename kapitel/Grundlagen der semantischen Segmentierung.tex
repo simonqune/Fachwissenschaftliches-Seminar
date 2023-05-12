@@ -62,13 +62,15 @@ die zur semantischen Segmentierung von Bildern eingesetzt werden. Der Name
 leitet sich von der Architektur ab, die aus zwei Hauptkomponenten besteht: dem
 Encoder und dem Decoder. Der Encoder besteht aus mehreren Faltungsschichten,
 die das Eingabebild schrittweise in eine kompakte, abstrakte Repräsentation
-komprimieren, die die Merkmale des Bildes enthält. Der Decoder besteht aus
-mehreren Deconvolution-Schichten, die diese kompakte Repräsentation
+komprimieren, die die Merkmale des Bildes stark reduziert enthält. Der Decoder
+besteht aus mehreren Deconvolution-Schichten, die diese kompakte Repräsentation
 schrittweise wieder in eine vollständige Bildgröße erweitern und dabei die
-semantische Information des Bildes beibehalten. Encoder-Decoder-Architekturen
-sind sehr effektiv bei der Segmentierung von Bildern und haben in den letzten
-Jahren aufgrund ihrer hohen Genauigkeit und Effizienz in der Bildanalyse und
--verarbeitung an Bedeutung gewonnen.
+semantische Information des Bildes beibehalten. Bei den Decoding-Schritten
+werden dabei die Informationen der zugehörigen Encoding Schritte verwendet, um
+die Segmentierungsinformationen strukturell einzuordnen (GRAFIK?)
+Encoder-Decoder-Architekturen sind sehr effektiv bei der Segmentierung von
+Bildern und haben in den letzten Jahren aufgrund ihrer hohen Genauigkeit und
+Effizienz an Bedeutung gewonnen.
 \section{Datenannotation und Ground Truth-Erstellung}
 
 Datenannotation und Ground Truth-Erstellung sind wichtige Schritte bei der
