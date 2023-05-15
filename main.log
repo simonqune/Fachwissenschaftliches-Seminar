@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  15 MAY 2023 13:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  15 MAY 2023 16:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -588,13 +588,6 @@ Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'OShea.11262015':
 (biblatex)                - Entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring.
 
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                78
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 )
 Package biblatex Info: Reference section=0 on input line 63.
 Package biblatex Info: Reference segment=0 on input line 63.
@@ -689,9 +682,6 @@ Overfull \hbox (14.90053pt too wide) in paragraph at lines 4--10
 
 ]) (kapitel/Grundlagen der semantischen Segmentierung.tex [8]
 chapter 4.
-
-LaTeX Warning: Citation '78' on page 9 undefined on input line 58.
-
 [9
 
 
@@ -738,15 +728,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16385 strings out of 475385
- 354941 string characters out of 2776908
- 1300466 words of memory out of 3000000
- 37555 multiletter control sequences out of 15000+600000
+ 16384 strings out of 475385
+ 354931 string characters out of 2776908
+ 1300460 words of memory out of 3000000
+ 37554 multiletter control sequences out of 15000+600000
  514708 words of font info for 58 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (19 pages, 803996 bytes).
+Output written on main.pdf (19 pages, 804197 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
