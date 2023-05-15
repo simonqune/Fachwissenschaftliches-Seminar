@@ -10,6 +10,7 @@ Permutationsinvarianz, um diese Punkte zu analysieren. PointNet besteht aus
 einer einfachen Architektur, die eine eingebettete Vorverarbeitung und eine
 aufmerksame Pooling-Schicht umfasst. Es hat eine hohe Effizienz und ist sehr
 genau bei der Segmentierung von Punktwolken.
+
 \subsection{Voxelnet}
 VoxelNet ist eine Methode für die 3D-Objekterkennung und -Segmentierung, die
 eine Voxel-basierte Darstellung verwendet. Es wandelt 3D-Punktwolken in einen
@@ -18,30 +19,9 @@ um Features zu extrahieren. Das extrahierte Feature-Set wird dann für die
 Vorhersage von 3D-Objektboxen verwendet. VoxelNet hat eine höhere Genauigkeit
 als andere auf Punktwolken basierende Architekturen wie PointNet, benötigt
 jedoch auch mehr Rechenressourcen.
-\subsection{SSD (Single Shot MultiBox Detector)}
-SSD (Single Shot MultiBox Detector) ist eine Methode für die 2D-Objekterkennung
-und -Segmentierung, die eine Ein-Schritt-Detektionsarchitektur verwendet. Im
-Gegensatz zu anderen Architekturen, die eine räumliche Pyramiden-Struktur
-verwenden, verwendet SSD ein Feature-Extraktionsnetzwerk, das von mehreren
-Detektionsnetzwerken gefolgt wird, um die Objekte in verschiedenen Skalen zu
-erkennen. SSD ist sehr schnell und hat eine hohe Genauigkeit, jedoch ist es
-nicht so robust wie andere Methoden wie YOLO.
-\subsection{YOLO (You Only Look Once)}
-YOLO (You Only Look Once) ist eine Methode für die 2D-Objekterkennung und
--Segmentierung, die ebenfalls eine Ein-Schritt-Detektionsarchitektur verwendet.
-YOLO verwendet ein vollständig konvolutionelles Netzwerk, um die Objekte in
-einer einzigen Vorwärtsbewegung zu erkennen und zu segmentieren. Es ist sehr
-schnell und hat eine hohe Genauigkeit bei der Objekterkennung, jedoch hat es
-Schwierigkeiten, kleine Objekte zu erkennen und zu segmentieren.
 
-Ein bekanntes graphenbasiertes Verfahren für die semantische Segmentierung ist
-das Graph-CNN-Modell, das ich bereits in meiner vorherigen Antwort erwähnt
-habe. Es nutzt die Nachbarschaftsbeziehungen zwischen den Pixeln eines Bildes,
-um das Bild als Graph darzustellen und führt dann Faltungsoperationen auf
-diesem Graphen aus, um die semantische Information zu extrahieren. Ein weiteres
-Beispiel für ein graphenbasiertes Verfahren ist das DeepLab-Modell, das eine
-spezielle Form der Dilated-Konvolutionen auf Graphen anwendet, um die räumliche
-Auflösung der Feature-Maps zu erhalten.
+\section{DeepLab / Segnet}
+
 
 \section{Herausforderungen und Limitationen}
 Die semantische Segmentierung stellt verschiedene Herausforderungen dar,
@@ -54,3 +34,20 @@ Eine weitere Herausforderung besteht darin, dass die semantische Segmentierung
 oft in Echtzeit erfolgen muss, um eine zuverlässige Navigation von autonomen
 Fahrzeugen und Robotern zu ermöglichen. Dies erfordert eine hohe Rechenleistung
 und eine effiziente Implementierung der Verfahren.
+
+
+\subsection{Conditional Random Fields (CRFs)}
+Conditional Random Fields (CRFs) sind probabilistische Modelle, die zur
+Modellierung von sequentiellen Daten eingesetzt werden. Im Gegensatz zu Markov
+Random Fields (MRFs) ermöglichen CRFs eine Modellierung von Abhängigkeiten
+zwischen den Ausgaben der einzelnen Knoten, um somit ein besseres Ergebnis bei
+der Inferenz zu erzielen. In einem CRF-Modell wird jeder Knoten durch eine
+Funktion repräsentiert, die seine Zustände modelliert. Die Funktionen können
+sowohl globale Merkmale der Daten als auch lokale Merkmale des Knoten und
+seiner Nachbarn berücksichtigen. CRFs zielen darauf ab, die bedingte
+Wahrscheinlichkeit einer Ausgabe für eine gegebene Eingabe zu modellieren,
+indem sie die Abhängigkeiten zwischen den Zuständen der Knoten im Modell
+berücksichtigen. In der Praxis werden CRFs oft in Kombination mit CNNs
+eingesetzt, um semantische Segmentierungsaufgaben auf Bildern durchzuführen.
+Dabei kann das CNN zur Extraktion von Merkmalen und das CRF zur Modellierung
+von Abhängigkeiten zwischen den Ausgaben der Knoten eingesetzt werden.

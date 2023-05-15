@@ -506,41 +506,43 @@
       \warn{\item Entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring}
       \warn{\item Entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring}
     \endentry
-    \entry{7298965}{inproceedings}{}
+    \entry{7803544}{article}{}
       \name{author}{3}{}{%
-        {{hash=17faae490b91366d25e0e2d774e7b6b1}{%
-           family={Long},
-           familyi={L\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=4ce499f8943cac7cba0a73388d289a2e}{%
-           family={Shelhamer},
-           familyi={S\bibinitperiod},
-           given={Evan},
-           giveni={E\bibinitperiod}}}%
-        {{hash=90180e1a30742e0d15328bfe637c2ef4}{%
-           family={Darrell},
-           familyi={D\bibinitperiod},
-           given={Trevor},
-           giveni={T\bibinitperiod}}}%
+        {{hash=2b517df4f81c42dc3c5b32aede012cf9}{%
+           family={Badrinarayanan},
+           familyi={B\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4b1053f4ffb69cd61c1f122cc435c884}{%
+           family={Kendall},
+           familyi={K\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=95c5bd0a1d6e6649ed56043a63268bfa}{%
+           family={Cipolla},
+           familyi={C\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{4f969c1eddab717aa873b0a90831c45a}
-      \strng{fullhash}{4f969c1eddab717aa873b0a90831c45a}
-      \strng{bibnamehash}{4f969c1eddab717aa873b0a90831c45a}
-      \strng{authorbibnamehash}{4f969c1eddab717aa873b0a90831c45a}
-      \strng{authornamehash}{4f969c1eddab717aa873b0a90831c45a}
-      \strng{authorfullhash}{4f969c1eddab717aa873b0a90831c45a}
+      \strng{namehash}{fb26318591964ff2e23ee05578819393}
+      \strng{fullhash}{fb26318591964ff2e23ee05578819393}
+      \strng{bibnamehash}{fb26318591964ff2e23ee05578819393}
+      \strng{authorbibnamehash}{fb26318591964ff2e23ee05578819393}
+      \strng{authornamehash}{fb26318591964ff2e23ee05578819393}
+      \strng{authorfullhash}{fb26318591964ff2e23ee05578819393}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}
-      \field{title}{Fully convolutional networks for semantic segmentation}
-      \field{year}{2015}
-      \field{pages}{3431\bibrangedash 3440}
-      \range{pages}{10}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{number}{12}
+      \field{title}{SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation}
+      \field{volume}{39}
+      \field{year}{2017}
+      \field{pages}{2481\bibrangedash 2495}
+      \range{pages}{15}
       \verb{doi}
-      \verb 10.1109/CVPR.2015.7298965
+      \verb 10.1109/TPAMI.2016.2644615
       \endverb
     \endentry
     \entry{8237584}{inproceedings}{}
@@ -586,6 +588,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{78}
 \endrefsection
 \endinput
 

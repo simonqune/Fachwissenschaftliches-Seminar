@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  12 MAY 2023 18:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  15 MAY 2023 13:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -588,6 +588,13 @@ Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'OShea.11262015':
 (biblatex)                - Entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring.
 
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                78
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
 )
 Package biblatex Info: Reference section=0 on input line 63.
 Package biblatex Info: Reference segment=0 on input line 63.
@@ -682,27 +689,30 @@ Overfull \hbox (14.90053pt too wide) in paragraph at lines 4--10
 
 ]) (kapitel/Grundlagen der semantischen Segmentierung.tex [8]
 chapter 4.
+
+LaTeX Warning: Citation '78' on page 9 undefined on input line 58.
+
 [9
 
 
-]) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [10] [11]
+]) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [10]
 chapter 5.
-) (kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex [12
+) (kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex [11
 
 
-] [13]
+] [12]
 chapter 6.
-[14
+[13
 
 
-]) (kapitel/Herausforderungen und zukünftige Entwicklungen.tex [15]
+]) (kapitel/Herausforderungen und zukünftige Entwicklungen.tex [14]
 chapter 7.
-[16
+[15
 
 
-]) (kapitel/Zusammenfassung_und_Ausblick.tex [17]
+]) (kapitel/Zusammenfassung_und_Ausblick.tex [16]
 chapter 8.
-) [18
+) [17
 
 
 ]
@@ -719,26 +729,26 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 75.
 (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [19
+) [18
 
 
-] [20] (main.aux)
+] [19] (main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16383 strings out of 475385
- 354913 string characters out of 2776908
- 1300460 words of memory out of 3000000
- 37553 multiletter control sequences out of 15000+600000
+ 16385 strings out of 475385
+ 354941 string characters out of 2776908
+ 1300466 words of memory out of 3000000
+ 37555 multiletter control sequences out of 15000+600000
  514708 words of font info for 58 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (20 pages, 804869 bytes).
+Output written on main.pdf (19 pages, 803996 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
+ 114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

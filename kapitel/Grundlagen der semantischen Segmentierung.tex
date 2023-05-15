@@ -1,6 +1,4 @@
-\chapter{Grundlagen der semantischen Segmentierung}
-
-\section{Verfahren zur semantischen Segmentierung}
+\chapter{Grundlegende Verfahren der semantischen Segmentierung}
 
 Ziel der Semantischen Segmentierung von 3D-Daten ist es, jedem Punkt im Raum
 einer bestimmten Kategorie zuzuordnen und dadurch Bereiche des Bildes in
@@ -42,7 +40,22 @@ Dies ermöglicht es eine Merkmalskarte des Eingabebildes zu erzeugen, auf der
 jedes Pixel einer bestimmten Klasse zugeordnet wird. Durch die Verwendung von
 FCNs können somit komplizierte Zusammenhänge innerhalb von Bildern auf der
 Ebene der Pixel identifiziert werden, was für Anwendungen wie die autonome
-Navigation oder Objekterkennung von großer Bedeutung ist. \cite{7298965}
+Navigation oder Objekterkennung von großer Bedeutung ist. \cite{7803544}
+
+\subsection{Encoder-Decoder-Architekturen}
+Encoder-Decoder-Architekturen stellen eine spezielle Architektur von neuronalen
+Netzen dar. Der Name leitet sich aus deren Aufbau ab, welcher aus zwei
+Hauptkomponenten, einem Encoder und einem Decoder, besteht. Der Encoder
+verwendet typischerweise CNNs, um das Eingabebild schrittweise in eine
+kompakte, abstrakte Repräsentation zu komprimieren, die die Merkmale des Bildes
+stark reduziert enthält. Dabei werden die Positionen der maximalen
+Aktivierungen der Ebene gespeichert. Die gespeicherten Daten werden als
+Pooling-Indizes bezeichnet. Der Decoder verwendet häufig
+Deconvolutional-Neuronale-Netzwerke, um das Ergebnis des Encoder-Netzwerkes
+wieder in die Dimensionalitäten des Eingangsbildes zurückzuführen. Das
+Upsampling erfolgt dabei nicht linear, sondern verwendet die Pooling-Indizes des zugehörigen Encoding-Schrittes,
+um die Aktivierungen an der richtigen Position des Bildes wiederherzustellen.
+(GRAFIK?) Die Semantische Segmentierung erfolgt dabei am Ende des Decoding Netzwerkes. \cite{78}
 
 \subsection{Region-based Convolutional Neural Networks (R-CNNs)}
 Region-based Convolutional Neural Networks (R-CNNs) sind eine Weiterentwicklung
@@ -56,37 +69,7 @@ eine höhere Genauigkeit als herkömmliche CNNs bei der Erkennung von Objekten i
 Bildern und werden daher häufig in der Robotik und im autonomen Fahren
 eingesetzt. \cite{8237584}
 
-\subsection{Encoder-Decoder-Architekturen:}
-Encoder-Decoder-Architekturen sind eine spezielle Art von neuronalen Netzen,
-die zur semantischen Segmentierung von Bildern eingesetzt werden. Der Name
-leitet sich von der Architektur ab, die aus zwei Hauptkomponenten besteht: dem
-Encoder und dem Decoder. Der Encoder besteht aus mehreren Faltungsschichten,
-die das Eingabebild schrittweise in eine kompakte, abstrakte Repräsentation
-komprimieren, die die Merkmale des Bildes stark reduziert enthält. Der Decoder
-besteht aus mehreren Deconvolution-Schichten, die diese kompakte Repräsentation
-schrittweise wieder in eine vollständige Bildgröße erweitern und dabei die
-semantische Information des Bildes beibehalten. Bei den Decoding-Schritten
-werden dabei die Informationen der zugehörigen Encoding Schritte verwendet, um
-die Segmentierungsinformationen strukturell einzuordnen (GRAFIK?)
-Encoder-Decoder-Architekturen sind sehr effektiv bei der Segmentierung von
-Bildern und haben in den letzten Jahren aufgrund ihrer hohen Genauigkeit und
-Effizienz an Bedeutung gewonnen.
-\section{Datenannotation und Ground Truth-Erstellung}
 
-Datenannotation und Ground Truth-Erstellung sind wichtige Schritte bei der
-semantischen Segmentierung von 3D-Daten, da sie die Trainingsdaten für
-maschinelles Lernen bereitstellen und Modelle für die Segmentierung von
-3D-Daten trainieren und evaluieren. Bei der Datenannotation werden semantische
-Labels oder Klasseninformationen manuell oder automatisch zu den 3D-Daten
-hinzugefügt, um sie bestimmten Klassen oder Kategorien zuzuordnen. Die Qualität
-und Genauigkeit der Datenannotation sind entscheidend für die
-Leistungsfähigkeit von semantischen Segmentierungsalgorithmen. Die Ground
-Truth-Erstellung beinhaltet die Erstellung von referenzbasierten
-Segmentierungsergebnissen, die als Grundlage für das Training und die
-Evaluierung von semantischen Segmentierungsalgorithmen dienen. Die Ground Truth
-kann manuell oder automatisch erstellt werden, um die Zuverlässigkeit und
-Vergleichbarkeit von Segmentierungsergebnissen zu gewährleisten und die
-Qualität von trainierten Modellen zu überprüfen.
 
 \section{Evaluierung von Verfahren zur semantischen Segmentierung}
 Die Evaluierung von Verfahren zur semantischen Segmentierung erfolgt in der
@@ -101,3 +84,4 @@ als auch Ground-Truth-Masken enthält. Anhand dieser Daten wird das Verfahren
 trainiert und anschließend auf dem Testdatensatz ausgewertet. Die Bewertung der
 Ergebnisse ermöglicht die Beurteilung der Leistung des Verfahrens und die
 Vergleichbarkeit mit anderen Ansätzen.
+\
