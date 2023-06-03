@@ -42,27 +42,31 @@ verbessern. In diesem Kapitel werden verschiedene Vorverarbeitungsschritte wie
 Filterung, Normalenberechnung und Downsampling betrachtet, die oft in der
 Praxis angewendet werden.
 
-Filterung von 3D-Daten: Die Filterung von 3D-Daten beinhaltet das Entfernen von
-unerwünschtem Rauschen oder Ausreißern, um die Qualität der Daten zu
-verbessern. Dies kann durch verschiedene Filtertechniken erfolgen, wie zum
-Beispiel Medianfilter, Gaußscher Filter \cite{9191237} oder region growing und
-Bilateralfilter \cite{6460813}. Diese Filter können angewendet werden, um
-Rauschen oder Ausreißer in den 3D-Punktwolken oder Voxel-Daten zu reduzieren
-und somit die Qualität der Daten für die semantische Segmentierung zu
-verbessern.
+Zu Beginn wird häufig eine Filterung des Datensatzes durchgeführt. Dadurch wird
+unerwünschtes Rauschen oder Ausreißer im Datensatz unterdrückt und dessen
+Qualität verbessert. Dies kann durch verschiedene Filtertechniken erfolgen, wie
+zum Beispiel durch Medianfilter, Gaußsche Filter \cite{9191237} oder region
+growing und Bilateralfilter \cite{6460813}. Diese Filter können angewendet
+werden, um die Qualität des Datensatzes und somit auch das Ergebnis der
+Semantischen Segmentierung zu verbessern.
 
-Normalenberechnung: Die Berechnung von Normalen ist ein wichtiger Schritt, um
-die geometrische Information der 3D-Daten zu erfassen. Normalen sind Vektoren,
-die senkrecht zur Oberfläche von Objekten in der Umgebung stehen und die
-Orientierung der Oberfläche angeben. Die Normalenberechnung kann auf Basis von
-Punktwolken durchgeführt werden und ermöglicht es, die Richtung und
-Orientierung der Objektoberflächen zu erfassen, was für die semantische
-Segmentierung von Objekten von Bedeutung ist.
+Normalenberechnung: Die Berechnung von Normalen ist ein optionaler Schritt, um
+die geometrische Information der 3D-Daten zu erfassen. Dabei wird für jeden
+Punkt oder Voxel des Datensatzes ein Normalenvektor bestimmt. Normalen sind
+Vektoren, die senkrecht zur Oberfläche von Objekten in der Umgebung stehen und
+gibt so Aufschluss über die Orientierung der Oberflächen der Szene.
+SCHÄTZVERAHReN
 
-Downsampling: Das Downsampling von 3D-Daten beinhaltet die Reduzierung der
-Datenmenge, um die Verarbeitungsgeschwindigkeit und den Speicherbedarf zu
-reduzieren. Dies kann durch verschiedene Techniken erfolgen. Häufig erfolgt
-dies in Form von Voxel-Grid-Downsampling. Dabei wird der Raum, in der sich die
+Downsampling: Das Downsampling von 3D-Daten beschreibt die Reduzierung der
+Datenpunkte eines Datensatzes, um die Verarbeitungsgeschwindigkeit und den
+Speicherbedarf zu reduzieren. Dies kann durch verschiedene Techniken erfolgen.
+Eine sehr schnelle und recheneffiziente Methode ist hierbei das
+Random-Downsampling. Dabei wird eine absolute oder relative Punktanzahl eines
+Datensatzes aus diesem entfernt. Die entfernten Punkte werden dabei zufällig
+ausgewählt. Nachteil ist hierbei, dass sich ursprünglich ungleichmäßig
+abgetastete Bereich des Datensatzes noch vergrößern können, und so Lücken in
+den Punktwolken entstehen können. Deshalb wird hierfür häufig auf das
+Voxel-Grid-Downsampling zurückgegriffen. Dabei wird der Raum, in der sich die
 Punktwolke befindet, in gleichmäßige Voxel unterteilt, wobei für jedes Voxel
 der Schwerpunkt der darin enthaltenen Punkte berechnet wird. Danach wird eine
 bestimmte Anzahl an Punkten, häufig durch ihre nähe zum Schwerpunkt, ausgewählt
