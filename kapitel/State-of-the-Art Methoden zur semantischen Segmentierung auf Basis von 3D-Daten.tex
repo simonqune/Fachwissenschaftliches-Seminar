@@ -1,53 +1,113 @@
-\chapter{State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten}
-\section{Überblick über aktuelle Forschung und Entwicklungen}
-\section{Bekannte Segmentierungslösungen und deren Funktionsweisen}
+\chapter{State-of-the-Art Verfahren zur semantischen Segmentierung von 3D-Daten}
 \subsection{PointNet}
-PointNet ist eine auf Punktwolken basierende Architektur für die semantische
-Segmentierung von 3D-Daten. Im Gegensatz zu anderen Segmentierungsmethoden, die
-auf Voxel-basierten Darstellungen oder Faltung von 3D-Daten basieren, behandelt
-PointNet jede Punktwolke als eine Menge von Punkten und verwendet eine
-Permutationsinvarianz, um diese Punkte zu analysieren. PointNet besteht aus
-einer einfachen Architektur, die eine eingebettete Vorverarbeitung und eine
-aufmerksame Pooling-Schicht umfasst. Es hat eine hohe Effizienz und ist sehr
-genau bei der Segmentierung von Punktwolken.
+PointNet++ ist eine fortschrittliche Methode zur Verarbeitung von Punktwolken
+in der 3D-Bildverarbeitung, die speziell für die Aufgaben der Klassifikation,
+Segmentierung und Erkennung von Objekten entwickelt wurde. Es basiert auf der
+PointNet-Architektur und erweitert sie durch die Integration einer
+hierarchischen Struktur, um lokale und globale Kontextinformationen in
+Punktwolken zu erfassen.
 
-\subsection{Voxelnet}
-VoxelNet ist eine Methode für die 3D-Objekterkennung und -Segmentierung, die
-eine Voxel-basierte Darstellung verwendet. Es wandelt 3D-Punktwolken in einen
-dreidimensionalen Voxel-Raum um und verwendet dann eine 3D-Faltungsarchitektur,
-um Features zu extrahieren. Das extrahierte Feature-Set wird dann für die
-Vorhersage von 3D-Objektboxen verwendet. VoxelNet hat eine höhere Genauigkeit
-als andere auf Punktwolken basierende Architekturen wie PointNet, benötigt
-jedoch auch mehr Rechenressourcen.
+Die Funktionsweise von PointNet++ besteht aus mehreren aufeinanderfolgenden
+Schritten. Zunächst wird die ursprüngliche Punktwolke in eine hierarchische
+Struktur unterteilt. Dies wird erreicht, indem die Punktwolke in immer kleinere
+Unterteilungen aufgeteilt wird, wobei auf jeder Hierarchieebene ein separater
+PointNet-Block angewendet wird.
 
-\section{DeepLab / Segnet}
+Auf jeder Hierarchieebene führt der PointNet-Block zwei grundlegende
+Operationen durch: Das Pooling und die Verarbeitung von Punktwolken. Das
+Pooling dient dazu, die relevanten Merkmale aus den Punkten auf jeder
+Hierarchieebene zu extrahieren. Dabei werden aggregierte Merkmale auf einer
+höheren Ebene erzeugt, um den globalen Kontext der Punktwolke zu erfassen.
 
+Die Verarbeitung von Punktwolken auf jeder Hierarchieebene beinhaltet die
+Anwendung von PointNet auf die Punkte innerhalb der Teilbereiche der
+Punktwolke. Dies ermöglicht die Extraktion von lokalen Merkmalen, die
+spezifisch für bestimmte Regionen oder Strukturen in der Punktwolke sind.
 
-\section{Herausforderungen und Limitationen}
-Die semantische Segmentierung stellt verschiedene Herausforderungen dar,
-insbesondere im Hinblick auf die Komplexität der Umgebung und die Vielfalt der
-Objekte und Strukturen. Eine Herausforderung besteht darin, dass Objekte und
-Strukturen oft unterschiedliche Skalierungen, Formen und Orientierungen
-aufweisen, was eine präzise Klassifizierung erschwert.
+Die hierarchische Struktur von PointNet++ ermöglicht es, sowohl lokale als auch
+globale Kontextinformationen zu erfassen und zu integrieren. Durch die
+Verwendung mehrerer PointNet-Blöcke auf verschiedenen Hierarchieebenen können
+feinere Details auf lokaler Ebene berücksichtigt werden, während gleichzeitig
+der globale Kontext der Punktwolke erhalten bleibt.
 
-Eine weitere Herausforderung besteht darin, dass die semantische Segmentierung
-oft in Echtzeit erfolgen muss, um eine zuverlässige Navigation von autonomen
-Fahrzeugen und Robotern zu ermöglichen. Dies erfordert eine hohe Rechenleistung
-und eine effiziente Implementierung der Verfahren.
+Die Ausgabe von PointNet++ ist eine repräsentative Merkmalsdarstellung, die die
+Informationen über die semantische Struktur der Punktwolke enthält. Diese
+Merkmale können dann für verschiedene Aufgaben wie Klassifikation,
+Segmentierung oder Erkennung von Objekten verwendet werden.
 
+Insgesamt ermöglicht die Funktionsweise von PointNet++ die effektive
+Verarbeitung von Punktwolken und die Erfassung von lokalen und globalen
+Kontextinformationen. Es hat sich als leistungsstarkes Verfahren erwiesen, um
+komplexe Strukturen und Muster in 3D-Daten zu erfassen und die Genauigkeit und
+Zuverlässigkeit bei der Klassifikation und Segmentierung von Punktwolken zu
+verbessern.
+\subsection{3D U-Net}
 
-\subsection{Conditional Random Fields (CRFs)}
-Conditional Random Fields (CRFs) sind probabilistische Modelle, die zur
-Modellierung von sequentiellen Daten eingesetzt werden. Im Gegensatz zu Markov
-Random Fields (MRFs) ermöglichen CRFs eine Modellierung von Abhängigkeiten
-zwischen den Ausgaben der einzelnen Knoten, um somit ein besseres Ergebnis bei
-der Inferenz zu erzielen. In einem CRF-Modell wird jeder Knoten durch eine
-Funktion repräsentiert, die seine Zustände modelliert. Die Funktionen können
-sowohl globale Merkmale der Daten als auch lokale Merkmale des Knoten und
-seiner Nachbarn berücksichtigen. CRFs zielen darauf ab, die bedingte
-Wahrscheinlichkeit einer Ausgabe für eine gegebene Eingabe zu modellieren,
-indem sie die Abhängigkeiten zwischen den Zuständen der Knoten im Modell
-berücksichtigen. In der Praxis werden CRFs oft in Kombination mit CNNs
-eingesetzt, um semantische Segmentierungsaufgaben auf Bildern durchzuführen.
-Dabei kann das CNN zur Extraktion von Merkmalen und das CRF zur Modellierung
-von Abhängigkeiten zwischen den Ausgaben der Knoten eingesetzt werden.
+3D U-Net ist ein leistungsstarkes Verfahren für die semantische Segmentierung von 3D-Daten. Es basiert auf der beliebten 2D U-Net-Architektur, die für die Bildsegmentierung entwickelt wurde, und wurde speziell für die Verarbeitung von Volumendaten angepasst.
+
+Die Funktionsweise von 3D U-Net kann in zwei Hauptphasen unterteilt werden: den
+Encoder-Teil und den Decoder-Teil.
+
+Im Encoder-Teil werden die Eingabedaten schrittweise abwärts durch das Netzwerk
+geleitet, um Merkmale auf verschiedenen Abstraktionsebenen zu extrahieren. Dies
+erfolgt durch eine Kombination aus 3D-Convolutional-Layern und
+Pooling-Operationen, die die räumliche Auflösung der Daten reduzieren. Dabei
+werden lokalisierte Merkmale erfasst, um wichtige Informationen über die
+Struktur und den Kontext der 3D-Daten zu gewinnen.
+
+Der Decoder-Teil arbeitet in umgekehrter Richtung und verwendet
+Upsampling-Operationen, um die räumliche Auflösung schrittweise zu erhöhen.
+Dabei werden die Merkmale aus dem Encoder-Teil mit den entsprechenden Merkmalen
+auf höheren Auflösungsebenen kombiniert, um detailliertere und präzisere
+Segmentierungsergebnisse zu erzielen. Dieser Prozess wird durch sogenannte
+"Skip Connections" ermöglicht, die es dem Decoder ermöglichen, sowohl lokale
+als auch globale Informationen zu nutzen.
+
+Während des Trainings wird das 3D U-Net-Modell mit gelabelten Trainingsdaten
+trainiert, um die Gewichtungen der Netzwerkparameter zu optimieren. Dies
+geschieht durch den Vergleich der vorhergesagten Segmentierungsergebnisse mit
+den tatsächlichen Labels. Durch den Einsatz von Verlustfunktionen wie der
+Kreuzentropie wird das Modell kontinuierlich verbessert und kann genaue
+semantische Segmentierungen von neuen, nicht-gelabelten Daten vorhersagen.
+
+Die Funktionsweise von 3D U-Net hat sich in verschiedenen Anwendungen bewährt,
+darunter medizinische Bildgebung, Robotik, geografische Kartierung und mehr. Es
+ermöglicht eine präzise Segmentierung von 3D-Daten und eröffnet Möglichkeiten
+zur Analyse und Interpretation komplexer Strukturen und Merkmale in
+volumetrischen Daten.
+
+\subsection{OctNet}
+
+OctNet ist ein leistungsstarkes Verfahren zur Verarbeitung und Segmentierung
+von 3D-Daten, das auf der Verwendung von Octrees basiert. Octrees sind eine
+hierarchische Datenstruktur, die es ermöglicht, den Raum in kleine Voxelblöcke
+zu unterteilen und gleichzeitig eine adaptive Auflösung bereitzustellen.
+
+Die Funktionsweise von OctNet beruht auf der effizienten Organisation und
+Verarbeitung von 3D-Daten. Zunächst wird die 3D-Datenrepräsentation in ein
+Octree umgewandelt, wobei jeder innere Knoten des Baums acht Unterknoten hat,
+die den Raum in kleinere Voxelblöcke unterteilen. Dadurch können Bereiche mit
+höherer Detailgenauigkeit mehr Unterknoten haben, während weniger detaillierte
+Bereiche weniger Unterknoten aufweisen.
+
+Das OctNet-Modell besteht aus einer Kombination von Convolutional Neural
+Networks (CNNs) und speziellen Operationen, die auf die Struktur des Octrees
+abgestimmt sind. Durch die Verwendung von Convolutional-Operationen auf den
+Octree-Daten werden Merkmale auf verschiedenen Auflösungsebenen erfasst und
+repräsentiert. Dies ermöglicht eine effiziente und adaptive Verarbeitung von
+3D-Daten, da die Operationen nur auf den relevanten Voxelblöcken des Octrees
+durchgeführt werden.
+
+Während des Trainings wird das OctNet-Modell mit gelabelten Trainingsdaten
+trainiert, um die Gewichtungen der Netzwerkparameter zu optimieren. Dabei wird
+die Beziehung zwischen den Eingabedaten und den entsprechenden
+Segmentierungskarten erlernt. Durch die Anpassung der Gewichtungen können
+genaue Segmentierungsergebnisse erzielt werden, die die semantischen Strukturen
+in den 3D-Daten korrekt erfassen.
+
+Die Funktionsweise von OctNet ermöglicht eine effiziente Verarbeitung und
+Segmentierung von 3D-Daten mit variabler Auflösung. Es hat sich in
+verschiedenen Anwendungen wie der Segmentierung von Punktwolken, der Analyse
+von 3D-Modellen und der medizinischen Bildgebung als wirksam erwiesen. Durch
+die Verwendung von Octrees bietet OctNet eine leistungsstarke Methode zur
+Erfassung und Analyse von komplexen Strukturen in 3D-Daten.

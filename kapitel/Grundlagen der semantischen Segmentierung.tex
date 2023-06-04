@@ -32,15 +32,18 @@ in vorbestimmte Kategorien. \cite{OShea.11262015}.
 Fully Convolutional Networks (FCNs) sind eine Weiterentwicklung von
 Convolutional Neural Networks (CNNs), die speziell für die Aufgabe der
 semantischen Segmentierung von Bildern entwickelt wurden. Im Gegensatz zu
-herkömmlichen CNNs, die für die Klassifizierung von Bildern ausgelegt sind,
-können FCNs die Pixel jedes Eingabebildes direkt klassifizieren und damit die
-räumliche Information beibehalten. FCNs verwenden dabei ausschließlich
-Convolutional-Layers und Pooling-Layers, nicht aber Fully-Connected-Layers.
-Dies ermöglicht es eine Merkmalskarte des Eingabebildes zu erzeugen, auf der
-jedes Pixel einer bestimmten Klasse zugeordnet wird. Durch die Verwendung von
-FCNs können somit komplizierte Zusammenhänge innerhalb von Bildern auf der
-Ebene der Pixel identifiziert werden, was für Anwendungen wie die autonome
-Navigation oder Objekterkennung von großer Bedeutung ist. \cite{7803544}
+herkömmlichen CNNs, die für die Klassifizierung und Erkennung von Objekten in
+Bildern ausgelegt sind, können FCNs jedes Pixel eines Eingabebildes
+klassifizieren und somit die räumliche Information beibehalten. FCNs verwenden
+dabei ausschließlich Convolutional-Layers und Pooling-Layers, nicht aber
+Fully-Connected-Layers. Dies ermöglicht es eine Merkmalskarte des Eingabebildes
+zu erzeugen, auf der jedes Pixel einer bestimmten Klasse zugeordnet wird. Durch
+die Verwendung von FCNs können somit komplizierte Zusammenhänge innerhalb von
+Bildern auf der Ebene der Pixel identifiziert werden, was für Anwendungen wie
+die autonome Navigation oder Objekterkennung von großer Bedeutung ist.
+\cite{7803544} Bekannte und erfolgreiche Verfahren wie das U-Net, verwenden
+dabei eine Encode-Decoder-Architektur, um das Klassifizierungsergebnis in der
+Dimensionalität des Eingangsbildes darzustellen.
 
 \subsection{Encoder-Decoder-Architekturen}
 Encoder-Decoder-Architekturen stellen eine spezielle Architektur von neuronalen
@@ -49,13 +52,42 @@ Hauptkomponenten, einem Encoder und einem Decoder, besteht. Der Encoder
 verwendet typischerweise CNNs, um das Eingabebild schrittweise in eine
 kompakte, abstrakte Repräsentation zu komprimieren, die die Merkmale des Bildes
 stark reduziert enthält. Dabei werden die Positionen der maximalen
-Aktivierungen der Ebene gespeichert. Die gespeicherten Daten werden als
-Pooling-Indizes bezeichnet. Der Decoder verwendet häufig
-Deconvolutional-Neuronale-Netzwerke, um das Ergebnis des Encoder-Netzwerkes
-wieder in die Dimensionalitäten des Eingangsbildes zurückzuführen. Das
-Upsampling erfolgt dabei nicht linear, sondern verwendet die Pooling-Indizes des zugehörigen Encoding-Schrittes,
-um die Aktivierungen an der richtigen Position des Bildes wiederherzustellen.
-(GRAFIK?) Die Semantische Segmentierung erfolgt dabei am Ende des Decoding Netzwerkes. \cite{7803544}
+Aktivierungen der Ebene während des Max-Pooling Prozesses gespeichert. Die
+gespeicherten Daten werden als Pooling-Indizes bezeichnet. Der Decoder
+verwendet häufig Deconvolutional-Neuronale-Netzwerke, um das Ergebnis des
+Encoder-Netzwerkes wieder in die Dimensionalitäten des Eingangsbildes
+zurückzuführen. Das Upsampling erfolgt dabei nicht linear, sondern verwendet
+die Pooling-Indizes des zugehörigen Encoding-Schrittes, um die Aktivierungen an
+der richtigen Position des Bildes wiederherzustellen. \graphicspath{bilder/}
+\graphicspath{bilder/} %Pfad zu den Bildern. mehrere pfade mit {{}{}{}} %Pfad zu den Bildern. mehrere pfade mit {{}{}{}} 
+
+\includegraphics[width=0.5\textwidth]{thi_FEI_wb_RGB}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{FCN_eigene_grafik}
+    \caption{Beschreibung des Bildes}
+    \label{fig:bildlabel}
+\end{figure}
+Die Semantische
+Segmentierung erfolgt dabei am Ende des Decoding Netzwerkes. \cite{7803544}
+SOFTMAX
+
+\subsection{Conditional Random Fields (CRFs)}
+Conditional Random Fields (CRFs) sind probabilistische Modelle, die zur
+Modellierung von sequentiellen Daten eingesetzt werden. Im Gegensatz zu Markov
+Random Fields (MRFs) ermöglichen CRFs eine Modellierung von Abhängigkeiten
+zwischen den Ausgaben der einzelnen Knoten, um somit ein besseres Ergebnis bei
+der Inferenz zu erzielen. In einem CRF-Modell wird jeder Knoten durch eine
+Funktion repräsentiert, die seine Zustände modelliert. Die Funktionen können
+sowohl globale Merkmale der Daten als auch lokale Merkmale des Knoten und
+seiner Nachbarn berücksichtigen. CRFs zielen darauf ab, die bedingte
+Wahrscheinlichkeit einer Ausgabe für eine gegebene Eingabe zu modellieren,
+indem sie die Abhängigkeiten zwischen den Zuständen der Knoten im Modell
+berücksichtigen. In der Praxis werden CRFs oft in Kombination mit CNNs
+eingesetzt, um semantische Segmentierungsaufgaben auf Bildern durchzuführen.
+Dabei kann das CNN zur Extraktion von Merkmalen und das CRF zur Modellierung
+von Abhängigkeiten zwischen den Ausgaben der Knoten eingesetzt werden.
 
 \subsection{Region-based Convolutional Neural Networks (R-CNNs)}
 Region-based Convolutional Neural Networks (R-CNNs) sind eine Weiterentwicklung
@@ -63,13 +95,13 @@ von Convolutional Neural Networks, die speziell für die Aufgabe der
 Objekterkennung in Bildern entwickelt wurden. Im Gegensatz zu herkömmlichen
 CNNs, die eine feste Größe der Eingabebilder erfordern, verwenden R-CNNs eine
 Region Proposal Technik, um Regions of Interest (ROI) innerhalb des Bildes zu
-detektieren. Anschließend wird auf die ausgewählten Bereiche ein FCN
-angewendet, um diesen auf Pixelebene zu klassifizieren. R-CNNs erzielen dadurch
-eine höhere Genauigkeit als herkömmliche CNNs bei der Erkennung von Objekten in
+detektieren. Anschließend wird nur auf die ausgewählten Bereiche ein FCN
+angewendet, um diese auf Pixelebene zu klassifizieren. R-CNNs erzielen eine
+höhere Genauigkeit als herkömmliche CNNs bei der Erkennung von Objekten in
 Bildern und werden daher häufig in der Robotik und im autonomen Fahren
-eingesetzt. \cite{8237584}
-
-
+eingesetzt. Dies liegt daran, dass sie weniger Rechenleistung benötigen und
+gleichzeitig Störeinflüsse, die außerhalb der ROI liegen, keinen Einfluss auf
+die Klassifizierung nehmen können. \cite{8237584}
 
 \section{Evaluierung von Verfahren zur semantischen Segmentierung}
 Die Evaluierung von Verfahren zur semantischen Segmentierung erfolgt in der
@@ -83,5 +115,4 @@ Evaluierung wird in der Regel ein Testdatensatz verwendet, der sowohl Bilder
 als auch Ground-Truth-Masken enthält. Anhand dieser Daten wird das Verfahren
 trainiert und anschließend auf dem Testdatensatz ausgewertet. Die Bewertung der
 Ergebnisse ermöglicht die Beurteilung der Leistung des Verfahrens und die
-Vergleichbarkeit mit anderen Ansätzen.
-\
+Vergleichbarkeit mit anderen Ansätzen. \

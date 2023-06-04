@@ -11,6 +11,8 @@
 \usepackage[utf8]{inputenc}	%Dateicodierung
 \usepackage[ngerman]{babel} %Sprachpaket(Silbentrennung,überschriften, Abbildungen)
 \usepackage{csquotes}
+\usepackage{setspace}
+\setstretch{1.5}
 %Literatur anpassen
 \usepackage[ natbib=true, style=numeric,sorting=none]{biblatex}
 \addbibresource{ref/ref_liste.bib}
@@ -29,7 +31,7 @@
 
 %wichtige Pakete
 \usepackage{graphicx}
-\graphicspath{{bilder/}{}}  %Pfad zu den Bildern. mehrere pfade mit {{}{}{}} 
+\graphicspath{bilder/}  %Pfad zu den Bildern. mehrere pfade mit {{}{}{}} 
 
 \title{Semantische Segmentierung der Umgebung auf Basis von 3D-Daten}
 
@@ -40,15 +42,13 @@
 \publishers{
 	\begin{tabular}{rl} %jedes C für eine spalte c für centrered
 
-		Erstprüfer: & Prof. Dr. Christian Pfitzner   \\
-		Betreuer:   & Prof. Dr. Christian Pfitzner \\ 
-		Ausgabedatum: & 23.03.2023 \\
-		Abgabedatum: & 31.08.2023  \\
+		Erstprüfer: & Prof. Dr. Christian Pfitzner \\ Betreuer: & Prof. Dr. Christian
+		Pfitzner                                   \\ Ausgabedatum: & 23.03.2023 \\ Abgabedatum: & 31.08.2023 \\
 
 	\end{tabular}
 }
 
-\titlehead{	
+\titlehead{
 	\includegraphics[width=0.5\textwidth]{thi_FEI_wb_RGB}
 	\hfil
 }
@@ -65,7 +65,7 @@
 \tableofcontents
 \input{kapitel/Einleitung}
 \input{kapitel/Sensoren_zur_Erfassung_von_3D_Daten}
-\input{kapitel/datengrundlage_und_Vorverarbeitung} 
+\input{kapitel/datengrundlage_und_Vorverarbeitung}
 \input{kapitel/Grundlagen der semantischen Segmentierung}
 \input{kapitel/Anwendungszenarien der semantischen Segmentierung}
 \input{kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten}
