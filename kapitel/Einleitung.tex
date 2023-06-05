@@ -2,41 +2,39 @@
 
 \section{Hintergrund und Motivation}
 
-In den letzten Jahren hat die Forschung im Bereich der autonomen Fahrzeuge und
-der Robotik enorme Fortschritte gemacht. Ein wichtiger Faktor für die
-Entwicklung dieser Technologien ist die Fähigkeit, die Umgebung ausreichend
-genau zu erkennen und zu verstehen. In diesem Zusammenhang hat die semantische
+In den letzten Jahren wurden im Bereich der Computer Vision enorme Fortschritte
+erzielt, was insbesondere im Bereich autonomer mobiler Plattformen von großer
+Bedeutung ist. Hierbei spielt die präzise und schnelle Erfassung und
+Interpretation der Umgebung eine zentrale Rolle, um eine zuverlässige
+Navigation zu ermöglichen. In diesem Zusammenhang hat die semantische
 Segmentierung der Umgebung auf Basis von 3D-Daten eine immer größere Bedeutung
-erlangt. Die semantische Segmentierung ist ein Verfahren zur automatischen
-Klassifizierung von Objekten und Strukturen in der Umgebung. Dabei werden jedem
-Pixel oder jedem Voxel in einem 3D-Modell eine bestimmte semantische Bedeutung
-zugeordnet, z.B. Straße, Gebäude, Bäume oder Fahrzeuge. Eine präzise und
-schnelle semantische Segmentierung ist eine wesentliche Voraussetzung für eine
-zuverlässige Navigation von mobilen Plattformen, wie autonomen Fahrzeugen oder
-Robotersystemen \cite{9102769}. In dieser Arbeit wird die semantische
-Segmentierung der Umgebung auf Basis von 3D-Daten untersucht. Dabei sollen
-verschiedene Methoden und Ansätze für die semantischen Segmentierung, sowie
-bestehende Probleme dargestellt und bewertet werden.
+erlangt. Die semantische Segmentierung beschreibt ein Verfahren, welches eine
+automatische Klassifizierung von Objekten und Strukturen in der Umgebung auf
+Pixelebene bewirkt. Dabei wird jedem Pixel oder Voxel in einem 3D-Datensatz
+eine bestimmte semantische Bedeutung zugeordnet. In dieser Arbeit werden die
+Grundlagen der semantische Segmentierung der Umgebung auf Basis von 3D-Daten
+beleuchtet. Dabei sollen verschiedene Methoden und Ansätze für die semantischen
+Segmentierung, sowie bestehende Probleme, Potentiale und Anwendungsbereiche
+dargestellt und bewertet werden.\cite{9102769}
 
-\section{Problemstellung und aktueller Stand}
+\section{Problemstellungen und aktueller Stand der Technik}
 
-Trotz der Fortschritte im Bereich der Computer Vision gibt es noch immer einige
-Herausforderungen zu überwinden. Eines der Probleme besteht in der Komplexität
-der Umgebung. Ein 3D-Umfeld kann durch eine Vielzahl von verschiedenen Objekten
-und Strukturen, die miteinander interagieren und sich gegenseitig beeinflussen,
-besonders herausfordernd sein. Es ist schwierig, all diese Details genau zu
+Obwohl es im Bereich der Computer Vision beträchtliche Fortschritte gegeben
+hat, bestehen nach wie vor herausfordernde Aspekte. Eine zentrale
+Herausforderung besteht in der Komplexität der Umgebung. In einem 3D-Umfeld
+interagieren zahlreiche verschiedene Objekte und Strukturen miteinander und
+beeinflussen sich gegenseitig. Es ist schwierig, all diese Details genau zu
 erfassen und zu segmentieren, besonders wenn die Daten unvollständig oder
-fehlerhaft sind. Ein weiteres Problem ist die Notwendigkeit einer hohen
-Verarbeitungsgeschwindigkeit. Die Verarbeitung von großen Datenmengen erfordert
-eine erhebliche Rechenleistung, um eine schnelle und präzise Segmentierung der
-Umgebung zu ermöglichen. Dies kann für viele Anwendungen, insbesondere für sich
-schnell bewegende mobile Geräte, eine Herausforderung darstellen \cite{9420573}.
-
-Hinzu kommt die begrenzte Genauigkeit der Segmentierungsverfahren. Es gibt noch
-immer Schwierigkeiten bei der Unterscheidung zwischen ähnlichen Objekten,
+fehlerhaft sind. Ein weiteres Problem ist die Notwendigkeit einer Segmentierung
+in Echtzeit in Bereichen der mobilen Plattformen. Einige Anwendungsbereiche,
+wie autonome Fahrzeuge, stellen dabei besondere Anforderungen, wie eine präzise
+Echtzeit-Verarbeitung großer Datenmengen. Aktuelle Verfahren weißen noch immer
+eine begrenzte Genauigkeit bei der Segmentierung auf. Es gibt noch immer
+Schwierigkeiten bei der Unterscheidung zwischen ähnlichen Objekten,
 insbesondere wenn sie sich in Form oder Größe ähneln. Es ist schwierig, alle
 subtilen Unterschiede zu erfassen, die für eine präzise Segmentierung notwendig
-sind. Eine Vielzahl aktueller Entwicklungen beschäftigt sich mit der
-Verbesserung der Algorithmen. Dabei gelten besonders Deep-learning Methoden und
-Convolutional Neural Networks (CNNs) als vielversprechende Ansätze, um die Komplexität der Umgebung
-besser zu erfassen \cite{9423307,8100085}.
+sind \cite{9420573}. Ein großteil der Forschung im Bereich der Semantischen
+Segmentierung zielt auf Verbesserungen in diesen Bereichen ab. Dabei gelten
+besonders Deep-learning Methoden und Convolutional Neural Networks (CNNs) als
+vielversprechende Ansätze, um die Komplexität der Umgebung besser zu erfassen
+und zu bewältigen \cite{9423307,8100085}.
