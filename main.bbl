@@ -278,38 +278,6 @@
       \verb 10.1109/ICIP.2014.7025195
       \endverb
     \endentry
-    \entry{7992709}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=23ad73cc2bbbe53844aa0fdca8f2a08f}{%
-           family={Anwar},
-           familyi={A\bibinitperiod},
-           given={Inzamam},
-           giveni={I\bibinitperiod}}}%
-        {{hash=f4a7044e651356d45438dc28920c977e}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Sukhan},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{e03cb3b58c78f3f205b7c6c38321134c}
-      \strng{fullhash}{e03cb3b58c78f3f205b7c6c38321134c}
-      \strng{bibnamehash}{e03cb3b58c78f3f205b7c6c38321134c}
-      \strng{authorbibnamehash}{e03cb3b58c78f3f205b7c6c38321134c}
-      \strng{authornamehash}{e03cb3b58c78f3f205b7c6c38321134c}
-      \strng{authorfullhash}{e03cb3b58c78f3f205b7c6c38321134c}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2017 14th International Conference on Ubiquitous Robots and Ambient Intelligence (URAI)}
-      \field{title}{High performance stand-alone structured light 3D camera for smart manipulators}
-      \field{year}{2017}
-      \field{pages}{192\bibrangedash 195}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1109/URAI.2017.7992709
-      \endverb
-    \endentry
     \entry{9262651}{inproceedings}{}
       \name{author}{5}{}{%
         {{hash=a2265b0f0d92fb075904e3de0d5d3d41}{%
@@ -348,8 +316,8 @@
       \strng{authorbibnamehash}{3c30c3750d0eebda8f9bf07de9fb9e59}
       \strng{authornamehash}{3c30c3750d0eebda8f9bf07de9fb9e59}
       \strng{authorfullhash}{1955031844f546d1a2558a7906a74807}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2020 22nd Symposium on Virtual and Augmented Reality (SVR)}
@@ -360,6 +328,53 @@
       \verb{doi}
       \verb 10.1109/SVR51698.2020.00046
       \endverb
+    \endentry
+    \entry{7992709}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=23ad73cc2bbbe53844aa0fdca8f2a08f}{%
+           family={Anwar},
+           familyi={A\bibinitperiod},
+           given={Inzamam},
+           giveni={I\bibinitperiod}}}%
+        {{hash=f4a7044e651356d45438dc28920c977e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Sukhan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{fullhash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{bibnamehash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{authorbibnamehash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{authornamehash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{authorfullhash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 14th International Conference on Ubiquitous Robots and Ambient Intelligence (URAI)}
+      \field{title}{High performance stand-alone structured light 3D camera for smart manipulators}
+      \field{year}{2017}
+      \field{pages}{192\bibrangedash 195}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/URAI.2017.7992709
+      \endverb
+    \endentry
+    \entry{.2020b}{misc}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Format Description for LAS{\_}1{\_}4 -- File format for the interchange of 3-dimensional point cloud data, developed and is maintained as a public specification by the American Society for Photogrammetry and Remote Sensing (ASPRS). Developed primarily for exchange of LIDAR point cloud data, this format supports the exchange of any 3-dimensional x,y,z tuplet data.}
+      \field{title}{LAS (LASer) File Format, Version 1.4}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.loc.gov/preservation/digital/formats/fdd/fdd000418.shtml
+      \endverb
+      \verb{url}
+      \verb https://www.loc.gov/preservation/digital/formats/fdd/fdd000418.shtml
+      \endverb
+      \warn{\item Entry '.2020b' (ref/ref_liste.bib): Invalid format '6/5/2023' of date field 'urldate' - ignoring}
     \endentry
     \entry{8578570}{inproceedings}{}
       \name{author}{2}{}{%
@@ -380,8 +395,8 @@
       \strng{authorbibnamehash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
       \strng{authornamehash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
       \strng{authorfullhash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition}

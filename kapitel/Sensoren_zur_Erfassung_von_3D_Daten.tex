@@ -1,78 +1,78 @@
 \chapter{Sensoren zur Erfassung von 3D-Daten}
 
 \section{LiDAR-Sensoren}
-LiDAR-Sensoren, die auch unter dem Namen Light Detection and Ranging-Sensoren
-bekannt sind, stellen eine weit verbreitete Technologie zur Erfassung von
-3D-Daten dar. Sie basieren auf dem Einsatz von Laserstrahlen, welche
-ausgesendet werden und von Objekten in der Umgebung reflektiert werden. Dabei
-kann zwischen Time of Flight (TOF) LiDAR und phasenbasiertem LiDAR
-unterschieden werden. Während TOF-LiDAR die Distanz über eine Messung der
-Laufzeit der lichtwelle bestimmt, erfolgt die Entfernungsmessung beim
-phasenbasierten LiDAR über die Auswertung der Phasenverschiebung der vom Objekt
-reflektierten Lichtwelle. Hierdurch können LiDAR-Sensoren hochgenaue
-Entfernungen zu den reflektierenden Objekten erfassen aus denen sich
-detaillierte 3D-Punktwolken erzeugen lassen, welche die Geometrie und räumliche
+LiDAR-Sensoren (Light Detection and Ranging) stellen eine weit verbreitete
+Technologie zur Erfassung von 3D-Daten dar. Diese senden einen Laserstrahl aus,
+welcher von Objekten in der Umgebung reflektiert wird. Die Distanz des
+reflektierenden Objektes kann dabei über Time of Flight (TOF) oder über die
+Phase der reflektierten Lichtwelle gemessen werden. Während TOF-LiDAR die
+Distanz zum Objekt über eine Messung der Laufzeit des Laserstrahls bestimmt,
+erfolgt die Entfernungsmessung beim phasenbasierten LiDAR über die Auswertung
+der Phasenverschiebung der vom Objekt reflektierten Lichtwelle. Beide Methoden
+können hochgenaue Entfernungen zu den reflektierenden Objekten erfassen. Sie
+können detaillierte 3D-Punktwolken erzeugen, welche die Geometrie und räumliche
 Verteilung von Objekten in der Umgebung darstellen. Zusätzlich lassen sich
 LiDAR-Sensoren in Scanning-LiDAR und Non-Scanning-LiDAR untergliedern.
 Non-Scanning-LiDAR nutzt dabei einen statischen Laserstrahl, während
-Scanning-LiDAR einen sich bewegenden Laserstrahl nutzt. \cite{8529992}
+Scanning-LiDAR einen sich bewegenden Laserstrahl nutzt und somit einen größeren
+Arbeitsbereich abdecken kann. \cite{8529992}
 
 \section{Tiefenkameras}
-Tiefenkameras basieren auf verschiedene Verfahren, um Entfernungen zu messen.
-Im Bereich der semantische Segmentierung kommen besonders Kamerasysteme, die
-auf Stereo-Vision, Time-of-Flight oder Structured Light basieren zum Einsatz.
+Unter dem Begriff Tiefenkamera lassen sich verschiedene Verfahren aufführen,
+welche unterschiedliche Funktionsweisen besitzen, um Tiefeninformationen einer
+Szene zu bestimmen. Im Bereich der semantische Segmentierung kommen besonders
+Kamerasysteme, die auf Stereo-Vision, Time-of-Flight oder Structured Light
+basieren zum Einsatz.
+
 Kamerasysteme, die auf dem Prinzip der Stereo-Vision basieren, werden als
 Stereo Kameras bezeichnet. Bei diesen werden zwei räumlich getrennte Kameras
 verwendet, die gemeinsam Bilder von derselben Szene aus zwei leicht
 unterschiedlichen Perspektiven aufnehmen. Der dabei entstehende horizontale
-Versatz der beiden Bilder wird als Disparität bezeichnet. Aus diesem lassen
-sich Tiefeninformationen des betrachteten Objektes berechnen \cite{8932817}.
-Bei Time of Flight Kameras wird ein moduliertes Lichtsignal im Infrarotbereich
-ausgesendet und von Objekten in der Umgebung reflektiert. Über die
-Phasenverschiebung der Infrarotwelle lässt sich die Entfernung des Objektes zur
-Kamera berechnen \cite{7025195}. 3D-Kameras auf Basis von Structured Light
-projizieren ein spezielles 2D-Muster auf das zu betrachtende Objekt. Aus der
-Verzerrung dessen, lassen sich Tiefeninformationen berechnen \cite{7992709}.
-Die meisten Tiefenkameras stellen dabei die Tiefeninformationen in einem Bild
-aus Graustufen dar. Zusätzlich gibt es auch RGB-D Kameras, welche zusätzlich zu
-einer Structured Light oder TOF-Kamera über eine RGB-Kamera verfügen. Diese
-haben häufig eine höhere räumliche Auflösung und sind in der Lage zusätzlich
-Farbinformationen aufzunehmen, besitzen jedoch einen deutlich kleineren
-Arbeitsbereich \cite{9262651}.
+Versatz der beiden Bilder wird als Disparität bezeichnet. Aus dieser lassen
+sich Tiefeninformationen des betrachteten Objektes durch Triangulation
+bestimmen \cite{8932817}.
+
+Kameras die auf dem Time of Flight(TOF) Prinzip basieren, senden eine
+modulierte Lichtwelle im Infrarotbereich aus. Diese wird, wie beim
+LiDAR-Sensor, von Objekten in der Umgebung reflektiert und ermöglicht es
+Tiefeninformationen zu berechnen. Dies kann nur über die Laufzeit oder
+zusätzlich über die Phasenverschiebung der Infrarotwelle geschehen
+\cite{7025195}. Diese können zusätzlich mit einer RGB-Kamera ausgestattet sein
+und sind dann unter dem Begriff RGB-D Kameras bekannt. Diese haben häufig eine
+höhere räumliche Auflösung und sind in der Lage zusätzlich Farbinformationen
+aufzunehmen, besitzen jedoch einen deutlich kleineren Arbeitsbereich
+\cite{9262651}. Ein weiteres Verfahren basiert auf Structured Light. Bei diesem
+Verfahren wird ein spezielles 2D-Muster auf das zu betrachtende Objekt
+projiziert. Aus dessen Verzerrung lässt sich auf 3D-Information schließen
+\cite{7992709}.
 
 \section{Passive und aktive Sensoren}
-Grundsätzlich lassen sich Sensoren zur Gewinnnung von 3D-Daten in zwei Klassen
-unterscheiden. Aktive Sensoren wie LIDAR-Sensoren senden selbst Energie in Form
-von Laser- oder Lichtwellen aus, um Informationen über das Objekt zu sammeln.
-Die reflektierten Signale werden von der Sensor-Einheit aufgenommen und zur
-Berechnung von Tiefeninformationen verwendet. Im Gegensatz dazu erfordern
-passive Sensoren wie Stereokameras keine aktive Energiequelle, sondern nutzen
-das natürliche Licht, das von der Umgebung reflektiert wird. Der Vorteil von
-aktiven Sensoren besteht darin, dass sie unabhängig von der Umgebungshelligkeit
-arbeiten und auch bei Dunkelheit eingesetzt werden können. Passive Sensoren
-hingegen können bei schlechten Lichtverhältnissen Schwierigkeiten haben, genaue
-Tiefeninformationen zu liefern. Es ist jedoch anzumerken, dass passive Sensoren
-in der Regel kostengünstiger sind und eine höhere räumliche Auflösung bieten
-können.
+Die genannten Sensoren lassen sich zusätzlich in zwei Klassen unterteilen.
+Aktive Sensoren, wie LIDAR-Sensoren, senden selbst Energie in Form von einer
+Lichtwelle aus, um Informationen über die Umgebung zu sammeln. Im Gegensatz
+dazu arbeiten passive Sensoren, wie Stereokameras, ohne aktiv Energie
+auszusenden, sondern nutzen lediglich das natürliche Licht, das von der
+Umgebung reflektiert wird. Der Vorteil von aktiven Sensoren besteht darin, dass
+sie unabhängig von der Umgebungshelligkeit arbeiten und auch bei Dunkelheit
+eingesetzt werden können. Passive Sensoren hingegen können bei schlechten
+Lichtverhältnissen Schwierigkeiten haben, genaue Tiefeninformationen zu
+liefern. Es ist jedoch anzumerken, dass passive Sensoren in der Regel
+kostengünstiger sind und eine höhere räumliche Auflösung bieten können.
 
 \section{Auswahl von Sensoren für die semantische Segmentierung}
-ie Wahl der geeigneten Sensoren für die semantische Segmentierung hängt von
-verschiedenen Faktoren ab, wie den Anforderungen der Anwendung, den
-Umgebungsbedingungen, dem Budget und den gewünschten Ergebnissen. Aspekte wie
-die benötigte Genauigkeit, räumliche Auflösung, Reichweite, Echtzeitfähigkeit
-und Umgebungsbedingungen sollten bei der Auswahl von Sensoren berücksichtigt
-werden. Zum Beispiel benötigen Anwendungen im Bereich der autonomen Fahrzeuge
-möglicherweise Sensoren mit hoher Reichweite und Genauigkeit, während
-Anwendungen im Innenbereich möglicherweise Sensoren mit höherer räumlicher
-Auflösung und Echtzeitfähigkeit benötigen. Die Umgebungsbedingungen, wie
-schlechte Beleuchtungsbedingungen oder komplexe Geometrien, können ebenfalls
-die Leistung von Sensoren beeinflussen und die Wahl von geeigneten Sensoren
-beeinflussen. Das Budget ist ebenfalls ein wichtiger Faktor bei der Auswahl von
-Sensoren, da verschiedene Sensoren unterschiedliche Kosten haben können.
-Schließlich sollten auch die gewünschten Ergebnisse der semantischen
-Segmentierung berücksichtigt werden, da verschiedene Sensoren besser geeignet
-sein können, um bestimmte Objekte oder Strukturen in der Umgebung zu
-segmentieren. Zum Beispiel können Lidar-Sensoren aufgrund ihrer präzisen
-Tiefeninformationen und Reichweite gut geeignet sein, um Objekte wie Straßen,
-Gebäude oder Bäume zu segmentieren, während Kameras oder Tiefenkameras besser
-für die Segmentierung von Fußgängern oder Fahrzeugen geeignet sein können.
+
+Die Auswahl geeigneter Sensoren für die Semantische Segmentierung ist von deren
+Einsatzbereich abhängig. Dabei sind Faktoren wie die Umgebungsbedingungen,
+Budget und gewünschte Ergebnisse ausschlaggebend. Je nach Szenario sind werden
+unterschiedliche Anforderungen an die Genauigkeit, die räumliche Auflösung, die
+Reichweite, sowie die Echtzeitfähigkeit gestellt. Anwendungen im Bereich der
+autonomen Fahrzeuge benötigen beispielsweise häufig Sensoren mit hoher
+Reichweite und Genauigkeit, während Anwendungen im Innenbereich möglicherweise
+Sensoren mit höherer räumlicher Auflösung benötigen. Kann es im geplanten
+Einsatzgebiet zu wechselnden Umgebungsbedingungen wie Wetter- oder
+Beleuchtungsveränderungen kommen, sind oft aktive Sensoren geeigneter, um
+unabhängig von äußeren Einflüssen funktionieren zu können. Durch ihre
+unterschiedlichen Eigenschaften können Sensoren besser für die Erkennung
+bestimmter Objekte geeignet sein. Außerdem ist das Budget bei der Sensorwahl
+zu berücksichtigen, da sich die Sensoren stark in ihren Kosten unterscheiden
+können.
