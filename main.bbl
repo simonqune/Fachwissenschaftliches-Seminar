@@ -503,8 +503,8 @@
       \verb{url}
       \verb https://arxiv.org/pdf/1511.08458.pdf
       \endverb
-      \warn{\item misc entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring}
-      \warn{\item misc entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring}
+      \warn{\item Entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring}
+      \warn{\item Entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring}
     \endentry
     \entry{7803544}{article}{}
       \name{author}{3}{}{%

@@ -28,6 +28,7 @@ versuchen daraus Klassifizierungsergebnisse zu gewinnen. Der
 Hauptanwendungsbereich von CNNs liegt dabei in der Klassifikation von Bildern
 in vorbestimmte Kategorien. \cite{OShea.11262015}.
 
+
 \subsection{Fully Convolutional Networks (FCNs)}
 Fully Convolutional Networks (FCNs) sind eine Weiterentwicklung von
 Convolutional Neural Networks (CNNs), die speziell für die Aufgabe der
@@ -58,20 +59,15 @@ verwendet häufig Deconvolutional-Neuronale-Netzwerke, um das Ergebnis des
 Encoder-Netzwerkes wieder in die Dimensionalitäten des Eingangsbildes
 zurückzuführen. Das Upsampling erfolgt dabei nicht linear, sondern verwendet
 die Pooling-Indizes des zugehörigen Encoding-Schrittes, um die Aktivierungen an
-der richtigen Position des Bildes wiederherzustellen. \graphicspath{bilder/}
-\graphicspath{bilder/} %Pfad zu den Bildern. mehrere pfade mit {{}{}{}} %Pfad zu den Bildern. mehrere pfade mit {{}{}{}} 
-
-\includegraphics[width=0.5\textwidth]{thi_FEI_wb_RGB}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\textwidth]{FCN_eigene_grafik}
-    \caption{Beschreibung des Bildes}
-    \label{fig:bildlabel}
-\end{figure}
+der richtigen Position des Bildes wiederherzustellen.
 Die Semantische
 Segmentierung erfolgt dabei am Ende des Decoding Netzwerkes. \cite{7803544}
-SOFTMAX
+\begin{figure}
+    \centering
+    \includesvg[width=0.8\textwidth]{bilder/FCN_own_new.svg}   
+    \caption{Encoder Decoder Architektur ähnlich U-Net}
+    \label{fig:meinbild}
+\end{figure}
 
 \subsection{Conditional Random Fields (CRFs)}
 Conditional Random Fields (CRFs) sind probabilistische Modelle, die zur
