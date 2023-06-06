@@ -1,19 +1,8 @@
-[0] Config.pm:306> INFO - This is Biber 2.18
-[0] Config.pm:309> INFO - Logfile is 'main.blg'
-[84] biber-MSWIN64:340> INFO - === 
-[116] Biber.pm:418> INFO - Reading 'main.bcf'
-[197] Biber.pm:978> INFO - Found 16 citekeys in bib section 0
-[207] Biber.pm:4401> INFO - Processing section 0
-[215] Biber.pm:4592> INFO - Looking for bibtex file 'ref/ref_liste.bib' for section 0
-[264] bibtex.pm:1713> INFO - LaTeX decoding ...
-[282] bibtex.pm:1518> INFO - Found BibTeX data source 'ref/ref_liste.bib'
-[353] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[353] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[353] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[353] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
-[363] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[370] bbl.pm:757> INFO - Output to main.bbl
-[370] Biber.pm:130> WARN - Entry '.2020b' (ref/ref_liste.bib): Invalid format '6/5/2023' of date field 'urldate' - ignoring
-[370] Biber.pm:130> WARN - Entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring
-[370] Biber.pm:130> WARN - Entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring
-[370] Biber.pm:132> INFO - WARNINGS: 3
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[305] biber-MSWIN64:340> INFO - === 
+[397] Biber.pm:419> INFO - Reading 'main.bcf'
+[885] Utils.pm:410> ERROR - Error: Found biblatex control file version 3.9, expected version 3.10.
+This means that your biber (2.19) and biblatex (3.18b) versions are incompatible.
+See compat matrix in biblatex or biber PDF documentation.
+[885] Biber.pm:136> INFO - ERRORS: 1
