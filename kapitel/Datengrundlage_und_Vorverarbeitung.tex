@@ -7,7 +7,7 @@ Segmentierung verwendet werden. In diesem Kapitel werden die beiden
 verbreitetsten 3D-Datenformate und Datentypen untersucht, die in der Forschung
 und Praxis eingesetz werden.
 
-Ein wichtiges 3D-Datenformat ist das Punktewolkenformat, das vorallem durch
+Ein wichtiges 3D-Datenformat ist das Punktewolkenformat, das unter anderem von
 LiDAR-Sensoren erzeugt wird. Eine Punktwolke ist eine Sammlungen von
 3D-Punkten, die die Oberfläche von Objekten in der Umgebung darstellen. Jeder
 Punkt stellt dabei eine reflektierte Lichtwelle da. Sie können in verschiedenen
@@ -24,16 +24,14 @@ Punkten, die durch einen LiDAR-Sensor erzeugt werden, einen sehr hohen
 Speicherbedarf, was zu einer rechenintensiven Verarbeitung der Daten führen
 kann \cite{8578570}.
 
-Neben Punktewolken werden auch 3D-Gitter oder Voxel-Daten oft für die
+Neben dem Punktewolkenformat wird häufig auch das Voxel-Gitter Format für die
 semantische Segmentierung verwendet. Voxel sind volumetrische Elemente, die den
 Raum in einem dreidimensionalen Gitter unterteilen. Jedes Voxel enthält dabei
 Informationen über Materialeigenschaften, Farbe oder Textur des Objektes an
-diesem Punkt. Voxel-Daten können in verschiedenen Formaten gespeichert werden,
-wie zum Beispiel das binäre OctoMap-Format oder dem ASCII-Format. Sie bieten
-dabei eine effektive Möglichkeit, komplexe dreidimensionale Strukturen
-darzustellen und weiter zu analysieren. Die Voxeldichte im Raum kann dabei frei
-gewählt werden und bestimmt so die Auflösung und den Speicherbedarf des
-Datensatzes.
+diesem Punkt im Raum. Das Datenformat bietet dabei eine effektive Möglichkeit,
+komplexe dreidimensionale Strukturen darzustellen und weiter zu analysieren.
+Die Voxeldichte im Raum kann dabei frei gewählt werden und bestimmt so die
+Auflösung und den Speicherbedarf des Datensatzes.
 
 \section{Vorverarbeitungsschritte wie Filterung, Normalenberechnung und Downsampling}
 
@@ -54,19 +52,19 @@ verbessert werden.
 Downsampling: Beim Prozess des Downsamplings wird die Anzahl an Punkten
 innerhalb einer Punktwolke reduziert, um die Verarbeitungsgeschwindigkeit und
 den Speicherbedarf zu reduzieren. Dies kann durch verschiedene Verfahren
-erfolgen. Eine sehr schnelle und recheneffiziente Methode ist hierbei das sogenannte
-Random-Downsampling. Dabei wird ein bestehender Datensatz um eine absolute oder relative Punktanzahl 
-reduziert. Die wegfallenden Punkte werden dabei zufällig
-ausgewählt. Nachteil ist hierbei, dass sich ursprünglich ungleichmäßig
-abgetastete Bereich des Datensatzes noch vergrößern können, und so größere Lücken in
-den Punktwolken entstehen können. Deshalb wird stattdessen häufig auf das
-Voxel-Grid-Downsampling zurückgegriffen. Dabei wird der Raum, in der sich die
-Punktwolke befindet, in gleichmäßige Voxel unterteilt, wobei für jedes Voxel
-der Schwerpunkt der darin enthaltenen Punkte berechnet wird. Danach wird eine
-bestimmte Anzahl an Punkten, häufig durch ihre nähe zum Schwerpunkt, ausgewählt
-und in das Voxel-Grid übernommen. Ziel des Voxel-Grid-Downsamplings ist es, die Datenmenge
-zu reduzieren, während wichtige strukturelle und semantische Informationen
-erhalten bleiben. ######SCHWERPUNTK FALSCH###########
+erfolgen. Eine sehr schnelle und recheneffiziente Methode ist hierbei das
+sogenannte Random-Downsampling. Dabei wird ein bestehender Datensatz um eine
+absolute oder relative Punktanzahl reduziert. Die wegfallenden Punkte werden
+dabei zufällig ausgewählt. Nachteil ist hierbei, dass sich ursprünglich
+ungleichmäßig abgetastete Bereich des Datensatzes noch vergrößern können, und
+so größere Lücken in den Punktwolken entstehen können. Deshalb wird stattdessen
+häufig auf das Voxel-Grid-Downsampling zurückgegriffen. Dabei wird der Raum, in
+der sich die Punktwolke befindet, in gleichmäßige Voxel unterteilt, wobei für
+jedes Voxel der Schwerpunkt der darin enthaltenen Punkte berechnet wird. Danach
+wird eine bestimmte Anzahl an Punkten, häufig durch ihre nähe zum Schwerpunkt,
+ausgewählt und in das Voxel-Grid übernommen. Ziel des Voxel-Grid-Downsamplings
+ist es, die Datenmenge zu reduzieren, während wichtige strukturelle und
+semantische Informationen erhalten bleiben. ######SCHWERPUNTK FALSCH###########
 
 Normalenberechnung: Die Berechnung von Normalen ist ein optionaler Schritt, um
 die geometrische Information der 3D-Daten zu erfassen. Dabei wird für jeden
