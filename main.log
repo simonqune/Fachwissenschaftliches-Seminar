@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  5 JUN 2023 19:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  6 JUN 2023 23:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -631,7 +631,11 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 65.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (main.aux)
+) (main.aux
+
+LaTeX Warning: Label `fig:meinbild' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
@@ -691,18 +695,27 @@ Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl
 
 Package biblatex Warning: Biber reported the following issues
-(biblatex)                with '.2020b':
-(biblatex)                - Entry '.2020b' (ref/ref_liste.bib): Invalid format '6/5/2023' of date field 'urldate' - ignoring.
+(biblatex)                with '11262015':
+(biblatex)                - Entry '11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'OShea.11262015':
-(biblatex)                - Entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring.
+(biblatex)                with '11262015':
+(biblatex)                - Entry '11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring.
 
 
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'OShea.11262015':
-(biblatex)                - Entry 'OShea.11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring.
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                .2020b
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                8237548
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
 
 )
 Package biblatex Info: Reference section=0 on input line 65.
@@ -818,43 +831,60 @@ chapter 2.
 ]) (kapitel/datengrundlage_und_Vorverarbeitung.tex [7] [8]
 chapter 3.
 
-Overfull \hbox (5.25685pt too wide) in paragraph at lines 10--26
-[]\T1/lmss/m/n/10.95 Ein wich-ti-ges 3D-Datenformat ist das Punk-te-wol-ken-for-mat, das vor-al-lem durch LiDAR-Sensoren
- []
+LaTeX Warning: Citation '.2020b' on page 9 undefined on input line 19.
 
 [9
 
 
 ] [10]) (kapitel/Grundlagen der semantischen Segmentierung.tex [11]
 chapter 4.
-[12
+Package svg Info: Last page of `./svg-inkscape/cnn_own_svg-tex.pdf' is 2 on input line 34.
+(svg-inkscape/cnn_own_svg-tex.pdf_tex
+<./svg-inkscape/cnn_own_svg-tex.pdf, id=44, page=1, 2594.1534pt x 1171.14835pt>
+File: ./svg-inkscape/cnn_own_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/cnn_own_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/cnn_own_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 347.64232pt x 156.93663pt.
+<./svg-inkscape/cnn_own_svg-tex.pdf, id=45, page=2, 2594.1534pt x 1171.14835pt>
+File: ./svg-inkscape/cnn_own_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/cnn_own_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/cnn_own_svg-tex.pdf , page2 used on input line 70.
+(pdftex.def)             Requested size: 347.64232pt x 156.93663pt.
+) [12
 
 
 ]
-Package svg Info: Last page of `./svg-inkscape/FCN_own_new_svg-tex.pdf' is 3 on input line 67.
+Package svg Info: Last page of `./svg-inkscape/FCN_own_new_svg-tex.pdf' is 3 on input line 75.
  (svg-inkscape/FCN_own_new_svg-tex.pdf_tex
-<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=47, page=1, 2907.84831pt x 1229.32443pt>
+<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=50, page=1, 2907.84831pt x 1229.32443pt>
 File: ./svg-inkscape/FCN_own_new_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FCN_own_new_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FCN_own_new_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 347.64232pt x 146.96858pt.
-<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=48, page=2, 2907.84831pt x 1229.32443pt>
+<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=51, page=2, 2907.84831pt x 1229.32443pt>
 File: ./svg-inkscape/FCN_own_new_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FCN_own_new_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FCN_own_new_svg-tex.pdf , page2 used on input line 59.
 (pdftex.def)             Requested size: 347.64232pt x 146.96858pt.
-<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=49, page=3, 2907.84831pt x 1229.32443pt>
+<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=52, page=3, 2907.84831pt x 1229.32443pt>
 File: ./svg-inkscape/FCN_own_new_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FCN_own_new_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/FCN_own_new_svg-tex.pdf , page3 used on input line 64.
 (pdftex.def)             Requested size: 347.64232pt x 146.96858pt.
-) [13] [14 <./svg-inkscape/FCN_own_new_svg-tex.pdf> <./svg-inkscape/FCN_own_new_svg-tex.pdf
+) [13 <./svg-inkscape/cnn_own_svg-tex.pdf> <./svg-inkscape/cnn_own_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/cnn_own_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [14 <./svg-inkscape/FCN_own_new_svg-tex.pdf> <./svg-inkscape/FCN_own_new_svg-tex.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/FCN_own_new_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./svg-inkscape/FCN_own_new_svg-tex.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/FCN_own_new_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [15]
+>]
+
+LaTeX Warning: Citation '8237548' on page 15 undefined on input line 108.
+
+) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [15]
 chapter 5.
 [16
 
@@ -896,28 +926,26 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [28
 
 
-]
-Overfull \hbox (8.26096pt too wide) in paragraph at lines 78--78
-[]\T1/lmss/m/sl/10.95 LAS (LA-Ser) Fi-le For-mat, Ver-si-on 1.4\T1/lmss/m/n/10.95 . 2020. \T1/lmr/m/sc/10.95 url\T1/lmss/m/n/10.95 : $\T1/lmtt/m/n/10.95 https : / / www . loc . gov / preservation /
- []
+] [29] (main.aux)
 
-[29] (main.aux)
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18658 strings out of 475385
- 405041 string characters out of 2776908
- 1360308 words of memory out of 3000000
- 39731 multiletter control sequences out of 15000+600000
+ 18673 strings out of 475385
+ 405617 string characters out of 2776908
+ 1363327 words of memory out of 3000000
+ 39742 multiletter control sequences out of 15000+600000
  514708 words of font info for 58 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,19n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,20n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (29 pages, 226532 bytes).
+Output written on main.pdf (29 pages, 236513 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
+ 163 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -57,14 +57,16 @@ sogenannte Random-Downsampling. Dabei wird ein bestehender Datensatz um eine
 absolute oder relative Punktanzahl reduziert. Die wegfallenden Punkte werden
 dabei zufällig ausgewählt. Nachteil ist hierbei, dass sich ursprünglich
 ungleichmäßig abgetastete Bereich des Datensatzes noch vergrößern können, und
-so größere Lücken in den Punktwolken entstehen können. Deshalb wird stattdessen
-häufig auf das Voxel-Grid-Downsampling zurückgegriffen. Dabei wird der Raum, in
-der sich die Punktwolke befindet, in gleichmäßige Voxel unterteilt, wobei für
-jedes Voxel der Schwerpunkt der darin enthaltenen Punkte berechnet wird. Danach
-wird eine bestimmte Anzahl an Punkten, häufig durch ihre nähe zum Schwerpunkt,
-ausgewählt und in das Voxel-Grid übernommen. Ziel des Voxel-Grid-Downsamplings
-ist es, die Datenmenge zu reduzieren, während wichtige strukturelle und
-semantische Informationen erhalten bleiben. ######SCHWERPUNTK FALSCH###########
+dadurch markante Merkmale in der Punktwolke verloren gehen können
+\cite{987567547}. Deshalb wird stattdessen häufig auf das Voxel-Grid-Downsampling
+zurückgegriffen. Dabei wird der Raum, in der sich die Punktwolke befindet, in
+gleichmäßige Voxel unterteilt. Daraufhin wird in jedem Voxel nur eine bestimmte
+Anzahl an Punkten übernommen, die anderen werden aus dem Datensatz entfernt.
+Welche Punkte übernommen werden kann dabei durch verschiedene Verfahren
+bestimmt werden. Danach wird eine bestimmte Anzahl an Punkten, etwa durch ihre
+nähe zum Mittelpunkt, ausgewählt und in das Voxel-Grid übernommen. Ziel des
+Voxel-Grid-Downsamplings ist es, die Datenmenge zu reduzieren, während wichtige
+strukturelle und semantische Informationen erhalten bleiben.
 
 Normalenberechnung: Die Berechnung von Normalen ist ein optionaler Schritt, um
 die geometrische Information der 3D-Daten zu erfassen. Dabei wird für jeden
@@ -75,19 +77,21 @@ SCHÄTZVERAHReN
 
 \section{Datenannotation und Ground Truth-Erstellung}
 
-Das Erstellen annotierter Daten und eines Ground Truths sind entscheidende
-Schritte bei der semantischen Segmentierung von 3D-Daten. Um neuronale Netze
-für die Semantische Segmentierung zu trainieren, werden annotierte Datensätze
-benötigt. Hierbei muss für einen Teil der Rohdaten eine manuelle Klassifikation
-der Bilder erfolgen, indem semantische Labels oder Klasseninformationen manuell
-oder automatisch den 3D-Daten zugeordnet werden. Die Qualität und Genauigkeit
-der Datenannotation sind entscheidend für die Leistungsfähigkeit von
-semantischen Segmentierungsalgorithmen. Die Erstellung des Ground Truths
-umfasst die Erstellung von referenzbasierten Segmentierungsergebnissen, die als
-Grundlage für das Training und die Evaluation von Segmentierungsmodellen
-dienen. Die Ground Truth kann manuell oder automatisch erstellt werden, um die
-Zuverlässigkeit und Vergleichbarkeit von Segmentierungsergebnissen
-sicherzustellen und die Qualität von trainierten Modellen zu überprüfen. Die
-Verwendung von Ground Truths ist jedoch nicht nur auf das Training beschränkt,
-sondern kann auch für die Validierung und Bewertung von Modellen verwendet
-werden.
+Die Erstellung annotierter Daten und eines Ground Truths sind entscheidende
+Schritte bei der semantischen Segmentierung von 3D-Daten. Da die semantische
+Segmentierung auf Erweiterungen von neuronale Netze basiert, werden annotierte
+Datensätze benötigt um diese zu trainieren. Dabei erfolgt eine manuelle
+Klassifikation der Daten, indem semantische Labels oder Klasseninformationen
+den 3D-Daten zugeordnet werden. Die Qualität und Genauigkeit der
+Datenannotation sind von entscheidender Bedeutung für die Leistungsfähigkeit
+der Modelle für die semantische Segmentierung.
+
+Die Erstellung des Ground Truths umfasst dabei die Erzeugung von
+referenzbasierten Segmentierungsergebnissen, die als Grundlage für das Training
+und die Evaluation von Segmentierungsmodellen dienen. Der Ground Truth kann
+sowohl manuell als auch automatisch erstellt werden, um die Zuverlässigkeit und
+Vergleichbarkeit der Segmentierungsergebnisse sicherzustellen und die Qualität
+der trainierten Modelle zu überprüfen. Dafür wird häufig der sogenannte IoU
+(Intersection over Union) verwendet. Dabei wird die Anteil der überlappenden
+Bereiche zwischen Ground Truth und Segmentierungsergebnis berechnet. Je höher
+der Wert, desto besser ist das Segmentierungsergebnis.

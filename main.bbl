@@ -1,0 +1,610 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{9102769}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=b67f1bb3109bd97ad71bf799288dbf42}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Kaihong},
+           giveni={K\bibinitperiod}}}%
+        {{hash=09f5ec270df51b814010fcc87dbfa219}{%
+           family={Bi},
+           familyi={B\bibinitperiod},
+           given={Sheng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3845be3d8d5fd972af6d79d73b03638d}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec2c0b72e0b13b8c7fb70352d446145e}
+      \strng{fullhash}{ec2c0b72e0b13b8c7fb70352d446145e}
+      \strng{bibnamehash}{ec2c0b72e0b13b8c7fb70352d446145e}
+      \strng{authorbibnamehash}{ec2c0b72e0b13b8c7fb70352d446145e}
+      \strng{authornamehash}{ec2c0b72e0b13b8c7fb70352d446145e}
+      \strng{authorfullhash}{ec2c0b72e0b13b8c7fb70352d446145e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 IEEE International Conference on Multimedia and Expo (ICME)}
+      \field{title}{Lightningnet: Fast and Accurate Semantic Segmentation for Autonomous Driving Based on 3D LIDAR Point Cloud}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICME46284.2020.9102769
+      \endverb
+    \endentry
+    \entry{9420573}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=40e27e8d26252230bc82509d630048f7}{%
+           family={Hosein\bibnamedelima Hamian},
+           familyi={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6d01c8bd8457956c2c73b4e11079cc4e}{%
+           family={Beikmohammadi},
+           familyi={B\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d55a9a6841b88562e507791b6c88029a}{%
+           family={Ahmadi},
+           familyi={A\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7bd6024b0a281455c299583b8323f085}{%
+           family={Nasersharif},
+           familyi={N\bibinitperiod},
+           given={Babak},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{f45f7f93bc07b01adaec97c77b6f0274}
+      \strng{fullhash}{475d994b558c7718d7b541ad97a5ed70}
+      \strng{bibnamehash}{f45f7f93bc07b01adaec97c77b6f0274}
+      \strng{authorbibnamehash}{f45f7f93bc07b01adaec97c77b6f0274}
+      \strng{authornamehash}{f45f7f93bc07b01adaec97c77b6f0274}
+      \strng{authorfullhash}{475d994b558c7718d7b541ad97a5ed70}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 26th International Computer Conference, Computer Society of Iran (CSICC)}
+      \field{title}{Semantic Segmentation of Autonomous Driving Images by the Combination of Deep Learning and Classical Segmentation}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/CSICC52343.2021.9420573
+      \endverb
+    \endentry
+    \entry{9423307}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=ee568c9a338713e60934e67c3e29dc0a}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Tuan},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee568c9a338713e60934e67c3e29dc0a}
+      \strng{fullhash}{ee568c9a338713e60934e67c3e29dc0a}
+      \strng{bibnamehash}{ee568c9a338713e60934e67c3e29dc0a}
+      \strng{authorbibnamehash}{ee568c9a338713e60934e67c3e29dc0a}
+      \strng{authornamehash}{ee568c9a338713e60934e67c3e29dc0a}
+      \strng{authorfullhash}{ee568c9a338713e60934e67c3e29dc0a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 Applying New Technology in Green Buildings (ATiGB)}
+      \field{title}{Semantic Road Segmentation using Deep Learning}
+      \field{year}{2021}
+      \field{pages}{45\bibrangedash 48}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ATiGB50996.2021.9423307
+      \endverb
+    \endentry
+    \entry{8100085}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=bc2113bb4f14f1cf6d27862ec4ddd10c}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Liuhao},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c943a1c31e21d996501f6e7f4028b34b}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=61d69a2ddeb1bb221c75d9b920f83e57}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Junsong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=24f20de24938c18a3655f419579d0900}{%
+           family={Thalmann},
+           familyi={T\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f45dc99ffdb305acc9da59588ae75da4}
+      \strng{fullhash}{dd0df5194604087860d65f31c3b70b3d}
+      \strng{bibnamehash}{f45dc99ffdb305acc9da59588ae75da4}
+      \strng{authorbibnamehash}{f45dc99ffdb305acc9da59588ae75da4}
+      \strng{authornamehash}{f45dc99ffdb305acc9da59588ae75da4}
+      \strng{authorfullhash}{dd0df5194604087860d65f31c3b70b3d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}
+      \field{title}{3D Convolutional Neural Networks for Efficient and Robust Hand Pose Estimation from Single Depth Images}
+      \field{year}{2017}
+      \field{pages}{5679\bibrangedash 5688}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/CVPR.2017.602
+      \endverb
+    \endentry
+    \entry{8529992}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=ac299f8012dbbbb67f0ad6e60f26375e}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jingyun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6b4661a35d44ce15b274b5e0ad88356b}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Qiao},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=1a9960c45892ae8586b09e51443bbc9e}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Zhe},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=eac4766046cc1e346421cdce16fc8734}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Yudong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{98ef2291f425930fa65fedf6d0aed101}
+      \strng{fullhash}{4eb5ed83740bab7ba7dafe17ed434120}
+      \strng{bibnamehash}{98ef2291f425930fa65fedf6d0aed101}
+      \strng{authorbibnamehash}{98ef2291f425930fa65fedf6d0aed101}
+      \strng{authornamehash}{98ef2291f425930fa65fedf6d0aed101}
+      \strng{authorfullhash}{4eb5ed83740bab7ba7dafe17ed434120}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE 3rd Optoelectronics Global Conference (OGC)}
+      \field{title}{TOF Lidar Development in Autonomous Vehicle}
+      \field{year}{2018}
+      \field{pages}{185\bibrangedash 190}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/OGC.2018.8529992
+      \endverb
+    \endentry
+    \entry{8932817}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=0295a745d954db2f0cf4ee932bdee278}{%
+           family={DANDIL},
+           familyi={D\bibinitperiod},
+           given={Emre},
+           giveni={E\bibinitperiod}}}%
+        {{hash=87c6e719ef8a3efb517fcd6a233b09cb}{%
+           family={ÇEVİK},
+           familyi={Ç\bibinitperiod},
+           given={Kerim\bibnamedelima Kürşat},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{bae249bc30bf9701abcd9293a927f5c3}
+      \strng{fullhash}{bae249bc30bf9701abcd9293a927f5c3}
+      \strng{bibnamehash}{bae249bc30bf9701abcd9293a927f5c3}
+      \strng{authorbibnamehash}{bae249bc30bf9701abcd9293a927f5c3}
+      \strng{authornamehash}{bae249bc30bf9701abcd9293a927f5c3}
+      \strng{authorfullhash}{bae249bc30bf9701abcd9293a927f5c3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 3rd International Symposium on Multidisciplinary Studies and Innovative Technologies (ISMSIT)}
+      \field{title}{Computer Vision Based Distance Measurement System using Stereo Camera View}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ISMSIT.2019.8932817
+      \endverb
+    \endentry
+    \entry{7025195}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=b53827b0e56075161ba0536954fc6d17}{%
+           family={Dalbah},
+           familyi={D\bibinitperiod},
+           given={Yosef},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=dfa1cadbfb83fbdf599bbbb998d1229f}{%
+           family={Rohr},
+           familyi={R\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0d9fba7b1baa69bb007b29c51ad2533f}{%
+           family={Wahl},
+           familyi={W\bibinitperiod},
+           given={Friedrich\bibnamedelima M.},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ee4ed83278d3f5352e85a6e70db4e98}
+      \strng{fullhash}{9ee4ed83278d3f5352e85a6e70db4e98}
+      \strng{bibnamehash}{9ee4ed83278d3f5352e85a6e70db4e98}
+      \strng{authorbibnamehash}{9ee4ed83278d3f5352e85a6e70db4e98}
+      \strng{authornamehash}{9ee4ed83278d3f5352e85a6e70db4e98}
+      \strng{authorfullhash}{9ee4ed83278d3f5352e85a6e70db4e98}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 IEEE International Conference on Image Processing (ICIP)}
+      \field{title}{Detection of dynamic objects for environment mapping by time-of-flight cameras}
+      \field{year}{2014}
+      \field{pages}{971\bibrangedash 975}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICIP.2014.7025195
+      \endverb
+    \endentry
+    \entry{9262651}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=a2265b0f0d92fb075904e3de0d5d3d41}{%
+           family={Silva\bibnamedelima Neto},
+           familyi={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={José\bibnamedelima Gomes},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=ebfdb4c098ee822d33a1011fbb3817d7}{%
+           family={Lima\bibnamedelima Silva},
+           familyi={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Pedro\bibnamedelima Jorge},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=cf71d75aac7a33313eeeba439a0f2791}{%
+           family={Figueredo},
+           familyi={F\bibinitperiod},
+           given={Filipe},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2fa6e4a00d7a9c5bf0b7ae57d2e6affe}{%
+           family={Teixeira},
+           familyi={T\bibinitperiod},
+           given={João\bibnamedelimb Marcelo\bibnamedelimb Xavier\bibnamedelima Natário},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim X\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=c8a2dbd5d5b85be9725b2564e66509ae}{%
+           family={Teichrieb},
+           familyi={T\bibinitperiod},
+           given={Veronica},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c30c3750d0eebda8f9bf07de9fb9e59}
+      \strng{fullhash}{1955031844f546d1a2558a7906a74807}
+      \strng{bibnamehash}{3c30c3750d0eebda8f9bf07de9fb9e59}
+      \strng{authorbibnamehash}{3c30c3750d0eebda8f9bf07de9fb9e59}
+      \strng{authornamehash}{3c30c3750d0eebda8f9bf07de9fb9e59}
+      \strng{authorfullhash}{1955031844f546d1a2558a7906a74807}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 22nd Symposium on Virtual and Augmented Reality (SVR)}
+      \field{title}{Comparison of RGB-D sensors for 3D reconstruction}
+      \field{year}{2020}
+      \field{pages}{252\bibrangedash 261}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/SVR51698.2020.00046
+      \endverb
+    \endentry
+    \entry{7992709}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=23ad73cc2bbbe53844aa0fdca8f2a08f}{%
+           family={Anwar},
+           familyi={A\bibinitperiod},
+           given={Inzamam},
+           giveni={I\bibinitperiod}}}%
+        {{hash=f4a7044e651356d45438dc28920c977e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Sukhan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{fullhash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{bibnamehash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{authorbibnamehash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{authornamehash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \strng{authorfullhash}{e03cb3b58c78f3f205b7c6c38321134c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 14th International Conference on Ubiquitous Robots and Ambient Intelligence (URAI)}
+      \field{title}{High performance stand-alone structured light 3D camera for smart manipulators}
+      \field{year}{2017}
+      \field{pages}{192\bibrangedash 195}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/URAI.2017.7992709
+      \endverb
+    \endentry
+    \entry{8578570}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=1d9ad9402232f1c53f0efd7b0d800b2e}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=10d293771217ccb6a5e06d825710814f}{%
+           family={Tuzel},
+           familyi={T\bibinitperiod},
+           given={Oncel},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
+      \strng{fullhash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
+      \strng{bibnamehash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
+      \strng{authorbibnamehash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
+      \strng{authornamehash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
+      \strng{authorfullhash}{60e2ed9bfd31e5fd074f6138ff2b23bb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition}
+      \field{title}{VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection}
+      \field{year}{2018}
+      \field{pages}{4490\bibrangedash 4499}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/CVPR.2018.00472
+      \endverb
+    \endentry
+    \entry{9191237}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=e34613821f9106fb1123414c4732816e}{%
+           family={Thurnhofer-Hemsi},
+           familyi={T\bibinithyphendelim H\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1cbc02693af1b8b744b34a1a67fab73f}{%
+           family={López-Rubio},
+           familyi={L\bibinithyphendelim R\bibinitperiod},
+           given={Ezequiel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e312cbea88e878ac12eddcdf81b8b7d0}{%
+           family={Roé-Vellvé},
+           familyi={R\bibinithyphendelim V\bibinitperiod},
+           given={Núria},
+           giveni={N\bibinitperiod}}}%
+        {{hash=56e0d020c5c6897d04252d8e8ddb5768}{%
+           family={Deka},
+           familyi={D\bibinitperiod},
+           given={Lipika},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{775144f730f3c7d58267152269ef968c}
+      \strng{fullhash}{d93efedb6d3bdd5bacfd4d52ccde3b2a}
+      \strng{bibnamehash}{775144f730f3c7d58267152269ef968c}
+      \strng{authorbibnamehash}{775144f730f3c7d58267152269ef968c}
+      \strng{authornamehash}{775144f730f3c7d58267152269ef968c}
+      \strng{authorfullhash}{d93efedb6d3bdd5bacfd4d52ccde3b2a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 IEEE International Conference on Image Processing (ICIP)}
+      \field{title}{Super-Resolution of 3D MRI Corrupted by Heavy Noise With the Median Filter Transform}
+      \field{year}{2020}
+      \field{pages}{3015\bibrangedash 3019}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICIP40778.2020.9191237
+      \endverb
+    \endentry
+    \entry{6460813}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=685d97480ebafb5a158e7c3dfdcb69a8}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7c8b2289031d27d57fc9c7e7239ec517}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8e231c4d21b1c75d6e2434e929b7dd09}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shutao},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5120224ea6873636c08dfdd111fd1b8d}
+      \strng{fullhash}{5120224ea6873636c08dfdd111fd1b8d}
+      \strng{bibnamehash}{5120224ea6873636c08dfdd111fd1b8d}
+      \strng{authorbibnamehash}{5120224ea6873636c08dfdd111fd1b8d}
+      \strng{authornamehash}{5120224ea6873636c08dfdd111fd1b8d}
+      \strng{authorfullhash}{5120224ea6873636c08dfdd111fd1b8d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 21st International Conference on Pattern Recognition (ICPR2012)}
+      \field{title}{Depth image enhancement for Kinect using region growing and bilateral filter}
+      \field{year}{2012}
+      \field{pages}{3070\bibrangedash 3073}
+      \range{pages}{4}
+    \endentry
+    \entry{987567547}{article}{}
+      \name{author}{4}{}{%
+        {{hash=ab8f6df9e0ffdf2fb6e8669fe9a0e71e}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Bingjie},
+           giveni={B\bibinitperiod}}}%
+        {{hash=728e7a0a52525c9026516829cc59743c}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Shuxin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e613367f73f45da5e90b30df84ebb777}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Huaguo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3e2fae107a8dfbe0b31122fdb3a9b155}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{ddf87ccba3601dc9d6bbf8354dd5b7db}
+      \strng{fullhash}{7be8859254e60a209e2cf0310e7ef358}
+      \strng{bibnamehash}{ddf87ccba3601dc9d6bbf8354dd5b7db}
+      \strng{authorbibnamehash}{ddf87ccba3601dc9d6bbf8354dd5b7db}
+      \strng{authornamehash}{ddf87ccba3601dc9d6bbf8354dd5b7db}
+      \strng{authorfullhash}{7be8859254e60a209e2cf0310e7ef358}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{To investigate forest resources, it is necessary to identify the tree species. However, it is a challenge to identify tree species using 3D point clouds of trees collected by light detection and ranging (LiDAR). PointNet++, a point cloud deep learning network, can effectively classify 3D objects. It is important to establish high-quality individual tree point cloud datasets when applying PointNet++ to identifying tree species. However, there are different data processing methods to produce sample datasets, and the processes are tedious. In this study, we suggest how to select the appropriate method by designing comparative experiments. We used the backpack laser scanning (BLS) system to collect point cloud data for a total of eight tree species in three regions. We explored the effect of tree height on the classification accuracy of tree species by using different point cloud normalization methods and analyzed the effect of leaf point clouds on classification accuracy by separating the leaves and wood of individual tree point clouds. Five downsampling methods were used: farthest point sampling (FPS), K-means, random, grid average sampling, and nonuniform grid sampling (NGS). Data with different sampling points were designed for the experiments. The results show that the tree height feature is unimportant when using point cloud deep learning methods for tree species classification. For data collected in a single season, the leaf point cloud has little effect on the classification accuracy. The two suitable point cloud downsampling methods we screened were FPS and NGS, and the deep learning network could provide the most accurate tree species classification when the number of individual tree point clouds was in the range of 2048--5120. Our study further illustrates that point-based end-to-end deep learning methods can be used to classify tree species and identify individual tree point clouds. Combined with the low-cost and high-efficiency BLS system, it can effectively improve the efficiency of forest resource surveys.}
+      \field{issn}{2072-4292}
+      \field{journaltitle}{Remote Sensing}
+      \field{number}{15}
+      \field{title}{Tree Species Classification of Backpack Laser Scanning Data Using the PointNet++ Point Cloud Deep Learning Method}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{3809}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/rs14153809
+      \endverb
+      \verb{file}
+      \verb b86129cd-519d-4bf1-a016-1ed17021db07:C\:\\Users\\kuhns\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\ffp672gkolya7su4r7atzhmr8k0hhpf6fnt87hoagh3kec\\Citavi Attachments\\b86129cd-519d-4bf1-a016-1ed17021db07.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2072-4292/14/15/3809
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2072-4292/14/15/3809
+      \endverb
+    \endentry
+    \entry{11262015}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=f92af5765968c6de4c1e42d397224c9c}{%
+           family={O'Shea},
+           familyi={O\bibinitperiod},
+           given={Keiron},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b5da23fc726b6d32ee9a3247fa6663fc}{%
+           family={Nash},
+           familyi={N\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e0b31097f3d41e61dd78e46b147642a}
+      \strng{fullhash}{1e0b31097f3d41e61dd78e46b147642a}
+      \strng{bibnamehash}{1e0b31097f3d41e61dd78e46b147642a}
+      \strng{authorbibnamehash}{1e0b31097f3d41e61dd78e46b147642a}
+      \strng{authornamehash}{1e0b31097f3d41e61dd78e46b147642a}
+      \strng{authorfullhash}{1e0b31097f3d41e61dd78e46b147642a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The field of machine learning has taken a dramatic twist in recent times, with the rise of the Artificial Neural Network (ANN). These biologically inspired computational models are able to far exceed the performance of previous forms of artificial intelligence in common machine learning tasks. One of the most impressive forms of ANN architecture is that of the Convolutional Neural Network (CNN). CNNs are primarily used to solve difficult image-driven pattern recognition tasks and with their precise yet simple architecture, offers a simplified method of getting started with ANNs. This document provides a brief introduction to CNNs, discussing recently published papers and newly formed techniques in developing these brilliantly fantastic image recognition models. This introduction assumes you are familiar with the fundamentals of ANNs and machine learning.}
+      \field{title}{An Introduction to Convolutional Neural Networks}
+      \verb{file}
+      \verb acf529c2-9ceb-4247-af2b-3d18386a3378:C\:\\Users\\kuhns\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\ffp672gkolya7su4r7atzhmr8k0hhpf6fnt87hoagh3kec\\Citavi Attachments\\acf529c2-9ceb-4247-af2b-3d18386a3378.pdf:pdf;8d823a62-a4e7-4d43-bed5-6ba57d4d8b17:C\:\\Users\\kuhns\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\ffp672gkolya7su4r7atzhmr8k0hhpf6fnt87hoagh3kec\\Remote Attachments\\8d823a62-a4e7-4d43-bed5-6ba57d4d8b17.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/1511.08458.pdf
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/1511.08458.pdf
+      \endverb
+      \warn{\item Entry '11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring}
+      \warn{\item Entry '11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{7803544}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2b517df4f81c42dc3c5b32aede012cf9}{%
+           family={Badrinarayanan},
+           familyi={B\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4b1053f4ffb69cd61c1f122cc435c884}{%
+           family={Kendall},
+           familyi={K\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=95c5bd0a1d6e6649ed56043a63268bfa}{%
+           family={Cipolla},
+           familyi={C\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb26318591964ff2e23ee05578819393}
+      \strng{fullhash}{fb26318591964ff2e23ee05578819393}
+      \strng{bibnamehash}{fb26318591964ff2e23ee05578819393}
+      \strng{authorbibnamehash}{fb26318591964ff2e23ee05578819393}
+      \strng{authornamehash}{fb26318591964ff2e23ee05578819393}
+      \strng{authorfullhash}{fb26318591964ff2e23ee05578819393}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{number}{12}
+      \field{title}{SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation}
+      \field{volume}{39}
+      \field{year}{2017}
+      \field{pages}{2481\bibrangedash 2495}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/TPAMI.2016.2644615
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{.2020b}
+  \missing{8237548}
+\endrefsection
+\endinput
+
