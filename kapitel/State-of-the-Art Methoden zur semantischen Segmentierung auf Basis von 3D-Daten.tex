@@ -5,7 +5,9 @@ in der 3D-Bildverarbeitung, die speziell für die Aufgaben der Klassifikation,
 Segmentierung und Erkennung von Objekten entwickelt wurde. Es basiert auf der
 PointNet-Architektur und erweitert sie durch die Integration einer
 hierarchischen Struktur, um lokale und globale Kontextinformationen in
-Punktwolken zu erfassen.
+Punktwolken zu erfassen. Das Verfahren arbeitet dabei direkt auf den
+Punktwolken-Daten, ohne diese in ein Voxelgitter oder eine andere Form zu
+überführen. Dadurch wird eine höhere Genauigkeit und Effizienz erreicht.
 
 PointNet++ verwendet eine hierarchische Struktur, um die räumlichen
 Informationen der 3D-Daten effektiv zu erfassen. Es besteht aus einer Serie von
@@ -21,36 +23,21 @@ Dadurch können beispielsweise Oberflächenmerkmale oder
 Orientierungsinformationen berücksichtigt werden, was zu einer verbesserten
 Segmentierungsgenauigkeit führt.
 
-PointNet++ hat das Potenzial, in verschiedenen Anwendungen eine Rolle zu
-spielen, wie z.B. autonome Navigation, Robotik oder virtuelle Realität. Durch
-die direkte Verarbeitung von 3D-Punktdaten ermöglicht PointNet++ eine präzise
-und detaillierte Segmentierung von komplexen 3D-Szenen. Dies kann zur
-Verbesserung der Umgebungswahrnehmung und zur Entscheidungsfindung in Echtzeit
-beitragen.
-
-Insgesamt ist PointNet++ eine vielversprechende Methode, die die semantische
-Segmentierung von 3D-Daten auf eine neue Ebene hebt. Mit der Weiterentwicklung
-und Verbesserung von neuronalen Netzwerken und 3D-Datenerfassungstechnologien
-wird PointNet++ voraussichtlich eine wichtige Rolle bei der Analyse und
-Verarbeitung von 3D-Daten in verschiedenen Anwendungsbereichen spielen.
 \subsection{3D U-Net}
 
-3D U-Net ist ein leistungsstarkes Verfahren für die semantische Segmentierung von 3D-Daten. Es basiert auf der beliebten 2D U-Net-Architektur, die für die Bildsegmentierung entwickelt wurde, und wurde speziell für die Verarbeitung von Volumendaten angepasst.
+3D U-Net ist ein leistungsstarkes Verfahren für die semantische Segmentierung von 3D-Daten.
+Es basiert auf der verarbeiten 2D U-Net-Architektur, die für die Bildsegmentierung entwickelt wurde.
+Um diese Architektur auf 3D-Daten anzuwenden, wurde sie entsprechend angepasst.
 
 Die 3D U-Net-Architektur besteht aus einem Encoder-Decoder-Netzwerk mit
-Verbindungsschleifen, die als Skip Connections bezeichnet werden. Der
-Encoder-Teil nimmt das Eingabevolumen entgegen und besteht aus mehreren
-Convolutional-Layers, gefolgt von Pooling-Layern. Diese Schichten helfen dabei,
-wichtige Merkmale des Volumens zu extrahieren und die räumliche Auflösung zu
-reduzieren. Die Skip Connections werden zwischen den Encoder- und
-Decoder-Schichten erstellt, um eine effektive Wiederverwendung von Merkmalen
-auf unterschiedlichen Ebenen der Hierarchie zu ermöglichen.
-
-Der Decoder-Teil des 3D U-Net-Netzwerks besteht aus Upsampling-Schichten, die
-die räumliche Auflösung erhöhen, gefolgt von Convolutional-Layers. Die Skip
-Connections werden verwendet, um die Merkmale aus den entsprechenden
-Encoder-Schichten einzufügen und somit detaillierte und präzise
-Segmentierungsergebnisse zu erzielen.
+Skip-Connections. Der Encoder-Teil nimmt das Eingabevolumen entgegen und
+besteht aus mehreren Convolutional-Layers, gefolgt von Pooling-Layern. Diese
+Schichten helfen dabei, wichtige Merkmale des Eingangsbildes zu extrahieren und
+die räumliche Auflösung zu reduzieren. Die Skip Connections werden zwischen den
+Encoder- und Decoder-Schichten erstellt, um beim Prozess des upsamplings eine
+positionsgetreue Wiederherstellung der Bildmerkmale zu gewährleisten.
+Der Decoder-Teil des 3D U-Net-Netzwerks besteht dabei aus Upsampling-Schichten, die
+die räumliche Auflösung erhöhen, gefolgt von Deconvolutional-Layers. 
 
 Ein wesentliches Merkmal von 3D U-Net ist seine Fähigkeit, volumetrische
 Kontextinformationen zu berücksichtigen. Durch die Verarbeitung von
@@ -58,12 +45,3 @@ Kontextinformationen zu berücksichtigen. Durch die Verarbeitung von
 werden, um eine präzise Segmentierung zu erreichen. Dies ist insbesondere in
 medizinischen Anwendungen von großer Bedeutung, in denen die genaue Abgrenzung
 von Organen oder Tumoren entscheidend ist.
-
-3D U-Net zeigt vielversprechende Ergebnisse in verschiedenen Anwendungen, wie der medizinischen Bildgebung, der Analyse von CT- oder MRT-Scans und der Segmentierung von Organen oder Läsionen. Durch die kontinuierliche Weiterentwicklung von neuronalen Netzwerken und der Verfügbarkeit von 3D-Datensätzen wird 3D U-Net voraussichtlich weiterhin ein wichtiger Ansatz für die semantische Segmentierung von 3D-Daten sein.
-
-Insgesamt ermöglicht 3D U-Net durch seine spezifische Architektur und die
-Verarbeitung von volumetrischen Daten eine präzise und detaillierte
-Segmentierung von 3D-Objekten und -Strukturen. Die Kombination von räumlicher
-Kontextinformation und der Fähigkeit, hierarchische Merkmale zu erfassen, macht
-3D U-Net zu einer vielversprechenden Methode für die Analyse und Verarbeitung
-von 3D-Daten in verschiedenen Anwendungsbereichen.

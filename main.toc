@@ -25,8 +25,8 @@
 \contentsline {chapter}{\numberline {6}State-of-the-Art Verfahren zur semantischen Segmentierung von 3D-Daten}{19}{}%
 \contentsline {subsection}{\numberline {6.0.1}PointNet}{19}{}%
 \contentsline {subsection}{\numberline {6.0.2}3D U-Net}{20}{}%
-\contentsline {chapter}{\numberline {7}Herausforderungen und zukünftige Entwicklungen}{22}{}%
-\contentsline {section}{\numberline {7.1}Herausforderungen und Limitationen}{22}{}%
-\contentsline {section}{\numberline {7.2}Potenziale und Trends für zukünftige Entwicklungen}{23}{}%
-\contentsline {chapter}{\numberline {8}Zusammenfassung und Anwendung}{25}{}%
+\contentsline {chapter}{\numberline {7}Herausforderungen und zukünftige Entwicklungen}{21}{}%
+\contentsline {section}{\numberline {7.1}Herausforderungen und Limitationen}{21}{}%
+\contentsline {section}{\numberline {7.2}Potenziale und Trends für zukünftige Entwicklungen}{22}{}%
+\contentsline {chapter}{\numberline {8}Zusammenfassung und Anwendung}{24}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

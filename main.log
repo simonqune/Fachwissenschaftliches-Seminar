@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  7 JUN 2023 14:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  7 JUN 2023 14:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -895,14 +895,19 @@ chapter 6.
 [19
 
 
-] [20]) (kapitel/Herausforderungen und zukünftige Entwicklungen.tex [21]
+]
+Overfull \hbox (4.69351pt too wide) in paragraph at lines 32--41
+[]\T1/lmss/m/n/10.95 Die 3D U-Net-Architektur be-steht aus ei-nem Encoder-Decoder-Netzwerk mit Skip-Connections.
+ []
+
+) (kapitel/Herausforderungen und zukünftige Entwicklungen.tex [20]
 chapter 7.
-[22
+[21
 
 
-]) (kapitel/Zusammenfassung_und_Ausblick.tex [23] [24]
+]) (kapitel/Zusammenfassung_und_Ausblick.tex [22] [23]
 chapter 8.
-) [25
+) [24
 
 
 ]
@@ -919,10 +924,10 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 77.
 (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [26
+) [25
 
 
-] [27] (main.aux)
+] [26] (main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -939,9 +944,9 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  108i,20n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (27 pages, 228778 bytes).
+Output written on main.pdf (26 pages, 226949 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
+ 154 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
