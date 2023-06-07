@@ -14,22 +14,19 @@
 \contentsline {chapter}{\numberline {4}Grundlegende Verfahren der semantischen Segmentierung}{12}{}%
 \contentsline {subsection}{\numberline {4.0.1}Convolutional Neural Networks (CNNs)}{12}{}%
 \contentsline {subsection}{\numberline {4.0.2}Fully Convolutional Networks (FCNs)}{13}{}%
-\contentsline {subsection}{\numberline {4.0.3}Encoder-Decoder-Architekturen}{13}{}%
-\contentsline {subsection}{\numberline {4.0.4}Conditional Random Fields (CRFs)}{14}{}%
-\contentsline {subsection}{\numberline {4.0.5}Region-based Convolutional Neural Networks (R-CNNs)}{15}{}%
-\contentsline {section}{\numberline {4.1}Evaluierung von Verfahren zur semantischen Segmentierung}{15}{}%
+\contentsline {subsection}{\numberline {4.0.3}Encoder-Decoder-Architekturen}{14}{}%
+\contentsline {subsection}{\numberline {4.0.4}Region-based Convolutional Neural Networks (R-CNNs)}{14}{}%
 \contentsline {chapter}{\numberline {5}Anwendungszenarien der semantischen Segmentierung}{16}{}%
 \contentsline {section}{\numberline {5.1}Autonomes Fahren}{16}{}%
 \contentsline {section}{\numberline {5.2}Robotik in der Industrie}{16}{}%
 \contentsline {section}{\numberline {5.3}Augmented Reality}{17}{}%
-\contentsline {section}{\numberline {5.4}Landwirtschaft}{18}{}%
-\contentsline {section}{\numberline {5.5}Medizin}{19}{}%
-\contentsline {chapter}{\numberline {6}State-of-the-Art Verfahren zur semantischen Segmentierung von 3D-Daten}{20}{}%
-\contentsline {subsection}{\numberline {6.0.1}PointNet}{20}{}%
-\contentsline {subsection}{\numberline {6.0.2}3D U-Net}{21}{}%
-\contentsline {subsection}{\numberline {6.0.3}OctNet}{22}{}%
-\contentsline {chapter}{\numberline {7}Herausforderungen und zukünftige Entwicklungen}{24}{}%
-\contentsline {section}{\numberline {7.1}Herausforderungen und Limitationen}{24}{}%
-\contentsline {section}{\numberline {7.2}Potenziale und Trends für zukünftige Entwicklungen}{25}{}%
-\contentsline {chapter}{\numberline {8}Zusammenfassung und Anwendung}{27}{}%
+\contentsline {section}{\numberline {5.4}Landwirtschaft}{17}{}%
+\contentsline {section}{\numberline {5.5}Medizin}{17}{}%
+\contentsline {chapter}{\numberline {6}State-of-the-Art Verfahren zur semantischen Segmentierung von 3D-Daten}{19}{}%
+\contentsline {subsection}{\numberline {6.0.1}PointNet}{19}{}%
+\contentsline {subsection}{\numberline {6.0.2}3D U-Net}{20}{}%
+\contentsline {chapter}{\numberline {7}Herausforderungen und zukünftige Entwicklungen}{22}{}%
+\contentsline {section}{\numberline {7.1}Herausforderungen und Limitationen}{22}{}%
+\contentsline {section}{\numberline {7.2}Potenziale und Trends für zukünftige Entwicklungen}{23}{}%
+\contentsline {chapter}{\numberline {8}Zusammenfassung und Anwendung}{25}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
