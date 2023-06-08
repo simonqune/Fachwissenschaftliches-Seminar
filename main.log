@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  8 JUN 2023 10:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  8 JUN 2023 13:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -780,7 +780,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting typearea's option
 (scrlayer-scrpage)                `headheight=20.4pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 25.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 24.
 
 
 Overfull \vbox (3.4pt too high) has occurred while \output is active []
@@ -794,7 +794,7 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting typearea's option
 (scrlayer-scrpage)                `footheight=20.4pt'.
-(scrlayer-scrpage)                I'll also increase \footskip on input line 25.
+(scrlayer-scrpage)                I'll also increase \footskip on input line 24.
 
 [2
 
@@ -879,7 +879,7 @@ Package pdftex.def Info: ./svg-inkscape/FCN_own_new_svg-tex.pdf , page3 used on 
 
 LaTeX Warning: Citation '8237548' on page 14 undefined on input line 97.
 
-) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [14 <./svg-inkscape/FCN_own_new_svg-tex.pdf> <./svg-inkscape/FCN_own_new_svg-tex.pdf
+) (kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex [14 <./svg-inkscape/FCN_own_new_svg-tex.pdf> <./svg-inkscape/FCN_own_new_svg-tex.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/FCN_own_new_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./svg-inkscape/FCN_own_new_svg-tex.pdf
@@ -890,17 +890,17 @@ chapter 5.
 [16
 
 
-]) (kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex [17] [18]
-chapter 6.
-[19
-
-
 ]
 Overfull \hbox (4.69351pt too wide) in paragraph at lines 32--41
 []\T1/lmss/m/n/10.95 Die 3D U-Net-Architektur be-steht aus ei-nem Encoder-Decoder-Netzwerk mit Skip-Connections.
  []
 
-) (kapitel/Herausforderungen und zukünftige Entwicklungen.tex [20]
+) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [17]
+chapter 6.
+[18
+
+
+]) (kapitel/Herausforderungen und zukünftige Entwicklungen.tex [19] [20]
 chapter 7.
 [21
 
@@ -944,7 +944,7 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  108i,20n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (25 pages, 225213 bytes).
+Output written on main.pdf (25 pages, 225402 bytes).
 PDF statistics:
  151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
