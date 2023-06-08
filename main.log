@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  7 JUN 2023 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  8 JUN 2023 10:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -905,9 +905,9 @@ chapter 7.
 [21
 
 
-]) (kapitel/Zusammenfassung_und_Ausblick.tex [22] [23]
+]) (kapitel/Zusammenfassung_und_Ausblick.tex [22]
 chapter 8.
-) [24
+) [23
 
 
 ]
@@ -924,10 +924,10 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 77.
 (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [25
+) [24
 
 
-] [26] (main.aux)
+] [25] (main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -936,17 +936,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18665 strings out of 475385
- 405500 string characters out of 2776908
+ 18662 strings out of 475385
+ 405464 string characters out of 2776908
  1360327 words of memory out of 3000000
- 39734 multiletter control sequences out of 15000+600000
+ 39731 multiletter control sequences out of 15000+600000
  514708 words of font info for 58 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (26 pages, 226873 bytes).
+Output written on main.pdf (25 pages, 225213 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
+ 151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
