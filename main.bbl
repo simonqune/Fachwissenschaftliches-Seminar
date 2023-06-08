@@ -19,6 +19,57 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{CGV-079}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b96d9417640a350472979bd2b74fbb13}{%
+           family={Janai},
+           familyi={J\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c692e4415e0a8178a6191afed3ffba7a}{%
+           family={Güney},
+           familyi={G\bibinitperiod},
+           given={Fatma},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f603f116baa81afb8ad402c9c84b1cc1}{%
+           family={Behl},
+           familyi={B\bibinitperiod},
+           given={Aseem},
+           giveni={A\bibinitperiod}}}%
+        {{hash=06133052ac3c14a188601b82783cd4f7}{%
+           family={Geiger},
+           familyi={G\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe58a0c35c4a4f711a9ab34c080ca59a}
+      \strng{fullhash}{b34a700cc96dbc129ba8f3c7b73ee4f8}
+      \strng{bibnamehash}{fe58a0c35c4a4f711a9ab34c080ca59a}
+      \strng{authorbibnamehash}{fe58a0c35c4a4f711a9ab34c080ca59a}
+      \strng{authornamehash}{fe58a0c35c4a4f711a9ab34c080ca59a}
+      \strng{authorfullhash}{b34a700cc96dbc129ba8f3c7b73ee4f8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1572-2740}
+      \field{journaltitle}{Foundations and Trends® in Computer Graphics and Vision}
+      \field{number}{1–3}
+      \field{title}{Computer Vision for Autonomous Vehicles: Problems, Datasets and State of the Art}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 308}
+      \range{pages}{308}
+      \verb{doi}
+      \verb 10.1561/0600000079
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1561/0600000079
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1561/0600000079
+      \endverb
+    \endentry
     \entry{9102769}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=b67f1bb3109bd97ad71bf799288dbf42}{%
@@ -43,8 +94,8 @@
       \strng{authorbibnamehash}{ec2c0b72e0b13b8c7fb70352d446145e}
       \strng{authornamehash}{ec2c0b72e0b13b8c7fb70352d446145e}
       \strng{authorfullhash}{ec2c0b72e0b13b8c7fb70352d446145e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2020 IEEE International Conference on Multimedia and Expo (ICME)}
@@ -54,6 +105,53 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.1109/ICME46284.2020.9102769
+      \endverb
+    \endentry
+    \entry{8206396}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=34d09ed8018ffb8af51471b92264a3a8}{%
+           family={Ha},
+           familyi={H\bibinitperiod},
+           given={Qishen},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=975b91edc303312e52146d4caf55d1fe}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Kohei},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e39a5ef64a004b276b2b29ae931a285e}{%
+           family={Karasawa},
+           familyi={K\bibinitperiod},
+           given={Takumi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4c9afd2d8430ddcb1704682979e376f4}{%
+           family={Ushiku},
+           familyi={U\bibinitperiod},
+           given={Yoshitaka},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7fd9aa2606be6363f630e64d6743ad75}{%
+           family={Harada},
+           familyi={H\bibinitperiod},
+           given={Tatsuya},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a67221784b6555628ca4e735d0a52f37}
+      \strng{fullhash}{7a965b0f65205d2af3d83a7ac2fd7191}
+      \strng{bibnamehash}{a67221784b6555628ca4e735d0a52f37}
+      \strng{authorbibnamehash}{a67221784b6555628ca4e735d0a52f37}
+      \strng{authornamehash}{a67221784b6555628ca4e735d0a52f37}
+      \strng{authorfullhash}{7a965b0f65205d2af3d83a7ac2fd7191}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}
+      \field{title}{MFNet: Towards real-time semantic segmentation for autonomous vehicles with multi-spectral scenes}
+      \field{year}{2017}
+      \field{pages}{5108\bibrangedash 5115}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/IROS.2017.8206396
       \endverb
     \endentry
     \entry{9420573}{inproceedings}{}
@@ -85,8 +183,8 @@
       \strng{authorbibnamehash}{f45f7f93bc07b01adaec97c77b6f0274}
       \strng{authornamehash}{f45f7f93bc07b01adaec97c77b6f0274}
       \strng{authorfullhash}{475d994b558c7718d7b541ad97a5ed70}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2021 26th International Computer Conference, Computer Society of Iran (CSICC)}
@@ -112,8 +210,8 @@
       \strng{authorbibnamehash}{ee568c9a338713e60934e67c3e29dc0a}
       \strng{authornamehash}{ee568c9a338713e60934e67c3e29dc0a}
       \strng{authorfullhash}{ee568c9a338713e60934e67c3e29dc0a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2020 Applying New Technology in Green Buildings (ATiGB)}
@@ -154,8 +252,8 @@
       \strng{authorbibnamehash}{f45dc99ffdb305acc9da59588ae75da4}
       \strng{authornamehash}{f45dc99ffdb305acc9da59588ae75da4}
       \strng{authorfullhash}{dd0df5194604087860d65f31c3b70b3d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}
@@ -197,8 +295,8 @@
       \strng{authornamehash}{98ef2291f425930fa65fedf6d0aed101}
       \strng{authorfullhash}{4eb5ed83740bab7ba7dafe17ed434120}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2018 IEEE 3rd Optoelectronics Global Conference (OGC)}
@@ -229,8 +327,8 @@
       \strng{authorbibnamehash}{bae249bc30bf9701abcd9293a927f5c3}
       \strng{authornamehash}{bae249bc30bf9701abcd9293a927f5c3}
       \strng{authorfullhash}{bae249bc30bf9701abcd9293a927f5c3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2019 3rd International Symposium on Multidisciplinary Studies and Innovative Technologies (ISMSIT)}
@@ -266,8 +364,8 @@
       \strng{authorbibnamehash}{9ee4ed83278d3f5352e85a6e70db4e98}
       \strng{authornamehash}{9ee4ed83278d3f5352e85a6e70db4e98}
       \strng{authorfullhash}{9ee4ed83278d3f5352e85a6e70db4e98}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2014 IEEE International Conference on Image Processing (ICIP)}
@@ -317,8 +415,8 @@
       \strng{authorbibnamehash}{3c30c3750d0eebda8f9bf07de9fb9e59}
       \strng{authornamehash}{3c30c3750d0eebda8f9bf07de9fb9e59}
       \strng{authorfullhash}{1955031844f546d1a2558a7906a74807}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2020 22nd Symposium on Virtual and Augmented Reality (SVR)}
@@ -349,8 +447,8 @@
       \strng{authorbibnamehash}{e03cb3b58c78f3f205b7c6c38321134c}
       \strng{authornamehash}{e03cb3b58c78f3f205b7c6c38321134c}
       \strng{authorfullhash}{e03cb3b58c78f3f205b7c6c38321134c}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2017 14th International Conference on Ubiquitous Robots and Ambient Intelligence (URAI)}
