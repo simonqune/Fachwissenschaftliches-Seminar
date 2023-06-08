@@ -553,6 +553,30 @@
       \verb 10.1109/URAI.2017.7992709
       \endverb
     \endentry
+    \entry{elphcik1991using}{article}{}
+      \name{author}{1}{}{%
+        {{hash=622b6cb268c8779656c7997e3ce686ae}{%
+           family={Elphcik},
+           familyi={E\bibinitperiod},
+           given={RY},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{622b6cb268c8779656c7997e3ce686ae}
+      \strng{fullhash}{622b6cb268c8779656c7997e3ce686ae}
+      \strng{bibnamehash}{622b6cb268c8779656c7997e3ce686ae}
+      \strng{authorbibnamehash}{622b6cb268c8779656c7997e3ce686ae}
+      \strng{authornamehash}{622b6cb268c8779656c7997e3ce686ae}
+      \strng{authorfullhash}{622b6cb268c8779656c7997e3ce686ae}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geobyte;(United States)}
+      \field{number}{6}
+      \field{title}{Using the LAS format-part I.[Well log files]}
+      \field{volume}{6}
+      \field{year}{1991}
+    \endentry
     \entry{8578570}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=1d9ad9402232f1c53f0efd7b0d800b2e}{%
@@ -583,6 +607,92 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1109/CVPR.2018.00472
+      \endverb
+    \endentry
+    \entry{niessner2013real}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3e07f51dbc36ece3b41bb5bcfe5b3b07}{%
+           family={Nie{ß}ner},
+           familyi={N\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3d2caa0b4dc1eee50a8a852c5c89bb5d}{%
+           family={Zollhöfer},
+           familyi={Z\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=19d80a2a01693de3631decaa652d4d3f}{%
+           family={Izadi},
+           familyi={I\bibinitperiod},
+           given={Shahram},
+           giveni={S\bibinitperiod}}}%
+        {{hash=519ca105c52edb2f0fe9064c9e347e63}{%
+           family={Stamminger},
+           familyi={S\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{3fc5e4ce3b24e3e3c7e6158108eb2b0f}
+      \strng{fullhash}{8c33241568c921d57eeb4c635997dbc2}
+      \strng{bibnamehash}{3fc5e4ce3b24e3e3c7e6158108eb2b0f}
+      \strng{authorbibnamehash}{3fc5e4ce3b24e3e3c7e6158108eb2b0f}
+      \strng{authornamehash}{3fc5e4ce3b24e3e3c7e6158108eb2b0f}
+      \strng{authorfullhash}{8c33241568c921d57eeb4c635997dbc2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Transactions on Graphics (ToG)}
+      \field{number}{6}
+      \field{title}{Real-time 3D reconstruction at scale using voxel hashing}
+      \field{volume}{32}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+    \endentry
+    \entry{6706719}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=8ada7bec05943efc23b4650617d28091}{%
+           family={Orts-Escolano},
+           familyi={O\bibinithyphendelim E\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=de85dec1b0b2cec629341e74c472df83}{%
+           family={Morell},
+           familyi={M\bibinitperiod},
+           given={Vicente},
+           giveni={V\bibinitperiod}}}%
+        {{hash=b41e31784fb92c3c377821199da72d12}{%
+           family={García-Rodríguez},
+           familyi={G\bibinithyphendelim R\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod}}}%
+        {{hash=573aaeaaa16f2b86e60a655d35f8e45e}{%
+           family={Cazorla},
+           familyi={C\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b68bc446635c35ed4e50571f18e8950}
+      \strng{fullhash}{4649cf85ac8eff06bf2215028053f176}
+      \strng{bibnamehash}{2b68bc446635c35ed4e50571f18e8950}
+      \strng{authorbibnamehash}{2b68bc446635c35ed4e50571f18e8950}
+      \strng{authornamehash}{2b68bc446635c35ed4e50571f18e8950}
+      \strng{authorfullhash}{4649cf85ac8eff06bf2215028053f176}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The 2013 International Joint Conference on Neural Networks (IJCNN)}
+      \field{title}{Point cloud data filtering and downsampling using growing neural gas}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/IJCNN.2013.6706719
       \endverb
     \endentry
     \entry{9191237}{inproceedings}{}
@@ -651,8 +761,8 @@
       \strng{authorbibnamehash}{5120224ea6873636c08dfdd111fd1b8d}
       \strng{authornamehash}{5120224ea6873636c08dfdd111fd1b8d}
       \strng{authorfullhash}{5120224ea6873636c08dfdd111fd1b8d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 21st International Conference on Pattern Recognition (ICPR2012)}
@@ -691,8 +801,8 @@
       \strng{authornamehash}{ddf87ccba3601dc9d6bbf8354dd5b7db}
       \strng{authorfullhash}{7be8859254e60a209e2cf0310e7ef358}
       \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{To investigate forest resources, it is necessary to identify the tree species. However, it is a challenge to identify tree species using 3D point clouds of trees collected by light detection and ranging (LiDAR). PointNet++, a point cloud deep learning network, can effectively classify 3D objects. It is important to establish high-quality individual tree point cloud datasets when applying PointNet++ to identifying tree species. However, there are different data processing methods to produce sample datasets, and the processes are tedious. In this study, we suggest how to select the appropriate method by designing comparative experiments. We used the backpack laser scanning (BLS) system to collect point cloud data for a total of eight tree species in three regions. We explored the effect of tree height on the classification accuracy of tree species by using different point cloud normalization methods and analyzed the effect of leaf point clouds on classification accuracy by separating the leaves and wood of individual tree point clouds. Five downsampling methods were used: farthest point sampling (FPS), K-means, random, grid average sampling, and nonuniform grid sampling (NGS). Data with different sampling points were designed for the experiments. The results show that the tree height feature is unimportant when using point cloud deep learning methods for tree species classification. For data collected in a single season, the leaf point cloud has little effect on the classification accuracy. The two suitable point cloud downsampling methods we screened were FPS and NGS, and the deep learning network could provide the most accurate tree species classification when the number of individual tree point clouds was in the range of 2048--5120. Our study further illustrates that point-based end-to-end deep learning methods can be used to classify tree species and identify individual tree point clouds. Combined with the low-cost and high-efficiency BLS system, it can effectively improve the efficiency of forest resource surveys.}
@@ -736,8 +846,8 @@
       \strng{authorbibnamehash}{1e0b31097f3d41e61dd78e46b147642a}
       \strng{authornamehash}{1e0b31097f3d41e61dd78e46b147642a}
       \strng{authorfullhash}{1e0b31097f3d41e61dd78e46b147642a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The field of machine learning has taken a dramatic twist in recent times, with the rise of the Artificial Neural Network (ANN). These biologically inspired computational models are able to far exceed the performance of previous forms of artificial intelligence in common machine learning tasks. One of the most impressive forms of ANN architecture is that of the Convolutional Neural Network (CNN). CNNs are primarily used to solve difficult image-driven pattern recognition tasks and with their precise yet simple architecture, offers a simplified method of getting started with ANNs. This document provides a brief introduction to CNNs, discussing recently published papers and newly formed techniques in developing these brilliantly fantastic image recognition models. This introduction assumes you are familiar with the fundamentals of ANNs and machine learning.}
@@ -794,7 +904,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{.2020b}
   \missing{8237548}
 \endrefsection
 \endinput

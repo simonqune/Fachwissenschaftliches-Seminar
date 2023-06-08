@@ -3,23 +3,19 @@
 Bei der semantischen Segmentierung von 3D-Daten spielen die zugrunde liegenden
 Datenformate eine elementare Rolle. Diese bilden die Grundlage für die
 Erfassung, Speicherung und Verarbeitung von 3D-Daten, die für die semantische
-Segmentierung verwendet werden. In diesem Kapitel werden die beiden
-verbreitetsten 3D-Datenformate und Datentypen untersucht, die in der Forschung
-und Praxis eingesetz werden.
-
-Ein wichtiges 3D-Datenformat ist das Punktewolkenformat, das unter anderem von
-LiDAR-Sensoren erzeugt wird. Eine Punktwolke ist eine Sammlungen von
+Segmentierung verwendet werden. In diesem Kapitel werden zwei verbreitete
+3D-Datenformate dargestellt, die in der Forschung und Praxis einsatz finden.
+\\Ein wichtiges 3D-Datenformat ist das Punktewolkenformat, das unter anderem
+von LiDAR-Sensoren erzeugt wird. Eine Punktwolke ist eine Sammlungen von
 3D-Punkten, die die Oberfläche von Objekten in der Umgebung darstellen. Jeder
-Punkt stellt dabei eine reflektierte Lichtwelle da. Sie können in verschiedenen
-Dateiformaten gespeichert werden, häufig geschieht dies im binären LAS-Format,
-das speziell für die Speicherung und den Austausch von LiDAR-Punktwolken
-entwickelt wurde. Diese Formate ermöglichen die Speicherung von großen Mengen
-an Punkten mit 3D-Koordinaten, Intensitätsinformationen und weiteren
-Attributen, die zur semantischen Segmentierung verwendet werden können
-\cite{.2020b}. Punktwolken weißen dadurch eine stark variable Punktdichte auf.
-Dies lässt sich durch Faktoren, wie eine ungleichmäßige Abtastung des Raumes,
-der Verdeckung von Objekten und der relativen Ausrichtung des Objektes zum
-Sensor begründen. Das Punktwolkenformat hat aufgrund der großen Menge an
+Punkt einer Point-Cloud stellt dabei, im Falle eines LiDAR-Sensors, die
+3D-Position eines reflektierten Lichtstrahles dar \cite{20222324}. Sie können
+in verschiedenen Dateiformaten gespeichert werden, häufig geschieht dies im
+binären LAS-Format, das für die Speicherung und den Austausch von
+LiDAR-Punktwolken verwendet wird. Diese Formate ermöglichen die Speicherung von
+großen Mengen an Punkten mit 3D-Koordinaten, Intensitätsinformationen und
+weiteren Attributen, die zur semantischen Segmentierung verwendet werden können
+\cite{elphcik1991using}. Das Punktwolkenformat hat aufgrund der großen Menge an
 Punkten, die durch einen LiDAR-Sensor erzeugt werden, einen sehr hohen
 Speicherbedarf, was zu einer rechenintensiven Verarbeitung der Daten führen
 kann \cite{8578570}.
@@ -31,7 +27,7 @@ Informationen über Materialeigenschaften, Farbe oder Textur des Objektes an
 diesem Punkt im Raum. Das Datenformat bietet dabei eine effektive Möglichkeit,
 komplexe dreidimensionale Strukturen darzustellen und weiter zu analysieren.
 Die Voxeldichte im Raum kann dabei frei gewählt werden und bestimmt so die
-Auflösung und den Speicherbedarf des Datensatzes.
+Auflösung und den Speicherbedarf des Datensatzes.\cite{niessner2013real,6706719}
 
 \section{Vorverarbeitungsschritte wie Filterung, Normalenberechnung und Downsampling}
 
@@ -57,8 +53,8 @@ sogenannte Random-Downsampling. Dabei wird ein bestehender Datensatz um eine
 absolute oder relative Punktanzahl reduziert. Die wegfallenden Punkte werden
 dabei zufällig ausgewählt. Nachteil ist hierbei, dass sich ursprünglich
 ungleichmäßig abgetastete Bereich des Datensatzes noch vergrößern können, und
-dadurch markante Merkmale in der Punktwolke verloren gehen können
-\cite{987567547}. Deshalb wird stattdessen häufig auf das Voxel-Grid-Downsampling
+dadurch markante Merkmale in der Punktwolke verloren gehen \cite{987567547}.
+Deshalb wird stattdessen häufig auf das Voxel-Grid-Downsampling
 zurückgegriffen. Dabei wird der Raum, in der sich die Punktwolke befindet, in
 gleichmäßige Voxel unterteilt. Daraufhin wird in jedem Voxel nur eine bestimmte
 Anzahl an Punkten übernommen, die anderen werden aus dem Datensatz entfernt.
