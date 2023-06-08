@@ -22,7 +22,7 @@ Unter dem Begriff Tiefenkamera lassen sich verschiedene Verfahren aufführen,
 welche unterschiedliche Funktionsweisen besitzen, um Tiefeninformationen einer
 Szene zu bestimmen. Im Bereich der semantische Segmentierung kommen besonders
 Kamerasysteme, die auf Stereo-Vision, Time-of-Flight oder Structured Light
-basieren zum Einsatz.
+basieren, zum Einsatz \cite{20222324}.
 
 Kamerasysteme, die auf dem Prinzip der Stereo-Vision basieren, werden als
 Stereo Kameras bezeichnet. Bei diesen werden zwei räumlich getrennte Kameras
@@ -33,31 +33,34 @@ sich Tiefeninformationen des betrachteten Objektes durch Triangulation
 bestimmen \cite{8932817}.
 
 Kameras die auf dem Time of Flight(TOF) Prinzip basieren, senden eine
-modulierte Lichtwelle im Infrarotbereich aus. Diese wird, wie beim
-LiDAR-Sensor, von Objekten in der Umgebung reflektiert und ermöglicht es
-Tiefeninformationen zu berechnen. Dies kann nur über die Laufzeit oder
-zusätzlich über die Phasenverschiebung der Infrarotwelle geschehen
-\cite{7025195}. Diese können zusätzlich mit einer RGB-Kamera ausgestattet sein
-und sind dann unter dem Begriff RGB-D Kameras bekannt. Diese haben häufig eine
-höhere räumliche Auflösung und sind in der Lage zusätzlich Farbinformationen
-aufzunehmen, besitzen jedoch einen deutlich kleineren Arbeitsbereich
-\cite{9262651}. Ein weiteres Verfahren basiert auf Structured Light. Bei diesem
-Verfahren wird ein spezielles 2D-Muster auf das zu betrachtende Objekt
-projiziert. Aus dessen Verzerrung lässt sich auf 3D-Information schließen
-\cite{7992709}.
+Lichtwelle mit mehreren Modulationsfrequenzen im Infrarotbereich aus. Diese
+wird, wie beim LiDAR-Sensor, von Objekten in der Umgebung reflektiert und
+ermöglicht es Tiefeninformationen zu berechnen. Dabei wird sowohl die
+Phasenverschiebung, als auch die Amplitude des reflektierten Signals gemessen
+und so die Entfernung berechnet. Die meisten Verfahren nutzen dabei vier
+Messungen um die Phasenverschiebung zu erkennen \cite{7035807,7025195}.
+
+\\Tiefenkameras können zusätzlich mit einer RGB-Kamera ausgestattet sein und sind dann unter
+dem Begriff RGB-D Kameras bekannt. Diese haben häufig eine höhere räumliche
+Auflösung und sind in der Lage zusätzlich Farbinformationen aufzunehmen,
+besitzen jedoch einen deutlich kleineren Arbeitsbereich \cite{9262651}. Ein
+weiteres Verfahren basiert auf Structured Light. Bei diesem Verfahren wird ein
+spezielles 2D-Muster auf das zu betrachtende Objekt projiziert. Aus dessen
+Verzerrung lässt sich auf 3D-Information schließen \cite{7992709}.
 
 \section{Passive und aktive Sensoren}
 Die genannten Sensoren lassen sich zusätzlich in zwei Klassen unterteilen.
 Aktive Sensoren, wie LIDAR-Sensoren, senden selbst Energie in Form von einer
 Lichtwelle aus, um Informationen über die Umgebung zu sammeln. Im Gegensatz
-dazu arbeiten passive Sensoren, wie Stereokameras, ohne aktiv Energie
-auszusenden, sondern nutzen lediglich das natürliche Licht, das von der
-Umgebung reflektiert wird. Der Vorteil von aktiven Sensoren besteht darin, dass
-sie unabhängig von der Umgebungshelligkeit arbeiten und auch bei Dunkelheit
-eingesetzt werden können. Passive Sensoren hingegen können bei schlechten
-Lichtverhältnissen Schwierigkeiten haben, genaue Tiefeninformationen zu
-liefern. Es ist jedoch anzumerken, dass passive Sensoren in der Regel
+dazu arbeiten passive Sensoren, wie die meisten Stereo Kamera-Systeme, ohne
+aktiv Energie auszusenden. Sie nutzen lediglich das natürliche Licht, welches
+von der Umgebung reflektiert wird. Der Vorteil von aktiven Sensoren besteht
+darin, dass sie unabhängig von der Umgebungshelligkeit arbeiten und auch bei
+Dunkelheit eingesetzt werden können. Passive Sensoren hingegen können bei
+schlechten Lichtverhältnissen Schwierigkeiten haben, genaue Tiefeninformationen
+zu liefern. Es ist jedoch anzumerken, dass passive Sensoren in der Regel
 kostengünstiger sind und eine höhere räumliche Auflösung bieten können.
+\cite{20222324}
 
 \section{Auswahl von Sensoren für die semantische Segmentierung}
 
@@ -73,6 +76,6 @@ Einsatzgebiet zu wechselnden Umgebungsbedingungen wie Wetter- oder
 Beleuchtungsveränderungen kommen, sind oft aktive Sensoren geeigneter, um
 unabhängig von äußeren Einflüssen funktionieren zu können. Durch ihre
 unterschiedlichen Eigenschaften können Sensoren besser für die Erkennung
-bestimmter Objekte geeignet sein. Außerdem ist das Budget bei der Sensorwahl
-zu berücksichtigen, da sich die Sensoren stark in ihren Kosten unterscheiden
-können.
+bestimmter Objekte geeignet sein. Außerdem ist das Budget bei der Sensorwahl zu
+berücksichtigen, da sich die Sensoren stark in ihren Kosten unterscheiden
+können.\cite{20222324}

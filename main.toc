@@ -1,32 +1,32 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{\numberline {1}Einleitung}{4}{}%
-\contentsline {section}{\numberline {1.1}Hintergrund und Motivation}{4}{}%
-\contentsline {section}{\numberline {1.2}Problemstellungen und aktueller Stand der Technik}{4}{}%
-\contentsline {chapter}{\numberline {2}Sensoren zur Erfassung von 3D-Daten}{6}{}%
-\contentsline {section}{\numberline {2.1}LiDAR-Sensoren}{6}{}%
-\contentsline {section}{\numberline {2.2}Tiefenkameras}{6}{}%
-\contentsline {section}{\numberline {2.3}Passive und aktive Sensoren}{7}{}%
-\contentsline {section}{\numberline {2.4}Auswahl von Sensoren für die semantische Segmentierung}{7}{}%
-\contentsline {chapter}{\numberline {3}Datengrundlage und Vorverarbeitung}{9}{}%
-\contentsline {section}{\numberline {3.1}3D-Datenformate und Datentypen}{9}{}%
-\contentsline {section}{\numberline {3.2}Vorverarbeitungsschritte wie Filterung, Normalenberechnung und Downsampling}{10}{}%
-\contentsline {section}{\numberline {3.3}Datenannotation und Ground Truth-Erstellung}{11}{}%
-\contentsline {chapter}{\numberline {4}Grundlegende Verfahren der semantischen Segmentierung}{12}{}%
-\contentsline {subsection}{\numberline {4.0.1}Convolutional Neural Networks (CNNs)}{12}{}%
-\contentsline {subsection}{\numberline {4.0.2}Fully Convolutional Networks (FCNs)}{13}{}%
-\contentsline {subsection}{\numberline {4.0.3}Encoder-Decoder-Architekturen}{14}{}%
-\contentsline {subsection}{\numberline {4.0.4}Region-based Convolutional Neural Networks (R-CNNs)}{14}{}%
-\contentsline {chapter}{\numberline {5}State-of-the-Art Verfahren zur semantischen Segmentierung von 3D-Daten}{16}{}%
-\contentsline {subsection}{\numberline {5.0.1}PointNet}{16}{}%
-\contentsline {subsection}{\numberline {5.0.2}3D U-Net}{17}{}%
-\contentsline {chapter}{\numberline {6}Anwendungszenarien der semantischen Segmentierung}{18}{}%
-\contentsline {section}{\numberline {6.1}Autonomes Fahren}{18}{}%
-\contentsline {section}{\numberline {6.2}Robotik in der Industrie}{18}{}%
-\contentsline {section}{\numberline {6.3}Augmented Reality}{19}{}%
-\contentsline {section}{\numberline {6.4}Landwirtschaft}{19}{}%
-\contentsline {section}{\numberline {6.5}Medizin}{19}{}%
-\contentsline {chapter}{\numberline {7}Herausforderungen und zukünftige Entwicklungen}{21}{}%
-\contentsline {section}{\numberline {7.1}Herausforderungen und Limitationen}{21}{}%
-\contentsline {section}{\numberline {7.2}Potenziale und Trends für zukünftige Entwicklungen}{21}{}%
-\contentsline {chapter}{\numberline {8}Zusammenfassung}{23}{}%
+\contentsline {chapter}{\numberline {1}Einleitung}{3}{}%
+\contentsline {section}{\numberline {1.1}Hintergrund und Motivation}{3}{}%
+\contentsline {section}{\numberline {1.2}Problemstellungen und aktueller Stand der Technik}{3}{}%
+\contentsline {chapter}{\numberline {2}Sensoren zur Erfassung von 3D-Daten}{5}{}%
+\contentsline {section}{\numberline {2.1}LiDAR-Sensoren}{5}{}%
+\contentsline {section}{\numberline {2.2}Tiefenkameras}{5}{}%
+\contentsline {section}{\numberline {2.3}Passive und aktive Sensoren}{6}{}%
+\contentsline {section}{\numberline {2.4}Auswahl von Sensoren für die semantische Segmentierung}{6}{}%
+\contentsline {chapter}{\numberline {3}Datengrundlage und Vorverarbeitung}{8}{}%
+\contentsline {section}{\numberline {3.1}3D-Datenformate und Datentypen}{8}{}%
+\contentsline {section}{\numberline {3.2}Vorverarbeitungsschritte wie Filterung, Normalenberechnung und Downsampling}{9}{}%
+\contentsline {section}{\numberline {3.3}Datenannotation und Ground Truth-Erstellung}{10}{}%
+\contentsline {chapter}{\numberline {4}Grundlegende Verfahren der semantischen Segmentierung}{11}{}%
+\contentsline {subsection}{\numberline {4.0.1}Convolutional Neural Networks (CNNs)}{11}{}%
+\contentsline {subsection}{\numberline {4.0.2}Fully Convolutional Networks (FCNs)}{12}{}%
+\contentsline {subsection}{\numberline {4.0.3}Encoder-Decoder-Architekturen}{13}{}%
+\contentsline {subsection}{\numberline {4.0.4}Region-based Convolutional Neural Networks (R-CNNs)}{13}{}%
+\contentsline {chapter}{\numberline {5}State-of-the-Art Verfahren zur semantischen Segmentierung von 3D-Daten}{15}{}%
+\contentsline {subsection}{\numberline {5.0.1}PointNet}{15}{}%
+\contentsline {subsection}{\numberline {5.0.2}3D U-Net}{16}{}%
+\contentsline {chapter}{\numberline {6}Anwendungszenarien der semantischen Segmentierung}{17}{}%
+\contentsline {section}{\numberline {6.1}Autonomes Fahren}{17}{}%
+\contentsline {section}{\numberline {6.2}Robotik in der Industrie}{17}{}%
+\contentsline {section}{\numberline {6.3}Augmented Reality}{18}{}%
+\contentsline {section}{\numberline {6.4}Landwirtschaft}{18}{}%
+\contentsline {section}{\numberline {6.5}Medizin}{18}{}%
+\contentsline {chapter}{\numberline {7}Herausforderungen und zukünftige Entwicklungen}{20}{}%
+\contentsline {section}{\numberline {7.1}Herausforderungen und Limitationen}{20}{}%
+\contentsline {section}{\numberline {7.2}Potenziale und Trends für zukünftige Entwicklungen}{20}{}%
+\contentsline {chapter}{\numberline {8}Zusammenfassung}{22}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

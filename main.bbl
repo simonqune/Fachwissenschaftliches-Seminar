@@ -308,6 +308,56 @@
       \verb 10.1109/OGC.2018.8529992
       \endverb
     \endentry
+    \entry{20222324}{article}{}
+      \name{author}{3}{}{%
+        {{hash=39571f3b0f8801c2427fdfc3f43f20ff}{%
+           family={Rizzoli},
+           familyi={R\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c07062511b550547a2825f7687d6b34d}{%
+           family={Barbato},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e18106b8323e7ea91c3e008c278cc843}{%
+           family={Zanuttigh},
+           familyi={Z\bibinitperiod},
+           given={Pietro},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{c10475bc45e842433e1140b8e2dbdcfe}
+      \strng{fullhash}{c10475bc45e842433e1140b8e2dbdcfe}
+      \strng{bibnamehash}{c10475bc45e842433e1140b8e2dbdcfe}
+      \strng{authorbibnamehash}{c10475bc45e842433e1140b8e2dbdcfe}
+      \strng{authornamehash}{c10475bc45e842433e1140b8e2dbdcfe}
+      \strng{authorfullhash}{c10475bc45e842433e1140b8e2dbdcfe}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2227-7080}
+      \field{journaltitle}{Technologies}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{Multimodal Semantic Segmentation in Autonomous Driving: A Review of Current Approaches and Future Perspectives}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{pages}{90}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/technologies10040090
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.3390/technologies10040090
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3390/technologies10040090
+      \endverb
+    \endentry
     \entry{8932817}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=0295a745d954db2f0cf4ee932bdee278}{%
@@ -327,8 +377,8 @@
       \strng{authorbibnamehash}{bae249bc30bf9701abcd9293a927f5c3}
       \strng{authornamehash}{bae249bc30bf9701abcd9293a927f5c3}
       \strng{authorfullhash}{bae249bc30bf9701abcd9293a927f5c3}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2019 3rd International Symposium on Multidisciplinary Studies and Innovative Technologies (ISMSIT)}
@@ -338,6 +388,49 @@
       \range{pages}{4}
       \verb{doi}
       \verb 10.1109/ISMSIT.2019.8932817
+      \endverb
+    \endentry
+    \entry{7035807}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=c8b46d457d7577efc9d388d1c40fb783}{%
+           family={Kerl},
+           familyi={K\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ae342120b9421a5e30f8dfd111e61ebe}{%
+           family={Souiai},
+           familyi={S\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9e291584a3b29b27c88ecfe0a566274c}{%
+           family={Sturm},
+           familyi={S\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1bd2b6b6ca2fc15a90f164070b626131}{%
+           family={Cremers},
+           familyi={C\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{4088c2282796db3475bd1d361a9ac3f1}
+      \strng{fullhash}{3dd0409779af9bf58233a318aa63f7f0}
+      \strng{bibnamehash}{4088c2282796db3475bd1d361a9ac3f1}
+      \strng{authorbibnamehash}{4088c2282796db3475bd1d361a9ac3f1}
+      \strng{authornamehash}{4088c2282796db3475bd1d361a9ac3f1}
+      \strng{authorfullhash}{3dd0409779af9bf58233a318aa63f7f0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 2nd International Conference on 3D Vision}
+      \field{title}{Towards Illumination-Invariant 3D Reconstruction Using ToF RGB-D Cameras}
+      \field{volume}{1}
+      \field{year}{2014}
+      \field{pages}{39\bibrangedash 46}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/3DV.2014.62
       \endverb
     \endentry
     \entry{7025195}{inproceedings}{}
@@ -364,8 +457,8 @@
       \strng{authorbibnamehash}{9ee4ed83278d3f5352e85a6e70db4e98}
       \strng{authornamehash}{9ee4ed83278d3f5352e85a6e70db4e98}
       \strng{authorfullhash}{9ee4ed83278d3f5352e85a6e70db4e98}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2014 IEEE International Conference on Image Processing (ICIP)}
@@ -685,8 +778,8 @@
       \strng{authorbibnamehash}{fb26318591964ff2e23ee05578819393}
       \strng{authornamehash}{fb26318591964ff2e23ee05578819393}
       \strng{authorfullhash}{fb26318591964ff2e23ee05578819393}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
