@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  9 JUN 2023 10:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  9 JUN 2023 12:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -868,7 +868,7 @@ chapter 5.
 
 
 ]
-Overfull \hbox (4.69351pt too wide) in paragraph at lines 32--41
+Overfull \hbox (4.69351pt too wide) in paragraph at lines 33--42
 []\T1/lmss/m/n/10.95 Die 3D U-Net-Architektur be-steht aus ei-nem Encoder-Decoder-Netzwerk mit Skip-Connections.
  []
 
@@ -915,7 +915,12 @@ Overfull \hbox (24.62459pt too wide) in paragraph at lines 81--81
 \T1/lmss/m/sl/10.95 Tech-no-lo-gies \T1/lmss/m/n/10.95 10.4 (Ju-li 2022), S. 90. \T1/lmr/m/sc/10.95 issn\T1/lmss/m/n/10.95 : 2227-7080. \T1/lmr/m/sc/10.95 doi\T1/lmss/m/n/10.95 : $\T1/lmtt/m/n/10.95 10 . 3390 / technologies10040090$\T1/lmss/m/n/10.95 .
  []
 
-[23] [24] [25] (main.aux)
+[23] [24]
+Overfull \hbox (8.08446pt too wide) in paragraph at lines 81--81
+\T1/lmtt/m/n/10.95 neurips . cc / paper _ files / paper / 2017 / file / d8bf84be3800d12f74d8b05e9b89836f -[]
+ []
+
+[25] (main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -924,15 +929,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18741 strings out of 476334
- 407676 string characters out of 5787971
+ 18754 strings out of 476334
+ 408207 string characters out of 5787971
  1864382 words of memory out of 5000000
- 38858 multiletter control sequences out of 15000+600000
+ 38871 multiletter control sequences out of 15000+600000
  558151 words of font info for 63 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (27 pages, 231707 bytes).
+Output written on main.pdf (27 pages, 233566 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

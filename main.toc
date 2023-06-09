@@ -17,7 +17,7 @@
 \contentsline {subsection}{\numberline {4.0.3}Encoder-Decoder-Architekturen}{12}{}%
 \contentsline {subsection}{\numberline {4.0.4}Region-based Convolutional Neural Networks (R-CNNs)}{12}{}%
 \contentsline {chapter}{\numberline {5}State-of-the-Art Verfahren zur semantischen Segmentierung von 3D-Daten}{14}{}%
-\contentsline {subsection}{\numberline {5.0.1}PointNet}{14}{}%
+\contentsline {subsection}{\numberline {5.0.1}PointNet++}{14}{}%
 \contentsline {subsection}{\numberline {5.0.2}3D U-Net}{15}{}%
 \contentsline {chapter}{\numberline {6}Anwendungszenarien der semantischen Segmentierung}{16}{}%
 \contentsline {section}{\numberline {6.1}Autonomes Fahren}{16}{}%

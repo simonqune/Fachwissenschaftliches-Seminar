@@ -2391,6 +2391,9 @@
     <bcf:citekey order="25" intorder="1">8309343</bcf:citekey>
     <bcf:citekey order="26" intorder="1">7803544</bcf:citekey>
     <bcf:citekey order="27" intorder="1">Girshick_2015_ICCV</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">NIPS2017_d8bf84be</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">ronneberger2015unet</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">çiçek20163d</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

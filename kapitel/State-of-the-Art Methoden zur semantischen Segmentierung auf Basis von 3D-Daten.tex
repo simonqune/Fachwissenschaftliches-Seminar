@@ -1,5 +1,5 @@
 \chapter{State-of-the-Art Verfahren zur semantischen Segmentierung von 3D-Daten}
-\subsection{PointNet}
+\subsection{PointNet++}
 PointNet++ ist eine fortschrittliche Methode zur Verarbeitung von Punktwolken
 in der 3D-Bildverarbeitung, die speziell für die Aufgaben der Klassifikation,
 Segmentierung und Erkennung von Objekten entwickelt wurde. Es basiert auf der
@@ -21,12 +21,13 @@ Ein wichtiger Schritt in der Funktionsweise von PointNet++ ist die Anwendung
 von Farb- oder Normalinformationen, um zusätzliche Merkmale zu extrahieren.
 Dadurch können beispielsweise Oberflächenmerkmale oder
 Orientierungsinformationen berücksichtigt werden, was zu einer verbesserten
-Segmentierungsgenauigkeit führt.
+Segmentierungsgenauigkeit führt. \cite{NIPS2017_d8bf84be} sNICHT BELEGT MODULES
+UND COLORS
 
 \subsection{3D U-Net}
 
 3D U-Net ist ein leistungsstarkes Verfahren für die semantische Segmentierung von 3D-Daten.
-Es basiert auf der verarbeiten 2D U-Net-Architektur, die für die Bildsegmentierung entwickelt wurde.
+Es basiert auf der verarbeiten 2D U-Net-Architektur, die für die Bildsegmentierung entwickelt wurde \cite{ronneberger2015unet}.
 Um diese Architektur auf 3D-Daten anzuwenden, wurde sie entsprechend angepasst.
 
 Die 3D U-Net-Architektur besteht aus einem Encoder-Decoder-Netzwerk mit
@@ -35,13 +36,13 @@ besteht aus mehreren Convolutional-Layers, gefolgt von Pooling-Layern. Diese
 Schichten helfen dabei, wichtige Merkmale des Eingangsbildes zu extrahieren und
 die räumliche Auflösung zu reduzieren. Die Skip Connections werden zwischen den
 Encoder- und Decoder-Schichten erstellt, um beim Prozess des upsamplings eine
-positionsgetreue Wiederherstellung der Bildmerkmale zu gewährleisten.
-Der Decoder-Teil des 3D U-Net-Netzwerks besteht dabei aus Upsampling-Schichten, die
-die räumliche Auflösung erhöhen, gefolgt von Deconvolutional-Layers. 
+positionsgetreue Wiederherstellung der Bildmerkmale zu gewährleisten. Der
+Decoder-Teil des 3D U-Net-Netzwerks besteht dabei aus Upsampling-Schichten, die
+die räumliche Auflösung erhöhen, gefolgt von Deconvolutional-Layers.
 
 Ein wesentliches Merkmal von 3D U-Net ist seine Fähigkeit, volumetrische
 Kontextinformationen zu berücksichtigen. Durch die Verarbeitung von
 3D-Volumendaten können komplexe räumliche Zusammenhänge erfasst und genutzt
 werden, um eine präzise Segmentierung zu erreichen. Dies ist insbesondere in
 medizinischen Anwendungen von großer Bedeutung, in denen die genaue Abgrenzung
-von Organen oder Tumoren entscheidend ist.
+von Organen oder Tumoren entscheidend ist. \cite{çiçek20163d}
