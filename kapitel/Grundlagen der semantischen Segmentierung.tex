@@ -3,7 +3,7 @@
 Ziel der Semantischen Segmentierung von 3D-Daten ist es, jedem Punkt im Raum
 einer bestimmten Kategorie zuzuordnen und dadurch Bereiche des Bildes in
 klassifizierte Objekte zu unterteilen. Hierfür gibt es verschiedene Ansätze,
-die auf erweiterten neuronalen Netzen basieren.
+die auf Erweiterungen von neuronalen Netzen basieren.
 
 \subsection{Convolutional Neural Networks (CNNs)}
 Convolutional Neural Networks (CNNs) sind eine erweiterte Art von künstlichen
@@ -56,7 +56,7 @@ Ebene der Pixel identifiziert werden, was für Anwendungen wie die autonome
 Navigation oder Objekterkennung von großer Bedeutung ist. \cite{7803544}
 Bekannte und erfolgreiche Verfahren wie das U-Net, verwenden dabei häufig eine
 Encode-Decoder-Architektur, um das Klassifizierungsergebnis in der
-Dimensionalität des Eingangsbildes darzustellen.
+Dimensionalität des Eingangsbildes darzustellen \cite{8309343}.
 
 \subsection{Encoder-Decoder-Architekturen}
 Encoder-Decoder-Architekturen stellen eine spezielle Architektur von neuronalen
@@ -94,4 +94,5 @@ durchgeführt. R-CNNs erzielen dadurch eine höhere Genauigkeit als herkömmlich
 CNNs bei der Erkennung von Objekten in Bildern und werden daher häufig in der
 Robotik und im autonomen Fahren eingesetzt. Dies liegt daran, dass sie weniger
 Rechenleistung benötigen und gleichzeitig Störeinflüsse, die außerhalb der ROI
-liegen, keinen negativen Einfluss auf die Klassifizierung nehmen können. \cite{8237548}
+liegen, keinen negativen Einfluss auf die Klassifizierung nehmen können.
+\cite{Girshick_2015_ICCV}

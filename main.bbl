@@ -771,6 +771,68 @@
       \field{pages}{3070\bibrangedash 3073}
       \range{pages}{4}
     \endentry
+    \entry{HAN2017103}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b55ba14ab4c48b8ae41245bc1caa298c}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Xian-Feng},
+           giveni={X\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=77670cc686bb522805bcfbd19ad415f5}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Jesse\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7e617f52f01a4c554609b8b6f04baabd}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ming-Jie},
+           giveni={M\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=e3dafe978a62db8ea9fec63a537b07dc}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=2f63fd46498e61c59f72623f36d6712f}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4de7670915e0b308ccba84fe6d997fb9}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Liping},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{75318dc564376ad4e2eef2555bbd191e}
+      \strng{fullhash}{e25216a5988d7590162d9d0e804ad1e6}
+      \strng{bibnamehash}{75318dc564376ad4e2eef2555bbd191e}
+      \strng{authorbibnamehash}{75318dc564376ad4e2eef2555bbd191e}
+      \strng{authornamehash}{75318dc564376ad4e2eef2555bbd191e}
+      \strng{authorfullhash}{e25216a5988d7590162d9d0e804ad1e6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In recent years, 3D point cloud has gained increasing attention as a new representation for objects. However, the raw point cloud is often noisy and contains outliers. Therefore, it is crucial to remove the noise and outliers from the point cloud while preserving the features, in particular, its fine details. This paper makes an attempt to present a comprehensive analysis of the state-of-the-art methods for filtering point cloud. The existing methods are categorized into seven classes, which concentrate on their common and obvious traits. An experimental evaluation is also performed to demonstrate robustness, effectiveness and computational efficiency of several methods used widely in practice.}
+      \field{issn}{0923-5965}
+      \field{journaltitle}{Signal Processing: Image Communication}
+      \field{title}{A review of algorithms for filtering the 3D point cloud}
+      \field{volume}{57}
+      \field{year}{2017}
+      \field{pages}{103\bibrangedash 112}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.image.2017.05.009
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0923596517300930
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0923596517300930
+      \endverb
+      \keyw{3D point cloud,Filtering methods,Feature-preserving,Noise reduction}
+    \endentry
     \entry{987567547}{article}{}
       \name{author}{4}{}{%
         {{hash=ab8f6df9e0ffdf2fb6e8669fe9a0e71e}{%
@@ -861,8 +923,8 @@
       \verb{url}
       \verb https://arxiv.org/pdf/1511.08458.pdf
       \endverb
-      \warn{\item Entry '11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring}
-      \warn{\item Entry '11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring}
+      \warn{\item misc entry '11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring}
+      \warn{\item misc entry '11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring}
     \endentry
     \entry{7803544}{article}{}
       \name{author}{3}{}{%
@@ -903,8 +965,69 @@
       \verb 10.1109/TPAMI.2016.2644615
       \endverb
     \endentry
+    \entry{8309343}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2d0f2d6e6e359930ad146fd4d06ec79f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhengxin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a82dd76640fad69df314a9229f0d4891}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Qingjie},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=9f46e20757906016ae602d292fc665ed}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yunhong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0d6b2f4b37e3de01f62ffdd18ba2a70}
+      \strng{fullhash}{d0d6b2f4b37e3de01f62ffdd18ba2a70}
+      \strng{bibnamehash}{d0d6b2f4b37e3de01f62ffdd18ba2a70}
+      \strng{authorbibnamehash}{d0d6b2f4b37e3de01f62ffdd18ba2a70}
+      \strng{authornamehash}{d0d6b2f4b37e3de01f62ffdd18ba2a70}
+      \strng{authorfullhash}{d0d6b2f4b37e3de01f62ffdd18ba2a70}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Geoscience and Remote Sensing Letters}
+      \field{number}{5}
+      \field{title}{Road Extraction by Deep Residual U-Net}
+      \field{volume}{15}
+      \field{year}{2018}
+      \field{pages}{749\bibrangedash 753}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/LGRS.2018.2802944
+      \endverb
+    \endentry
+    \entry{Girshick_2015_ICCV}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{fullhash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{bibnamehash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{authorbibnamehash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{authornamehash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{authorfullhash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE International Conference on Computer Vision (ICCV)}
+      \field{month}{12}
+      \field{title}{Fast R-CNN}
+      \field{year}{2015}
+    \endentry
   \enddatalist
-  \missing{8237548}
 \endrefsection
 \endinput
 
