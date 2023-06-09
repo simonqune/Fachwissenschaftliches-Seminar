@@ -889,6 +889,48 @@
       \verb https://www.mdpi.com/2072-4292/14/15/3809
       \endverb
     \endentry
+    \entry{6375034}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=3404bfed8d7d47c8b48bcdadfb7c8c0b}{%
+           family={Ioannou},
+           familyi={I\bibinitperiod},
+           given={Yani},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9d690dd1f7138b3cbee0071fffe2f22f}{%
+           family={Taati},
+           familyi={T\bibinitperiod},
+           given={Babak},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e8ab13ef3447b91a33d5d8659f825040}{%
+           family={Harrap},
+           familyi={H\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7d0d3b1d6f8154cf3dcdd470db018e51}{%
+           family={Greenspan},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d114284c6809ffd55ab0b51c47396be}
+      \strng{fullhash}{8b503d85b51d1e5c48172eeb1f9f9a37}
+      \strng{bibnamehash}{1d114284c6809ffd55ab0b51c47396be}
+      \strng{authorbibnamehash}{1d114284c6809ffd55ab0b51c47396be}
+      \strng{authornamehash}{1d114284c6809ffd55ab0b51c47396be}
+      \strng{authorfullhash}{8b503d85b51d1e5c48172eeb1f9f9a37}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 Second International Conference on 3D Imaging, Modeling, Processing, Visualization & Transmission}
+      \field{title}{Difference of Normals as a Multi-scale Operator in Unorganized Point Clouds}
+      \field{year}{2012}
+      \field{pages}{501\bibrangedash 508}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/3DIMPVT.2012.12
+      \endverb
+    \endentry
     \entry{11262015}{misc}{}
       \name{author}{2}{}{%
         {{hash=f92af5765968c6de4c1e42d397224c9c}{%
@@ -923,8 +965,8 @@
       \verb{url}
       \verb https://arxiv.org/pdf/1511.08458.pdf
       \endverb
-      \warn{\item misc entry '11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring}
-      \warn{\item misc entry '11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring}
+      \warn{\item Entry '11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring}
+      \warn{\item Entry '11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring}
     \endentry
     \entry{7803544}{article}{}
       \name{author}{3}{}{%
@@ -1099,8 +1141,8 @@
       \strng{editorbibnamehash}{7cffda9a379be8eb9063eee4eb0f58b3}
       \strng{editornamehash}{7cffda9a379be8eb9063eee4eb0f58b3}
       \strng{editorfullhash}{1564f811a39f09a7400a11284c987926}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Advances in Neural Information Processing Systems}
@@ -1138,8 +1180,8 @@
       \strng{authorbibnamehash}{f23ccc5160c62c7866172335b2c76e11}
       \strng{authornamehash}{f23ccc5160c62c7866172335b2c76e11}
       \strng{authorfullhash}{f23ccc5160c62c7866172335b2c76e11}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{cs.CV}
@@ -1197,6 +1239,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{Liu:20}
 \endrefsection
 \endinput
 
