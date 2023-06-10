@@ -2375,16 +2375,19 @@
     <bcf:citekey order="21" intorder="1">HAN2017103</bcf:citekey>
     <bcf:citekey order="22" intorder="1">987567547</bcf:citekey>
     <bcf:citekey order="22" intorder="2">2233445566</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">6706719</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">6375034</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">11262015</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">7803544</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">8309343</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">7803544</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">Girshick_2015_ICCV</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">NIPS2017_d8bf84be</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">ronneberger2015unet</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">çiçek20163d</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">6375034</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">BROSTOW200988</bcf:citekey>
+    <bcf:citekey order="24" intorder="2">Zlateski_2018_CVPR</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">9000872</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">11262015</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">7803544</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">8309343</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">7803544</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">Girshick_2015_ICCV</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">NIPS2017_d8bf84be</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">ronneberger2015unet</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">çiçek20163d</bcf:citekey>
+    <bcf:citekey order="33" intorder="2">987654321</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

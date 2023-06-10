@@ -341,7 +341,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{2227-7080}
       \field{journaltitle}{Technologies}
-      \field{month}{7}
+      \field{month}{6}
       \field{number}{4}
       \field{title}{Multimodal Semantic Segmentation in Autonomous Driving: A Review of Current Approaches and Future Perspectives}
       \field{volume}{10}
@@ -889,6 +889,57 @@
       \verb https://www.mdpi.com/2072-4292/14/15/3809
       \endverb
     \endentry
+    \entry{2233445566}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9f5229c463d623ad4acdcd65bb37fe18}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jung-Ping},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=e9f298ca7fc4ff0f1880414f2670ff98}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Ming-Hsuan},
+           giveni={M\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=0c52d62ab0049c5134a54c1d5d5df182}{%
+           family={Tsang},
+           familyi={T\bibinitperiod},
+           given={Peter\bibnamedelimb W.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{46dad65f31277e5c41d1b94ffc50b3b6}
+      \strng{fullhash}{46dad65f31277e5c41d1b94ffc50b3b6}
+      \strng{bibnamehash}{46dad65f31277e5c41d1b94ffc50b3b6}
+      \strng{authorbibnamehash}{46dad65f31277e5c41d1b94ffc50b3b6}
+      \strng{authornamehash}{46dad65f31277e5c41d1b94ffc50b3b6}
+      \strng{authorfullhash}{46dad65f31277e5c41d1b94ffc50b3b6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we proposed a new technique to realize a high-quality three-dimensional (3D) display by using binary holograms. First, we applied a localized random down-sampling (LRDS) mask to down-sample the object function and generated a binary CGH by direct sign-thresholding. Subsequently, we devised the display by adaptive intensity accumulation (AIA). In AIA, multiple CGHs of the same object are generated. However, selective sampling points of the same scene are removed according to the reconstructed image of previous binary CGHs as the second and more binary CGHs are generated. Finally, these holograms are sequentially displayed on a fast spatial light modulator, a digital micromirror device (DMD). Thus, a high-quality 3D image is reconstructed without artifacts and speckle noise.}
+      \field{journaltitle}{Opt. Express}
+      \field{month}{8}
+      \field{number}{17}
+      \field{title}{3D display by binary computer-generated holograms with localized random down-sampling and adaptive intensity accumulation}
+      \field{volume}{28}
+      \field{year}{2020}
+      \field{pages}{24526\bibrangedash 24537}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1364/OE.399011
+      \endverb
+      \verb{urlraw}
+      \verb https://opg.optica.org/oe/abstract.cfm?URI=oe-28-17-24526
+      \endverb
+      \verb{url}
+      \verb https://opg.optica.org/oe/abstract.cfm?URI=oe-28-17-24526
+      \endverb
+      \keyw{Digital micromirror devices; Holographic displays; Liquid crystal modulators; Speckle noise; Speckle reduction; Three dimensional imaging}
+    \endentry
     \entry{6375034}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=3404bfed8d7d47c8b48bcdadfb7c8c0b}{%
@@ -922,13 +973,164 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2012 Second International Conference on 3D Imaging, Modeling, Processing, Visualization & Transmission}
+      \field{booktitle}{2012 Second International Conference on 3D Imaging, Modeling, Processing, Visualization and Transmission}
       \field{title}{Difference of Normals as a Multi-scale Operator in Unorganized Point Clouds}
       \field{year}{2012}
       \field{pages}{501\bibrangedash 508}
       \range{pages}{8}
       \verb{doi}
       \verb 10.1109/3DIMPVT.2012.12
+      \endverb
+    \endentry
+    \entry{BROSTOW200988}{article}{}
+      \name{author}{3}{}{%
+        {{hash=270235fe902d7b1c9fbc1ff59db7640c}{%
+           family={Brostow},
+           familyi={B\bibinitperiod},
+           given={Gabriel\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9d19416c5d87d3a2ecfe1095e903a4ad}{%
+           family={Fauqueur},
+           familyi={F\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod}}}%
+        {{hash=95c5bd0a1d6e6649ed56043a63268bfa}{%
+           family={Cipolla},
+           familyi={C\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{14d208c9333d74020590b1de1dd70b3a}
+      \strng{fullhash}{14d208c9333d74020590b1de1dd70b3a}
+      \strng{bibnamehash}{14d208c9333d74020590b1de1dd70b3a}
+      \strng{authorbibnamehash}{14d208c9333d74020590b1de1dd70b3a}
+      \strng{authornamehash}{14d208c9333d74020590b1de1dd70b3a}
+      \strng{authorfullhash}{14d208c9333d74020590b1de1dd70b3a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Visual object analysis researchers are increasingly experimenting with video, because it is expected that motion cues should help with detection, recognition, and other analysis tasks. This paper presents the Cambridge-driving Labeled Video Database (CamVid) as the first collection of videos with object class semantic labels, complete with metadata. The database provides ground truth labels that associate each pixel with one of 32 semantic classes. The database addresses the need for experimental data to quantitatively evaluate emerging algorithms. While most videos are filmed with fixed-position CCTV-style cameras, our data was captured from the perspective of a driving automobile. The driving scenario increases the number and heterogeneity of the observed object classes. Over 10min of high quality 30Hz footage is being provided, with corresponding semantically labeled images at 1Hz and in part, 15Hz. The CamVid Database offers four contributions that are relevant to object analysis researchers. First, the per-pixel semantic segmentation of over 700 images was specified manually, and was then inspected and confirmed by a second person for accuracy. Second, the high-quality and large resolution color video images in the database represent valuable extended duration digitized footage to those interested in driving scenarios or ego-motion. Third, we filmed calibration sequences for the camera color response and intrinsics, and computed a 3D camera pose for each frame in the sequences. Finally, in support of expanding this or other databases, we present custom-made labeling software for assisting users who wish to paint precise class-labels for other images and videos. We evaluate the relevance of the database by measuring the performance of an algorithm from each of three distinct domains: multi-class object recognition, pedestrian detection, and label propagation.}
+      \field{issn}{0167-8655}
+      \field{journaltitle}{Pattern Recognition Letters}
+      \field{note}{Video-based Object and Event Analysis}
+      \field{number}{2}
+      \field{title}{Semantic object classes in video: A high-definition ground truth database}
+      \field{volume}{30}
+      \field{year}{2009}
+      \field{pages}{88\bibrangedash 97}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.patrec.2008.04.005
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167865508001220
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167865508001220
+      \endverb
+      \keyw{Object recognition,Video database,Video understanding,Semantic segmentation,Label propagation}
+    \endentry
+    \entry{Zlateski_2018_CVPR}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=c1b9f9947c9863e1550b1ad4dcb1dd3c}{%
+           family={Zlateski},
+           familyi={Z\bibinitperiod},
+           given={Aleksandar},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c8125595e374b0d7ca7119b64309dfeb}{%
+           family={Jaroensri},
+           familyi={J\bibinitperiod},
+           given={Ronnachai},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0b46f3b76a45edc6b8140739a61999b0}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Prafull},
+           giveni={P\bibinitperiod}}}%
+        {{hash=524f75af9d9e2501adb63051d530e308}{%
+           family={Durand},
+           familyi={D\bibinitperiod},
+           given={Frédo},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a3c4781695a763b2f335bcc3b86cb54}
+      \strng{fullhash}{01fba17fb3b4398f7d363a3672db4c04}
+      \strng{bibnamehash}{9a3c4781695a763b2f335bcc3b86cb54}
+      \strng{authorbibnamehash}{9a3c4781695a763b2f335bcc3b86cb54}
+      \strng{authornamehash}{9a3c4781695a763b2f335bcc3b86cb54}
+      \strng{authorfullhash}{01fba17fb3b4398f7d363a3672db4c04}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}
+      \field{month}{6}
+      \field{title}{On the Importance of Label Quality for Semantic Segmentation}
+      \field{year}{2018}
+    \endentry
+    \entry{9000872}{article}{}
+      \name{author}{8}{}{%
+        {{hash=e6ec3d81d22c567a8091eb542e01d4ba}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Di},
+           giveni={D\bibinitperiod}}}%
+        {{hash=88df6b53122d5a889d41e3f6c829b491}{%
+           family={Haase-Schütz},
+           familyi={H\bibinithyphendelim S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d45b41f09264c1f794b9f15997af5715}{%
+           family={Rosenbaum},
+           familyi={R\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+        {{hash=59c633d730fe4c225f5bb79fc5c12bec}{%
+           family={Hertlein},
+           familyi={H\bibinitperiod},
+           given={Heinz},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3da690d0cdb8ef522d513aa80e639a9d}{%
+           family={Gläser},
+           familyi={G\bibinitperiod},
+           given={Claudius},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d437d9a6763fc5f81af0a1538519b89e}{%
+           family={Timm},
+           familyi={T\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=20b7cc0dd72eb348e8a0da4d4162c281}{%
+           family={Wiesbeck},
+           familyi={W\bibinitperiod},
+           given={Werner},
+           giveni={W\bibinitperiod}}}%
+        {{hash=2f1c83e71a33d1c7df6e6b4962d375bb}{%
+           family={Dietmayer},
+           familyi={D\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{7401af663e2dbf6c78ddeefe4c2192de}
+      \strng{fullhash}{61f5f8e26f857ac8564ca06f824250ad}
+      \strng{bibnamehash}{7401af663e2dbf6c78ddeefe4c2192de}
+      \strng{authorbibnamehash}{7401af663e2dbf6c78ddeefe4c2192de}
+      \strng{authornamehash}{7401af663e2dbf6c78ddeefe4c2192de}
+      \strng{authorfullhash}{61f5f8e26f857ac8564ca06f824250ad}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Intelligent Transportation Systems}
+      \field{number}{3}
+      \field{title}{Deep Multi-Modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges}
+      \field{volume}{22}
+      \field{year}{2021}
+      \field{pages}{1341\bibrangedash 1360}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1109/TITS.2020.2972974
       \endverb
     \endentry
     \entry{11262015}{misc}{}
@@ -1060,8 +1262,8 @@
       \strng{authorbibnamehash}{bd5dadbe57bedc5957c19a3154c4d424}
       \strng{authornamehash}{bd5dadbe57bedc5957c19a3154c4d424}
       \strng{authorfullhash}{bd5dadbe57bedc5957c19a3154c4d424}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the IEEE International Conference on Computer Vision (ICCV)}
@@ -1238,8 +1440,77 @@
       \verb 1606.06650
       \endverb
     \endentry
+    \entry{987654321}{article}{}
+      \name{author}{7}{}{%
+        {{hash=08126a513f649b721dce13c97610f197}{%
+           family={Nemoto},
+           familyi={N\bibinitperiod},
+           given={Takafumi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c7a3990fd0f347557aa4e7848a3de1ca}{%
+           family={Futakami},
+           familyi={F\bibinitperiod},
+           given={Natsumi},
+           giveni={N\bibinitperiod}}}%
+        {{hash=436633d57a95ae7dac8cb395cb0c7571}{%
+           family={Yagi},
+           familyi={Y\bibinitperiod},
+           given={Masamichi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ee943d26ed0df199fa5f998f948c59da}{%
+           family={Kumabe},
+           familyi={K\bibinitperiod},
+           given={Atsuhiro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c5358e97bfc6cc95e661c132611ab4c0}{%
+           family={Takeda},
+           familyi={T\bibinitperiod},
+           given={Atsuya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4c033172c67c9df8a7c20873429f7c79}{%
+           family={Kunieda},
+           familyi={K\bibinitperiod},
+           given={Etsuo},
+           giveni={E\bibinitperiod}}}%
+        {{hash=35f942daf8830824e991c73a41c8ee09}{%
+           family={Shigematsu},
+           familyi={S\bibinitperiod},
+           given={Naoyuki},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{569fccc3d0a5308484a9b8b1a818c0ee}
+      \strng{fullhash}{8e212d73db43ad01a33d184d01216dff}
+      \strng{bibnamehash}{569fccc3d0a5308484a9b8b1a818c0ee}
+      \strng{authorbibnamehash}{569fccc3d0a5308484a9b8b1a818c0ee}
+      \strng{authornamehash}{569fccc3d0a5308484a9b8b1a818c0ee}
+      \strng{authorfullhash}{8e212d73db43ad01a33d184d01216dff}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1349-9157}
+      \field{journaltitle}{Journal of Radiation Research}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Efficacy evaluation of 2D, 3D U-Net semantic segmentation and atlas-based segmentation of normal lungs excluding the trachea and main bronchi}
+      \field{volume}{61}
+      \field{year}{2020}
+      \field{pages}{257\bibrangedash 264}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1093/jrr/rrz086
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/jrr/article-pdf/61/2/257/33292180/rrz086.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/jrr/rrz086
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/jrr/rrz086
+      \endverb
+    \endentry
   \enddatalist
-  \missing{Liu:20}
 \endrefsection
 \endinput
 

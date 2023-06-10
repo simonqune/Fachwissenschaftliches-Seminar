@@ -766,6 +766,19 @@ INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\omxlmex.fd
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmex10.tfm
 OUTPUT main.pdf
 INPUT C:\Users\kuhns\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\main.toc
+INPUT main.toc
+INPUT main.toc
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr8.tfm
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr6.tfm
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi8.tfm
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi6.tfm
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy8.tfm
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy6.tfm
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmsso10.tfm
 OUTPUT main.toc
 INPUT .\kapitel\Einleitung.tex
 INPUT .\kapitel\Einleitung.tex
@@ -782,16 +795,6 @@ INPUT kapitel\Sensoren_zur_Erfassung_von_3D_Daten.tex
 INPUT .\kapitel\Sensoren_zur_Erfassung_von_3D_Daten.tex
 INPUT .\kapitel\Sensoren_zur_Erfassung_von_3D_Daten.tex
 INPUT kapitel\Sensoren_zur_Erfassung_von_3D_Daten.tex
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmsso10.tfm
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr8.tfm
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr6.tfm
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi8.tfm
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi6.tfm
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy8.tfm
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy6.tfm
 INPUT .\kapitel\datengrundlage_und_Vorverarbeitung.tex
 INPUT .\kapitel\datengrundlage_und_Vorverarbeitung.tex
 INPUT .\kapitel\datengrundlage_und_Vorverarbeitung.tex
@@ -799,11 +802,6 @@ INPUT kapitel\datengrundlage_und_Vorverarbeitung.tex
 INPUT .\kapitel\datengrundlage_und_Vorverarbeitung.tex
 INPUT .\kapitel\datengrundlage_und_Vorverarbeitung.tex
 INPUT kapitel\datengrundlage_und_Vorverarbeitung.tex
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmss10.tfm
 INPUT .\kapitel\Grundlagen der semantischen Segmentierung.tex
 INPUT .\kapitel\Grundlagen der semantischen Segmentierung.tex
 INPUT .\kapitel\Grundlagen der semantischen Segmentierung.tex
@@ -902,6 +900,10 @@ INPUT kapitel\Zusammenfassung_und_Ausblick.tex
 INPUT .\kapitel\Zusammenfassung_und_Ausblick.tex
 INPUT .\kapitel\Zusammenfassung_und_Ausblick.tex
 INPUT kapitel\Zusammenfassung_und_Ausblick.tex
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmsso10.tfm
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
@@ -913,6 +915,9 @@ INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt10.tfm
+INPUT .\main.lof
+INPUT main.lof
+INPUT main.lof
 OUTPUT main.lof
 INPUT main.aux
 INPUT main.run.xml

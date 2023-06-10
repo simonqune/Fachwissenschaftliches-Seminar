@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  9 JUN 2023 17:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  10 JUN 2023 17:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -653,7 +653,11 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 68.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (main.aux)
+) (main.aux
+
+LaTeX Warning: Label `fig:meinbild' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -723,13 +727,6 @@ Package biblatex Warning: Biber reported the following issues
 (biblatex)                with '11262015':
 (biblatex)                - Entry '11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring.
 
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Liu:20
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 )
 Package biblatex Info: Reference section=0 on input line 68.
 Package biblatex Info: Reference segment=0 on input line 68.
@@ -777,15 +774,46 @@ Class scrreprt Warning: non empty \lowertitleback ignored by \maketitle
 
 
 
-{C:/Users/kuhns/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-No file main.toc.
+{C:/Users/kuhns/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 3.
+
+
+Package scrlayer-scrpage Warning: \headheight to low.
+(scrlayer-scrpage)                At least 20.4pt needed,
+(scrlayer-scrpage)                but only 17.0pt found.
+(scrlayer-scrpage)                I'll enlarge \headheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting typearea's option
+(scrlayer-scrpage)                `headheight=20.4pt'.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 24.
+
+
+Overfull \vbox (3.4pt too high) has occurred while \output is active []
+
+
+
+Package scrlayer-scrpage Warning: \footheight to low.
+(scrlayer-scrpage)                At least 20.4pt needed,
+(scrlayer-scrpage)                but only 17.0pt found.
+(scrlayer-scrpage)                I'll enlarge \footheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting typearea's option
+(scrlayer-scrpage)                `footheight=20.4pt'.
+(scrlayer-scrpage)                I'll also increase \footskip on input line 24.
+
+[2
+
+
+])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-(kapitel/Einleitung.tex [1
-
-
-]
+ (kapitel/Einleitung.tex [1]
 chapter 1.
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -802,39 +830,7 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface.
 
-) (kapitel/Sensoren_zur_Erfassung_von_3D_Daten.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 1.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 1.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 1.
-
-
-Package scrlayer-scrpage Warning: \headheight to low.
-(scrlayer-scrpage)                At least 20.4pt needed,
-(scrlayer-scrpage)                but only 17.0pt found.
-(scrlayer-scrpage)                I'll enlarge \headheight, for further
-(scrlayer-scrpage)                processing, but you should do this yourself,
-(scrlayer-scrpage)                e.g., setting typearea's option
-(scrlayer-scrpage)                `headheight=20.4pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 1.
-
-
-Overfull \vbox (3.4pt too high) has occurred while \output is active []
-
-
-
-Package scrlayer-scrpage Warning: \footheight to low.
-(scrlayer-scrpage)                At least 20.4pt needed,
-(scrlayer-scrpage)                but only 17.0pt found.
-(scrlayer-scrpage)                I'll enlarge \footheight, for further
-(scrlayer-scrpage)                processing, but you should do this yourself,
-(scrlayer-scrpage)                e.g., setting typearea's option
-(scrlayer-scrpage)                `footheight=20.4pt'.
-(scrlayer-scrpage)                I'll also increase \footskip on input line 1.
-
-[2
+) (kapitel/Sensoren_zur_Erfassung_von_3D_Daten.tex [2
 
 
 ] [3]
@@ -847,15 +843,7 @@ chapter 3.
 [7
 
 
-]
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 42.
- (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
-File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-LaTeX Warning: Citation '2233445566' on page 8 undefined on input line 58.
-
-[8]) (kapitel/Grundlagen der semantischen Segmentierung.tex [9]
+] [8]) (kapitel/Grundlagen der semantischen Segmentierung.tex [9]
 chapter 4.
 [10
 
@@ -863,12 +851,12 @@ chapter 4.
 ]
 Package svg Info: Last page of `./svg-inkscape/cnn_own_svg-tex.pdf' is 2 on input line 39.
  (svg-inkscape/cnn_own_svg-tex.pdf_tex
-<./svg-inkscape/cnn_own_svg-tex.pdf, id=45, page=1, 2594.1534pt x 1171.14835pt>
+<./svg-inkscape/cnn_own_svg-tex.pdf, id=47, page=1, 2594.1534pt x 1171.14835pt>
 File: ./svg-inkscape/cnn_own_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/cnn_own_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/cnn_own_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 347.64232pt x 156.93663pt.
-<./svg-inkscape/cnn_own_svg-tex.pdf, id=46, page=2, 2594.1534pt x 1171.14835pt>
+<./svg-inkscape/cnn_own_svg-tex.pdf, id=48, page=2, 2594.1534pt x 1171.14835pt>
 File: ./svg-inkscape/cnn_own_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/cnn_own_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/cnn_own_svg-tex.pdf , page2 used on input line 70.
@@ -879,17 +867,17 @@ pdfTeX warning: pdflatex (file ./svg-inkscape/cnn_own_svg-tex.pdf): PDF inclusio
 >]
 Package svg Info: Last page of `./svg-inkscape/FCN_own_new_svg-tex.pdf' is 3 on input line 82.
  (svg-inkscape/FCN_own_new_svg-tex.pdf_tex
-<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=67, page=1, 2907.84831pt x 1229.32443pt>
+<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=70, page=1, 2907.84831pt x 1229.32443pt>
 File: ./svg-inkscape/FCN_own_new_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FCN_own_new_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FCN_own_new_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 347.64232pt x 146.96858pt.
-<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=68, page=2, 2907.84831pt x 1229.32443pt>
+<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=71, page=2, 2907.84831pt x 1229.32443pt>
 File: ./svg-inkscape/FCN_own_new_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FCN_own_new_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FCN_own_new_svg-tex.pdf , page2 used on input line 59.
 (pdftex.def)             Requested size: 347.64232pt x 146.96858pt.
-<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=69, page=3, 2907.84831pt x 1229.32443pt>
+<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=72, page=3, 2907.84831pt x 1229.32443pt>
 File: ./svg-inkscape/FCN_own_new_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FCN_own_new_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/FCN_own_new_svg-tex.pdf , page3 used on input line 64.
@@ -906,8 +894,8 @@ chapter 5.
 
 
 ]
-Overfull \hbox (4.69351pt too wide) in paragraph at lines 33--42
-[]\T1/lmss/m/n/10.95 Die 3D U-Net-Architektur be-steht aus ei-nem Encoder-Decoder-Netzwerk mit Skip-Connections.
+Overfull \hbox (24.06844pt too wide) in paragraph at lines 32--41
+[]\T1/lmss/m/n/10.95 Die 3D U-Net-Architektur be-steht aus ei-nem Encoder-Decoder-Netzwerk mit Shortcut-Connections.
  []
 
 ) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [15]
@@ -928,6 +916,10 @@ chapter 8.
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 82.
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 82.
+ (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 LaTeX Font Info:    Font shape `TS1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `TS1/lmss/m/sl' tried instead on input line 82.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 82.
@@ -945,64 +937,42 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 
 ]
-Overfull \hbox (24.62459pt too wide) in paragraph at lines 83--83
-\T1/lmss/m/sl/10.95 Tech-no-lo-gies \T1/lmss/m/n/10.95 10.4 (Ju-li 2022), S. 90. \T1/lmr/m/sc/10.95 issn\T1/lmss/m/n/10.95 : 2227-7080. \T1/lmr/m/sc/10.95 doi\T1/lmss/m/n/10.95 : $\T1/lmtt/m/n/10.95 10 . 3390 / technologies10040090$\T1/lmss/m/n/10.95 .
+Overfull \hbox (6.02766pt too wide) in paragraph at lines 83--83
+\T1/lmtt/m/n/10.95 technologies10040090$\T1/lmss/m/n/10.95 . \T1/lmr/m/sc/10.95 url\T1/lmss/m/n/10.95 : $\T1/lmtt/m/n/10.95 http : / / dx . doi . org / 10 . 3390 / technologies10040090$\T1/lmss/m/n/10.95 . 
  []
 
-[23]
-c:/Git/Fachwissenschaftliches-Seminar/main.tex:83: Misplaced alignment tab character &.
-<argument> ...odeling, Processing, Visualization &
-                                                   Transmission
-l.83 \listoffigures
-                   
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[24]
+[23] [24]
 Overfull \hbox (8.08446pt too wide) in paragraph at lines 83--83
 \T1/lmtt/m/n/10.95 neurips . cc / paper _ files / paper / 2017 / file / d8bf84be3800d12f74d8b05e9b89836f -[]
  []
 
-[25]
-No file main.lof.
+[25] [26] (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
-[26
+ [27
 
 
 ] (main.aux)
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20085 strings out of 475385
- 434736 string characters out of 2776908
- 1378306 words of memory out of 3000000
- 41141 multiletter control sequences out of 15000+600000
- 515493 words of font info for 60 fonts, out of 8000000 for 9000
+ 20113 strings out of 475385
+ 435928 string characters out of 2776908
+ 1380141 words of memory out of 3000000
+ 41166 multiletter control sequences out of 15000+600000
+ 515123 words of font info for 59 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (27 pages, 233471 bytes).
+Output written on main.pdf (29 pages, 237208 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
+ 167 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

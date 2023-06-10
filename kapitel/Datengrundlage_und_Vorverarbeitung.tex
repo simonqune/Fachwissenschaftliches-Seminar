@@ -38,14 +38,15 @@ verbessern. In diesem Kapitel werden verschiedene Vorverarbeitungsschritte wie
 Filterung, Normalenberechnung und Downsampling betrachtet, die oft in der
 Praxis angewendet werden.
 
-\begin{itemize}
-    \item Filterung: Zu Beginn wird häufig eine Filterung des Datensatzes durchgeführt. Dadurch kann
-unerwünschtes Rauschen im Datensatz unterdrückt und dessen Qualität verbessert
-werden. Dies kann durch verschiedene Filtertechniken erfolgen, wie zum Beispiel
-durch Medianfilter, Gaußsche Filter \cite{9191237} oder region growing und
-Bilateralfilter \cite{6460813}. Durch die Filterung und die damit einhergehende
-Reduzierung des Rauschens kann die Qualität der Segmentierungsergebnisse
-verbessert werden \cite{HAN2017103}.
+\begin{enumerate}
+
+\item Filterung: Zu Beginn wird häufig eine Filterung des Datensatzes durchgeführt.
+Dadurch kann unerwünschtes Rauschen im Datensatz unterdrückt und dessen
+Qualität verbessert werden. Dies kann durch verschiedene Filtertechniken
+erfolgen, wie zum Beispiel durch Medianfilter, Gaußsche Filter \cite{9191237}
+oder region growing und Bilateralfilter \cite{6460813}. Durch die Filterung und
+die damit einhergehende Reduzierung des Rauschens kann die Qualität der
+Segmentierungsergebnisse verbessert werden \cite{HAN2017103}.
 
 \item Downsampling: Beim Prozess des Downsamplings wird die Anzahl an Punkten
 innerhalb einer Punktwolke reduziert, um die Verarbeitungsgeschwindigkeit und
@@ -55,42 +56,41 @@ sogenannte Random-Downsampling. Dabei wird ein bestehender Datensatz um eine
 absolute oder relative Punktanzahl reduziert. Die wegfallenden Punkte werden
 dabei zufällig ausgewählt. Nachteil ist hierbei, dass sich ursprünglich
 ungleichmäßig abgetastete Bereich des Datensatzes noch vergrößern können, und
-dadurch markante Merkmale in der Punktwolke verloren gehen \cite{987567547,2233445566}.
-Deshalb wird stattdessen häufig auf das Voxel-Grid-Downsampling
-zurückgegriffen. Dabei wird der Raum, in der sich die Punktwolke befindet, in
-gleichmäßige Voxel unterteilt. Daraufhin wird in jedem Voxel nur eine bestimmte
-Anzahl an Punkten übernommen, die anderen werden aus dem Datensatz entfernt.
-Welche Punkte übernommen werden kann dabei durch verschiedene Verfahren
-bestimmt werden. Danach wird eine bestimmte Anzahl an Punkten, etwa durch ihre 
-nähe zum Mittelpunkt, ausgewählt und in das Voxel-Grid übernommen. Ziel des
-Voxel-Grid-Downsamplings ist es, die Datenmenge zu reduzieren, während wichtige
-strukturelle und semantische Informationen erhalten bleiben. \cite{6706719}
+dadurch markante Merkmale in der Punktwolke verloren gehen
+\cite{987567547,2233445566}. Deshalb wird stattdessen häufig auf das
+Voxel-Grid-Downsampling zurückgegriffen. Dabei wird der Raum, in der sich die
+Punktwolke befindet, in gleichmäßige Voxel unterteilt. Daraufhin wird in jedem
+Voxel nur eine bestimmte Anzahl an Punkten übernommen, die anderen werden aus
+dem Datensatz entfernt. Welche Punkte übernommen werden kann dabei durch
+verschiedene Verfahren bestimmt werden. Danach wird eine bestimmte Anzahl an
+Punkten, etwa durch ihre nähe zum Mittelpunkt, ausgewählt und in das Voxel-Grid
+übernommen. Ziel des Voxel-Grid-Downsamplings ist es, die Datenmenge zu
+reduzieren, während wichtige strukturelle und semantische Informationen
+erhalten bleiben. %\cite{6706719}
 
 \item Normalenberechnung: Die Berechnung von Normalen ist ein optionaler Schritt, um
 die geometrische Information der 3D-Daten zu erfassen. Dabei wird für jeden
 Punkt oder Voxel des Datensatzes ein Normalenvektor bestimmt. Normalen sind
 Vektoren, die senkrecht zur Oberfläche von Objekten in der Umgebung stehen und
-gibt so Aufschluss über die Orientierung der Oberflächen der Szene. \cite{6375034}
+gibt so Aufschluss über die Orientierung der Oberflächen der Szene.
+\cite{6375034}
 
-\end{itemize}
+\end{enumerate}
 
 \section{Datenannotation und Ground Truth-Erstellung}
 
 Die Erstellung annotierter Daten und eines Ground Truths sind entscheidende
-Schritte bei der semantischen Segmentierung von 3D-Daten. Da die semantische
-Segmentierung auf Erweiterungen von neuronale Netze basiert, werden annotierte
-Datensätze benötigt um diese zu trainieren. Dabei erfolgt eine manuelle
-Klassifikation der Daten, indem semantische Labels oder Klasseninformationen
-den 3D-Daten zugeordnet werden. Die Qualität und Genauigkeit der
-Datenannotation sind von entscheidender Bedeutung für die Leistungsfähigkeit
-der Modelle für die semantische Segmentierung.
-
-Die Erstellung des Ground Truths umfasst dabei die Erzeugung von
-referenzbasierten Segmentierungsergebnissen, die als Grundlage für das Training
-und die Evaluation von Segmentierungsmodellen dienen. Der Ground Truth kann
-sowohl manuell als auch automatisch erstellt werden, um die Zuverlässigkeit und
-Vergleichbarkeit der Segmentierungsergebnisse sicherzustellen und die Qualität
-der trainierten Modelle zu überprüfen. Dafür wird häufig der sogenannte IoU
-(Intersection over Union) verwendet. Dabei wird die Anteil der überlappenden
-Bereiche zwischen Ground Truth und Segmentierungsergebnis berechnet. Je höher
-der Wert, desto besser ist das Segmentierungsergebnis.
+Schritte bei der semantischen Segmentierung von 3D-Daten. Da aktuelle Verfahren
+der semantischen Segmentierung auf Erweiterungen von neuronale Netze basiert,
+werden annotierte Datensätze benötigt, um diese zu trainieren. Dabei erfolgt
+eine manuelle Klassifikation der Daten, indem semantische Labels oder
+Klasseninformationen den 3D-Daten zugeordnet werden. Die Qualität und
+Genauigkeit der Datenannotation sind von entscheidender Bedeutung für die
+Leistungsfähigkeit der Modelle für die semantische Segmentierung.
+\cite{BROSTOW200988,Zlateski_2018_CVPR}
+\\Der manuell erstellte Ground Truth kann dabei sowohl für das Training des
+Klassifizierungsmodelles genutzt werden, als auch für die Validierung der
+Ergebnisse. Für die Validierung wird die sogenannte IoU (Intersection over
+Union) verwendet. Dabei wird die Anteil der überlappenden Bereiche zwischen
+Ground Truth und Segmentierungsergebnis berechnet. Je höher der Wert, desto
+besser ist das Segmentierungsergebnis. \cite{9000872}
