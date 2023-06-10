@@ -2388,6 +2388,19 @@
     <bcf:citekey order="32" intorder="1">ronneberger2015unet</bcf:citekey>
     <bcf:citekey order="33" intorder="1">çiçek20163d</bcf:citekey>
     <bcf:citekey order="33" intorder="2">987654321</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">9000872</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">liu2020real</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">nee2012augmented</bcf:citekey>
+    <bcf:citekey order="36" intorder="2">ko2020novel</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">8460962</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">asgari2021deep</bcf:citekey>
+    <bcf:citekey order="38" intorder="2">tanzi2021real</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">hu2021towards</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">20222324</bcf:citekey>
+    <bcf:citekey order="40" intorder="2">9420573</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">9420573</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">zhao2017pyramid</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">cordts2016cityscapes</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

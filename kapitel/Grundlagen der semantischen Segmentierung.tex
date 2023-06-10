@@ -1,6 +1,6 @@
 \chapter{Grundlegende Verfahren der semantischen Segmentierung}
 
-Ziel der Semantischen Segmentierung von 3D-Daten ist es, jedem Punkt im Raum
+Ziel der semantischen Segmentierung von 3D-Daten ist es, jedem Punkt im Raum
 einer bestimmten Kategorie zuzuordnen und dadurch Bereiche des Bildes in
 klassifizierte Objekte zu unterteilen. Hierfür gibt es verschiedene Ansätze,
 die auf Erweiterungen von neuronalen Netzen basieren.
@@ -22,7 +22,7 @@ extrahieren markante Merkmale aus den Eingabebildern, um die Klassifikation zu
 erleichtern. Dabei wird jeder Bereich des Bildes pro Layer mit einem Kernel
 gefaltet und erzeugen eine 2D-Aktivierungskarte. Die kernels besitzen dabei
 häufig kleine räumliche Dimensionalitäten, erstrecken sich aber über die
-Gesamte Tiefe des Eingangsbildes. Die Anschließend folgenden Pooling-Layers
+gesamte Tiefe des Eingangsbildes. Die Anschließend folgenden Pooling-Layers
 dienen dazu, die Dimensionen der Ausgabe des Convolutional-Layers zu reduzieren
 und somit die Rechnenkomplexität des Modells zu verringern. Besonders häufig
 kommen dabei sogenannte Max-Pooling-Layers zum Einsatz. Bei diesen wird ein
@@ -37,8 +37,8 @@ von Bildern in vorbestimmte Kategorien. \cite{11262015}.
 \begin{figure}
     \centering
     \includesvg[width=0.8\textwidth]{bilder/cnn_own.svg}
-    \caption{Aufbau eines Convolutional Neural Networks}
-    \label{fig:meinbild}
+    \caption{Aufbau eines Convolutional Neural Networks, beispielhaft mit dem MNIST Datensatz.}
+    \label{fig:CNN}
 \end{figure}
 
 \subsection{Fully Convolutional Networks (FCNs)}
@@ -54,7 +54,7 @@ jedes Pixel einer bestimmten Klasse zugeordnet wird. Durch die Verwendung von
 FCNs können somit komplizierte Zusammenhänge innerhalb von Bildern auf der
 Ebene der Pixel identifiziert werden, was für Anwendungen wie die autonome
 Navigation oder Objekterkennung von großer Bedeutung ist. \cite{7803544}
-Bekannte und erfolgreiche Verfahren wie das U-Net, verwenden dabei häufig eine
+Bekannte und erfolgreiche Verfahren, wie das U-Net, verwenden dabei häufig eine
 Encode-Decoder-Architektur, um das Klassifizierungsergebnis in der
 Dimensionalität des Eingangsbildes darzustellen \cite{8309343}.
 
@@ -81,7 +81,7 @@ umgewandelt. Die geschieht häufig über die Softmax-Funktion. \cite{7803544}
     \centering
     \includesvg[width=0.8\textwidth]{bilder/FCN_own_new.svg}
     \caption{Encoder Decoder Architektur ähnlich U-Net}
-    \label{fig:meinbild}
+    \label{fig:FCN}
 \end{figure}
 
 \subsection{Region-based Convolutional Neural Networks (R-CNNs)}
@@ -96,3 +96,10 @@ Robotik und im autonomen Fahren eingesetzt. Dies liegt daran, dass sie weniger
 Rechenleistung benötigen und gleichzeitig Störeinflüsse, die außerhalb der ROI
 liegen, keinen negativen Einfluss auf die Klassifizierung nehmen können.
 \cite{Girshick_2015_ICCV}
+
+\begin{figure}
+    \centering
+    \includesvg[width=0.8\textwidth]{bilder/RCNN.svg}
+    \caption{Funktionsweise von R-CNNs}
+    \label{fig:CNN}
+\end{figure}

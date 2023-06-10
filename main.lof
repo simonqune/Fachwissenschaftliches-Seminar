@@ -3,8 +3,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Aufbau eines Convolutional Neural Networks\relax }}{11}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Aufbau eines Convolutional Neural Networks, beispielhaft mit dem MNIST Datensatz.\relax }}{11}{}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Encoder Decoder Architektur ähnlich U-Net\relax }}{12}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Funktionsweise von R-CNNs\relax }}{13}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

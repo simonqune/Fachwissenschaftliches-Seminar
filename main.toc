@@ -24,9 +24,9 @@
 \contentsline {section}{\numberline {6.2}Robotik in der Industrie}{16}{}%
 \contentsline {section}{\numberline {6.3}Augmented Reality}{17}{}%
 \contentsline {section}{\numberline {6.4}Landwirtschaft}{17}{}%
-\contentsline {section}{\numberline {6.5}Medizin}{17}{}%
+\contentsline {section}{\numberline {6.5}Medizin}{18}{}%
 \contentsline {chapter}{\numberline {7}Herausforderungen und zukünftige Entwicklungen}{19}{}%
 \contentsline {section}{\numberline {7.1}Herausforderungen und Limitationen}{19}{}%
-\contentsline {section}{\numberline {7.2}Potenziale und Trends für zukünftige Entwicklungen}{19}{}%
+\contentsline {section}{\numberline {7.2}Potenziale und Trends für zukünftige Entwicklungen}{20}{}%
 \contentsline {chapter}{\numberline {8}Zusammenfassung}{21}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

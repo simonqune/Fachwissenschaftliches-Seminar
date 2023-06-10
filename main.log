@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  10 JUN 2023 17:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  10 JUN 2023 20:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -655,7 +655,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmss on input line 68
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (main.aux
 
-LaTeX Warning: Label `fig:meinbild' multiply defined.
+LaTeX Warning: Label `fig:CNN' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -882,13 +882,29 @@ File: ./svg-inkscape/FCN_own_new_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FCN_own_new_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/FCN_own_new_svg-tex.pdf , page3 used on input line 64.
 (pdftex.def)             Requested size: 347.64232pt x 146.96858pt.
-)) (kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex [12 <./svg-inkscape/FCN_own_new_svg-tex.pdf> <./svg-inkscape/FCN_own_new_svg-tex.pdf
+) [12 <./svg-inkscape/FCN_own_new_svg-tex.pdf> <./svg-inkscape/FCN_own_new_svg-tex.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/FCN_own_new_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./svg-inkscape/FCN_own_new_svg-tex.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/FCN_own_new_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [13]
+>]
+Package svg Info: Last page of `./svg-inkscape/RCNN_svg-tex.pdf' is 2 on input line 102.
+ (svg-inkscape/RCNN_svg-tex.pdf_tex
+<./svg-inkscape/RCNN_svg-tex.pdf, id=88, page=1, 3035.0175pt x 942.52051pt>
+File: ./svg-inkscape/RCNN_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/RCNN_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/RCNN_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 347.64232pt x 107.94893pt.
+<./svg-inkscape/RCNN_svg-tex.pdf, id=89, page=2, 3035.0175pt x 942.52051pt>
+File: ./svg-inkscape/RCNN_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/RCNN_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/RCNN_svg-tex.pdf , page2 used on input line 58.
+(pdftex.def)             Requested size: 347.64232pt x 107.94893pt.
+)) (kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex [13 <./svg-inkscape/RCNN_svg-tex.pdf> <./svg-inkscape/RCNN_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/RCNN_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
 chapter 5.
 [14
 
@@ -946,7 +962,12 @@ Overfull \hbox (8.08446pt too wide) in paragraph at lines 83--83
 \T1/lmtt/m/n/10.95 neurips . cc / paper _ files / paper / 2017 / file / d8bf84be3800d12f74d8b05e9b89836f -[]
  []
 
-[25] [26] (main.lof)
+[25]
+Overfull \hbox (2.69296pt too wide) in paragraph at lines 83--83
+[]\T1/lmss/m/n/10.95 Leonardo Tan-zi u.a. ^^R  Real-time de-ep lear-ning se-man-tic seg-men-ta-ti-on du-ring intra-operative
+ []
+
+[26] (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -962,17 +983,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20113 strings out of 475385
- 435928 string characters out of 2776908
- 1380141 words of memory out of 3000000
- 41166 multiletter control sequences out of 15000+600000
+ 20158 strings out of 475385
+ 437817 string characters out of 2776908
+ 1378662 words of memory out of 3000000
+ 41207 multiletter control sequences out of 15000+600000
  515123 words of font info for 59 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (29 pages, 237208 bytes).
+Output written on main.pdf (29 pages, 371980 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
+ 222 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

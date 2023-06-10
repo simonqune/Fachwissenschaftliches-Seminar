@@ -6,7 +6,7 @@ Erfassung, Speicherung und Verarbeitung von 3D-Daten, die für die semantische
 Segmentierung verwendet werden. In diesem Kapitel werden zwei verbreitete
 3D-Datenformate dargestellt, die in der Forschung und Praxis einsatz finden.
 \\Ein wichtiges 3D-Datenformat ist das Punktewolkenformat, das unter anderem
-von LiDAR-Sensoren erzeugt wird. Eine Punktwolke ist eine Sammlungen von
+von LiDAR-Sensoren erzeugt wird. Eine Punktwolke ist eine Sammlung von
 3D-Punkten, die die Oberfläche von Objekten in der Umgebung darstellen. Jeder
 Punkt einer Point-Cloud stellt dabei, im Falle eines LiDAR-Sensors, die
 3D-Position eines reflektierten Lichtstrahles dar \cite{20222324}. Sie können
@@ -63,7 +63,7 @@ Punktwolke befindet, in gleichmäßige Voxel unterteilt. Daraufhin wird in jedem
 Voxel nur eine bestimmte Anzahl an Punkten übernommen, die anderen werden aus
 dem Datensatz entfernt. Welche Punkte übernommen werden kann dabei durch
 verschiedene Verfahren bestimmt werden. Danach wird eine bestimmte Anzahl an
-Punkten, etwa durch ihre nähe zum Mittelpunkt, ausgewählt und in das Voxel-Grid
+Punkten, etwa durch ihre Nähe zum Mittelpunkt, ausgewählt und in das Voxel-Grid
 übernommen. Ziel des Voxel-Grid-Downsamplings ist es, die Datenmenge zu
 reduzieren, während wichtige strukturelle und semantische Informationen
 erhalten bleiben. %\cite{6706719}
@@ -91,6 +91,6 @@ Leistungsfähigkeit der Modelle für die semantische Segmentierung.
 \\Der manuell erstellte Ground Truth kann dabei sowohl für das Training des
 Klassifizierungsmodelles genutzt werden, als auch für die Validierung der
 Ergebnisse. Für die Validierung wird die sogenannte IoU (Intersection over
-Union) verwendet. Dabei wird die Anteil der überlappenden Bereiche zwischen
+Union) verwendet. Dabei wird der Anteil der überlappenden Bereiche zwischen
 Ground Truth und Segmentierungsergebnis berechnet. Je höher der Wert, desto
 besser ist das Segmentierungsergebnis. \cite{9000872}
