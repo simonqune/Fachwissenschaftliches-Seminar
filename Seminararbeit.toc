@@ -1,0 +1,32 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{\numberline {1}Einleitung}{4}{}%
+\contentsline {section}{\numberline {1.1}Hintergrund und Motivation}{4}{}%
+\contentsline {section}{\numberline {1.2}Problemstellungen und aktueller Stand der Technik}{4}{}%
+\contentsline {chapter}{\numberline {2}Sensoren zur Erfassung von 3D-Daten}{2}{}%
+\contentsline {section}{\numberline {2.1}LiDAR-Sensoren}{2}{}%
+\contentsline {section}{\numberline {2.2}Tiefenkameras}{2}{}%
+\contentsline {section}{\numberline {2.3}Passive und aktive Sensoren}{3}{}%
+\contentsline {section}{\numberline {2.4}Auswahl von Sensoren für die semantische Segmentierung}{3}{}%
+\contentsline {chapter}{\numberline {3}Datengrundlage und Vorverarbeitung}{5}{}%
+\contentsline {section}{\numberline {3.1}3D-Datenformate und Datentypen}{5}{}%
+\contentsline {section}{\numberline {3.2}Vorverarbeitungsschritte wie Filterung, Normalenberechnung und Downsampling}{6}{}%
+\contentsline {section}{\numberline {3.3}Datenannotation und Ground Truth-Erstellung}{7}{}%
+\contentsline {chapter}{\numberline {4}Grundlegende Verfahren der semantischen Segmentierung}{8}{}%
+\contentsline {subsection}{\numberline {4.0.1}Convolutional Neural Networks (CNNs)}{8}{}%
+\contentsline {subsection}{\numberline {4.0.2}Fully Convolutional Networks (FCNs)}{9}{}%
+\contentsline {subsection}{\numberline {4.0.3}Encoder-Decoder-Architekturen}{10}{}%
+\contentsline {subsection}{\numberline {4.0.4}Region-based Convolutional Neural Networks (R-CNNs)}{10}{}%
+\contentsline {chapter}{\numberline {5}State-of-the-Art Verfahren zur semantischen Segmentierung von 3D-Daten}{12}{}%
+\contentsline {subsection}{\numberline {5.0.1}PointNet++}{12}{}%
+\contentsline {subsection}{\numberline {5.0.2}3D U-Net}{13}{}%
+\contentsline {chapter}{\numberline {6}Anwendungszenarien der semantischen Segmentierung}{14}{}%
+\contentsline {section}{\numberline {6.1}Autonomes Fahren}{14}{}%
+\contentsline {section}{\numberline {6.2}Robotik in der Industrie}{14}{}%
+\contentsline {section}{\numberline {6.3}Augmented Reality}{15}{}%
+\contentsline {section}{\numberline {6.4}Landwirtschaft}{15}{}%
+\contentsline {section}{\numberline {6.5}Medizin}{16}{}%
+\contentsline {chapter}{\numberline {7}Herausforderungen und zukünftige Entwicklungen}{17}{}%
+\contentsline {section}{\numberline {7.1}Herausforderungen und Limitationen}{17}{}%
+\contentsline {section}{\numberline {7.2}Potenziale und Trends für zukünftige Entwicklungen}{18}{}%
+\contentsline {chapter}{\numberline {8}Zusammenfassung}{19}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
