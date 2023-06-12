@@ -809,7 +809,6 @@ INPUT kapitel\Grundlagen der semantischen Segmentierung.tex
 INPUT .\kapitel\Grundlagen der semantischen Segmentierung.tex
 INPUT .\kapitel\Grundlagen der semantischen Segmentierung.tex
 INPUT kapitel\Grundlagen der semantischen Segmentierung.tex
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT .\bilder\cnn_own.svg
 INPUT bilder\cnn_own.svg
 INPUT .\bilder\cnn_own.svg
