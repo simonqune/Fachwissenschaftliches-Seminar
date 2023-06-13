@@ -410,7 +410,6 @@ INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfrc
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfutil-common-lists.tex
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
@@ -423,7 +422,7 @@ INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\p
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeyslibraryfiltered.code.tex
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
@@ -778,7 +777,6 @@ INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi6.tfm
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy8.tfm
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy6.tfm
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmsso10.tfm
 OUTPUT main.toc
 INPUT .\kapitel\Einleitung.tex
 INPUT .\kapitel\Einleitung.tex
@@ -795,6 +793,7 @@ INPUT kapitel\Sensoren_zur_Erfassung_von_3D_Daten.tex
 INPUT .\kapitel\Sensoren_zur_Erfassung_von_3D_Daten.tex
 INPUT .\kapitel\Sensoren_zur_Erfassung_von_3D_Daten.tex
 INPUT kapitel\Sensoren_zur_Erfassung_von_3D_Daten.tex
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmsso10.tfm
 INPUT .\kapitel\datengrundlage_und_Vorverarbeitung.tex
 INPUT .\kapitel\datengrundlage_und_Vorverarbeitung.tex
 INPUT .\kapitel\datengrundlage_und_Vorverarbeitung.tex

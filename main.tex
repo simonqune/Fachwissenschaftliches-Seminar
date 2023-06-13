@@ -16,7 +16,6 @@
 \usepackage{float}
 \usepackage{caption}
 
-
 \setstretch{1.5}
 %Literatur anpassen
 \usepackage[ natbib=true, style=numeric,sorting=none]{biblatex}
@@ -67,9 +66,11 @@
 %%%%%%%DOKUMENT%%%%%%%%%%%%%
 \begin{document}
 \maketitle
+\thispagestyle{empty}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
 \tableofcontents
 \thispagestyle{empty}
-\setcounter{page}{1}
+\setcounter{page}{0}
 \input{kapitel/Einleitung}
 \input{kapitel/Sensoren_zur_Erfassung_von_3D_Daten}
 \input{kapitel/datengrundlage_und_Vorverarbeitung}

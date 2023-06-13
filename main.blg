@@ -1,21 +1,21 @@
-[0] Config.pm:306> INFO - This is Biber 2.18
-[0] Config.pm:309> INFO - Logfile is 'main.blg'
-[81] biber-MSWIN64:340> INFO - === 
-[113] Biber.pm:418> INFO - Reading 'main.bcf'
-[195] Biber.pm:978> INFO - Found 43 citekeys in bib section 0
-[204] Biber.pm:4401> INFO - Processing section 0
-[213] Biber.pm:4592> INFO - Looking for bibtex file 'ref/ref_liste.bib' for section 0
-[262] bibtex.pm:1713> INFO - LaTeX decoding ...
-[304] bibtex.pm:1518> INFO - Found BibTeX data source 'ref/ref_liste.bib'
-[481] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[481] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[482] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[482] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
-[503] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[524] bbl.pm:757> INFO - Output to main.bbl
-[524] Biber.pm:130> WARN - Duplicate entry key: 'zhao2017pyramid' in file 'ref/ref_liste.bib', skipping ...
-[524] Biber.pm:130> WARN - Entry '11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring
-[524] Biber.pm:130> WARN - Entry '11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring
-[524] Biber.pm:130> WARN - legacy month field 'December' in entry 'Girshick_2015_ICCV' is not an integer - this will probably not sort properly.
-[524] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\kuhns\AppData\Local\Temp\biber_tmp_bUqE\a0cf470393aa83b1e0766279bdb6f589_22104.utf8, line 197, warning: 1 characters of junk seen at toplevel
-[524] Biber.pm:132> INFO - WARNINGS: 5
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[180] biber-MSWIN64:340> INFO - === 
+[236] Biber.pm:419> INFO - Reading 'main.bcf'
+[438] Biber.pm:979> INFO - Found 43 citekeys in bib section 0
+[460] Biber.pm:4419> INFO - Processing section 0
+[498] Biber.pm:4610> INFO - Looking for bibtex file 'ref/ref_liste.bib' for section 0
+[571] bibtex.pm:1713> INFO - LaTeX decoding ...
+[691] bibtex.pm:1519> INFO - Found BibTeX data source 'ref/ref_liste.bib'
+[1223] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1223] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1223] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[1223] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[1331] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1386] bbl.pm:763> INFO - Output to main.bbl
+[1387] Biber.pm:131> WARN - Duplicate entry key: 'zhao2017pyramid' in file 'ref/ref_liste.bib', skipping ...
+[1387] Biber.pm:131> WARN - misc entry '11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring
+[1387] Biber.pm:131> WARN - misc entry '11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring
+[1387] Biber.pm:131> WARN - legacy month field 'December' in entry 'Girshick_2015_ICCV' is not an integer - this will probably not sort properly.
+[1387] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\kuhns\AppData\Local\Temp\biber_tmp_kB8I\a0cf470393aa83b1e0766279bdb6f589_15992.utf8, line 197, warning: 1 characters of junk seen at toplevel
+[1387] Biber.pm:133> INFO - WARNINGS: 5
