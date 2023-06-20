@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="3.10" bltxversion="3.19" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="3.9" bltxversion="3.18b" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -37,11 +37,6 @@
     <bcf:option type="singlevalued">
       <bcf:key>alphaothers</bcf:key>
       <bcf:value>+</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>extradatecontext</bcf:key>
-      <bcf:value order="1">labelname</bcf:value>
-      <bcf:value order="2">labeltitle</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
@@ -281,11 +276,6 @@
   </bcf:options>
   <!-- online -->
   <bcf:options component="biblatex" type="online">
-    <bcf:option type="multivalued">
-      <bcf:key>extradatecontext</bcf:key>
-      <bcf:value order="1">labelname</bcf:value>
-      <bcf:value order="2">labeltitle</bcf:value>
-    </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
       <bcf:value>0</bcf:value>
@@ -505,7 +495,6 @@
     <bcf:option datatype="xml">sortingnamekeytemplate</bcf:option>
     <bcf:option datatype="xml">sortingtemplate</bcf:option>
     <bcf:option datatype="xml">extradatespec</bcf:option>
-    <bcf:option datatype="xml">extradatecontext</bcf:option>
     <bcf:option datatype="xml">labelnamespec</bcf:option>
     <bcf:option datatype="xml">labeltitlespec</bcf:option>
     <bcf:option datatype="xml">labeldatespec</bcf:option>
@@ -729,7 +718,6 @@
     <bcf:option datatype="xml">translit</bcf:option>
     <bcf:option datatype="xml">sortexclusion</bcf:option>
     <bcf:option datatype="xml">sortinclusion</bcf:option>
-    <bcf:option datatype="xml">extradatecontext</bcf:option>
     <bcf:option datatype="xml">labelnamespec</bcf:option>
     <bcf:option datatype="xml">labeltitlespec</bcf:option>
     <bcf:option datatype="xml">labeldatespec</bcf:option>
@@ -2392,27 +2380,46 @@
     <bcf:citekey order="24" intorder="2">Zlateski_2018_CVPR</bcf:citekey>
     <bcf:citekey order="25" intorder="1">9000872</bcf:citekey>
     <bcf:citekey order="26" intorder="1">11262015</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">7803544</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">8309343</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">jalandoni2022use</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">jalandoni2022use</bcf:citekey>
     <bcf:citekey order="29" intorder="1">7803544</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">Girshick_2015_ICCV</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">NIPS2017_d8bf84be</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">ronneberger2015unet</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">çiçek20163d</bcf:citekey>
-    <bcf:citekey order="33" intorder="2">987654321</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">9000872</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">liu2020real</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">nee2012augmented</bcf:citekey>
-    <bcf:citekey order="36" intorder="2">ko2020novel</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">8460962</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">asgari2021deep</bcf:citekey>
-    <bcf:citekey order="38" intorder="2">tanzi2021real</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">hu2021towards</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">20222324</bcf:citekey>
-    <bcf:citekey order="40" intorder="2">9420573</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">9420573</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">zhao2017pyramid</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">cordts2016cityscapes</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">8309343</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">7803544</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">Girshick_2015_ICCV</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">sanjar2020improved</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">sanjar2020improved</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">girshick2014rich</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">girshick2014rich</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">8099499</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">NIPS2017_d8bf84be</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">8099499</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">8099499</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">ronneberger2015unet</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">cciccek20163d</bcf:citekey>
+    <bcf:citekey order="42" intorder="2">987654321</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">cciccek20163d</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">cciccek20163d</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">9000872</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">madokoro2022semantic</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">madokoro2022semantic</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">liu2020real</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">liu2020real</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">liu2020real</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">nee2012augmented</bcf:citekey>
+    <bcf:citekey order="51" intorder="2">ko2020novel</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">8460962</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">madokoro2022semantic</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">madokoro2022semantic</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">asgari2021deep</bcf:citekey>
+    <bcf:citekey order="55" intorder="2">tanzi2021real</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">tanzi2021real</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">tanzi2021real</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">hu2021towards</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">20222324</bcf:citekey>
+    <bcf:citekey order="59" intorder="2">9420573</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">9420573</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">zhao2017pyramid</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">cordts2016cityscapes</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

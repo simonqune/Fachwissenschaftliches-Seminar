@@ -4,7 +4,7 @@ Bei der semantischen Segmentierung von 3D-Daten spielen die zugrunde liegenden
 Datenformate eine elementare Rolle. Diese bilden die Grundlage für die
 Erfassung, Speicherung und Verarbeitung von 3D-Daten, die für die semantische
 Segmentierung verwendet werden. In diesem Kapitel werden zwei verbreitete
-3D-Datenformate dargestellt, die in der Forschung und Praxis einsatz finden.
+3D-Datenformate dargestellt, die in der Forschung und Praxis Einsatz finden.
 \\Ein wichtiges 3D-Datenformat ist das Punktewolkenformat, das unter anderem
 von LiDAR-Sensoren erzeugt wird. Eine Punktwolke ist eine Sammlung von
 3D-Punkten, die die Oberfläche von Objekten in der Umgebung darstellen. Jeder
@@ -16,7 +16,7 @@ LiDAR-Punktwolken verwendet wird. Diese Formate ermöglichen die Speicherung von
 großen Mengen an Punkten mit 3D-Koordinaten, Intensitätsinformationen und
 weiteren Attributen, die zur semantischen Segmentierung verwendet werden können
 \cite{elphcik1991using}. Das Punktwolkenformat hat aufgrund der großen Menge an
-Punkten, die durch einen LiDAR-Sensor erzeugt werden, einen sehr hohen
+Punkten, die durch einen LiDAR-Sensor erzeugt werden, einen hohen
 Speicherbedarf, was zu einer rechenintensiven Verarbeitung der Daten führen
 kann \cite{8578570}.
 
@@ -38,7 +38,7 @@ verbessern. In diesem Kapitel werden verschiedene Vorverarbeitungsschritte wie
 Filterung, Normalenberechnung und Downsampling betrachtet, die oft in der
 Praxis angewendet werden.
 
-\begin{enumerate}
+\begin{itemize}
 
 \item Filterung: Zu Beginn wird häufig eine Filterung des Datensatzes durchgeführt.
 Dadurch kann unerwünschtes Rauschen im Datensatz unterdrückt und dessen
@@ -51,7 +51,7 @@ Segmentierungsergebnisse verbessert werden \cite{HAN2017103}.
 \item Downsampling: Beim Prozess des Downsamplings wird die Anzahl an Punkten
 innerhalb einer Punktwolke reduziert, um die Verarbeitungsgeschwindigkeit und
 den Speicherbedarf zu reduzieren. Dies kann durch verschiedene Verfahren
-erfolgen. Eine sehr schnelle und recheneffiziente Methode ist hierbei das
+erfolgen. Eine schnelle und recheneffiziente Methode ist hierbei das
 sogenannte Random-Downsampling. Dabei wird ein bestehender Datensatz um eine
 absolute oder relative Punktanzahl reduziert. Die wegfallenden Punkte werden
 dabei zufällig ausgewählt. Nachteil ist hierbei, dass sich ursprünglich
@@ -75,12 +75,12 @@ Vektoren, die senkrecht zur Oberfläche von Objekten in der Umgebung stehen und
 gibt so Aufschluss über die Orientierung der Oberflächen der Szene.
 \cite{6375034}
 
-\end{enumerate}
+\end{itemize}
 
-\section{Datenannotation und Ground Truth-Erstellung}
+\section{Datenannotation und Ground-Truth-Erstellung}
 
-Die Erstellung annotierter Daten und eines Ground Truths sind entscheidende
-Schritte bei der semantischen Segmentierung von 3D-Daten. Da aktuelle Verfahren
+Die Erstellung annotierter Daten und eines Ground-Truths sind entscheidende
+Punkte bei der semantischen Segmentierung von 3D-Daten. Da aktuelle Verfahren
 der semantischen Segmentierung auf Erweiterungen von neuronale Netze basiert,
 werden annotierte Datensätze benötigt, um diese zu trainieren. Dabei erfolgt
 eine manuelle Klassifikation der Daten, indem semantische Labels oder
@@ -88,9 +88,9 @@ Klasseninformationen den 3D-Daten zugeordnet werden. Die Qualität und
 Genauigkeit der Datenannotation sind von entscheidender Bedeutung für die
 Leistungsfähigkeit der Modelle für die semantische Segmentierung.
 \cite{BROSTOW200988,Zlateski_2018_CVPR}
-\\Der manuell erstellte Ground Truth kann dabei sowohl für das Training des
+\\Der manuell erstellte Ground-Truth kann dabei sowohl für das Training des
 Klassifizierungsmodelles genutzt werden, als auch für die Validierung der
 Ergebnisse. Für die Validierung wird die sogenannte IoU (Intersection over
 Union) verwendet. Dabei wird der Anteil der überlappenden Bereiche zwischen
-Ground Truth und Segmentierungsergebnis berechnet. Je höher der Wert, desto
+Ground-Truth und Segmentierungsergebnis berechnet. Je höher der Wert, desto
 besser ist das Segmentierungsergebnis. \cite{9000872}

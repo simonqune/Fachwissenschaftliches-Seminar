@@ -1167,8 +1167,46 @@
       \verb{url}
       \verb https://arxiv.org/pdf/1511.08458.pdf
       \endverb
-      \warn{\item misc entry '11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring}
-      \warn{\item misc entry '11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring}
+      \warn{\item Entry '11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring}
+      \warn{\item Entry '11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{jalandoni2022use}{article}{}
+      \name{author}{3}{}{%
+        {{hash=770f79a0289f9d10b4c28ff61f8b1384}{%
+           family={Jalandoni},
+           familyi={J\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0664a61a61832b10b11b0037646967c6}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yishuo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e177cfa152b0090cb96a9ffb977c90eb}{%
+           family={Zaidi},
+           familyi={Z\bibinitperiod},
+           given={Nayyar\bibnamedelima A},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{10c9d60f53a6fc8b1adbac6f92c1177a}
+      \strng{fullhash}{10c9d60f53a6fc8b1adbac6f92c1177a}
+      \strng{bibnamehash}{10c9d60f53a6fc8b1adbac6f92c1177a}
+      \strng{authorbibnamehash}{10c9d60f53a6fc8b1adbac6f92c1177a}
+      \strng{authornamehash}{10c9d60f53a6fc8b1adbac6f92c1177a}
+      \strng{authorfullhash}{10c9d60f53a6fc8b1adbac6f92c1177a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Archaeological Science}
+      \field{title}{On the use of Machine Learning methods in rock art research with application to automatic painted rock art identification}
+      \field{volume}{144}
+      \field{year}{2022}
+      \field{pages}{105629}
+      \range{pages}{1}
     \endentry
     \entry{7803544}{article}{}
       \name{author}{3}{}{%
@@ -1233,8 +1271,8 @@
       \strng{authorbibnamehash}{d0d6b2f4b37e3de01f62ffdd18ba2a70}
       \strng{authornamehash}{d0d6b2f4b37e3de01f62ffdd18ba2a70}
       \strng{authorfullhash}{d0d6b2f4b37e3de01f62ffdd18ba2a70}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Geoscience and Remote Sensing Letters}
@@ -1270,6 +1308,141 @@
       \field{month}{12}
       \field{title}{Fast R-CNN}
       \field{year}{2015}
+    \endentry
+    \entry{sanjar2020improved}{article}{}
+      \name{author}{6}{}{%
+        {{hash=06b178ee54eb2e1c43510dc8e37c80a6}{%
+           family={Sanjar},
+           familyi={S\bibinitperiod},
+           given={Karshiev},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b815d0bea5cb2aa2db12f9e62362e286}{%
+           family={Bekhzod},
+           familyi={B\bibinitperiod},
+           given={Olimov},
+           giveni={O\bibinitperiod}}}%
+        {{hash=75cfede95283beda8fb76d9b88a52131}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jaeil},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ca9b2cd3d3a7a11b0f715a0297893187}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jaesoo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ceef3925d1f1c212e8b5c828bbabe53a}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Anand},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4058669eadae5c644a5e3350f945db70}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jeonghong},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{8051c3db19198e9a3774d53a4f5e83bd}
+      \strng{fullhash}{fdf02730bcef5cf30354c9e343282aac}
+      \strng{bibnamehash}{8051c3db19198e9a3774d53a4f5e83bd}
+      \strng{authorbibnamehash}{8051c3db19198e9a3774d53a4f5e83bd}
+      \strng{authornamehash}{8051c3db19198e9a3774d53a4f5e83bd}
+      \strng{authorfullhash}{fdf02730bcef5cf30354c9e343282aac}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{10}
+      \field{title}{Improved U-Net: Fully convolutional network model for skin-lesion segmentation}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{pages}{3658}
+      \range{pages}{1}
+    \endentry
+    \entry{girshick2014rich}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=913090a0d65c7a300c602f5a5a5a61e3}{%
+           family={Donahue},
+           familyi={D\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=90180e1a30742e0d15328bfe637c2ef4}{%
+           family={Darrell},
+           familyi={D\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c75a5377b6dc5213831576e88ffe553c}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Jitendra},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5aa9f085e8eccf547d1eb54a05cb1beb}
+      \strng{fullhash}{9147daa2f6a058d5b8880ff5cf38abd6}
+      \strng{bibnamehash}{5aa9f085e8eccf547d1eb54a05cb1beb}
+      \strng{authorbibnamehash}{5aa9f085e8eccf547d1eb54a05cb1beb}
+      \strng{authornamehash}{5aa9f085e8eccf547d1eb54a05cb1beb}
+      \strng{authorfullhash}{9147daa2f6a058d5b8880ff5cf38abd6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE conference on computer vision and pattern recognition}
+      \field{title}{Rich feature hierarchies for accurate object detection and semantic segmentation}
+      \field{year}{2014}
+      \field{pages}{580\bibrangedash 587}
+      \range{pages}{8}
+    \endentry
+    \entry{8099499}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=1d86e06a45d853e7174169eac7e2b053}{%
+           family={Charles},
+           familyi={C\bibinitperiod},
+           given={R.\bibnamedelimi Qi},
+           giveni={R\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+        {{hash=18c26ddba8b9dd77f278213fd4e93ce4}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f8fadb82f6dfc29abd8e0b3a07830452}{%
+           family={Kaichun},
+           familyi={K\bibinitperiod},
+           given={Mo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=03578abbf51650fbfaf563c532898f30}{%
+           family={Guibas},
+           familyi={G\bibinitperiod},
+           given={Leonidas\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{05e6288167dc5d92081d7b43ed4221f4}
+      \strng{fullhash}{9de01586add91ce1c79df5ac73fcf516}
+      \strng{bibnamehash}{05e6288167dc5d92081d7b43ed4221f4}
+      \strng{authorbibnamehash}{05e6288167dc5d92081d7b43ed4221f4}
+      \strng{authornamehash}{05e6288167dc5d92081d7b43ed4221f4}
+      \strng{authorfullhash}{9de01586add91ce1c79df5ac73fcf516}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}
+      \field{title}{PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation}
+      \field{year}{2017}
+      \field{pages}{77\bibrangedash 85}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/CVPR.2017.16
+      \endverb
     \endentry
     \entry{NIPS2017_d8bf84be}{inproceedings}{}
       \name{author}{4}{}{%
@@ -1382,8 +1555,8 @@
       \strng{authorbibnamehash}{f23ccc5160c62c7866172335b2c76e11}
       \strng{authornamehash}{f23ccc5160c62c7866172335b2c76e11}
       \strng{authorfullhash}{f23ccc5160c62c7866172335b2c76e11}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{cs.CV}
@@ -1394,7 +1567,7 @@
       \verb 1505.04597
       \endverb
     \endentry
-    \entry{çiçek20163d}{misc}{}
+    \entry{cciccek20163d}{inproceedings}{}
       \name{author}{5}{}{%
         {{hash=92bebfd041b279b80a17edf14c6e2226}{%
            family={Çiçek},
@@ -1409,7 +1582,7 @@
         {{hash=7f3f4d0039a4fa548905b16c7a2a088d}{%
            family={Lienkamp},
            familyi={L\bibinitperiod},
-           given={Soeren\bibnamedelima S.},
+           given={Soeren\bibnamedelima S},
            giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
         {{hash=b452a32296958371572717940f900884}{%
            family={Brox},
@@ -1422,23 +1595,24 @@
            given={Olaf},
            giveni={O\bibinitperiod}}}%
       }
+      \list{organization}{1}{%
+        {Springer}%
+      }
       \strng{namehash}{e64aa4ac842b67684c7c812957881c74}
       \strng{fullhash}{5d78b6035963e7bd3240da1449f99a00}
       \strng{bibnamehash}{e64aa4ac842b67684c7c812957881c74}
       \strng{authorbibnamehash}{e64aa4ac842b67684c7c812957881c74}
       \strng{authornamehash}{e64aa4ac842b67684c7c812957881c74}
       \strng{authorfullhash}{5d78b6035963e7bd3240da1449f99a00}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprintclass}{cs.CV}
-      \field{eprinttype}{arXiv}
-      \field{title}{3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation}
+      \field{booktitle}{Medical Image Computing and Computer-Assisted Intervention--MICCAI 2016: 19th International Conference, Athens, Greece, October 17-21, 2016, Proceedings, Part II 19}
+      \field{title}{3D U-Net: learning dense volumetric segmentation from sparse annotation}
       \field{year}{2016}
-      \verb{eprint}
-      \verb 1606.06650
-      \endverb
+      \field{pages}{424\bibrangedash 432}
+      \range{pages}{9}
     \endentry
     \entry{987654321}{article}{}
       \name{author}{7}{}{%
@@ -1484,8 +1658,8 @@
       \strng{authorbibnamehash}{569fccc3d0a5308484a9b8b1a818c0ee}
       \strng{authornamehash}{569fccc3d0a5308484a9b8b1a818c0ee}
       \strng{authorfullhash}{8e212d73db43ad01a33d184d01216dff}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1349-9157}
@@ -1509,6 +1683,75 @@
       \verb{url}
       \verb https://doi.org/10.1093/jrr/rrz086
       \endverb
+    \endentry
+    \entry{madokoro2022semantic}{article}{}
+      \name{author}{9}{}{%
+        {{hash=aa00288873af8758da6f405695cbdb75}{%
+           family={Madokoro},
+           familyi={M\bibinitperiod},
+           given={Hirokazu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b385a47e0276903f486af97040d5c6dc}{%
+           family={Takahashi},
+           familyi={T\bibinitperiod},
+           given={Kota},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d7d9838643b13c051cbb86f25ed28e1f}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=52ca8e548882efe52a2612863e4daab8}{%
+           family={Nix},
+           familyi={N\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4c50ae10bbd576dfb679c9401f26c771}{%
+           family={Chiyonobu},
+           familyi={C\bibinitperiod},
+           given={Shun},
+           giveni={S\bibinitperiod}}}%
+        {{hash=253c0fda850d4d8a18715c3167fb1211}{%
+           family={Saruta},
+           familyi={S\bibinitperiod},
+           given={Kazuki},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0f5a7af91d8a0109e1c213f36cb268d7}{%
+           family={Saito},
+           familyi={S\bibinitperiod},
+           given={Takashi\bibnamedelima K},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=a27bad19d2a5232de16a20ea1679aa3e}{%
+           family={Nishimura},
+           familyi={N\bibinitperiod},
+           given={Yo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e23b526d976651c4d416827858226e65}{%
+           family={Sato},
+           familyi={S\bibinitperiod},
+           given={Kazuhito},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{0ca8eac963fdd5f2eac69d66b21f92a4}
+      \strng{fullhash}{a36578eaee34b97ae2af8e7a8c44a446}
+      \strng{bibnamehash}{0ca8eac963fdd5f2eac69d66b21f92a4}
+      \strng{authorbibnamehash}{0ca8eac963fdd5f2eac69d66b21f92a4}
+      \strng{authornamehash}{0ca8eac963fdd5f2eac69d66b21f92a4}
+      \strng{authorfullhash}{a36578eaee34b97ae2af8e7a8c44a446}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{15}
+      \field{title}{Semantic Segmentation of Agricultural Images Based on Style Transfer Using Conditional and Unconditional Generative Adversarial Networks}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{pages}{7785}
+      \range{pages}{1}
     \endentry
     \entry{liu2020real}{article}{}
       \name{author}{5}{}{%
@@ -1548,8 +1791,8 @@
       \strng{authornamehash}{fe1dfbca5e52ad09a6a37ccac899d089}
       \strng{authorfullhash}{cc808fd036018698810332f499220421}
       \field{extraname}{3}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Sciences}
@@ -1592,8 +1835,8 @@
       \strng{authorbibnamehash}{d6d4e0494545567eca91f2577ce23df1}
       \strng{authornamehash}{d6d4e0494545567eca91f2577ce23df1}
       \strng{authorfullhash}{692064f3e2f1fce2593d7610a05345a9}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{CIRP annals}
@@ -1626,8 +1869,8 @@
       \strng{authorbibnamehash}{f92834765da8ea5a4b24dbb6962f5432}
       \strng{authornamehash}{f92834765da8ea5a4b24dbb6962f5432}
       \strng{authorfullhash}{f92834765da8ea5a4b24dbb6962f5432}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sensors}
@@ -1662,8 +1905,8 @@
       \strng{authorbibnamehash}{3cec1db117f50db4ad091bc20ff8aea2}
       \strng{authornamehash}{3cec1db117f50db4ad091bc20ff8aea2}
       \strng{authorfullhash}{3cec1db117f50db4ad091bc20ff8aea2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2018 IEEE International Conference on Robotics and Automation (ICRA)}
@@ -1712,8 +1955,8 @@
       \strng{authorbibnamehash}{9b850f46c8f04b983ae268e3d5b45270}
       \strng{authornamehash}{9b850f46c8f04b983ae268e3d5b45270}
       \strng{authorfullhash}{2696f053b1a91cad5d079b4eb6a136a1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Artificial Intelligence Review}
@@ -1755,8 +1998,8 @@
       \strng{authorbibnamehash}{eba3515e156611707b8882f682545b0f}
       \strng{authornamehash}{eba3515e156611707b8882f682545b0f}
       \strng{authorfullhash}{929a4f58a52a160a56cc0f8844913ae5}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International journal of computer assisted radiology and surgery}
@@ -1806,8 +2049,8 @@
       \strng{authorbibnamehash}{e05436256f078fd74c899c2d0b21fc8c}
       \strng{authornamehash}{e05436256f078fd74c899c2d0b21fc8c}
       \strng{authorfullhash}{06ae786eccac5ba440920acf560ddd54}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}
@@ -1850,8 +2093,8 @@
       \strng{authorbibnamehash}{b06e7056808e2daf34cacd840d8b4ea1}
       \strng{authornamehash}{b06e7056808e2daf34cacd840d8b4ea1}
       \strng{authorfullhash}{87ea04d339c63c32f36152b13384134e}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the IEEE conference on computer vision and pattern recognition}
@@ -1914,8 +2157,8 @@
       \strng{authorbibnamehash}{9d24662d1803e2774f8899435bffa2b5}
       \strng{authornamehash}{9d24662d1803e2774f8899435bffa2b5}
       \strng{authorfullhash}{cc545828e2bf016705d2e732a65c3d91}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the IEEE conference on computer vision and pattern recognition}

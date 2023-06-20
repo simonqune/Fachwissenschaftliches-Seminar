@@ -410,6 +410,7 @@ INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfrc
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfutil-common-lists.tex
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
@@ -422,7 +423,7 @@ INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\p
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeyslibraryfiltered.code.tex
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
@@ -734,6 +735,13 @@ INPUT main.bbl
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
+INPUT .\bilder\thi_FEI_wb_RGB.pdf
+INPUT .\bilder\thi_FEI_wb_RGB.pdf
+INPUT bilder\thi_FEI_wb_RGB.pdf
+INPUT .\bilder\thi_FEI_wb_RGB.pdf
+OUTPUT main.pdf
+INPUT .\bilder\thi_FEI_wb_RGB.pdf
+INPUT .\bilder\thi_FEI_wb_RGB.pdf
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss12.tfm
@@ -763,7 +771,6 @@ INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\omxlmex.fd
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\omxlmex.fd
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\omxlmex.fd
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmex10.tfm
-OUTPUT main.pdf
 INPUT C:\Users\kuhns\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\main.toc
 INPUT main.toc
@@ -801,6 +808,11 @@ INPUT kapitel\datengrundlage_und_Vorverarbeitung.tex
 INPUT .\kapitel\datengrundlage_und_Vorverarbeitung.tex
 INPUT .\kapitel\datengrundlage_und_Vorverarbeitung.tex
 INPUT kapitel\datengrundlage_und_Vorverarbeitung.tex
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmss10.tfm
 INPUT .\kapitel\Grundlagen der semantischen Segmentierung.tex
 INPUT .\kapitel\Grundlagen der semantischen Segmentierung.tex
 INPUT .\kapitel\Grundlagen der semantischen Segmentierung.tex
@@ -808,34 +820,14 @@ INPUT kapitel\Grundlagen der semantischen Segmentierung.tex
 INPUT .\kapitel\Grundlagen der semantischen Segmentierung.tex
 INPUT .\kapitel\Grundlagen der semantischen Segmentierung.tex
 INPUT kapitel\Grundlagen der semantischen Segmentierung.tex
-INPUT .\bilder\cnn_own.svg
-INPUT bilder\cnn_own.svg
-INPUT .\bilder\cnn_own.svg
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf_tex
-INPUT svg-inkscape\cnn_own_svg-tex.pdf_tex
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf
-INPUT svg-inkscape\cnn_own_svg-tex.pdf
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf_tex
-INPUT svg-inkscape\cnn_own_svg-tex.pdf_tex
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf_tex
-INPUT svg-inkscape\cnn_own_svg-tex.pdf_tex
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf_tex
-INPUT svg-inkscape\cnn_own_svg-tex.pdf_tex
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf
-INPUT svg-inkscape\cnn_own_svg-tex.pdf
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf
-INPUT svg-inkscape\cnn_own_svg-tex.pdf
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf
-INPUT .\svg-inkscape\cnn_own_svg-tex.pdf
+INPUT .\bilder\cnn_own.png
+INPUT .\bilder\cnn_own.png
+INPUT bilder\cnn_own.png
+INPUT .\bilder\cnn_own.png
+INPUT .\bilder\cnn_own.png
+INPUT .\bilder\cnn_own.png
+INPUT .\bilder\cnn_own.png
+INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss10.tfm
 INPUT .\bilder\FCN_own_new.svg
 INPUT bilder\FCN_own_new.svg
 INPUT .\bilder\FCN_own_new.svg
@@ -905,6 +897,20 @@ INPUT kapitel\State-of-the-Art Methoden zur semantischen Segmentierung auf Basis
 INPUT .\kapitel\State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex
 INPUT .\kapitel\State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex
 INPUT kapitel\State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex
+INPUT .\bilder\pointnet.jpg
+INPUT .\bilder\pointnet.jpg
+INPUT bilder\pointnet.jpg
+INPUT .\bilder\pointnet.jpg
+INPUT .\bilder\pointnet.jpg
+INPUT .\bilder\pointnet.jpg
+INPUT .\bilder\pointnet.jpg
+INPUT .\bilder\3D_U-Net.png
+INPUT .\bilder\3D_U-Net.png
+INPUT bilder\3D_U-Net.png
+INPUT .\bilder\3D_U-Net.png
+INPUT .\bilder\3D_U-Net.png
+INPUT .\bilder\3D_U-Net.png
+INPUT .\bilder\3D_U-Net.png
 INPUT .\kapitel\Anwendungszenarien der semantischen Segmentierung.tex
 INPUT .\kapitel\Anwendungszenarien der semantischen Segmentierung.tex
 INPUT .\kapitel\Anwendungszenarien der semantischen Segmentierung.tex
@@ -912,6 +918,34 @@ INPUT kapitel\Anwendungszenarien der semantischen Segmentierung.tex
 INPUT .\kapitel\Anwendungszenarien der semantischen Segmentierung.tex
 INPUT .\kapitel\Anwendungszenarien der semantischen Segmentierung.tex
 INPUT kapitel\Anwendungszenarien der semantischen Segmentierung.tex
+INPUT .\bilder\autonomous_driving2.jpg
+INPUT .\bilder\autonomous_driving2.jpg
+INPUT bilder\autonomous_driving2.jpg
+INPUT .\bilder\autonomous_driving2.jpg
+INPUT .\bilder\autonomous_driving2.jpg
+INPUT .\bilder\autonomous_driving2.jpg
+INPUT .\bilder\autonomous_driving2.jpg
+INPUT .\bilder\semantic_segmentation_Robotics.png
+INPUT .\bilder\semantic_segmentation_Robotics.png
+INPUT bilder\semantic_segmentation_Robotics.png
+INPUT .\bilder\semantic_segmentation_Robotics.png
+INPUT .\bilder\semantic_segmentation_Robotics.png
+INPUT .\bilder\semantic_segmentation_Robotics.png
+INPUT .\bilder\semantic_segmentation_Robotics.png
+INPUT .\bilder\semantic_segmentation_landwirtschaft.png
+INPUT .\bilder\semantic_segmentation_landwirtschaft.png
+INPUT bilder\semantic_segmentation_landwirtschaft.png
+INPUT .\bilder\semantic_segmentation_landwirtschaft.png
+INPUT .\bilder\semantic_segmentation_landwirtschaft.png
+INPUT .\bilder\semantic_segmentation_landwirtschaft.png
+INPUT .\bilder\semantic_segmentation_landwirtschaft.png
+INPUT .\bilder\medizin_AR.jpg
+INPUT .\bilder\medizin_AR.jpg
+INPUT bilder\medizin_AR.jpg
+INPUT .\bilder\medizin_AR.jpg
+INPUT .\bilder\medizin_AR.jpg
+INPUT .\bilder\medizin_AR.jpg
+INPUT .\bilder\medizin_AR.jpg
 INPUT .\kapitel\Herausforderungen und zukünftige Entwicklungen.tex
 INPUT .\kapitel\Herausforderungen und zukünftige Entwicklungen.tex
 INPUT .\kapitel\Herausforderungen und zukünftige Entwicklungen.tex
@@ -926,10 +960,6 @@ INPUT kapitel\Zusammenfassung_und_Ausblick.tex
 INPUT .\kapitel\Zusammenfassung_und_Ausblick.tex
 INPUT .\kapitel\Zusammenfassung_und_Ausblick.tex
 INPUT kapitel\Zusammenfassung_und_Ausblick.tex
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
-INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmss.fd
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmsso10.tfm
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd

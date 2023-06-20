@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{2584.46160104bp}%
+    \setlength{\unitlength}{2054.84374881bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,23 +50,27 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.45145686)%
+  \begin{picture}(1,0.48107511)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{cnn_own_svg-tex.pdf}}%
-    \put(0.26378221,0.17228848){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Convolutional\end{tabular}}}}%
-    \put(0.41661384,0.17228848){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-\end{tabular}}}}%
-    \put(0.30927621,0.14355909){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Layers\end{tabular}}}}%
-    \put(0.53073626,0.17490024){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Pooling\end{tabular}}}}%
-    \put(0.61331439,0.17490024){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-\end{tabular}}}}%
-    \put(0.54641844,0.14617085){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Layer\end{tabular}}}}%
-    \put(0.73670856,0.06230425){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Fully\end{tabular}}}}%
-    \put(0.78674703,0.06230425){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-\end{tabular}}}}%
-    \put(0.70085776,0.03357486){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Connected\end{tabular}}}}%
-    \put(0.82259782,0.03357486){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-\end{tabular}}}}%
-    \put(0.73612236,0.00484548){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Layer\end{tabular}}}}%
-    \put(0.91706237,0.23700215){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Output\end{tabular}}}}%
-    \put(0.05959809,0.23235901){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Input\end{tabular}}}}%
+    \put(0.22811953,0.10083026){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Convolutional\end{tabular}}}}%
+    \put(0.33476633,0.10083026){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-\end{tabular}}}}%
+    \put(0.3402047,0.10083026){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Layers\end{tabular}}}}%
+    \put(0.48913938,0.10156024){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Pooling\end{tabular}}}}%
+    \put(0.54789932,0.10156024){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-\end{tabular}}}}%
+    \put(0.49677865,0.08148572){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Layers\end{tabular}}}}%
+    \put(0.72247099,0.02345211){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Fully\end{tabular}}}}%
+    \put(0.75801749,0.02345211){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-\end{tabular}}}}%
+    \put(0.76345586,0.02345211){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Connected\end{tabular}}}}%
+    \put(0.84856452,0.02345211){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-\end{tabular}}}}%
+    \put(0.76752916,0.00337759){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Layer\end{tabular}}}}%
+    \put(0.93212927,0.153389){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Output\end{tabular}}}}%
+    \put(0.05292738,0.22967217){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Input\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{cnn_own_svg-tex.pdf}}%
+    \put(0.61563075,0.09718035){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Flatten\end{tabular}}}}%
+    \put(0.66790845,0.09718035){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-\end{tabular}}}}%
+    \put(0.62378466,0.07710583){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Layer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{cnn_own_svg-tex.pdf}}%
   \end{picture}%
 \endgroup%

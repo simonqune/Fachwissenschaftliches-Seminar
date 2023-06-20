@@ -3,11 +3,17 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Aufbau eines Convolutional Neural Networks, beispielhaft mit dem MNIST Datensatz.\relax }}{10}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Encoder Decoder Architektur ähnlich U-Net\relax }}{11}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Funktionsweise von R-CNNs\relax }}{12}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Aufbau eines Convolutional Neural Networks, beispielhaft mit dem Modified National Institute of Standards and Technology Datensatz (MNIST-Datensatz)}}{10}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Fully-Convolutional-Network mit Encode-Decoder-Architektur}}{12}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Architektur von R-CNNs}}{12}{}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces PointNet-Architektur}}{14}{}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 3D U-Net Architektur}}{15}{}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces semantische Segmentierung im Bereich des autonomen Fahrens}}{17}{}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces semantische Segmentierung in der industrierobotik}}{18}{}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces semantische Segmentierung in der Landwirtschaft}}{19}{}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces semantische Segmentierung im Bereich der Medizin, in Kombination mit Augmented Reality}}{20}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

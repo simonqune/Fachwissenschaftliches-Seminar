@@ -55,14 +55,14 @@
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{FCN_own_new_svg-tex.pdf}}%
     \put(0.13984745,0.00032526){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Encoder\end{tabular}}}}%
-    \put(0.50978295,0.00032526){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Decoder\end{tabular}}}}%
+    \put(0.50710603,0.00032526){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Decoder\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{FCN_own_new_svg-tex.pdf}}%
     \put(0.87124499,0.32005425){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Convolution\end{tabular}}}}%
     \put(0.87336012,0.283033){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Max Pooling\end{tabular}}}}%
     \put(0.87069356,0.24627064){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Upsampling\end{tabular}}}}%
-    \put(0.87431802,0.21157939){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Sigmoid\end{tabular}}}}%
+    \put(0.87431802,0.21157939){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Softmax\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{FCN_own_new_svg-tex.pdf}}%
-    \put(0.31204028,0.39616787){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Skip Connection\end{tabular}}}}%
+    \put(0.31204028,0.39435564){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Skip Connection\end{tabular}}}}%
     \put(0.01562277,0.21365051){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Input\end{tabular}}}}}%
     \put(0.72410752,0.25559067){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Output\end{tabular}}}}}%
   \end{picture}%

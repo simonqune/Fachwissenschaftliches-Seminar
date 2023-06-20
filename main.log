@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  13 JUN 2023 09:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.4.1)  20 JUN 2023 23:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **c:/Git/Fachwissenschaftliches-Seminar/main.tex
 (c:/Git/Fachwissenschaftliches-Seminar/main.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22> (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrreprt.cls
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28> (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrreprt.cls
 Document Class: scrreprt 2022/10/12 v3.38 KOMA-Script document class (report)
 (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
 Package: scrkbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
@@ -26,7 +26,7 @@ Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
 )) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
 Package: tocbasic 2022/10/12 v3.38 KOMA-Script package (handling toc-files)
-\scr@dte@tocline@numberwidth=\skip48
+\scr@dte@tocline@numberwidth=\skip47
 \scr@dte@tocline@numbox=\box51
 )
 Package tocbasic Info: omitting babel extension for `toc'
@@ -49,12 +49,12 @@ Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input li
 File: scrsize11pt.clo 2022/10/12 v3.38 KOMA-Script font size class option (11pt)
 ) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.sty
 Package: typearea 2022/10/12 v3.38 KOMA-Script package (type area)
-\ta@bcor=\skip49
+\ta@bcor=\skip48
 \ta@div=\count185
-\ta@hblk=\skip50
-\ta@vblk=\skip51
-\ta@temp=\skip52
-\footheight=\skip53
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 11
 (typearea)             BCOR = 0.0pt
@@ -80,52 +80,52 @@ Package typearea Info: These are the values describing the layout:
 \c@subsubsection=\count190
 \c@paragraph=\count191
 \c@subparagraph=\count192
-\scr@dte@chapter@maxnumwidth=\skip54
+\scr@dte@chapter@maxnumwidth=\skip53
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\chapter on input line 5902.
-\scr@dte@section@maxnumwidth=\skip55
+\scr@dte@section@maxnumwidth=\skip54
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\section on input line 5913.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\section on input line 5913.
-\scr@dte@part@maxnumwidth=\skip56
+\scr@dte@part@maxnumwidth=\skip55
 Class scrreprt Info: using compatibility default `afterindent=true'
 (scrreprt)           for `\part on input line 5922.
-\scr@dte@subsection@maxnumwidth=\skip57
+\scr@dte@subsection@maxnumwidth=\skip56
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\subsection on input line 5932.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\subsection on input line 5932.
-\scr@dte@subsubsection@maxnumwidth=\skip58
+\scr@dte@subsubsection@maxnumwidth=\skip57
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\subsubsection on input line 5942.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\subsubsection on input line 5942.
-\scr@dte@paragraph@maxnumwidth=\skip59
+\scr@dte@paragraph@maxnumwidth=\skip58
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\paragraph on input line 5953.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\paragraph on input line 5953.
-\scr@dte@subparagraph@maxnumwidth=\skip60
+\scr@dte@subparagraph@maxnumwidth=\skip59
 Class scrreprt Info: using compatibility default `runin=bysign'
 (scrreprt)           for `\subparagraph on input line 5963.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
 (scrreprt)           for `\subparagraph on input line 5963.
-\abovecaptionskip=\skip61
-\belowcaptionskip=\skip62
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
 \c@pti@nb@sid@b@x=\box52
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lof' on input line 7140.
-\scr@dte@figure@maxnumwidth=\skip63
+\scr@dte@figure@maxnumwidth=\skip62
 \c@figure=\count193
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 7157.
-\scr@dte@table@maxnumwidth=\skip64
+\scr@dte@table@maxnumwidth=\skip63
 \c@table=\count194
 Class scrreprt Info: Redefining `\numberline' on input line 7328.
-\bibindent=\dimen140
+\bibindent=\dimen138
 ) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
@@ -133,9 +133,9 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 ) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2023/02/13 3.86 The Babel package
+Package: babel 2022/10/04 3.81 The Babel package
 \babel@savecnt=\count195
-\U@D=\dimen141
+\U@D=\dimen139
 \l@unhyphenated=\language79
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
@@ -204,6 +204,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 107.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen140
+\stockheight=\dimen141
 ))
 \Gin@req@height=\dimen142
 \Gin@req@width=\dimen143
@@ -240,16 +242,16 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 \pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen144
 \pgfutil@tempdimb=\dimen145
-) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+ (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box54
 ) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
-Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks21
 \pgfkeys@temptoks=\toks22
- (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+ (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks23
 ))
 \pgf@x=\dimen146
@@ -273,19 +275,19 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \t@pgf@tokc=\toks26
 \pgf@sys@id@count=\count276
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
-File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-pdftex.def
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfsyssoftpath@smallbuffer@items=\count277
 \pgfsyssoftpath@bigbuffer@items=\count278
 ) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count279
@@ -316,7 +318,7 @@ Package caption Info: KOMA-Script scrextend package detected.
 \caption@addmargin@hsize=\dimen164
 \caption@addmargin@linewidth=\dimen165
 ) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
@@ -375,14 +377,14 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@sectionciteorderinternal@0=\count323
 \blx@entrysetcounter=\count324
 \blx@biblioinstance=\count325
-\labelnumberwidth=\skip65
-\labelalphawidth=\skip66
-\biblabelsep=\skip67
-\bibitemsep=\skip68
-\bibnamesep=\skip69
-\bibinitsep=\skip70
-\bibparsep=\skip71
-\bibhang=\skip72
+\labelnumberwidth=\skip64
+\labelalphawidth=\skip65
+\biblabelsep=\skip66
+\bibitemsep=\skip67
+\bibnamesep=\skip68
+\bibinitsep=\skip69
+\bibparsep=\skip70
+\bibhang=\skip71
 \blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language80
@@ -392,7 +394,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
@@ -466,29 +468,29 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count394
 \c@pageref=\count395
 \c@savedpageref=\count396
-\shorthandwidth=\skip73
-\shortjournalwidth=\skip74
-\shortserieswidth=\skip75
-\shorttitlewidth=\skip76
-\shortauthorwidth=\skip77
-\shorteditorwidth=\skip78
-\locallabelnumberwidth=\skip79
-\locallabelalphawidth=\skip80
-\localshorthandwidth=\skip81
-\localshortjournalwidth=\skip82
-\localshortserieswidth=\skip83
-\localshorttitlewidth=\skip84
-\localshortauthorwidth=\skip85
-\localshorteditorwidth=\skip86
+\shorthandwidth=\skip72
+\shortjournalwidth=\skip73
+\shortserieswidth=\skip74
+\shorttitlewidth=\skip75
+\shortauthorwidth=\skip76
+\shorteditorwidth=\skip77
+\locallabelnumberwidth=\skip78
+\locallabelalphawidth=\skip79
+\localshorthandwidth=\skip80
+\localshortjournalwidth=\skip81
+\localshortserieswidth=\skip82
+\localshorttitlewidth=\skip83
+\localshortauthorwidth=\skip84
+\localshorteditorwidth=\skip85
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 \c@textcitecount=\count397
 \c@textcitetotal=\count398
 \c@textcitemaxnames=\count399
@@ -506,24 +508,24 @@ File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-natbib.def
-File: blx-natbib.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+File: blx-natbib.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
-File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+File: numeric.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
-File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count406
 \c@bbx:relatedtotal=\count407
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
-File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+File: numeric.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -544,20 +546,20 @@ File: biblatex.cfg
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2023-02-22 L3 programming layer (loader) 
+Package: expl3 2022-09-28 L3 programming layer (loader) 
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count408
 \l__pdf_internal_box=\box57
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2023-02-22 L3 programming layer (loader) 
+(biblatex)             2022-09-28 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2023-01-16 L3 Experimental document command parser
+Package: xparse 2022-06-22 L3 Experimental document command parser
 )
-Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 )) (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -651,11 +653,7 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 67.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (main.aux
-
-LaTeX Warning: Label `fig:CNN' multiply defined.
-
-)
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -696,16 +694,16 @@ Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lbx
-File: ngerman.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+File: ngerman.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
-File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
  (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
-File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 ))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -718,12 +716,12 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with '11262015':
-(biblatex)                - misc entry '11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring.
+(biblatex)                - Entry '11262015' (ref/ref_liste.bib): Invalid format '11/26/2015' of date field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with '11262015':
-(biblatex)                - misc entry '11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring.
+(biblatex)                - Entry '11262015' (ref/ref_liste.bib): Invalid format '5/8/2023' of date field 'urldate' - ignoring.
 
 )
 Package biblatex Info: Reference section=0 on input line 67.
@@ -741,6 +739,11 @@ Package scrlayer-scrpage Warning: Very small head height detected!
 (scrlayer-scrpage)                option `singlespacing=true'
 (scrlayer-scrpage)                to avoid this warning.
 
+<bilder/thi_FEI_wb_RGB.pdf, id=4, 554.3169pt x 285.69437pt>
+File: bilder/thi_FEI_wb_RGB.pdf Graphic file (type pdf)
+<use bilder/thi_FEI_wb_RGB.pdf>
+Package pdftex.def Info: bilder/thi_FEI_wb_RGB.pdf  used on input line 69.
+(pdftex.def)             Requested size: 173.81784pt x 89.58441pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 69.
 (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -772,7 +775,7 @@ Class scrreprt Warning: non empty \lowertitleback ignored by \maketitle
 
 
 
-{C:/Users/kuhns/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.toc
+{C:/Users/kuhns/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./bilder/thi_FEI_wb_RGB.pdf>] (main.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -841,99 +844,133 @@ chapter 3.
 [6
 
 
-] [7]) (kapitel/Grundlagen der semantischen Segmentierung.tex [8]
+]
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 43.
+ (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [7]) (kapitel/Grundlagen der semantischen Segmentierung.tex [8]
 chapter 4.
 [9
 
 
 ]
-Package svg Info: Last page of `./svg-inkscape/cnn_own_svg-tex.pdf' is 2 on input line 39.
- (svg-inkscape/cnn_own_svg-tex.pdf_tex
-<./svg-inkscape/cnn_own_svg-tex.pdf, id=47, page=1, 2594.1534pt x 1171.14835pt>
-File: ./svg-inkscape/cnn_own_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/cnn_own_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/cnn_own_svg-tex.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 347.64232pt x 156.93663pt.
-<./svg-inkscape/cnn_own_svg-tex.pdf, id=48, page=2, 2594.1534pt x 1171.14835pt>
-File: ./svg-inkscape/cnn_own_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/cnn_own_svg-tex.pdf, page 2>
-Package pdftex.def Info: ./svg-inkscape/cnn_own_svg-tex.pdf , page2 used on input line 70.
-(pdftex.def)             Requested size: 347.64232pt x 156.93663pt.
-) [10 <./svg-inkscape/cnn_own_svg-tex.pdf> <./svg-inkscape/cnn_own_svg-tex.pdf
-
-pdfTeX warning: pdflatex (file ./svg-inkscape/cnn_own_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-Package svg Info: Last page of `./svg-inkscape/FCN_own_new_svg-tex.pdf' is 3 on input line 82.
+<bilder/cnn_own.png, id=66, 603.126pt x 266.085pt>
+File: bilder/cnn_own.png Graphic file (type png)
+<use bilder/cnn_own.png>
+Package pdftex.def Info: bilder/cnn_own.png  used on input line 43.
+(pdftex.def)             Requested size: 434.55125pt x 191.72316pt.
+ [10 <./bilder/cnn_own.png>]
+Package svg Info: Last page of `./svg-inkscape/FCN_own_new_svg-tex.pdf' is 3 on input line 104.
  (svg-inkscape/FCN_own_new_svg-tex.pdf_tex
-<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=70, page=1, 2907.84831pt x 1229.32443pt>
+<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=74, page=1, 2907.84831pt x 1229.32443pt>
 File: ./svg-inkscape/FCN_own_new_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FCN_own_new_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/FCN_own_new_svg-tex.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 347.64232pt x 146.96858pt.
-<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=71, page=2, 2907.84831pt x 1229.32443pt>
+(pdftex.def)             Requested size: 434.55125pt x 183.69666pt.
+<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=75, page=2, 2907.84831pt x 1229.32443pt>
 File: ./svg-inkscape/FCN_own_new_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FCN_own_new_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/FCN_own_new_svg-tex.pdf , page2 used on input line 59.
-(pdftex.def)             Requested size: 347.64232pt x 146.96858pt.
-<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=72, page=3, 2907.84831pt x 1229.32443pt>
+(pdftex.def)             Requested size: 434.55125pt x 183.69666pt.
+<./svg-inkscape/FCN_own_new_svg-tex.pdf, id=76, page=3, 2907.84831pt x 1229.32443pt>
 File: ./svg-inkscape/FCN_own_new_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/FCN_own_new_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/FCN_own_new_svg-tex.pdf , page3 used on input line 64.
-(pdftex.def)             Requested size: 347.64232pt x 146.96858pt.
-) [11 <./svg-inkscape/FCN_own_new_svg-tex.pdf> <./svg-inkscape/FCN_own_new_svg-tex.pdf
+(pdftex.def)             Requested size: 434.55125pt x 183.69666pt.
+) [11]
+Package svg Info: Last page of `./svg-inkscape/RCNN_svg-tex.pdf' is 2 on input line 113.
+ (svg-inkscape/RCNN_svg-tex.pdf_tex
+<./svg-inkscape/RCNN_svg-tex.pdf, id=81, page=1, 3034.99496pt x 942.52051pt>
+File: ./svg-inkscape/RCNN_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/RCNN_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/RCNN_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 434.55125pt x 134.94336pt.
+<./svg-inkscape/RCNN_svg-tex.pdf, id=82, page=2, 3034.99496pt x 942.52051pt>
+File: ./svg-inkscape/RCNN_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/RCNN_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/RCNN_svg-tex.pdf , page2 used on input line 58.
+(pdftex.def)             Requested size: 434.55125pt x 134.94336pt.
+)) (kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex [12 <./svg-inkscape/FCN_own_new_svg-tex.pdf> <./svg-inkscape/FCN_own_new_svg-tex.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/FCN_own_new_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./svg-inkscape/FCN_own_new_svg-tex.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/FCN_own_new_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-Package svg Info: Last page of `./svg-inkscape/RCNN_svg-tex.pdf' is 2 on input line 102.
- (svg-inkscape/RCNN_svg-tex.pdf_tex
-<./svg-inkscape/RCNN_svg-tex.pdf, id=88, page=1, 3035.0175pt x 942.52051pt>
-File: ./svg-inkscape/RCNN_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/RCNN_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/RCNN_svg-tex.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 347.64232pt x 107.94893pt.
-<./svg-inkscape/RCNN_svg-tex.pdf, id=89, page=2, 3035.0175pt x 942.52051pt>
-File: ./svg-inkscape/RCNN_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/RCNN_svg-tex.pdf, page 2>
-Package pdftex.def Info: ./svg-inkscape/RCNN_svg-tex.pdf , page2 used on input line 58.
-(pdftex.def)             Requested size: 347.64232pt x 107.94893pt.
-)) (kapitel/State-of-the-Art Methoden zur semantischen Segmentierung auf Basis von 3D-Daten.tex [12 <./svg-inkscape/RCNN_svg-tex.pdf> <./svg-inkscape/RCNN_svg-tex.pdf
+> <./svg-inkscape/RCNN_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/RCNN_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/RCNN_svg-tex.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/RCNN_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 chapter 5.
+<bilder/pointnet.jpg, id=148, 2694.065pt x 984.67876pt>
+File: bilder/pointnet.jpg Graphic file (type jpg)
+<use bilder/pointnet.jpg>
+Package pdftex.def Info: bilder/pointnet.jpg  used on input line 25.
+(pdftex.def)             Requested size: 347.64232pt x 127.05113pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--54
+
+ []
+
 [13
 
 
 ]
-Overfull \hbox (24.06844pt too wide) in paragraph at lines 32--41
-[]\T1/lmss/m/n/10.95 Die 3D U-Net-Architektur be-steht aus ei-nem Encoder-Decoder-Netzwerk mit Shortcut-Connections.
- []
-
-) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [14]
+<bilder/3D_U-Net.png, id=152, 1391.1975pt x 767.86874pt>
+File: bilder/3D_U-Net.png Graphic file (type png)
+<use bilder/3D_U-Net.png>
+Package pdftex.def Info: bilder/3D_U-Net.png  used on input line 57.
+(pdftex.def)             Requested size: 347.64232pt x 191.87297pt.
+) (kapitel/Anwendungszenarien der semantischen Segmentierung.tex [14 <./bilder/pointnet.jpg>] [15 <./bilder/3D_U-Net.png>]
 chapter 6.
-[15
+<bilder/autonomous_driving2.jpg, id=160, 2371.35938pt x 1152.55594pt>
+File: bilder/autonomous_driving2.jpg Graphic file (type jpg)
+<use bilder/autonomous_driving2.jpg>
+Package pdftex.def Info: bilder/autonomous_driving2.jpg  used on input line 19.
+(pdftex.def)             Requested size: 434.55125pt x 211.19705pt.
+[16
 
 
-]) (kapitel/Herausforderungen und zukünftige Entwicklungen.tex [16] [17]
+]
+<bilder/semantic_segmentation_Robotics.png, id=165, 215.6055pt x 166.7028pt>
+File: bilder/semantic_segmentation_Robotics.png Graphic file (type png)
+<use bilder/semantic_segmentation_Robotics.png>
+Package pdftex.def Info: bilder/semantic_segmentation_Robotics.png  used on input line 40.
+(pdftex.def)             Requested size: 434.55125pt x 336.00438pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17 <./bilder/autonomous_driving2.jpg>] [18 <./bilder/semantic_segmentation_Robotics.png>]
+<bilder/semantic_segmentation_landwirtschaft.png, id=173, 384.9582pt x 213.1965pt>
+File: bilder/semantic_segmentation_landwirtschaft.png Graphic file (type png)
+<use bilder/semantic_segmentation_landwirtschaft.png>
+Package pdftex.def Info: bilder/semantic_segmentation_landwirtschaft.png  used on input line 83.
+(pdftex.def)             Requested size: 434.55125pt x 240.67175pt.
+ [19 <./bilder/semantic_segmentation_landwirtschaft.png>]
+<bilder/medizin_AR.jpg, id=177, 1968.35374pt x 1123.19624pt>
+File: bilder/medizin_AR.jpg Graphic file (type jpg)
+<use bilder/medizin_AR.jpg>
+Package pdftex.def Info: bilder/medizin_AR.jpg  used on input line 113.
+(pdftex.def)             Requested size: 434.55125pt x 247.96086pt.
+) (kapitel/Herausforderungen und zukünftige Entwicklungen.tex [20 <./bilder/medizin_AR.jpg>]
 chapter 7.
-[18
+[21
 
 
-]) (kapitel/Zusammenfassung_und_Ausblick.tex [19]
+]) (kapitel/Zusammenfassung_und_Ausblick.tex [22]
 chapter 8.
-) [20
+) [23
 
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 83.
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 83.
- (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
-File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 LaTeX Font Info:    Font shape `TS1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `TS1/lmss/m/sl' tried instead on input line 83.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 83.
@@ -947,7 +984,7 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 83.
 (C:\Users\kuhns\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [21
+) [24
 
 
 ]
@@ -955,43 +992,40 @@ Overfull \hbox (6.02766pt too wide) in paragraph at lines 84--84
 \T1/lmtt/m/n/10.95 technologies10040090$\T1/lmss/m/n/10.95 . \T1/lmr/m/sc/10.95 url\T1/lmss/m/n/10.95 : $\T1/lmtt/m/n/10.95 http : / / dx . doi . org / 10 . 3390 / technologies10040090$\T1/lmss/m/n/10.95 . 
  []
 
-[22] [23]
+[25] [26] [27]
 Overfull \hbox (8.08446pt too wide) in paragraph at lines 84--84
 \T1/lmtt/m/n/10.95 neurips . cc / paper _ files / paper / 2017 / file / d8bf84be3800d12f74d8b05e9b89836f -[]
  []
 
-[24]
+[28]
 Overfull \hbox (2.69296pt too wide) in paragraph at lines 84--84
 []\T1/lmss/m/n/10.95 Leonardo Tan-zi u.a. ^^R  Real-time de-ep lear-ning se-man-tic seg-men-ta-ti-on du-ring intra-operative
  []
 
-[25] (main.lof)
+[29] (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [26
+ [30
 
 
 ] (main.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20155 strings out of 476334
- 437405 string characters out of 5787971
- 1865382 words of memory out of 5000000
- 40256 multiletter control sequences out of 15000+600000
- 555383 words of font info for 62 fonts, out of 8000000 for 9000
+ 20214 strings out of 475385
+ 439315 string characters out of 2776908
+ 1378959 words of memory out of 3000000
+ 41256 multiletter control sequences out of 15000+600000
+ 515495 words of font info for 60 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,19n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,19n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/kuhns/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (29 pages, 371974 bytes).
+Output written on main.pdf (33 pages, 10160690 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
+ 248 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
